@@ -1,0 +1,567 @@
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 BobC &RozS 41.57056 -73.49008 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 2 5  BobC &RozS 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 3 10 BobC &RozS 41.57054 -73.49021 6/20/2005 ND Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 41.57051 -73.49033 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 5 30 BobC &RozS 41.57045 -73.49044 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC&RozS 41.57041 -73.49054 6/20/2005 3.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0) 0 0 0 0 0
+1 7 50  BobC &RozS 41.57041 -73.49068 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 8 60 BobC &RozS 41.57037 -73.49076 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 9 70 BobC &RozS 41.57031 -73.49087 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 10 80 BobC&RozS 41.57027 -73.49099 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 OQ Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.57070 -73.48872 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 1 0 Robert Capers 41.55695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 0 0) 0 0 0 0 0) 0 0 0 0 0
+3 2 5 Robert Capers 41.55696 -73.47411 6/21/2005 ND Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+3 3 O Robert Capers 41.55693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 41.55696 -73.47432 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 41.55697 -73.47433 6/21/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+3 6 30 Robert Capers 41.55687 -73.47439 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 40 Robert Capers 41.55693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 50 Robert Capers 41.55686 -73.47462 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 3 10 Roslyn Selsky 41.55081 -73.47179 6/21/2005 4.5 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 2 5 BobC &RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 5 30 BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 6 40 BobC &RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 9 70 = BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 1 0 Greg Bugbee 41.56605 -73.48777 6/20/2005 0.2 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.56603 -73.48783 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.56602 -73.48790 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 (0) (0) 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.56600 -73.48795 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.56593 -73.48820 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.56590 -73.48835 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.56585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 ) 70 Greg Bugbee 41.56582 -73.48853 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 1 QO Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 1 0 BobC &RozS 41.56712 -73.48368 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 2 5  BobC &RozS 41.56708 -73.48367 6/20/2005 0.7 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 3 10 BobC &RozS 41.56702 -73.48366 6/20/2005 1.9 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 41.56694 -73.48366 6/20/2005 2.2 Sand sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+7 5 30 BobC &RozS 41.56685 -73.48365 6/20/2005 2.2 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 6 40 BobC &RozS 41.56677 -73.48358 6/20/2005 3.0 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 41.56668 -73.48351 6/20/2005 3.8 ND sunny 0 0 0 0 0 4 0 (0) (0) 0 0 0 0 0 0 0
+7 8 60 BobC &RozS 41.56662 -73.48343 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 9 70 BobC &RozS 41.56653 -73.48336 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 10 80 BobC &RozS 41.56644 -73.48328 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 5 30 GregBugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+8 6 40 Greg Bugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 7 50 Greg Bugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 8 60 Greg Bugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point OFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 Bob C & Roz S 4157056 -73.49008 6/20/2005 02 Gravel sunny 0 i) ie 0 0 0 0 0 0 0 0 i) 0 0 ie} 0
+1 2 5 Bob C & Roz S 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} 0
+1 3 10 BobC &RozS 4157054 -73.49021 6/20/2005 NO Sit sunny ie) 0 ie} 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 4157051 -73.49033 6/20/2005 30 Silt sunny 0 0 ie} 0 i?) 0 ie} 0 0 0 0 i) 0 0 ie} 0
+1 5 30 BobC &RozS 4157045 -73.49044 6/20/2005 30 Sitt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC &RozS 4157041 -73.49054 6/20/2005 35 Sit sunny 0 0 i} 0 ie} 0 i} 0 0 0 0 i?) 0 0 i} 0
+1 7 50 BobC &RozS 4157041 -73.49068 6/20/2005 25 Silt sunny ie) 0 ie} 0 i?) 0 i?) 0 0 0 0 i?) 0 0 ie} 0
+1 8 60 BobC &RozS 4157037 -73.49076 6/20/2005 2.2 Sit sunny 0 0 ie ie) 0 0 ie} 0 0 ie) 0 0 ie) 0 ie} 0
+1 9 70 BobC &RozS 4157031 -73.49087 6/20/2005 22 Silt sunny 0 0 ie} 0 0 0 i?) 0 0 0 0 i) 0 0 i} 0
+1 10 80 BobC &RozS 4157027 -73.49099 6/20/2005 25 Sit sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} 0
+2 1 0 Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny t) 0 0 tY) 0 1 0 0 0 tY) ) 0 3 0 0 t)
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 ) ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 [Y) 0 t) 0 [Y) t') t) t) t) t) 0 t) 0 0 t)
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 ty) 1 1 t') 0 0 ty) 0 0 ty) 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND NO sunny ) 0 0 ) 0 2 t') 0 0 ) 0 0 ) 0 0 t)
+2 6 40 GregBugbee 41.57070 -73.48872 6/20/2005 ND ND sunny i) Oo 0 i) 1 1 0 i) i) i) [) 0 [) 0 0 [')
+2 7 50 GregBugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+2 8 60 GregBugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 t) 0 t) 0 ty) ty) t) t) 0 t) 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 ) 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 t) 0 ty) 0 0 t') ) ) ty) 0 0 ty) 0 0 ty)
+3 1 0 Robert Capers 4155695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 te) 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Robert Capers 4155696 -73.47411 6/21/2005 ND Gravel sunny 0 0 ie} 0 i?) 0 ie} 0 0 0 0 i) 0 0 0 0
+3 3 0 Robert Capers 4155693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 4155696 -73.47432 6/21/2005 NO ND sunny 0 0 ie} 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 4155697 -73.47433 6/21/2005 ND ND sunny ie) 0 ie} 0 i?) 1 i?) 0 0 0 0 i?) 0 0 i} 0
+3 6 30 = Robert Capers 4155687 -73.47439 6/21/2005 NO ND sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} (e)
+3 7 40 Robert Capers 4155693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 i} i?) i?) 0 0 i) 0 0 ie} 0
+3 8 50 Robert Capers 4155686 -73.47462 6/21/2005 ND ND sunny 0 0 ie} 0 i} 0 ie} 0 0 0 0 0 0 0 ie} 0
+3 3 10 Roslyn Selsky 4155081 -73.47179 6/21/2005 456 Sand sunny 0 i) ie 0 0 4 0 0 0 0 0 i) 0 0 ie} 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 ) ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+4 2 5 BobC&RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 [) 0 [) 0 t) t') tY) tY) [) t) 0 [) 0 0 t)
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 t') 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 NO sunny 0 0 0 ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+4 5 30 =BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny i!) 0 0 i) 0 i) 0 0 0 i) [) 0 [) 0 0 [)
+4 6 40 BobC&RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 ) 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 ) 0 t) 0 ty) ty) ) t) 0 ) 0 0 [)
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 t)
+4 9 70 BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 t') 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 tY) 0 t) 0 t) t') ) ) t) [) 0 t) 0 0 t)
+5 1 ie) Greg Bugbee 4156605 -73.48777 6/20/2005 02 ND sunny 0 0 ie} 0 i?) 1 i?) 0 0 0 0 i?) 0 0 ie} 0
+5 2 5 Greg Bugbee 4156603 -73.48783 6/20/2005 ND ND sunny 0 0 ie} 0 i?) 3 i?) 0 0 0 0 i?) 0 0 i} 0
+5 3 10 Greg Bugbee 4156602 -73.48790 6/20/2005 NO ND sunny QO i) ie 0 0 i) 0 0 0 0 0 0 0 0 ie} 0
+5 4 20 Greg Bugbee 4156600 -73.48795 6/20/2005 ND ND sunny (¢) 0 ie} 0 i?) Fe) i?) 0 0 0 0 i?) 0 0 ie} 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 4156593 -73.48820 6/20/2005 ND ND sunny 0 0 ie} 0 0 1 i} 0 0 0 0 i) 0 0 ie} 0
+5 7 50 Greg Bugbee 4156590 -73.48835 6/20/2005 ND ND sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} 0
+5 8 60 GregBugbee 4156585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 4156582 -73.48853 6/20/2005 ND ND sunny 0 0 ie} 0 i?) 0 i?) 0 0 0 0 0 0 0 i} 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 to) 0 0 0 0 0 0 0 0 0 0 0
+6 1 0 Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny t) 0 0 tY) 0 ) t') 0 0 tY) ) 0 tY) t) 0 t)
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 ty) 0 4 t') 0 0 ty) 0 0 ty) 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny i) 0 0 i) 0 i) 0 0 0 i) i) 0 i) i) 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny ) 0 0 ) 0 ) 0 0 0 ) ) 0 ) 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 t) 0 t) 0 t) 0 ) ) t) t) 0 t) 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 tY) 0 [) 0 [) t') tY) tY) [) [) 0 [) 0 0 t)
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 [Y) 0 [) 0 t) 0 VY) VY) [) t) 0 [) 0 0 t)
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 tY) 0 ) 0 0 0 tY) ) 0 tY) [) 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 LY) 0 ty) 0 0 t') ) ) ty) 0 0 ty) 0 0 0
+7 1 ie) Bob C & Roz S 4156712 -73.48368 6/20/2005 02 Gravel sunny QO 0 ie} 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+7 2 5 Bob C & Roz S 4156708 -73.48367 6/20/2005 07 Sand sunny 0 0 i} 0 i} 0 i} 0 0 0 0 i?) 0 0 ie} 0
+7 3 10 BobC &RozS 4156702 -73.48366 6/20/2005 19 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 4156694 -73.48366 6/20/2005 22 Sand sunny 0 0 ie} 0 0 3 i} 0 0 0 0 i?) 0 0 ie} 0
+7 5 30, ~BobC &RozS 4156685 -73.48365 6/20/2005 22 ND sunny (¢) 0 ie} 0 0 5 i?) 0 0 0 0 i?) 0 0 i} 0
+7 6 40 BobC &RozS 4156677 -73.48358 6/20/2005 30 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 4156668 -73.48351 6/20/2005 38 ND sunny 0 0 ie} 0 i?) 4 i?) 0 0 0 0 0 0 0 i} 0
+7 8 60 BobC &RozS 4156662 -73.48343 6/20/2005 5.0 ND sunny 0 0 ie} 0 0 0 i?) 0 0 0 0 0 0 0 ie} 0
+7 9 70 BobC &RozS 4156653 -73.48336 6/20/2005 NO ND sunny ie) ie) ie 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+7 10 80 BobC &RozS 4156644 -73.48328 6/20/2005 ND ND sunny 0 0 ie} 0 i?) 0 i?) 0 0 0 0 i?) 0 0 ie) 0
+8 1 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 [Y) 0 t) 0 t) t') ty) ty) t) t) 0 t) 0 0 t)
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 ) 0 ) ) 0 0 ) ) 0 ) 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 t) 0 ) 0 t) 0 ) ) ) t) 0 ) 0 0 t)
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 tY) 0 [) 0 [) t') UY) UY) [) [) 0 [) 0 0 t)
+8 5 30 Greg Bugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 ) 0 1 t') 0 0 ) 0 0 ) 0 0 CY)
+8 6 40 GregBugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 t) 0 0 t') ty) ty) t) 0 0 t) ) 0 0
+8 7 50 GregBugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 [) 0 ty) 0 0 0 [) ty) 0 [) 0 0 0
+8 8 60 GregBugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 ty) 0 t) 0 0 t') 0 0 t) 0 0 t) 0 0 )
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 t) 0 ) 0 t) 0 t) t) ) t) 0 ) 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 ) 0 ) 0 0 0 ) ) 0 ) 0 t) )
+
+Transect Point OFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 Bob C & Roz S 4157056 -73.49008 6/20/2005 02 Gravel sunny 0 i) ie 0 0 0 0 0 0 0 0 i) 0 0 ie} 0
+1 2 5 Bob C & Roz S 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} 0
+1 3 10 BobC &RozS 4157054 -73.49021 6/20/2005 NO Sit sunny ie) 0 ie} 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 4157051 -73.49033 6/20/2005 30 Silt sunny 0 0 ie} 0 i?) 0 ie} 0 0 0 0 i) 0 0 ie} 0
+1 5 30 BobC &RozS 4157045 -73.49044 6/20/2005 30 Sitt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC &RozS 4157041 -73.49054 6/20/2005 35 Sit sunny 0 0 i} 0 ie} 0 i} 0 0 0 0 i?) 0 0 i} 0
+1 7 50 BobC &RozS 4157041 -73.49068 6/20/2005 25 Silt sunny ie) 0 ie} 0 i?) 0 i?) 0 0 0 0 i?) 0 0 ie} 0
+1 8 60 BobC &RozS 4157037 -73.49076 6/20/2005 2.2 Sit sunny 0 0 ie ie) 0 0 ie} 0 0 ie) 0 0 ie) 0 ie} 0
+1 9 70 BobC &RozS 4157031 -73.49087 6/20/2005 22 Silt sunny 0 0 ie} 0 0 0 i?) 0 0 0 0 i) 0 0 i} 0
+1 10 80 BobC &RozS 4157027 -73.49099 6/20/2005 25 Sit sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} 0
+2 1 0 Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny t) 0 0 tY) 0 1 0 0 0 tY) ) 0 3 0 0 t)
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 ) ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 [Y) 0 t) 0 [Y) t') t) t) t) t) 0 t) 0 0 t)
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 ty) 1 1 t') 0 0 ty) 0 0 ty) 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND NO sunny ) 0 0 ) 0 2 t') 0 0 ) 0 0 ) 0 0 t)
+2 6 40 GregBugbee 41.57070 -73.48872 6/20/2005 ND ND sunny i) Oo 0 i) 1 1 0 i) i) i) [) 0 [) 0 0 [')
+2 7 50 GregBugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+2 8 60 GregBugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 t) 0 t) 0 ty) ty) t) t) 0 t) 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 ) 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 t) 0 ty) 0 0 t') ) ) ty) 0 0 ty) 0 0 ty)
+3 1 0 Robert Capers 4155695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 te) 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Robert Capers 4155696 -73.47411 6/21/2005 ND Gravel sunny 0 0 ie} 0 i?) 0 ie} 0 0 0 0 i) 0 0 0 0
+3 3 0 Robert Capers 4155693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 4155696 -73.47432 6/21/2005 NO ND sunny 0 0 ie} 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 4155697 -73.47433 6/21/2005 ND ND sunny ie) 0 ie} 0 i?) 1 i?) 0 0 0 0 i?) 0 0 i} 0
+3 6 30 = Robert Capers 4155687 -73.47439 6/21/2005 NO ND sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} (e)
+3 7 40 Robert Capers 4155693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 i} i?) i?) 0 0 i) 0 0 ie} 0
+3 8 50 Robert Capers 4155686 -73.47462 6/21/2005 ND ND sunny 0 0 ie} 0 i} 0 ie} 0 0 0 0 0 0 0 ie} 0
+3 3 10 Roslyn Selsky 4155081 -73.47179 6/21/2005 456 Sand sunny 0 i) ie 0 0 4 0 0 0 0 0 i) 0 0 ie} 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 ) ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+4 2 5 BobC&RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 [) 0 [) 0 t) t') tY) tY) [) t) 0 [) 0 0 t)
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 t') 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 NO sunny 0 0 0 ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+4 5 30 =BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny i!) 0 0 i) 0 i) 0 0 0 i) [) 0 [) 0 0 [)
+4 6 40 BobC&RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 ) 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 ) 0 t) 0 ty) ty) ) t) 0 ) 0 0 [)
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 t)
+4 9 70 BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 t') 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 tY) 0 t) 0 t) t') ) ) t) [) 0 t) 0 0 t)
+5 1 ie) Greg Bugbee 4156605 -73.48777 6/20/2005 02 ND sunny 0 0 ie} 0 i?) 1 i?) 0 0 0 0 i?) 0 0 ie} 0
+5 2 5 Greg Bugbee 4156603 -73.48783 6/20/2005 ND ND sunny 0 0 ie} 0 i?) 3 i?) 0 0 0 0 i?) 0 0 i} 0
+5 3 10 Greg Bugbee 4156602 -73.48790 6/20/2005 NO ND sunny QO i) ie 0 0 i) 0 0 0 0 0 0 0 0 ie} 0
+5 4 20 Greg Bugbee 4156600 -73.48795 6/20/2005 ND ND sunny (¢) 0 ie} 0 i?) Fe) i?) 0 0 0 0 i?) 0 0 ie} 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 4156593 -73.48820 6/20/2005 ND ND sunny 0 0 ie} 0 0 1 i} 0 0 0 0 i) 0 0 ie} 0
+5 7 50 Greg Bugbee 4156590 -73.48835 6/20/2005 ND ND sunny 0 0 ie} 0 0 0 ie} 0 0 0 0 0 0 0 ie} 0
+5 8 60 GregBugbee 4156585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 4156582 -73.48853 6/20/2005 ND ND sunny 0 0 ie} 0 i?) 0 i?) 0 0 0 0 0 0 0 i} 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 to) 0 0 0 0 0 0 0 0 0 0 0
+6 1 0 Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny t) 0 0 tY) 0 ) t') 0 0 tY) ) 0 tY) t) 0 t)
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 ty) 0 4 t') 0 0 ty) 0 0 ty) 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny i) 0 0 i) 0 i) 0 0 0 i) i) 0 i) i) 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny ) 0 0 ) 0 ) 0 0 0 ) ) 0 ) 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 t) 0 t) 0 t) 0 ) ) t) t) 0 t) 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 tY) 0 [) 0 [) t') tY) tY) [) [) 0 [) 0 0 t)
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 ) 0 0 t') 0 0 ) 0 0 ) 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 [Y) 0 [) 0 t) 0 VY) VY) [) t) 0 [) 0 0 t)
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 tY) 0 ) 0 0 0 tY) ) 0 tY) [) 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 LY) 0 ty) 0 0 t') ) ) ty) 0 0 ty) 0 0 0
+7 1 ie) Bob C & Roz S 4156712 -73.48368 6/20/2005 02 Gravel sunny QO 0 ie} 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+7 2 5 Bob C & Roz S 4156708 -73.48367 6/20/2005 07 Sand sunny 0 0 i} 0 i} 0 i} 0 0 0 0 i?) 0 0 ie} 0
+7 3 10 BobC &RozS 4156702 -73.48366 6/20/2005 19 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 4156694 -73.48366 6/20/2005 22 Sand sunny 0 0 ie} 0 0 3 i} 0 0 0 0 i?) 0 0 ie} 0
+7 5 30, ~BobC &RozS 4156685 -73.48365 6/20/2005 22 ND sunny (¢) 0 ie} 0 0 5 i?) 0 0 0 0 i?) 0 0 i} 0
+7 6 40 BobC &RozS 4156677 -73.48358 6/20/2005 30 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 4156668 -73.48351 6/20/2005 38 ND sunny 0 0 ie} 0 i?) 4 i?) 0 0 0 0 0 0 0 i} 0
+7 8 60 BobC &RozS 4156662 -73.48343 6/20/2005 5.0 ND sunny 0 0 ie} 0 0 0 i?) 0 0 0 0 0 0 0 ie} 0
+7 9 70 BobC &RozS 4156653 -73.48336 6/20/2005 NO ND sunny ie) ie) ie 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+7 10 80 BobC &RozS 4156644 -73.48328 6/20/2005 ND ND sunny 0 0 ie} 0 i?) 0 i?) 0 0 0 0 i?) 0 0 ie) 0
+8 1 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 [Y) 0 t) 0 t) t') ty) ty) t) t) 0 t) 0 0 t)
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 ) 0 ) ) 0 0 ) ) 0 ) 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 t) 0 ) 0 t) 0 ) ) ) t) 0 ) 0 0 t)
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 tY) 0 [) 0 [) t') UY) UY) [) [) 0 [) 0 0 t)
+8 5 30 Greg Bugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 ) 0 1 t') 0 0 ) 0 0 ) 0 0 CY)
+8 6 40 GregBugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 t) 0 0 t') ty) ty) t) 0 0 t) ) 0 0
+8 7 50 GregBugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 [) 0 ty) 0 0 0 [) ty) 0 [) 0 0 0
+8 8 60 GregBugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 ty) 0 t) 0 0 t') 0 0 t) 0 0 t) 0 0 )
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 t) 0 ) 0 t) 0 t) t) ) t) 0 ) 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 ) 0 ) 0 0 0 ) ) 0 ) 0 t) )
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 BobC &RozS 41.57056 -73.49008 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 2 5  BobC &RozS 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 3 10 BobC &RozS 41.57054 -73.49021 6/20/2005 ND Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 41.57051 -73.49033 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 5 30 BobC &RozS 41.57045 -73.49044 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC&RozS 41.57041 -73.49054 6/20/2005 3.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0) 0 0 0 0 0
+1 7 50  BobC &RozS 41.57041 -73.49068 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 8 60 BobC &RozS 41.57037 -73.49076 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 9 70 BobC &RozS 41.57031 -73.49087 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 10 80 BobC&RozS 41.57027 -73.49099 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 OQ Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.57070 -73.48872 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 1 0 Robert Capers 41.55695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 0 0) 0 0 0 0 0) 0 0 0 0 0
+3 2 5 Robert Capers 41.55696 -73.47411 6/21/2005 ND Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+3 3 O Robert Capers 41.55693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 41.55696 -73.47432 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 41.55697 -73.47433 6/21/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+3 6 30 Robert Capers 41.55687 -73.47439 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 40 Robert Capers 41.55693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 50 Robert Capers 41.55686 -73.47462 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 3 10 Roslyn Selsky 41.55081 -73.47179 6/21/2005 4.5 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 2 5 BobC &RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 5 30 BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 6 40 BobC &RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 9 70 = BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 1 0 Greg Bugbee 41.56605 -73.48777 6/20/2005 0.2 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.56603 -73.48783 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.56602 -73.48790 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 (0) (0) 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.56600 -73.48795 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.56593 -73.48820 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.56590 -73.48835 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.56585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 ) 70 Greg Bugbee 41.56582 -73.48853 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 1 QO Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 1 0 BobC &RozS 41.56712 -73.48368 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 2 5  BobC &RozS 41.56708 -73.48367 6/20/2005 0.7 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 3 10 BobC &RozS 41.56702 -73.48366 6/20/2005 1.9 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 41.56694 -73.48366 6/20/2005 2.2 Sand sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+7 5 30 BobC &RozS 41.56685 -73.48365 6/20/2005 2.2 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 6 40 BobC &RozS 41.56677 -73.48358 6/20/2005 3.0 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 41.56668 -73.48351 6/20/2005 3.8 ND sunny 0 0 0 0 0 4 0 (0) (0) 0 0 0 0 0 0 0
+7 8 60 BobC &RozS 41.56662 -73.48343 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 9 70 BobC &RozS 41.56653 -73.48336 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 10 80 BobC &RozS 41.56644 -73.48328 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 5 30 GregBugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+8 6 40 Greg Bugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 7 50 Greg Bugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 8 60 Greg Bugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 BobC &RozS 41.57056 -73.49008 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 2 5  BobC &RozS 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 3 10 BobC &RozS 41.57054 -73.49021 6/20/2005 ND Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 41.57051 -73.49033 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 5 30 BobC &RozS 41.57045 -73.49044 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC&RozS 41.57041 -73.49054 6/20/2005 3.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0) 0 0 0 0 0
+1 7 50  BobC &RozS 41.57041 -73.49068 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 8 60 BobC &RozS 41.57037 -73.49076 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 9 70 BobC &RozS 41.57031 -73.49087 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 10 80 BobC&RozS 41.57027 -73.49099 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 OQ Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.57070 -73.48872 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 1 0 Robert Capers 41.55695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 0 0) 0 0 0 0 0) 0 0 0 0 0
+3 2 5 Robert Capers 41.55696 -73.47411 6/21/2005 ND Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+3 3 O Robert Capers 41.55693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 41.55696 -73.47432 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 41.55697 -73.47433 6/21/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+3 6 30 Robert Capers 41.55687 -73.47439 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 40 Robert Capers 41.55693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 50 Robert Capers 41.55686 -73.47462 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 3 10 Roslyn Selsky 41.55081 -73.47179 6/21/2005 4.5 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 2 5 BobC &RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 5 30 BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 6 40 BobC &RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 9 70 = BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 1 0 Greg Bugbee 41.56605 -73.48777 6/20/2005 0.2 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.56603 -73.48783 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.56602 -73.48790 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 (0) (0) 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.56600 -73.48795 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.56593 -73.48820 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.56590 -73.48835 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.56585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 ) 70 Greg Bugbee 41.56582 -73.48853 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 1 QO Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 1 0 BobC &RozS 41.56712 -73.48368 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 2 5  BobC &RozS 41.56708 -73.48367 6/20/2005 0.7 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 3 10 BobC &RozS 41.56702 -73.48366 6/20/2005 1.9 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 41.56694 -73.48366 6/20/2005 2.2 Sand sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+7 5 30 BobC &RozS 41.56685 -73.48365 6/20/2005 2.2 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 6 40 BobC &RozS 41.56677 -73.48358 6/20/2005 3.0 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 41.56668 -73.48351 6/20/2005 3.8 ND sunny 0 0 0 0 0 4 0 (0) (0) 0 0 0 0 0 0 0
+7 8 60 BobC &RozS 41.56662 -73.48343 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 9 70 BobC &RozS 41.56653 -73.48336 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 10 80 BobC &RozS 41.56644 -73.48328 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 5 30 GregBugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+8 6 40 Greg Bugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 7 50 Greg Bugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 8 60 Greg Bugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 BobC &RozS 41.57056 -73.49008 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 2 5  BobC &RozS 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 3 10 BobC &RozS 41.57054 -73.49021 6/20/2005 ND Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 41.57051 -73.49033 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 5 30 BobC &RozS 41.57045 -73.49044 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC&RozS 41.57041 -73.49054 6/20/2005 3.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0) 0 0 0 0 0
+1 7 50  BobC &RozS 41.57041 -73.49068 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 8 60 BobC &RozS 41.57037 -73.49076 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 9 70 BobC &RozS 41.57031 -73.49087 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 10 80 BobC&RozS 41.57027 -73.49099 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 OQ Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.57070 -73.48872 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 1 0 Robert Capers 41.55695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 0 0) 0 0 0 0 0) 0 0 0 0 0
+3 2 5 Robert Capers 41.55696 -73.47411 6/21/2005 ND Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+3 3 O Robert Capers 41.55693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 41.55696 -73.47432 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 41.55697 -73.47433 6/21/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+3 6 30 Robert Capers 41.55687 -73.47439 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 40 Robert Capers 41.55693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 50 Robert Capers 41.55686 -73.47462 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 3 10 Roslyn Selsky 41.55081 -73.47179 6/21/2005 4.5 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 2 5 BobC &RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 5 30 BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 6 40 BobC &RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 9 70 = BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 1 0 Greg Bugbee 41.56605 -73.48777 6/20/2005 0.2 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.56603 -73.48783 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.56602 -73.48790 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 (0) (0) 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.56600 -73.48795 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.56593 -73.48820 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.56590 -73.48835 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.56585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 ) 70 Greg Bugbee 41.56582 -73.48853 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 1 QO Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 1 0 BobC &RozS 41.56712 -73.48368 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 2 5  BobC &RozS 41.56708 -73.48367 6/20/2005 0.7 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 3 10 BobC &RozS 41.56702 -73.48366 6/20/2005 1.9 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 41.56694 -73.48366 6/20/2005 2.2 Sand sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+7 5 30 BobC &RozS 41.56685 -73.48365 6/20/2005 2.2 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 6 40 BobC &RozS 41.56677 -73.48358 6/20/2005 3.0 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 41.56668 -73.48351 6/20/2005 3.8 ND sunny 0 0 0 0 0 4 0 (0) (0) 0 0 0 0 0 0 0
+7 8 60 BobC &RozS 41.56662 -73.48343 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 9 70 BobC &RozS 41.56653 -73.48336 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 10 80 BobC &RozS 41.56644 -73.48328 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 5 30 GregBugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+8 6 40 Greg Bugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 7 50 Greg Bugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 8 60 Greg Bugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+1 1 0 BobC &RozS 41.57056 -73.49008 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 2 5  BobC &RozS 41.57057 -73.49014 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 3 10 BobC &RozS 41.57054 -73.49021 6/20/2005 ND Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie} 0
+1 4 20 BobC &RozS 41.57051 -73.49033 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 5 30 BobC &RozS 41.57045 -73.49044 6/20/2005 3.0 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 6 40 BobC&RozS 41.57041 -73.49054 6/20/2005 3.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0) 0 0 0 0 0
+1 7 50  BobC &RozS 41.57041 -73.49068 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 8 60 BobC &RozS 41.57037 -73.49076 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 9 70 BobC &RozS 41.57031 -73.49087 6/20/2005 2.2 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+1 10 80 BobC&RozS 41.57027 -73.49099 6/20/2005 2.5 Silt sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 OQ Greg Bugbee 41.57088 -73.48850 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0
+2 2 5 Greg Bugbee 41.57093 -73.48183 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.57090 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.57087 -73.48865 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.57073 -73.48868 6/20/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.57070 -73.48872 6/20/2005 ND ND sunny 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.57057 -73.48870 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.57048 -73.48878 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.57040 -73.48880 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.57030 -73.48887 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 1 0 Robert Capers 41.55695 -73.47403 6/21/2005 0.2 Gravel sunny 0 0 0 0 0 0) 0 0 0 0 0) 0 0 0 0 0
+3 2 5 Robert Capers 41.55696 -73.47411 6/21/2005 ND Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+3 3 O Robert Capers 41.55693 -73.47416 6/21/2005 ND Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+3 4 20 Robert Capers 41.55696 -73.47432 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 5 20 Robert Capers 41.55697 -73.47433 6/21/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+3 6 30 Robert Capers 41.55687 -73.47439 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 40 Robert Capers 41.55693 -73.47452 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 50 Robert Capers 41.55686 -73.47462 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 3 10 Roslyn Selsky 41.55081 -73.47179 6/21/2005 4.5 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+4 1 0 BobC &RozS 41.56745 -73.49020 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 2 5 BobC &RozS 41.56747 -73.49015 6/20/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 3 10 BobC &RozS 41.56747 -73.49009 6/20/2005 2.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 4 20 BobC &RozS 41.56753 -73.48999 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 5 30 BobC &RozS 41.56756 -73.48986 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 6 40 BobC &RozS 41.56756 -73.48976 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 7 50 BobC &RozS 41.56759 -73.48964 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 8 60 BobC &RozS 41.56763 -73.48951 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 9 70 = BobC &RozS 41.56766 -73.48940 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 10 80 BobC &RozS 41.56763 -73.48927 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 1 0 Greg Bugbee 41.56605 -73.48777 6/20/2005 0.2 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.56603 -73.48783 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.56602 -73.48790 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 (0) (0) 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.56600 -73.48795 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.56588 -73.48802 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.56593 -73.48820 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.56590 -73.48835 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.56585 -73.48845 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 ) 70 Greg Bugbee 41.56582 -73.48853 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.56568 -73.48858 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 1 QO Robert Capers 41.55193 -73.46602 6/21/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 2 5 Robert Capers 41.55192 -73.46604 6/21/2005 ND Rock sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+6 3 10 Robert Capers 41.55187 -73.46613 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 4 20 Robert Capers 41.55185 -73.46620 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 5 30 Robert Capers 41.55180 -73.46637 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 6 40 Robert Capers 41.55176 -73.46653 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 7 50 Robert Capers 41.55174 -73.46664 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 8 60 Robert Capers 41.55163 -73.46663 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 9 70 Robert Capers 41.55169 -73.46683 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 10 80 Robert Capers 41.55169 -73.46692 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 1 0 BobC &RozS 41.56712 -73.48368 6/20/2005 0.2 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 2 5  BobC &RozS 41.56708 -73.48367 6/20/2005 0.7 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 3 10 BobC &RozS 41.56702 -73.48366 6/20/2005 1.9 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 4 20 BobC &RozS 41.56694 -73.48366 6/20/2005 2.2 Sand sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+7 5 30 BobC &RozS 41.56685 -73.48365 6/20/2005 2.2 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 6 40 BobC &RozS 41.56677 -73.48358 6/20/2005 3.0 Sand sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+7 7 50 BobC &RozS 41.56668 -73.48351 6/20/2005 3.8 ND sunny 0 0 0 0 0 4 0 (0) (0) 0 0 0 0 0 0 0
+7 8 60 BobC &RozS 41.56662 -73.48343 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 9 70 BobC &RozS 41.56653 -73.48336 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+7 10 80 BobC &RozS 41.56644 -73.48328 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 0 Greg Bugbee 41.56147 -73.48690 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 2 5 Greg Bugbee 41.55648 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 3 10 Greg Bugbee 41.56153 -73.48683 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 4 20 Greg Bugbee 41.56163 -73.48678 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 5 30 GregBugbee 41.56173 -73.48670 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+8 6 40 Greg Bugbee 41.56177 -73.48660 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 7 50 Greg Bugbee 41.56182 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 8 60 Greg Bugbee 41.56192 -73.48653 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 9 70 Greg Bugbee 41.56200 -73.48645 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+8 10 80 Greg Bugbee 41.56207 -73.48648 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+

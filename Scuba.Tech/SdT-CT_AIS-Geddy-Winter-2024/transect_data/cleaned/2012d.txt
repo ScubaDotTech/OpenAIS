@@ -1,0 +1,30 @@
+Transect Point Shore (m) — Surveyor Latitude Longitude Date (mM) Substrate Notes CerDem ElaSp EleSp LemMin MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+10 4 20.0 Greg Bugbee 41.4472 -73.42966 8/30/2012 1.10 Sand 0 0 0 0 2 0 ) 0 0 0 3
+10 5 30.0 Greg Bugbee 41.4471 -73.42975 8/30/2012 0.80 Muck 2 0 0 0 3 2 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.4471 -73.42985 8/30/2012 0.10 Muck 3 0 0 2 5 2 0 0 0 0 2
+10 7 50.0 Greg Bugbee 41.447 -73.42993 8/30/2012 0.10 Muck 0 0 0 2 2 0 0 0 0 0 0
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp LemMin MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+10 4 20.0 Greg Bugbee 41.4472 -73.42966 8/30/2012 1.10 Sand 0 0 0 0 2 0 0 0 0 0 3
+10 5 30.0 Greg Bugbee 41.4471 -73.42975 8/30/2012 0.80 Muck 2 0 0 0 3 2 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.4471 -73.42985 8/30/2012 0.10 Muck 3 0 0 2 5 2 0 0 0 0 2
+10 7 50.0 Greg Bugbee 41.447 -73.42993 8/30/2012 0.10 Muck 0 0 0 2 2 0 0 0 0 0 0
+
+Transect Point Shore (m) — Surveyor Latitude Longitude Date (mM) Substrate Notes CerDem ElaSp EleSp LemMin MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+10 4 20.0 Greg Bugbee 41.4472 -73.42966 8/30/2012 1.10 Sand 0 0 0 0 2 0 ) 0 0 0 3
+10 5 30.0 Greg Bugbee 41.4471 -73.42975 8/30/2012 0.80 Muck 2 0 0 0 3 2 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.4471 -73.42985 8/30/2012 0.10 Muck 3 0 0 2 5 2 0 0 0 0 2
+10 7 50.0 Greg Bugbee 41.447 -73.42993 8/30/2012 0.10 Muck 0 0 0 2 2 0 0 0 0 0 0
+
+Transect Point Shore (m) — Surveyor Latitude Longitude Date (mM) Substrate Notes CerDem ElaSp EleSp LemMin MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+10 4 20.0 Greg Bugbee 41.4472 -73.42966 8/30/2012 1.10 Sand 0 0 0 0 2 0 ) 0 0 0 3
+10 5 30.0 Greg Bugbee 41.4471 -73.42975 8/30/2012 0.80 Muck 2 0 0 0 3 2 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.4471 -73.42985 8/30/2012 0.10 Muck 3 0 0 2 5 2 0 0 0 0 2
+10 7 50.0 Greg Bugbee 41.447 -73.42993 8/30/2012 0.10 Muck 0 0 0 2 2 0 0 0 0 0 0
+
+Transect Point Shore (m) — Surveyor Latitude Longitude Date (mM) Substrate Notes CerDem ElaSp EleSp LemMin MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+10 4 20.0 Greg Bugbee 41.4472 -73.42966 8/30/2012 1.10 Sand 0 0 0 0 2 0 ) 0 0 0 3
+10 5 30.0 Greg Bugbee 41.4471 -73.42975 8/30/2012 0.80 Muck 2 0 0 0 3 2 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.4471 -73.42985 8/30/2012 0.10 Muck 3 0 0 2 5 2 0 0 0 0 2
+10 7 50.0 Greg Bugbee 41.447 -73.42993 8/30/2012 0.10 Muck 0 0 0 2 2 0 0 0 0 0 0
+

@@ -1,0 +1,325 @@
+Geddy Lucier
+Scuba.Tech Formatting and Plotting RMD
+Jan, 2025
+
+
+Preamble
+```{r}
+library(sf)
+library(tidyverse)
+library(ggplot2)
+library(readr)
+library(sf)
+library(stringr)
+library(dplyr)
+library(scales)
+library(cowplot)
+library(viridis)
+library(stargazer)
+library(broom)
+library(maps)
+library(readxl)
+library(ggspatial)
+library(foreign)
+
+setwd("~/Dropbox/Scuba.Tech/SdT-CT_AIS-Geddy-Winter-2024")
+
+
+```
+
+Lake Data
+```{r}
+
+
+lake_data <- st_read("shapefiles/Lake Polygon/NLA_2017_Lake_Polygon.dbf")
+
+gdb_path <- "shapefiles/fef0ad6f-84a0-42e6-942a-ed3172551e0c.gdb"
+layers <- st_layers(gdb_path)
+ct_lakes <- st_read(gdb_path)
+
+plot(ct_lakes)
+
+candlewood_bbox <- st_as_sfc(st_bbox(c(
+  xmin = -73.52,  # Minimum longitude (left)
+  xmax = -73.42,  # Maximum longitude (right)
+  ymin = 41.43,   # Minimum latitude (bottom)
+  ymax = 41.53    # Maximum latitude (top)
+), crs = 4326))
+
+st_crs(candlewood_bbox)
+st_crs(ct_lakes)
+
+ct_lakes <- st_transform(ct_lakes, crs = 4326)
+
+
+candlewood_lake <- ct_lakes %>%
+  filter(st_intersects(SHAPE, candlewood_bbox, sparse = FALSE))
+
+ggplot() +
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") +
+  labs(
+    title = "Candlewood Lake Base Layer",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal()
+
+```
+Plotting #1 2007
+```{r}
+library(dbscan)
+library(ggforce)
+
+
+
+```
+2008.
+
+```{r}
+eight <- read_csv("transect_data/csv/2008.csv")
+
+library(sf)
+library(dplyr)
+library(ggplot2)
+library(ggforce)
+library(dbscan)
+
+# 1. Perform clustering on the `eight` dataset
+eps_value <- 0.0025  # Adjust clustering radius
+eight_long_sf <- eight %>%
+  st_as_sf(coords = c("Longitude", "Lattitude"), crs = st_crs(candlewood_lake))
+
+dbscan_result <- dbscan(st_coordinates(eight_long_sf), eps = eps_value, minPts = 3)
+
+eight_long_sf <- eight_long_sf %>%
+  mutate(cluster = as.factor(dbscan_result$cluster))
+
+# 2. Aggregate species totals for each cluster
+cluster_totals <- eight_long_sf %>%
+  group_by(cluster) %>%
+  summarize(
+    geometry = st_centroid(st_union(geometry)),  # Centroid for each cluster
+    across(PotFol:SpiPol, sum, na.rm = TRUE),    # Sum species data by cluster
+    .groups = "drop"
+  ) %>%
+  mutate(total = rowSums(across(PotFol:SpiPol))) %>%
+  filter(total > 0)  # Exclude clusters with zero total species
+
+# 3. Prepare data for pie charts
+cluster_pies <- cluster_totals %>%
+  st_drop_geometry() %>%
+  pivot_longer(cols = PotFol:SpiPol, names_to = "species", values_to = "value") %>%
+  mutate(
+    fraction = value / total,                           # Proportion of each species
+    start = cumsum(lag(fraction, default = 0)) * 2 * pi,  # Start angle for pie
+    end = cumsum(fraction) * 2 * pi                     # End angle for pie
+  ) %>%
+  filter(!is.na(fraction) & fraction > 0) %>%  # Remove invalid fractions
+  left_join(cluster_totals %>% select(cluster, geometry), by = "cluster")
+
+# 4. Plot the final visualization
+eight_total <- ggplot() +
+  # Plot Candlewood Lake geometry
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "black") +
+  
+  # Add pie charts at cluster centroids
+  geom_arc_bar(
+    data = cluster_pies,
+    aes(
+      x0 = st_coordinates(geometry)[, 1],  # Extract x-coordinate
+      y0 = st_coordinates(geometry)[, 2],  # Extract y-coordinate
+      r0 = 0, 
+      r = sqrt(total) * 0.0006,  # Scale radius by total species
+      start = start, end = end, fill = species
+    ),
+    inherit.aes = FALSE
+  ) +
+  
+  # Add labels and themes
+  labs(
+    title = "Candlewood Lake 2007 Invasive Species Reports (Using `eight` Dataset)",
+    fill = "Species"
+  ) +
+  
+  # Customize the legend and theme
+  scale_fill_discrete(drop = TRUE) +
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    axis.title = element_blank(),
+    panel.grid = element_blank(),
+    legend.position = "right",
+    plot.background = element_rect(fill = "white", color = NA),  # White background
+    legend.key.size = unit(2, "cm"),                             # Increase legend key size
+    legend.text = element_text(size = 14),                       # Legend text size
+    legend.title = element_text(size = 16),                      # Legend title size
+    plot.margin = margin(15, 10, 10, -50),                       # Adjust plot margin
+    plot.title = element_text(size = 20, face = "bold", hjust = 0.5)  # Title styling
+  ) +
+  
+  # Set plot limits for full view
+  coord_sf(
+    xlim = c(-73.52, -73.40),  # Longitude range
+    ylim = c(41.42, 41.57)     # Latitude range
+  )
+
+# Save the final plot
+ggsave("2008_total.png", eight_total, width = 12, height = 15, bg = "white")
+
+
+```
+
+
+```{r}
+
+library(sf)
+library(dplyr)
+library(ggplot2)
+library(ggforce)
+library(dbscan)
+library(readr)
+
+# Set the directory containing the CSV files
+input_folder <- "transect_data/csv"
+output_folder <- "transect_data/output_plots"
+
+# Create the output folder if it doesn't exist
+if (!dir.exists(output_folder)) {
+  dir.create(output_folder)
+}
+
+# Get a list of all CSV files in the folder
+csv_files <- list.files(input_folder, pattern = "\\.csv$", full.names = TRUE)
+
+# Define the clustering radius
+eps_value <- 0.0025
+
+# Loop over each file in the folder
+for (file_path in csv_files) {
+  # Read the current CSV file
+  data <- read_csv(file_path)
+  
+  # Convert the dataset into an sf object
+  data_long_sf <- data %>%
+    st_as_sf(coords = c("Longitude", "Lattitude"), crs = st_crs(candlewood_lake))
+  
+  # Perform DBSCAN clustering
+  dbscan_result <- dbscan(st_coordinates(data_long_sf), eps = eps_value, minPts = 3)
+  
+  # Add the cluster information
+  data_long_sf <- data_long_sf %>%
+    mutate(cluster = as.factor(dbscan_result$cluster))
+  
+  # Aggregate species totals for each cluster
+  cluster_totals <- data_long_sf %>%
+    group_by(cluster) %>%
+    summarize(
+      geometry = st_centroid(st_union(geometry)),  # Centroid for each cluster
+      across(PotFol:SpiPol, sum, na.rm = TRUE),    # Sum species data by cluster
+      .groups = "drop"
+    ) %>%
+    mutate(total = rowSums(across(PotFol:SpiPol))) %>%
+    filter(total > 0)  # Exclude clusters with zero total species
+  
+  # Prepare data for pie charts
+  cluster_pies <- cluster_totals %>%
+    st_drop_geometry() %>%
+    pivot_longer(cols = PotFol:SpiPol, names_to = "species", values_to = "value") %>%
+    mutate(
+      fraction = value / total,                           # Proportion of each species
+      start = cumsum(lag(fraction, default = 0)) * 2 * pi,  # Start angle for pie
+      end = cumsum(fraction) * 2 * pi                     # End angle for pie
+    ) %>%
+    filter(!is.na(fraction) & fraction > 0) %>%  # Remove invalid fractions
+    left_join(cluster_totals %>% select(cluster, geometry), by = "cluster")
+  
+  # Plot the visualization
+  plot_title <- paste("Invasive Species Reports:", basename(file_path))
+  plot_output <- ggplot() +
+    # Plot Candlewood Lake geometry
+    geom_sf(data = candlewood_lake, fill = "lightblue", color = "black") +
+    
+    # Add pie charts at cluster centroids
+    geom_arc_bar(
+      data = cluster_pies,
+      aes(
+        x0 = st_coordinates(geometry)[, 1],  # Extract x-coordinate
+        y0 = st_coordinates(geometry)[, 2],  # Extract y-coordinate
+        r0 = 0, 
+        r = sqrt(total) * 0.0006,  # Scale radius by total species
+        start = start, end = end, fill = species
+      ),
+      inherit.aes = FALSE
+    ) +
+    
+    # Add labels and themes
+    labs(
+      title = plot_title,
+      fill = "Species"
+    ) +
+    
+    # Customize the legend and theme
+    scale_fill_discrete(drop = TRUE) +
+    theme_minimal() +
+    theme(
+      axis.text = element_blank(),
+      axis.ticks = element_blank(),
+      axis.title = element_blank(),
+      panel.grid = element_blank(),
+      legend.position = "right",
+      plot.background = element_rect(fill = "white", color = NA),  # White background
+      legend.key.size = unit(2, "cm"),                             # Increase legend key size
+      legend.text = element_text(size = 14),                       # Legend text size
+      legend.title = element_text(size = 16),                      # Legend title size
+      plot.margin = margin(15, 10, 10, -50),                       # Adjust plot margin
+      plot.title = element_text(size = 20, face = "bold", hjust = 0.5)  # Title styling
+    ) +
+    
+    # Set plot limits for full view
+    coord_sf(
+      xlim = c(-73.52, -73.40),  # Longitude range
+      ylim = c(41.42, 41.57)     # Latitude range
+    )
+  
+  # Save the plot to the output folder
+  output_file <- file.path(output_folder, paste0(tools::file_path_sans_ext(basename(file_path)), "_plot.png"))
+  ggsave(output_file, plot_output, width = 12, height = 15, bg = "white")
+}
+
+
+
+```
+```{r}
+
+
+zeb_msc <- read_csv("transect_data/zembra_muscle_estimate.csv")
+
+
+
+ggplot() + 
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") + 
+  geom_point(
+    data = zeb_msc, 
+    aes(x = Longitude, y = Latitude),
+    color = "red",
+    size = 1
+  ) +
+   geom_point(
+    data = sev %>%
+      filter(Lattitude < 41.8) %>%
+      filter(rowSums(select(., (which(names(.) == "Weather") + 1):ncol(.)) != 0) > 0),
+    aes(x = Longitude, y = Lattitude),
+    color = "green",
+    size = 1  # Reduce dot size
+  )
+
+
+
+```
+
+
+
+
+
+

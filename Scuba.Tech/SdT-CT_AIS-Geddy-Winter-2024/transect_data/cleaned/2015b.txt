@@ -1,0 +1,240 @@
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+5 7 50 Greg Bugbee 4150193 -73 45214 8/31/2015 2.80 Silt 0 Q 0 4 0 0 0 0 0 0
+5 & 60 (Sreg Bugbee 41.50195 -72.45226 9/21/2015 4.00 Silt 0 0 0 2 0 0 Q 0 0 0
+5 i) 70 Greg Bugbee 4150196 -73.45237 8/31/2015 450 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+5 10 8&0 Greg Bugbee 4150188 -73.45251 6/31/2015 4.10 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+6 | 05 Greg Buqbee 4151382 -73 45339 38/31/2015 020 Muck 0 0 0 0 0 0 0 0 9) 0
+6 2 5 Greg Bugbee 41.51385 -73.45338 3/21/2015 0 40 Muck 0 0 0 3 1) 0 Q Q 0 0
+.) 3 19 Greg Bugbee 41.51393 -73.45339 3/31/2015 0.80 Muck 0 0 0 3 Q ) 0 Q 0 9
+6 4 26 Greg Bugbee 4151405 -723.45337 8/21/2015 1.20 Muck 0 a) Q 4 0 0 0 0 0 0
+6 5 30 Greg Bugbee 4751420 -723 45337 8/31/2015 160 Muck 0 0 0 3 0 0 0 0 0 0
+6 6 4i) Greq Bugbee 4151422 -73 45334 8/31/2015 1 80 Muck ie) 0 0 3 0 v) Q a (v) 0
+6 7 50 (Greg Bugbee 4151429 -73.45340 8/31/2015 200 Muck 0 Q 0 3 0 Q 0 0 0 0
+6 8 60 Greg Bugbee 4151438 -73 45347 8/31/2015 270 Silt 0 a 0 2 0 0 0 0 0 a
+6 g 70 Greg Bugbee 4151448 -7345346 8/31/2015 400 Silt Nothing 0 Q 0 0 0 0 0 0 0 0
+65 1 40 Greg Bugbee 4151466 -7345248 8/31/2015 470 Silt Nothing 0 Q ) 0 0) Q ) 0) 0 (a
+7 1 05 Greg Bughbee 4157148 -73.44272 8/27/2015 020 Gravel 1 0 0 2 0 0 0 U 0 0
+7 2 5 Greg Bugbee 4157146 -723.44277 8/27/2015 100 Gravel 0 0 0 2 3 0 0 0 i) 0
+7 3 10 Greg Bugbee 41.57147 -73.44285 98/27/2015 1.00 Sand 0 0 0 2 3 0 0 Q 0 0
+7 4 20 Greg Bugbee 4157146 -73.44298 98/27/2015 1.80 Sand 0 0 8) 2 Q 8) Q 0 0 0
+7 5 30 Greg Bugbee 4157148 -73.44307 8/27/2015 2.50 Sand 0 0 ) 3 0 Dy} 0 0 0 0
+7 5 40 Greg Bugbee 4157146 -723 44321 8/27/2015 3.50 Silt 0 Q 0 3 QO 0) 0 0 0 Q
+7 7 50 Greg Bugbee 4157147 -7344336 8/27/2015 4.60 Silt Nothing 0 0 0 0 0 0 0 9) 0 0
+7 a 60 Greg Bugbee 4157142 -73 44346 8/27/2015 $30 Silt Nothing 0 0 0 Q 0 0 0 Q 0 0}
+7 i) 70 Greg Bugbee 4157141 -73 44357 8/27/2015 5.90 Silt Nothing 0 0 0 0 0 0 9 0 0 0
+7 ta 80 Greg Bugbee 4157140 -73.44368 8/27/2015 670 Silt Nothing 0 0 0 0 0 0 0 ty) 0 0
+B 1 05 Greg Bugbee 4151293 -7344120 8/27/2015 050 Gravel Collected PotF ol 0 0 2 0 3 0 9) Q 0 0
+8 2 § Greg Buqnee 41512848 -73. 44116 8/27/2018 120 Sand 0 0 0 2 3 0 0 ) 0 8)
+8 3 10 Greg Bugbee 4151283 -73 44117 3/27/2015 = 1-50 Sand 0 Q Q 0 3 0 0 0) 0 0
+8 4 20 Greg Bugbee 41.51277 -73.44115 8/27/2015 2.00 Sand 0 0 0 4 6) 0 0 0 0 0
+& 5 30 Greg Bugbee 41.51264 -73.44118 98/27/2015 2.00 Sand 0 0 0 4 Q 8) i) 0 0 0
+8 5 40 Greg Bugbee 41.51253 -723.44119 98/27/2015 2.00 Sand 0 0 0 4 Q) 0 0) 0 0 0
+is} 7 50 Greg Bugbee 4151247 -72 44119 8/27/2015 200 Sand 0 iv) 0 4 0 0 0 0 0 0
+8 & bo Greg Bugbee 4151238 -73.44123 8/27/2015 3.00 Rock 0 0 0 4 0 Dy) Q 0 i) 0
+8 y 70 Greq Buqbee 4151228 -7344124 8/27/2015 3.60 Sand (8) 0 0 4 0) 0 0) 0 0 0
+8 10 80 Greg Bugbee 4151218 -73.44119 8/27/2015 4.30 Silt Nothing 0 6) 0 0 8) 0 0 0 0 0
+g 1 0§ Greg Bughee 41.48044 -7343462 8/27/2015 0.20 Sand Collected PotPer MyrSpi 0 z 2 2 3 0 2 0 0 0
+9 2 5 Greg Bugbee 4148045 -73 43469 8/27/2015 0.80 Sand 0 0 0 2 3 0 0 0 0 0
+) 3 10 Greg Bughee 4148048 -73 43472 8/27/2015 100 Sand 0 0 0 2 3 0 0 0 0 0
+9 4 20 Greg Bugbee 4148043 -73 43486 8/27/2015 150 Sand 0 0 0 2 9) 0 0 0 0 0
+9 5 30 Greg Bugbee 4148040 -73.43496 8/27/2015 1.70 Sand Nothing 0 0 0 0 Q 0 0 9 0 0
+9 6 40 Greg Bugbee 41.48036 -73.43508 8/27/2015 2.00 Sand Nothing 0 0 0 0 Q 0 0 9 9 0
+9 7 50 Greg Bugbee 41.48032 -73.43521 98/27/2015 2.10 Sand 2 0 0 0 0 0 0 0 0 0
+KS) 8 60 Greg Bugbee 4148023 -73 43526 8/27/2015 190 Sand 2 Q 0 0 0 0 0 0 0 0
+g g 70 Greg Bugbee 4146014 -73.43534 8/27/2015 170 Sand Nothing 0 9 0 i) 0 0 0 0 0 0
+9 10 BO Greg Bugbee 4148013 -73 43551 8/27/2015 140 Sand 2 a Q 2 3 0 0 0 0 0
+10 | 9§ Greg Buqbee 4144731 -73.47951 SHIZOIS 020 Sand 2 0 q 3 0 0 0 0 0 0
+10 2 5 Greg Bugbee 4144729 -73.42956 9/1/7015 060 Sand 3 a 0 2 0 0 0 0 0 a
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+5 7 50 Greg Bugbee 4150193 -73 45214 8/31/2015 280 Silt 0 0 0 4 0 0 0 0 0 0
+§ 8 60 Greg Bugbee 41.50195 -72.45226 8/31/2015 4.00 Silt 0 0 0 2 0 0 0 0 0 i!)
+5 9 70 Greg Bugbee 4150196 -73.45237 8/31/2015 450 Sit Nothing 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 4150188 -7345251 8/31/2015 4.10 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+6 1 05 Greg Bugbee 4151382 -73 65339 8/31/2015 020 Muck 0 0 0 ie} 0 0 0 a 9 0
+6 2 $ Greg Bugbee 41.51385 -73.45338 8/31/2015 0 40 Muck 0 0 0 3 0 0 0 Q 9 0
+6 3 10 Greg Bugbee 41.51393 -73.45339 8/31/2015 0.80 Muck 0 0 0 3 Q D) 0 Q 0 9
+6 4 20 Greg Bugbee 4151405 -73 45337 8/31/2015 1.20 Muck 0 0 0 4 0 0 0 0 0 0
+6 5 30 Greg Bugbee 4151420 -73.45337 8/31/2015 160 Muck 0 ie] 0 3 0 0 0 0 0 0
+6 6 40 Greg Bugbee 4151422 -73 45334 8/31/2015 180 Muck 0 0 0 3 0 0 0 0 0 0
+6 7 50 Greg Bugbee 4151429 -73 45340 8/31/2015 200 Muck 0 0 0 3 0 0 0 0 0 0
+6 8 60 Greg Bugbee 4151438 -73 45347 8/31/2018 270 Silt 0 0 0 2 0 0 0 0 0 0
+6 9 70 Greg Bugbee 4151448 -7345346 8/31/2015 400 Silt Nothing 0 0 0 0 9 0 0 0 ie) 0
+6 10 60 Greg Bugbee 4151456 -7345348 8/31/2015 470 Silt Nothing 0 0 e) ie] 0 0 0 0 0 0
+7 1 0s Greg Bugbee 4157148 -73 44272 8/27/2015 020 Gravel 1 0 0 2 0 0 0 0 0 0
+7 2 5 Greg Bugbee 4157146 -7344277 8/27/2015 100 Gravel 0 0 0 2 3 0 0 0 0 0
+7 3 10 Greg Bugbee 4157147 -73.44285 8/27/2015 1.00 Sand 0 0 0 2 3 0 0 0 0 0
+7 4 20 Greg Bugbee 4157146 -73.44298 8/27/2015 1.80 Send 0 0 0 2 Q 0 0 0 0 0
+7 5 30 Greg Bugbee 4157148 -73.44307 6/27/2015 250 Sand 0 0 0 3 0 D) 0 0 0 0
+7 6 40 Greg Bugbee 4157146 -7344321 6/27/2015 3.50 Silt 0 Q 0 3 0 0 0 i!) 0 Q
+7 7 50 Greg Bugbee 4157147 -73.44336 6/27/2015 4.60 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+7 8 60 Greg Bugbee 4157142 -73 44346 8/27/2015 530 Sit Nothing 0 0 0 0 0 0 0 0 0 0
+7 9 70 Greg Bugbee 4157141 -73.44357 8/27/2015 590 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+7 10 80 Greg Bugbee 4157140 -73.44368 8/27/2015 670 Silt Nothing is] 0 0 Q 0 0 0 0 0 0
+8 1 05 Greg Bugbee 4151293 -73.44120 8/27/2015 050 Gravel Collected PotF ol 0 0 2 0 3 0 0 v ) 0
+& 2 i) Greg Bugnee 4151288 -73 44116 8/27/2015 120 Sand 0 0 0 2 3 0 0 0 0 0
+8 3 10 Greg Bugbee 4151283 -73 44117 8/27/2015 150 Sand Q 0 0 0 3 0 0 0 0 0
+8 4 20 Greg Bugbee 4151277 -73.44115 8/27/2015 2.00 Send 0 0 0 4 i‘) 0 Q 0 0 0
+8 5 30 Greg Bugbee 4151264 -73.44118 8/27/2015 200 Sand 0 0 0 4 Q 9 0 9 0 9
+8 6 40 Greg Bugbee 4151253 -73.44119 8/27/2015 2.00 Send 0 0 0 4 0 0 0 0 0 0
+8 7 50 Greg Bugbee 4151247 -72.44119 8/27/2015 200 Sand 0 0 i¢) 4 0 0 0 0 0 0
+8 8 60 Greg Bugbee 4151238 -73 44123 6/27/2015 300 Rock 0 0 0 4 0 9 0 0 0 0
+8 9 70 Greg Bugbee 4151228 -7344124 87272015 360 Sand 0 0 0 4 0 0 0 0 0 0
+8 10 80 Greg Bugbee 4151218 -7344119 8/27/2015 430 Silt Nothing 0 0 9 0 0 0 9 0) 0 0
+9 1 05 Greg Bugbee 41 48044 -7343462 8/27/2015 0.20 Sand Collected PotPer MyrSpi 0 2 2 2 3 0 2 0 0 0
+9 2 5 Greg Bugbee 4148045 -73 43469 8/27/2015 080 Sand 0 q 0 2 3 0 0 0 0 0
+g 3 10 Greg Bugbee 4148048 -73 43472 8/27/2015 100 Sand 0 0 0 2 3 0 0 0 0 0
+9 4 20 Greg Bugbee 4148043 -73 43486 8/27/2015 150 Sand 0 0 0 2 0 0 0 0 0 0
+9 5 30 Greg Bugbee 4148040 -73.43496 8/27/2015 1.70 Sand Nothing 0 0 0 0 i] 0 0 9 0 0
+9 6 40 Greg Bugbee 41.48026 -73.43508 8/27/2015 2.00 Send Nothing 0 0 0 0 0 () 0 9 0 0
+9 7 50 Greg Bugbee 41.48032 -73.43521 8/27/2015 2.10 Sand 2 0 0 0 0 0 (8) 0 0 0
+9 8 60 Greg Bugbee 4148023 -73 43526 6/27/2015 190 Sand 2 0 0 0 0 0 9 0 i) tY)
+3 9 70 Greg Bugbee 4148014 -73.43534 8/27/2015 170 Sand Nothing 0 0 0 0 0 0 0 0 0 0
+9 10 80 Greg Bugbee 4148013 -73 43551 8/27/2015 140 Sand 2 i 0 2 3 0 0 0 0 0
+10 1 05 Greg Bugbee 4144731 -73.42951 9/1015 020 Sand 2 0 0 3 0 0 0 i) i) 0
+10 2 5 Greg Bugbee 4144729 -73 42956 9/17015 060 Sand 3 ia) 9 2 0 0 0 0 0 0
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+5 7 50 Greg Bugbee 4150193 -73 45214 8/31/2015 2.80 Silt 0 Q 0 4 0 0 0 0 0 0
+5 & 60 (Sreg Bugbee 41.50195 -72.45226 9/21/2015 4.00 Silt 0 0 0 2 0 0 Q 0 0 0
+5 i) 70 Greg Bugbee 4150196 -73.45237 8/31/2015 450 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+5 10 8&0 Greg Bugbee 4150188 -73.45251 6/31/2015 4.10 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+6 | 05 Greg Buqbee 4151382 -73 45339 38/31/2015 020 Muck 0 0 0 0 0 0 0 0 9) 0
+6 2 5 Greg Bugbee 41.51385 -73.45338 3/21/2015 0 40 Muck 0 0 0 3 1) 0 Q Q 0 0
+.) 3 19 Greg Bugbee 41.51393 -73.45339 3/31/2015 0.80 Muck 0 0 0 3 Q ) 0 Q 0 9
+6 4 26 Greg Bugbee 4151405 -723.45337 8/21/2015 1.20 Muck 0 a) Q 4 0 0 0 0 0 0
+6 5 30 Greg Bugbee 4751420 -723 45337 8/31/2015 160 Muck 0 0 0 3 0 0 0 0 0 0
+6 6 4i) Greq Bugbee 4151422 -73 45334 8/31/2015 1 80 Muck ie) 0 0 3 0 v) Q a (v) 0
+6 7 50 (Greg Bugbee 4151429 -73.45340 8/31/2015 200 Muck 0 Q 0 3 0 Q 0 0 0 0
+6 8 60 Greg Bugbee 4151438 -73 45347 8/31/2015 270 Silt 0 a 0 2 0 0 0 0 0 a
+6 g 70 Greg Bugbee 4151448 -7345346 8/31/2015 400 Silt Nothing 0 Q 0 0 0 0 0 0 0 0
+65 1 40 Greg Bugbee 4151466 -7345248 8/31/2015 470 Silt Nothing 0 Q ) 0 0) Q ) 0) 0 (a
+7 1 05 Greg Bughbee 4157148 -73.44272 8/27/2015 020 Gravel 1 0 0 2 0 0 0 U 0 0
+7 2 5 Greg Bugbee 4157146 -723.44277 8/27/2015 100 Gravel 0 0 0 2 3 0 0 0 i) 0
+7 3 10 Greg Bugbee 41.57147 -73.44285 98/27/2015 1.00 Sand 0 0 0 2 3 0 0 Q 0 0
+7 4 20 Greg Bugbee 4157146 -73.44298 98/27/2015 1.80 Sand 0 0 8) 2 Q 8) Q 0 0 0
+7 5 30 Greg Bugbee 4157148 -73.44307 8/27/2015 2.50 Sand 0 0 ) 3 0 Dy} 0 0 0 0
+7 5 40 Greg Bugbee 4157146 -723 44321 8/27/2015 3.50 Silt 0 Q 0 3 QO 0) 0 0 0 Q
+7 7 50 Greg Bugbee 4157147 -7344336 8/27/2015 4.60 Silt Nothing 0 0 0 0 0 0 0 9) 0 0
+7 a 60 Greg Bugbee 4157142 -73 44346 8/27/2015 $30 Silt Nothing 0 0 0 Q 0 0 0 Q 0 0}
+7 i) 70 Greg Bugbee 4157141 -73 44357 8/27/2015 5.90 Silt Nothing 0 0 0 0 0 0 9 0 0 0
+7 ta 80 Greg Bugbee 4157140 -73.44368 8/27/2015 670 Silt Nothing 0 0 0 0 0 0 0 ty) 0 0
+B 1 05 Greg Bugbee 4151293 -7344120 8/27/2015 050 Gravel Collected PotF ol 0 0 2 0 3 0 9) Q 0 0
+8 2 § Greg Buqnee 41512848 -73. 44116 8/27/2018 120 Sand 0 0 0 2 3 0 0 ) 0 8)
+8 3 10 Greg Bugbee 4151283 -73 44117 3/27/2015 = 1-50 Sand 0 Q Q 0 3 0 0 0) 0 0
+8 4 20 Greg Bugbee 41.51277 -73.44115 8/27/2015 2.00 Sand 0 0 0 4 6) 0 0 0 0 0
+& 5 30 Greg Bugbee 41.51264 -73.44118 98/27/2015 2.00 Sand 0 0 0 4 Q 8) i) 0 0 0
+8 5 40 Greg Bugbee 41.51253 -723.44119 98/27/2015 2.00 Sand 0 0 0 4 Q) 0 0) 0 0 0
+is} 7 50 Greg Bugbee 4151247 -72 44119 8/27/2015 200 Sand 0 iv) 0 4 0 0 0 0 0 0
+8 & bo Greg Bugbee 4151238 -73.44123 8/27/2015 3.00 Rock 0 0 0 4 0 Dy) Q 0 i) 0
+8 y 70 Greq Buqbee 4151228 -7344124 8/27/2015 3.60 Sand (8) 0 0 4 0) 0 0) 0 0 0
+8 10 80 Greg Bugbee 4151218 -73.44119 8/27/2015 4.30 Silt Nothing 0 6) 0 0 8) 0 0 0 0 0
+g 1 0§ Greg Bughee 41.48044 -7343462 8/27/2015 0.20 Sand Collected PotPer MyrSpi 0 z 2 2 3 0 2 0 0 0
+9 2 5 Greg Bugbee 4148045 -73 43469 8/27/2015 0.80 Sand 0 0 0 2 3 0 0 0 0 0
+) 3 10 Greg Bughee 4148048 -73 43472 8/27/2015 100 Sand 0 0 0 2 3 0 0 0 0 0
+9 4 20 Greg Bugbee 4148043 -73 43486 8/27/2015 150 Sand 0 0 0 2 9) 0 0 0 0 0
+9 5 30 Greg Bugbee 4148040 -73.43496 8/27/2015 1.70 Sand Nothing 0 0 0 0 Q 0 0 9 0 0
+9 6 40 Greg Bugbee 41.48036 -73.43508 8/27/2015 2.00 Sand Nothing 0 0 0 0 Q 0 0 9 9 0
+9 7 50 Greg Bugbee 41.48032 -73.43521 98/27/2015 2.10 Sand 2 0 0 0 0 0 0 0 0 0
+KS) 8 60 Greg Bugbee 4148023 -73 43526 8/27/2015 190 Sand 2 Q 0 0 0 0 0 0 0 0
+g g 70 Greg Bugbee 4146014 -73.43534 8/27/2015 170 Sand Nothing 0 9 0 i) 0 0 0 0 0 0
+9 10 BO Greg Bugbee 4148013 -73 43551 8/27/2015 140 Sand 2 a Q 2 3 0 0 0 0 0
+10 | 9§ Greg Buqbee 4144731 -73.47951 SHIZOIS 020 Sand 2 0 q 3 0 0 0 0 0 0
+10 2 5 Greg Bugbee 4144729 -73.42956 9/1/7015 060 Sand 3 a 0 2 0 0 0 0 0 a
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+5 7 50 Greg Bugbee 4150193 -73 45214 8/31/2015 2.80 Silt 0 Q 0 4 0 0 0 0 0 0
+5 & 60 (Sreg Bugbee 41.50195 -72.45226 9/21/2015 4.00 Silt 0 0 0 2 0 0 Q 0 0 0
+5 i) 70 Greg Bugbee 4150196 -73.45237 8/31/2015 450 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+5 10 8&0 Greg Bugbee 4150188 -73.45251 6/31/2015 4.10 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+6 | 05 Greg Buqbee 4151382 -73 45339 38/31/2015 020 Muck 0 0 0 0 0 0 0 0 9) 0
+6 2 5 Greg Bugbee 41.51385 -73.45338 3/21/2015 0 40 Muck 0 0 0 3 1) 0 Q Q 0 0
+.) 3 19 Greg Bugbee 41.51393 -73.45339 3/31/2015 0.80 Muck 0 0 0 3 Q ) 0 Q 0 9
+6 4 26 Greg Bugbee 4151405 -723.45337 8/21/2015 1.20 Muck 0 a) Q 4 0 0 0 0 0 0
+6 5 30 Greg Bugbee 4751420 -723 45337 8/31/2015 160 Muck 0 0 0 3 0 0 0 0 0 0
+6 6 4i) Greq Bugbee 4151422 -73 45334 8/31/2015 1 80 Muck ie) 0 0 3 0 v) Q a (v) 0
+6 7 50 (Greg Bugbee 4151429 -73.45340 8/31/2015 200 Muck 0 Q 0 3 0 Q 0 0 0 0
+6 8 60 Greg Bugbee 4151438 -73 45347 8/31/2015 270 Silt 0 a 0 2 0 0 0 0 0 a
+6 g 70 Greg Bugbee 4151448 -7345346 8/31/2015 400 Silt Nothing 0 Q 0 0 0 0 0 0 0 0
+65 1 40 Greg Bugbee 4151466 -7345248 8/31/2015 470 Silt Nothing 0 Q ) 0 0) Q ) 0) 0 (a
+7 1 05 Greg Bughbee 4157148 -73.44272 8/27/2015 020 Gravel 1 0 0 2 0 0 0 U 0 0
+7 2 5 Greg Bugbee 4157146 -723.44277 8/27/2015 100 Gravel 0 0 0 2 3 0 0 0 i) 0
+7 3 10 Greg Bugbee 41.57147 -73.44285 98/27/2015 1.00 Sand 0 0 0 2 3 0 0 Q 0 0
+7 4 20 Greg Bugbee 4157146 -73.44298 98/27/2015 1.80 Sand 0 0 8) 2 Q 8) Q 0 0 0
+7 5 30 Greg Bugbee 4157148 -73.44307 8/27/2015 2.50 Sand 0 0 ) 3 0 Dy} 0 0 0 0
+7 5 40 Greg Bugbee 4157146 -723 44321 8/27/2015 3.50 Silt 0 Q 0 3 QO 0) 0 0 0 Q
+7 7 50 Greg Bugbee 4157147 -7344336 8/27/2015 4.60 Silt Nothing 0 0 0 0 0 0 0 9) 0 0
+7 a 60 Greg Bugbee 4157142 -73 44346 8/27/2015 $30 Silt Nothing 0 0 0 Q 0 0 0 Q 0 0}
+7 i) 70 Greg Bugbee 4157141 -73 44357 8/27/2015 5.90 Silt Nothing 0 0 0 0 0 0 9 0 0 0
+7 ta 80 Greg Bugbee 4157140 -73.44368 8/27/2015 670 Silt Nothing 0 0 0 0 0 0 0 ty) 0 0
+B 1 05 Greg Bugbee 4151293 -7344120 8/27/2015 050 Gravel Collected PotF ol 0 0 2 0 3 0 9) Q 0 0
+8 2 § Greg Buqnee 41512848 -73. 44116 8/27/2018 120 Sand 0 0 0 2 3 0 0 ) 0 8)
+8 3 10 Greg Bugbee 4151283 -73 44117 3/27/2015 = 1-50 Sand 0 Q Q 0 3 0 0 0) 0 0
+8 4 20 Greg Bugbee 41.51277 -73.44115 8/27/2015 2.00 Sand 0 0 0 4 6) 0 0 0 0 0
+& 5 30 Greg Bugbee 41.51264 -73.44118 98/27/2015 2.00 Sand 0 0 0 4 Q 8) i) 0 0 0
+8 5 40 Greg Bugbee 41.51253 -723.44119 98/27/2015 2.00 Sand 0 0 0 4 Q) 0 0) 0 0 0
+is} 7 50 Greg Bugbee 4151247 -72 44119 8/27/2015 200 Sand 0 iv) 0 4 0 0 0 0 0 0
+8 & bo Greg Bugbee 4151238 -73.44123 8/27/2015 3.00 Rock 0 0 0 4 0 Dy) Q 0 i) 0
+8 y 70 Greq Buqbee 4151228 -7344124 8/27/2015 3.60 Sand (8) 0 0 4 0) 0 0) 0 0 0
+8 10 80 Greg Bugbee 4151218 -73.44119 8/27/2015 4.30 Silt Nothing 0 6) 0 0 8) 0 0 0 0 0
+g 1 0§ Greg Bughee 41.48044 -7343462 8/27/2015 0.20 Sand Collected PotPer MyrSpi 0 z 2 2 3 0 2 0 0 0
+9 2 5 Greg Bugbee 4148045 -73 43469 8/27/2015 0.80 Sand 0 0 0 2 3 0 0 0 0 0
+) 3 10 Greg Bughee 4148048 -73 43472 8/27/2015 100 Sand 0 0 0 2 3 0 0 0 0 0
+9 4 20 Greg Bugbee 4148043 -73 43486 8/27/2015 150 Sand 0 0 0 2 9) 0 0 0 0 0
+9 5 30 Greg Bugbee 4148040 -73.43496 8/27/2015 1.70 Sand Nothing 0 0 0 0 Q 0 0 9 0 0
+9 6 40 Greg Bugbee 41.48036 -73.43508 8/27/2015 2.00 Sand Nothing 0 0 0 0 Q 0 0 9 9 0
+9 7 50 Greg Bugbee 41.48032 -73.43521 98/27/2015 2.10 Sand 2 0 0 0 0 0 0 0 0 0
+KS) 8 60 Greg Bugbee 4148023 -73 43526 8/27/2015 190 Sand 2 Q 0 0 0 0 0 0 0 0
+g g 70 Greg Bugbee 4146014 -73.43534 8/27/2015 170 Sand Nothing 0 9 0 i) 0 0 0 0 0 0
+9 10 BO Greg Bugbee 4148013 -73 43551 8/27/2015 140 Sand 2 a Q 2 3 0 0 0 0 0
+10 | 9§ Greg Buqbee 4144731 -73.47951 SHIZOIS 020 Sand 2 0 q 3 0 0 0 0 0 0
+10 2 5 Greg Bugbee 4144729 -73.42956 9/1/7015 060 Sand 3 a 0 2 0 0 0 0 0 a
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+5 7 50 Greg Bugbee 4150193 -73 45214 8/31/2015 2.80 Silt 0 Q 0 4 0 0 0 0 0 0
+5 & 60 (Sreg Bugbee 41.50195 -72.45226 9/21/2015 4.00 Silt 0 0 0 2 0 0 Q 0 0 0
+5 i) 70 Greg Bugbee 4150196 -73.45237 8/31/2015 450 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+5 10 8&0 Greg Bugbee 4150188 -73.45251 6/31/2015 4.10 Silt Nothing 0 0 0 0 0 0 0 0 0 0
+6 | 05 Greg Buqbee 4151382 -73 45339 38/31/2015 020 Muck 0 0 0 0 0 0 0 0 9) 0
+6 2 5 Greg Bugbee 41.51385 -73.45338 3/21/2015 0 40 Muck 0 0 0 3 1) 0 Q Q 0 0
+.) 3 19 Greg Bugbee 41.51393 -73.45339 3/31/2015 0.80 Muck 0 0 0 3 Q ) 0 Q 0 9
+6 4 26 Greg Bugbee 4151405 -723.45337 8/21/2015 1.20 Muck 0 a) Q 4 0 0 0 0 0 0
+6 5 30 Greg Bugbee 4751420 -723 45337 8/31/2015 160 Muck 0 0 0 3 0 0 0 0 0 0
+6 6 4i) Greq Bugbee 4151422 -73 45334 8/31/2015 1 80 Muck ie) 0 0 3 0 v) Q a (v) 0
+6 7 50 (Greg Bugbee 4151429 -73.45340 8/31/2015 200 Muck 0 Q 0 3 0 Q 0 0 0 0
+6 8 60 Greg Bugbee 4151438 -73 45347 8/31/2015 270 Silt 0 a 0 2 0 0 0 0 0 a
+6 g 70 Greg Bugbee 4151448 -7345346 8/31/2015 400 Silt Nothing 0 Q 0 0 0 0 0 0 0 0
+65 1 40 Greg Bugbee 4151466 -7345248 8/31/2015 470 Silt Nothing 0 Q ) 0 0) Q ) 0) 0 (a
+7 1 05 Greg Bughbee 4157148 -73.44272 8/27/2015 020 Gravel 1 0 0 2 0 0 0 U 0 0
+7 2 5 Greg Bugbee 4157146 -723.44277 8/27/2015 100 Gravel 0 0 0 2 3 0 0 0 i) 0
+7 3 10 Greg Bugbee 41.57147 -73.44285 98/27/2015 1.00 Sand 0 0 0 2 3 0 0 Q 0 0
+7 4 20 Greg Bugbee 4157146 -73.44298 98/27/2015 1.80 Sand 0 0 8) 2 Q 8) Q 0 0 0
+7 5 30 Greg Bugbee 4157148 -73.44307 8/27/2015 2.50 Sand 0 0 ) 3 0 Dy} 0 0 0 0
+7 5 40 Greg Bugbee 4157146 -723 44321 8/27/2015 3.50 Silt 0 Q 0 3 QO 0) 0 0 0 Q
+7 7 50 Greg Bugbee 4157147 -7344336 8/27/2015 4.60 Silt Nothing 0 0 0 0 0 0 0 9) 0 0
+7 a 60 Greg Bugbee 4157142 -73 44346 8/27/2015 $30 Silt Nothing 0 0 0 Q 0 0 0 Q 0 0}
+7 i) 70 Greg Bugbee 4157141 -73 44357 8/27/2015 5.90 Silt Nothing 0 0 0 0 0 0 9 0 0 0
+7 ta 80 Greg Bugbee 4157140 -73.44368 8/27/2015 670 Silt Nothing 0 0 0 0 0 0 0 ty) 0 0
+B 1 05 Greg Bugbee 4151293 -7344120 8/27/2015 050 Gravel Collected PotF ol 0 0 2 0 3 0 9) Q 0 0
+8 2 § Greg Buqnee 41512848 -73. 44116 8/27/2018 120 Sand 0 0 0 2 3 0 0 ) 0 8)
+8 3 10 Greg Bugbee 4151283 -73 44117 3/27/2015 = 1-50 Sand 0 Q Q 0 3 0 0 0) 0 0
+8 4 20 Greg Bugbee 41.51277 -73.44115 8/27/2015 2.00 Sand 0 0 0 4 6) 0 0 0 0 0
+& 5 30 Greg Bugbee 41.51264 -73.44118 98/27/2015 2.00 Sand 0 0 0 4 Q 8) i) 0 0 0
+8 5 40 Greg Bugbee 41.51253 -723.44119 98/27/2015 2.00 Sand 0 0 0 4 Q) 0 0) 0 0 0
+is} 7 50 Greg Bugbee 4151247 -72 44119 8/27/2015 200 Sand 0 iv) 0 4 0 0 0 0 0 0
+8 & bo Greg Bugbee 4151238 -73.44123 8/27/2015 3.00 Rock 0 0 0 4 0 Dy) Q 0 i) 0
+8 y 70 Greq Buqbee 4151228 -7344124 8/27/2015 3.60 Sand (8) 0 0 4 0) 0 0) 0 0 0
+8 10 80 Greg Bugbee 4151218 -73.44119 8/27/2015 4.30 Silt Nothing 0 6) 0 0 8) 0 0 0 0 0
+g 1 0§ Greg Bughee 41.48044 -7343462 8/27/2015 0.20 Sand Collected PotPer MyrSpi 0 z 2 2 3 0 2 0 0 0
+9 2 5 Greg Bugbee 4148045 -73 43469 8/27/2015 0.80 Sand 0 0 0 2 3 0 0 0 0 0
+) 3 10 Greg Bughee 4148048 -73 43472 8/27/2015 100 Sand 0 0 0 2 3 0 0 0 0 0
+9 4 20 Greg Bugbee 4148043 -73 43486 8/27/2015 150 Sand 0 0 0 2 9) 0 0 0 0 0
+9 5 30 Greg Bugbee 4148040 -73.43496 8/27/2015 1.70 Sand Nothing 0 0 0 0 Q 0 0 9 0 0
+9 6 40 Greg Bugbee 41.48036 -73.43508 8/27/2015 2.00 Sand Nothing 0 0 0 0 Q 0 0 9 9 0
+9 7 50 Greg Bugbee 41.48032 -73.43521 98/27/2015 2.10 Sand 2 0 0 0 0 0 0 0 0 0
+KS) 8 60 Greg Bugbee 4148023 -73 43526 8/27/2015 190 Sand 2 Q 0 0 0 0 0 0 0 0
+g g 70 Greg Bugbee 4146014 -73.43534 8/27/2015 170 Sand Nothing 0 9 0 i) 0 0 0 0 0 0
+9 10 BO Greg Bugbee 4148013 -73 43551 8/27/2015 140 Sand 2 a Q 2 3 0 0 0 0 0
+10 | 9§ Greg Buqbee 4144731 -73.47951 SHIZOIS 020 Sand 2 0 q 3 0 0 0 0 0 0
+10 2 5 Greg Bugbee 4144729 -73.42956 9/1/7015 060 Sand 3 a 0 2 0 0 0 0 0 a
+

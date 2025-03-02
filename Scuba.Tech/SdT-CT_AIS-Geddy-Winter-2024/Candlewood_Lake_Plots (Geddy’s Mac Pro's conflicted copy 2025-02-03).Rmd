@@ -1,0 +1,75 @@
+Geddy Lucier
+Scuba.Tech Project
+Feb2025
+
+```{r}
+library(tidyverse)
+library(sf)
+library(matrixStats)  # For doing fast rowwise operations
+library(terra)
+library(readxl)
+library(ggplot2)
+library(ggforce)
+
+
+setwd("Dropbox/Scuba.Tech/SdT-CT_AIS-Geddy-Winter-2024/")
+getwd()
+```
+
+
+```{r}
+lake_data <- st_read("shapefiles/Lake Polygon/NLA_2017_Lake_Polygon.dbf")
+
+gdb_path <- "shapefiles/fef0ad6f-84a0-42e6-942a-ed3172551e0c.gdb"
+layers <- st_layers(gdb_path)
+ct_lakes <- st_read(gdb_path)
+
+
+
+candlewood_bbox <- st_as_sfc(st_bbox(c(
+  xmin = -73.52,  # Minimum longitude (left)
+  xmax = -73.42,  # Maximum longitude (right)
+  ymin = 41.43,   # Minimum latitude (bottom)
+  ymax = 41.53    # Maximum latitude (top)
+), crs = 4326))
+
+
+ct_lakes <- st_transform(ct_lakes, crs = 4326)
+
+
+candlewood_lake <- ct_lakes %>%
+  filter(st_intersects(SHAPE, candlewood_bbox, sparse = FALSE)) %>%
+  filter(!WBNAME == "Squantz Pond" & SHAPE_Length > 5100)
+
+fivenum(candlewood_lake$SHAPE_Length)
+
+##just a test plot 
+ggplot() +
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") +
+  labs(
+    title = "Candlewood Lake Base Layer",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal()
+```
+
+2008 Plot
+```{r}
+eight <- read_csv("transect_data/csv/2008.csv")
+ 
+eight = eight[-1,]
+
+eight <- st_as_sf(eight, coords = c("Longitude", "Latitude"), crs = 4326)
+eight %>%
+  group_by(Transect)
+
+
+ggplot() +
+  geom_sf(data = candlewood_lake) + 
+  geom_sf(data = eight)
+
+
+
+```
+

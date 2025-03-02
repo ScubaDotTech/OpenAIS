@@ -1,0 +1,390 @@
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Weather Wind Notes CerDem ElaSp_ EleSp_ LemMin MyrSpi NajMin NymOdo SpiPol StuPec ValAme
+| i} 02 Greq Buqhee 4142385 -72 45252 %2 2010 0 10 Sand sunny = Seuth Thick float in 0 0 @ 0 0 9) 0 0 i) ie)
+| 2 50 Greq Buqhee 4142390 -72 45254 %2 2010 040 Sand sunny = South All probably float in | 0 @ 0 4 2 ie) 0 i) a
+| a 100 Greq Bughbee 4142394 7245250 422010 100 Silt sunny South =loatin a 0 0 0 3 0 0 0 0 Qa
+| 4 200 Greg Bughbee 414APAD3 7245260 422010 120 Sand sunny = South 2 0 0 0 2 0 0 0 i) a
+| iz 30.0 Greg Bugbee 4A14APAID 7a 45268 42 2010 150 Sand sunny — Seuth 3 i} 0 0 a (9) 0 0 i) a
+| nh 400 Greg Bugbee 4142418 7245273 922010 1280 Sand sunny South 3 0 0 0 a ) 0 0 0 a
+| 7 500 Greg Bugbee 4142427 -72 45277 %2 2010 1280 Sand sunny South 4 0 0 0 3 3) 0 0 B) Qa
+| fad 50.0 Greg Bugbee 4142433  -72 45251 922010 190 Sand sunny = South 3 0) 0 0 2 i) 0 0 i) a
+| a 70.0 Greg Bugbee 4142443 -72 45292 922010 200 Silt sunny South 3 0 0 0 2 0) 0 0 0 a
+| 10 80.0 Greg Bugbee 4142449 -7245300 "22010 200 Silt sunny = Seuth 2 0 0 0 2 0 0 0 0 a
+2 i} 01 Greg Bugbee 41.42763 -73.44931 9/2/2010 0.10 Gravel sunny South Thick MyrSpi float in 0 0 0 0 0 0 0 0 0 0
+2 2 5.0 Greg Bugbee 41.42760 -73.44935 9/2/2010 1.60 Gravel sunny South 3 0 0 0 3 0 0 0 0 0
+2 3 10.0 Greg Bugbee 41.42757 -73.44941 9/2/2010 2.10 Silt sunny South 3 0 0 0 2 0 0 0 0 0
+2 4 20.0 Greg Bugbee 41.42748 -73.44947 9/2/2010 3.10 Silt sunny South 4 0 0 0 2 0 0 0 0 0
+2 5 30.0 Greg Bugbee 41.42743  -73.44959 9/2/2010 3.00 Silt sunny South 0 0 0 0 3 0 0 0 0 0
+2 6 40.0 Greg Bugbee 4142741 -73.44971 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 7 50.0 Greg Bugbee 41.42737 -73.44978 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 8 60.0 Greg Bugbee 41.42730 -73.44988 9/2/2010 3.00 Sand sunny South 0 0 0 0 3 0 0 0 0 0
+2 9 70.0 Greg Bugbee 41.42721 -73.44995 9/2/2010 3.00 Sand sunny South 0 0 0 0 4 0 0 0 0 0
+2 10 80.0 Greg Bugbee 41.42722 -73.45009 9/2/2010 3.00 Silt sunny South 0 0 0 0 4 0 0 0 0 0
+3 | O11 (sreq Bugbee 4147020 -73 435282 822010 0 10 ‘sravel sunny South 0 2 i@ 0 | is) 0 i) 2 a
+3 2 40 (req Bugqhbes 4147024 -7243522 922010 080 Sand sunny — South 0 0 i@ 0 2 2 0 0 4 a
+3 3 10.0 req Bugbes 4147023  -72 42518 422010 200 Sand sunny South 0 0) 0 0 4 B) 0 0 0 0)
+a 4 20.0 Greq Buqhes 4147025 -7243504 922010 500 Sand sunny = South 0 0 0 0) 0 3) 0 0 DB} ()
+3 a 30 0 req Buqhes 4147028 -724349% 422010 400 Sand sunny = South 0 0 0 i) 0 3) 0 0 0 ie)
+3 f 40.0 Greq Bugqhbes 4147029 -72 43481 %2 2010 & 50 Silt sunny = South 0 0) 0 i) i) i) 0 0 0 0)
+a 7 50.0 Greq Buqhee 4147041 -7243470 22010 % AO Silt sunny = South 0 a) 0 0 0 B} 0 0 0 i
+a Fe B00 Greq Bughee 4147040 -72.49487 G2 2010 a0 Silt sunny = South 0 0 0 0 0 9 0 0 B) a
+3 a TO0 Greq Bugqhbee 4147051 -7243450 S23 27010 10.09 Silt sunny — South 0 a} 0 0 0 i) 0 0 0 a
+3 10 80.0 Greq Bughee 4147047) -72.4343% [232010 1009 Silt sunny = South 0 0 0 0 0 is) 0 0 0 0
+4 1 01 Greg Bugbee 4157121 -73 48837 9/2/2010 010 Muck sunny South 1 0 0 0 1 0 0 0 0 0
+4 2 50 Greg Bugbee 4157116 -73.48837 9/2/2010 050 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 3 10.0 Greg Bugbee 41.57111 -73.48837 9/2/2010 080 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 4 20.0 Greg Bugbee 41.57104 -73.48841 9/2/2010 100 Muck sunny West 0 0 0 0 2 0 2 0 0 0
+4 5 30.0 Greg Bugbee 41.57099 -73.48845 9/2/2010 1.20 Muck sunny West 0 0 0 0 5 0 0 0 0 0
+4 6 40.0 Greg Bugbee 41.57086 -73.48854 9/2/2010 1.90 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 7 50.0 Greg Bugbee 41.57079 -73.48861 9/2/2010 2.20 Silt sunny West 0 0 0 0 4 0 0 0 0 0
+4 8 60.0 Greg Bugbee 41.57072 -73.48867 9/2/2010 3.00 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 9 70.0 Greg Bugbee 41.57064 -73.48871 9/2/2010 3.00 Silt sunny West 0 0 0 0 2 0 0 0 0 0
+4 10 80.0 Greg Bugbee 41.57054 -73.48870 9/2/2010 3.20 Silt sunny West 0 0 0 0 0 0 0 0 0 0
+a | 0.1 Greg Bugbee 41.5021 -7245150 &22010 0 10 Sand sunny South 0 0 0 0) 8) i) 0 i) 0 0
+S 2 50 Greg Bugbee 4150221 -7245158 922010 080 Sand sunny = South ie) 0 0 0) 2 i) 0 i) | 0
+& 3 10.0 (Gsreg Bugbee 4150222 -7245152 422010 100 Sand sunny = South 0 U 0 0) 2 0 i) U | Q
+& 4 20.0 (sreg Buagbee 4150221 -72 45172 822010 1280 Sand sunny South 0 U 0 e) 4 0 0 U 0) a
+a i 30.0 Gareg Bugbee 4150213 -7245154 422010 210 sand sunny south 0 U Q ) i 0 0 U 0 ie)
+a th 40.0 (sreq Buabee 4150215 -72 45198 422010 240 sand sunny — South 0 U i@ 0 4 3) 0 U i} a
+4 7 50.0 Greg Bugbee 4150224 -72 468212 422010 3:10 Sand sunny — South | 0 0 0 4 iB) 0 0 0 Q
+6 By 6O.O Gsreg Bugbee 4150221 -72 48220 422010 400 sand sunny South G a) 0 Bp) i) i) 0 0 0 Q
+6 a 70.0 (Greq Buabes 4150213 -72 46234 422010 600 silt sunny — Seuth 0 i} i@ i) 0 9) 0 U 0 Qa
+6 10 400 req Buabes 4150211 -72 46244 4822010 6 20 silt sunny South G i} 0 0 i) i) 0 0 9 a
+6 1 0.0 Greg Bugbee 4151386 -73.45337 9/2/2010 020 Muck sunny South 0 0 0 2 3 2 0 2 0 0
+6 2 5.0 Greg Bugbee 4151391 -73.45340 9/2/2010 040 Muck sunny South 0 0 0 0 3 2 0 0 0 0
+6 3 10.0 Greg Bugbee 41.51396 -73.45342 9/2/2010 080 Muck sunny South 0 0 0 0 2 1 0 0 0 0
+6 4 20.0 Greg Bugbee 41.51403  -73.45343 9/2/2010 130 Muck sunny South 0 0 0 0 3 0 0 0 0 0
+6 5 30.0 Greg Bugbee 41.51411 -73 45344 9/2/2010 180 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 6 40.0 Greg Bugbee 4151421 -7345345 9/2/2010 190 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 7 50.0 Greg Bugbee 4151429 -73 45342 9/2/2010 210 Muck sunny South 0 0 0 0 4 0 0 0 0 0
+6 8 60.0 Greg Bugbee 4151441 -73.45347 9/2/2010 320 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 9 70.0 Greg Bugbee 4151449 -73 45346 9/2/2010 420 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Greg Bugbee 4151460 -73.45341 9/2/2010 500 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+7 | 00 Greq Bugbee 4157148 7244276 4922010 020 Sand sunny NV 0 0 0 0 i) i) 0 0 0 a
+7 2 5.0 Greg Bugbee 4IS71S2 7244255 422010 100 Gravel sunny NV 0 0 ie) 0 a (0) 0 0 0 a
+7 3 100 Greg Bugbee 47151 7244291 22010 150 Gravel sunny NV 0 0 0 0 3 0 0 0 0 a
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Weather Wind Notes CerDem ElaSp_ EleSp_ LemMin MyrSpi NajMin NymOdo SpiPol StuPec ValAme
+1 i 92 Greg Bughbee 4140985 7345252 > 2010 0 10 Sand sunny — South Thick float in 0 9 0 0 0 9 0 9 i) is)
+1 2 50 Greq Bugbee 4142390 73245954 92> 2010 040 Sand sunny — South All probably float in | 0 a 0 4 2 0 0 0 ie)
+| 3 100 Greg Bugbee 4142394 734525 % D2 2010 100 Silt sunny South Floatin 3 0 id) 0 3 0 0 0 0 ie)
+1 4 200 Greg Bugbee 4142403 73 452H0 | 22010 120 Sand sunny — South 2 0 0 0 2 9 0 0 9 ie]
+1 i 3200 Greg Bugbee 4b 42410 7345208 22010 150 Sand sunny South 3 0 a 0 3 9 0 0 9 0
+| " 400 Greg Bugbee 4142418 73452732 %2 2010 1280 Sand sunny South 3 0 ia) 0 3 is) 0 0 0 0
+1 7 £00 (Greg Bugbee 4142427 0 7245277 G2 2010 1280 Sand sunny — South 4 0 0 0 3 9 0 0 9 0
+| 2 ©00 Greg Bugbee 4142433 7345251 422010 140 Sand sunny South 3 0 id 0 2 0 0 0 0 ie)
+1 a 700 Greg Bugbee 4142443 73 452U2 422010 200 Silt sunny South 3 0 0 0 2 9 0 0 i) ie}
+1 1G 40 0 Greg Bugbee 41424400 7445300 %2 2010 200 Silt sunny — South 2 0 0 0 2 9 0 0 0 0
+2 1 01 Greg Bugbee 41.42763 -73.44931 9/2/2010 0.10 Gravel sunny South Thick MyrSpi float in 0 0 0 0 0 0 0 0 0 0
+2 2 5.0 Greg Bugbee 41.42760 -73.44935 9/2/2010 1.60 Gravel sunny South 3 0 0 0 3 0 0 0 0 0
+2 3 10.0 Greg Bugbee 41.42757 -73.44941 9/2/2010 2.10 Silt sunny South 3 0 0 0 2 0 0 0 0 0
+2 4 20.0 Greg Bugbee 41.42748 -73.44947 9/2/2010 3.10 Silt sunny South 4 0 0 0 2 0 0 0 0 0
+2 5 30.0 Greg Bugbee 41.42743 -73.44959 9/2/2010 3.0 Silt sunny South 0 0 0 0 3 0 0 0 0 0
+2 6 40.0 Greg Bugbee 4142741 -73.44971 9/2/2010 130 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 7 50.0 Greg Bugbee 41.42737 -73.44978 9/2/2010 130 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 8 60.0 Greg Bugbee 4142730 -73.44988 9/2/2010 300 Sand sunny South 0 0 0 0 3 0 0 0 0 0
+2 9 70.0 Greg Bugbee 4142721 -73.44995 9/2/2010 3.00 Sand sunny South 0 0 0 0 4 0 0 0 0 0
+2 10 80.0 Greg Bugbee 4142722 -73.45009 9/2/2010 300 Salt sunny South 0 0 0 0 4 0 0 0 0 0
+4 1 Ol (req Bugbee 4147020 -74 44522 4 22010 UID ‘sravel sunny South 0 2 id 0 | 0 0 U 2 0
+8 2 AO req Bugbes 4147024 7343524 4 22010 040 sand sunny South a 0 id 0 2 2 0 0 4 0
+4 4 100 req Bugbee 4147025  .744351R 4 22010 200 sand sunny — South a 0 0 0 4 DB) 0 8] Dy) 0
+4 4 200 Greq Bughee 4147028 7443504 | 2 2010 00 sand sunny South 0 0 id B 9 DB) 0 0 0 a
+8 ‘ 20.0 Greq Buqbee 41 4702RK  -73.4344% 92 2010 9 00 Sand sunny South i 0 id 0 0 DB) 0 0 ip) a
+3 is 400 Greg Bughee 4147029 67343481 2 2010 4 FD Silt sunny South 0 0 a B) i) 9 0 is) 9 a
+& 7 £00 Greq Bughee 4147041 7343470 2 2010 | 80 Silt sunny South 0 0 0 Dy) 0 Di 0 0 0 ie)
+3 a e000 Greq Buqhee 4147040 7% 43467 > 2010 AD Silt sunny South 0 0 a 0 0 9 0 0 0 is)
+a "1 700 Greg Bugbee 4147081 7343450 %2 2010 1000 Silt sunny South 0 0 a 9 0 9 0 0 0 a
+a 10 R00 Greq Bugbee 4147047 7243432 9D 2010 1000 Silt sunny — South 0 0 a i} 9 9 0 9 i) 0
+4 1 01 Greg Bugbee 4157121 -73 48837 9/2/2010 010 Muck sunny South 1 0 0 0 1 0 0 0 0 0
+4 2 5.0 Greg Bugbee 4157116 -73 48837 9/2/2010 050 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 3 10.0 Greg Bugbee 4157111 -73 48837 9/2/2010 080 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 4 20.0 Greg Bugbee 4157104 -73.48841 9/2/2010 100 Muck sunny West 0 0 0 0 2 0 2 0 0 0
+4 5 30.0 Greg Bugbee 4157099 -73.48845 9/2/2010 120 Muck sunny West 0 0 0 0 5 0 0 0 0 0
+4 6 400 Greg Bugbee 4157086 -73.48854 9/2/2010 190 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 7 50.0 Greg Bugbee 4157079 -73.48861 9/2/2010 220 Silt sunny West 0 0 0 0 4 0 0 0 0 0
+4 8 60.0 Greg Bugbee 4157072 -73.48867 9/2/2010 300 Silt sunny West 0 0 0 0 3 0 0 0 i) 0
+4 9 70.0 Greg Bugbee 41.57064 -73.48871 9/2/2010 3.00 Silt sunny West 0 0 0 0 2 0 0 0 0 0
+4 10 80.0 Greg Bugbee 41.57054 -73.48870 9/2/2010 3.20 Silt sunny West 0 0 0 0 0 0 0 0 0 0
+& | Ol (steg Bugbee 41 S021e  -74 45150 422010 0 10 Sand sunny South 0 U 0 0 0 0 0 U 0 0
+6 2 50 (steg Bugbee 4150221 7345152 422010 U0 Sand sunny — Seuth 0 0 0 0 2 0 i) 0 | ie)
+a 3 100 (oteg Bugbee 41 50222-7445 te2 422010 100 Sand sunny South 0 0 0 0 2 0 0 (6) I ie)
+{ 4 200 (steg Buubee 41 502210 7445172 42 20ld 1 a0 sand sunny — Seuth 0 (e) id 0 4 0 0 (0) i) 0
+6 ‘ 300 (sreg Bugbee 4150213 -78 45154 Y 22010 210 sand sunny South i 0 0 0 a Db) 0 0 0 a
+f " 400 (ateg Bugbee 4150216 74 451ue 4 22010 20 sand sunny South Q (8) id 0 4 ) 0 (8) i) ie)
+i 7 S00 (sreg Buabee 41 BO0224 73 45212 422010 310 sand sunny South i} 0 id 0 4 ie) 0 0 0 ie)
+{ ba HO 0 (reg Bugbee 41 FO221  -74 45220 4% 22010 400 sand sunny South 0 0 id 0 0 0 0 0 0 ie)
+i u 700 (req Bugbee 4150213  -74 4824 4 22010 £00 Silt sunny South 0 U id 0 0 0 0 U 0 0
+ba 10 #00 Greg Buagbee 41 FORT1 -73 45044 4 2 2010 & 20 silt sunny South ij 0 id 0 is} 0 0 0 0 Qa
+6 1 0.0 Greg Bugbee 4151386 -7345337 9/2/2010 020 Muck sunny South 0 0 0 2 3 2 0 2 0 0
+6 2 5.0 Greg Bugbee 4151391 -7345340 9/2/2010 040 Muck sunny South 0 0 0 0 3 2 0 0 0 0
+6 3 10.0 Greg Bugbee 4151396 -73 45342 9/2/2010 080 Muck sunny South 0 0 0 0 2 1 0 0 0 0
+6 4 20.0 Greg Bugbee 4151403 -73 45343 9/2/2010 130 Muck sunny South 0 0 0 0 3 0 0 0 0 0
+6 5 30.0 Greg Bugbee 4151411 -73 45344 9/2/2010 180 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 6 400 Greg Bugbee 4151421 -7345345 9/2/2010 190 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 7 50.0 Greg Bugbee 4151429 -73 45342 9/2/2010 210 Muck sunny South 0 0 0 0 4 0 0 0 0 0
+6 8 60.0 Greg Bugbee 4151441 -7345347 9/2/2010 320 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 9 70.0 Greg Bugbee 4151449 -7345346 9/2/2010 420 Sut sunny South 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Greg Bugbee 4151460 -73 45341 9/2/2010 500 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+7 | 00 Greg Bugbee 4157148 7244276 49> 2010 020 Sand sunny NW 0 0 a 0 0 9 0 0 i) 0
+7 2 50 Greg Bugbee 4157152 7344255 "> 2010 100 Sravel sunny NW ig} 0 0 0 3 is) 0 0 0 0
+7 3 100 Greg Bugbee 4157151 7T3442N1 | O20I0 150 Gravel sunny NW 0 0 0 0 3 0 0 0 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Weather Wind Notes CerDem ElaSp_ EleSp_ LemMin MyrSpi NajMin NymOdo SpiPol StuPec ValAme
+1 i 92 Greg Bughbee 4140985 7345252 > 2010 0 10 Sand sunny — South Thick float in 0 9 0 0 0 9 0 9 i) is)
+1 2 50 Greq Bugbee 4142390 73245954 92> 2010 040 Sand sunny — South All probably float in | 0 a 0 4 2 0 0 0 ie)
+| 3 100 Greg Bugbee 4142394 734525 % D2 2010 100 Silt sunny South Floatin 3 0 id) 0 3 0 0 0 0 ie)
+1 4 200 Greg Bugbee 4142403 73 452H0 | 22010 120 Sand sunny — South 2 0 0 0 2 9 0 0 9 ie]
+1 i 3200 Greg Bugbee 4b 42410 7345208 22010 150 Sand sunny South 3 0 a 0 3 9 0 0 9 0
+| " 400 Greg Bugbee 4142418 73452732 %2 2010 1280 Sand sunny South 3 0 ia) 0 3 is) 0 0 0 0
+1 7 £00 (Greg Bugbee 4142427 0 7245277 G2 2010 1280 Sand sunny — South 4 0 0 0 3 9 0 0 9 0
+| 2 ©00 Greg Bugbee 4142433 7345251 422010 140 Sand sunny South 3 0 id 0 2 0 0 0 0 ie)
+1 a 700 Greg Bugbee 4142443 73 452U2 422010 200 Silt sunny South 3 0 0 0 2 9 0 0 i) ie}
+1 1G 40 0 Greg Bugbee 41424400 7445300 %2 2010 200 Silt sunny — South 2 0 0 0 2 9 0 0 0 0
+2 1 01 Greg Bugbee 41.42763 -73.44931 9/2/2010 0.10 Gravel sunny South Thick MyrSpi float in 0 0 0 0 0 0 0 0 0 0
+2 2 5.0 Greg Bugbee 41.42760 -73.44935 9/2/2010 1.60 Gravel sunny South 3 0 0 0 3 0 0 0 0 0
+2 3 10.0 Greg Bugbee 41.42757 -73.44941 9/2/2010 2.10 Silt sunny South 3 0 0 0 2 0 0 0 0 0
+2 4 20.0 Greg Bugbee 41.42748 -73.44947 9/2/2010 3.10 Silt sunny South 4 0 0 0 2 0 0 0 0 0
+2 5 30.0 Greg Bugbee 41.42743 -73.44959 9/2/2010 3.0 Silt sunny South 0 0 0 0 3 0 0 0 0 0
+2 6 40.0 Greg Bugbee 4142741 -73.44971 9/2/2010 130 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 7 50.0 Greg Bugbee 41.42737 -73.44978 9/2/2010 130 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 8 60.0 Greg Bugbee 4142730 -73.44988 9/2/2010 300 Sand sunny South 0 0 0 0 3 0 0 0 0 0
+2 9 70.0 Greg Bugbee 4142721 -73.44995 9/2/2010 3.00 Sand sunny South 0 0 0 0 4 0 0 0 0 0
+2 10 80.0 Greg Bugbee 4142722 -73.45009 9/2/2010 300 Salt sunny South 0 0 0 0 4 0 0 0 0 0
+4 1 Ol (req Bugbee 4147020 -74 44522 4 22010 UID ‘sravel sunny South 0 2 id 0 | 0 0 U 2 0
+8 2 AO req Bugbes 4147024 7343524 4 22010 040 sand sunny South a 0 id 0 2 2 0 0 4 0
+4 4 100 req Bugbee 4147025  .744351R 4 22010 200 sand sunny — South a 0 0 0 4 DB) 0 8] Dy) 0
+4 4 200 Greq Bughee 4147028 7443504 | 2 2010 00 sand sunny South 0 0 id B 9 DB) 0 0 0 a
+8 ‘ 20.0 Greq Buqbee 41 4702RK  -73.4344% 92 2010 9 00 Sand sunny South i 0 id 0 0 DB) 0 0 ip) a
+3 is 400 Greg Bughee 4147029 67343481 2 2010 4 FD Silt sunny South 0 0 a B) i) 9 0 is) 9 a
+& 7 £00 Greq Bughee 4147041 7343470 2 2010 | 80 Silt sunny South 0 0 0 Dy) 0 Di 0 0 0 ie)
+3 a e000 Greq Buqhee 4147040 7% 43467 > 2010 AD Silt sunny South 0 0 a 0 0 9 0 0 0 is)
+a "1 700 Greg Bugbee 4147081 7343450 %2 2010 1000 Silt sunny South 0 0 a 9 0 9 0 0 0 a
+a 10 R00 Greq Bugbee 4147047 7243432 9D 2010 1000 Silt sunny — South 0 0 a i} 9 9 0 9 i) 0
+4 1 01 Greg Bugbee 4157121 -73 48837 9/2/2010 010 Muck sunny South 1 0 0 0 1 0 0 0 0 0
+4 2 5.0 Greg Bugbee 4157116 -73 48837 9/2/2010 050 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 3 10.0 Greg Bugbee 4157111 -73 48837 9/2/2010 080 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 4 20.0 Greg Bugbee 4157104 -73.48841 9/2/2010 100 Muck sunny West 0 0 0 0 2 0 2 0 0 0
+4 5 30.0 Greg Bugbee 4157099 -73.48845 9/2/2010 120 Muck sunny West 0 0 0 0 5 0 0 0 0 0
+4 6 400 Greg Bugbee 4157086 -73.48854 9/2/2010 190 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 7 50.0 Greg Bugbee 4157079 -73.48861 9/2/2010 220 Silt sunny West 0 0 0 0 4 0 0 0 0 0
+4 8 60.0 Greg Bugbee 4157072 -73.48867 9/2/2010 300 Silt sunny West 0 0 0 0 3 0 0 0 i) 0
+4 9 70.0 Greg Bugbee 41.57064 -73.48871 9/2/2010 3.00 Silt sunny West 0 0 0 0 2 0 0 0 0 0
+4 10 80.0 Greg Bugbee 41.57054 -73.48870 9/2/2010 3.20 Silt sunny West 0 0 0 0 0 0 0 0 0 0
+& | Ol (steg Bugbee 41 S021e  -74 45150 422010 0 10 Sand sunny South 0 U 0 0 0 0 0 U 0 0
+6 2 50 (steg Bugbee 4150221 7345152 422010 U0 Sand sunny — Seuth 0 0 0 0 2 0 i) 0 | ie)
+a 3 100 (oteg Bugbee 41 50222-7445 te2 422010 100 Sand sunny South 0 0 0 0 2 0 0 (6) I ie)
+{ 4 200 (steg Buubee 41 502210 7445172 42 20ld 1 a0 sand sunny — Seuth 0 (e) id 0 4 0 0 (0) i) 0
+6 ‘ 300 (sreg Bugbee 4150213 -78 45154 Y 22010 210 sand sunny South i 0 0 0 a Db) 0 0 0 a
+f " 400 (ateg Bugbee 4150216 74 451ue 4 22010 20 sand sunny South Q (8) id 0 4 ) 0 (8) i) ie)
+i 7 S00 (sreg Buabee 41 BO0224 73 45212 422010 310 sand sunny South i} 0 id 0 4 ie) 0 0 0 ie)
+{ ba HO 0 (reg Bugbee 41 FO221  -74 45220 4% 22010 400 sand sunny South 0 0 id 0 0 0 0 0 0 ie)
+i u 700 (req Bugbee 4150213  -74 4824 4 22010 £00 Silt sunny South 0 U id 0 0 0 0 U 0 0
+ba 10 #00 Greg Buagbee 41 FORT1 -73 45044 4 2 2010 & 20 silt sunny South ij 0 id 0 is} 0 0 0 0 Qa
+6 1 0.0 Greg Bugbee 4151386 -7345337 9/2/2010 020 Muck sunny South 0 0 0 2 3 2 0 2 0 0
+6 2 5.0 Greg Bugbee 4151391 -7345340 9/2/2010 040 Muck sunny South 0 0 0 0 3 2 0 0 0 0
+6 3 10.0 Greg Bugbee 4151396 -73 45342 9/2/2010 080 Muck sunny South 0 0 0 0 2 1 0 0 0 0
+6 4 20.0 Greg Bugbee 4151403 -73 45343 9/2/2010 130 Muck sunny South 0 0 0 0 3 0 0 0 0 0
+6 5 30.0 Greg Bugbee 4151411 -73 45344 9/2/2010 180 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 6 400 Greg Bugbee 4151421 -7345345 9/2/2010 190 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 7 50.0 Greg Bugbee 4151429 -73 45342 9/2/2010 210 Muck sunny South 0 0 0 0 4 0 0 0 0 0
+6 8 60.0 Greg Bugbee 4151441 -7345347 9/2/2010 320 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 9 70.0 Greg Bugbee 4151449 -7345346 9/2/2010 420 Sut sunny South 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Greg Bugbee 4151460 -73 45341 9/2/2010 500 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+7 | 00 Greg Bugbee 4157148 7244276 49> 2010 020 Sand sunny NW 0 0 a 0 0 9 0 0 i) 0
+7 2 50 Greg Bugbee 4157152 7344255 "> 2010 100 Sravel sunny NW ig} 0 0 0 3 is) 0 0 0 0
+7 3 100 Greg Bugbee 4157151 7T3442N1 | O20I0 150 Gravel sunny NW 0 0 0 0 3 0 0 0 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Weather Wind Notes CerDem ElaSp_ EleSp_ LemMin MyrSpi NajMin NymOdo SpiPol StuPec ValAme
+| i} 02 Greq Buqhee 4142385 -72 45252 %2 2010 0 10 Sand sunny = Seuth Thick float in 0 0 @ 0 0 9) 0 0 i) ie)
+| 2 50 Greq Buqhee 4142390 -72 45254 %2 2010 040 Sand sunny = South All probably float in | 0 @ 0 4 2 ie) 0 i) a
+| a 100 Greq Bughbee 4142394 7245250 422010 100 Silt sunny South =loatin a 0 0 0 3 0 0 0 0 Qa
+| 4 200 Greg Bughbee 414APAD3 7245260 422010 120 Sand sunny = South 2 0 0 0 2 0 0 0 i) a
+| iz 30.0 Greg Bugbee 4A14APAID 7a 45268 42 2010 150 Sand sunny — Seuth 3 i} 0 0 a (9) 0 0 i) a
+| nh 400 Greg Bugbee 4142418 7245273 922010 1280 Sand sunny South 3 0 0 0 a ) 0 0 0 a
+| 7 500 Greg Bugbee 4142427 -72 45277 %2 2010 1280 Sand sunny South 4 0 0 0 3 3) 0 0 B) Qa
+| fad 50.0 Greg Bugbee 4142433  -72 45251 922010 190 Sand sunny = South 3 0) 0 0 2 i) 0 0 i) a
+| a 70.0 Greg Bugbee 4142443 -72 45292 922010 200 Silt sunny South 3 0 0 0 2 0) 0 0 0 a
+| 10 80.0 Greg Bugbee 4142449 -7245300 "22010 200 Silt sunny = Seuth 2 0 0 0 2 0 0 0 0 a
+2 i} 01 Greg Bugbee 41.42763 -73.44931 9/2/2010 0.10 Gravel sunny South Thick MyrSpi float in 0 0 0 0 0 0 0 0 0 0
+2 2 5.0 Greg Bugbee 41.42760 -73.44935 9/2/2010 1.60 Gravel sunny South 3 0 0 0 3 0 0 0 0 0
+2 3 10.0 Greg Bugbee 41.42757 -73.44941 9/2/2010 2.10 Silt sunny South 3 0 0 0 2 0 0 0 0 0
+2 4 20.0 Greg Bugbee 41.42748 -73.44947 9/2/2010 3.10 Silt sunny South 4 0 0 0 2 0 0 0 0 0
+2 5 30.0 Greg Bugbee 41.42743  -73.44959 9/2/2010 3.00 Silt sunny South 0 0 0 0 3 0 0 0 0 0
+2 6 40.0 Greg Bugbee 4142741 -73.44971 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 7 50.0 Greg Bugbee 41.42737 -73.44978 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 8 60.0 Greg Bugbee 41.42730 -73.44988 9/2/2010 3.00 Sand sunny South 0 0 0 0 3 0 0 0 0 0
+2 9 70.0 Greg Bugbee 41.42721 -73.44995 9/2/2010 3.00 Sand sunny South 0 0 0 0 4 0 0 0 0 0
+2 10 80.0 Greg Bugbee 41.42722 -73.45009 9/2/2010 3.00 Silt sunny South 0 0 0 0 4 0 0 0 0 0
+3 | O11 (sreq Bugbee 4147020 -73 435282 822010 0 10 ‘sravel sunny South 0 2 i@ 0 | is) 0 i) 2 a
+3 2 40 (req Bugqhbes 4147024 -7243522 922010 080 Sand sunny — South 0 0 i@ 0 2 2 0 0 4 a
+3 3 10.0 req Bugbes 4147023  -72 42518 422010 200 Sand sunny South 0 0) 0 0 4 B) 0 0 0 0)
+a 4 20.0 Greq Buqhes 4147025 -7243504 922010 500 Sand sunny = South 0 0 0 0) 0 3) 0 0 DB} ()
+3 a 30 0 req Buqhes 4147028 -724349% 422010 400 Sand sunny = South 0 0 0 i) 0 3) 0 0 0 ie)
+3 f 40.0 Greq Bugqhbes 4147029 -72 43481 %2 2010 & 50 Silt sunny = South 0 0) 0 i) i) i) 0 0 0 0)
+a 7 50.0 Greq Buqhee 4147041 -7243470 22010 % AO Silt sunny = South 0 a) 0 0 0 B} 0 0 0 i
+a Fe B00 Greq Bughee 4147040 -72.49487 G2 2010 a0 Silt sunny = South 0 0 0 0 0 9 0 0 B) a
+3 a TO0 Greq Bugqhbee 4147051 -7243450 S23 27010 10.09 Silt sunny — South 0 a} 0 0 0 i) 0 0 0 a
+3 10 80.0 Greq Bughee 4147047) -72.4343% [232010 1009 Silt sunny = South 0 0 0 0 0 is) 0 0 0 0
+4 1 01 Greg Bugbee 4157121 -73 48837 9/2/2010 010 Muck sunny South 1 0 0 0 1 0 0 0 0 0
+4 2 50 Greg Bugbee 4157116 -73.48837 9/2/2010 050 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 3 10.0 Greg Bugbee 41.57111 -73.48837 9/2/2010 080 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 4 20.0 Greg Bugbee 41.57104 -73.48841 9/2/2010 100 Muck sunny West 0 0 0 0 2 0 2 0 0 0
+4 5 30.0 Greg Bugbee 41.57099 -73.48845 9/2/2010 1.20 Muck sunny West 0 0 0 0 5 0 0 0 0 0
+4 6 40.0 Greg Bugbee 41.57086 -73.48854 9/2/2010 1.90 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 7 50.0 Greg Bugbee 41.57079 -73.48861 9/2/2010 2.20 Silt sunny West 0 0 0 0 4 0 0 0 0 0
+4 8 60.0 Greg Bugbee 41.57072 -73.48867 9/2/2010 3.00 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 9 70.0 Greg Bugbee 41.57064 -73.48871 9/2/2010 3.00 Silt sunny West 0 0 0 0 2 0 0 0 0 0
+4 10 80.0 Greg Bugbee 41.57054 -73.48870 9/2/2010 3.20 Silt sunny West 0 0 0 0 0 0 0 0 0 0
+a | 0.1 Greg Bugbee 41.5021 -7245150 &22010 0 10 Sand sunny South 0 0 0 0) 8) i) 0 i) 0 0
+S 2 50 Greg Bugbee 4150221 -7245158 922010 080 Sand sunny = South ie) 0 0 0) 2 i) 0 i) | 0
+& 3 10.0 (Gsreg Bugbee 4150222 -7245152 422010 100 Sand sunny = South 0 U 0 0) 2 0 i) U | Q
+& 4 20.0 (sreg Buagbee 4150221 -72 45172 822010 1280 Sand sunny South 0 U 0 e) 4 0 0 U 0) a
+a i 30.0 Gareg Bugbee 4150213 -7245154 422010 210 sand sunny south 0 U Q ) i 0 0 U 0 ie)
+a th 40.0 (sreq Buabee 4150215 -72 45198 422010 240 sand sunny — South 0 U i@ 0 4 3) 0 U i} a
+4 7 50.0 Greg Bugbee 4150224 -72 468212 422010 3:10 Sand sunny — South | 0 0 0 4 iB) 0 0 0 Q
+6 By 6O.O Gsreg Bugbee 4150221 -72 48220 422010 400 sand sunny South G a) 0 Bp) i) i) 0 0 0 Q
+6 a 70.0 (Greq Buabes 4150213 -72 46234 422010 600 silt sunny — Seuth 0 i} i@ i) 0 9) 0 U 0 Qa
+6 10 400 req Buabes 4150211 -72 46244 4822010 6 20 silt sunny South G i} 0 0 i) i) 0 0 9 a
+6 1 0.0 Greg Bugbee 4151386 -73.45337 9/2/2010 020 Muck sunny South 0 0 0 2 3 2 0 2 0 0
+6 2 5.0 Greg Bugbee 4151391 -73.45340 9/2/2010 040 Muck sunny South 0 0 0 0 3 2 0 0 0 0
+6 3 10.0 Greg Bugbee 41.51396 -73.45342 9/2/2010 080 Muck sunny South 0 0 0 0 2 1 0 0 0 0
+6 4 20.0 Greg Bugbee 41.51403  -73.45343 9/2/2010 130 Muck sunny South 0 0 0 0 3 0 0 0 0 0
+6 5 30.0 Greg Bugbee 41.51411 -73 45344 9/2/2010 180 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 6 40.0 Greg Bugbee 4151421 -7345345 9/2/2010 190 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 7 50.0 Greg Bugbee 4151429 -73 45342 9/2/2010 210 Muck sunny South 0 0 0 0 4 0 0 0 0 0
+6 8 60.0 Greg Bugbee 4151441 -73.45347 9/2/2010 320 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 9 70.0 Greg Bugbee 4151449 -73 45346 9/2/2010 420 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Greg Bugbee 4151460 -73.45341 9/2/2010 500 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+7 | 00 Greq Bugbee 4157148 7244276 4922010 020 Sand sunny NV 0 0 0 0 i) i) 0 0 0 a
+7 2 5.0 Greg Bugbee 4IS71S2 7244255 422010 100 Gravel sunny NV 0 0 ie) 0 a (0) 0 0 0 a
+7 3 100 Greg Bugbee 47151 7244291 22010 150 Gravel sunny NV 0 0 0 0 3 0 0 0 0 a
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Weather Wind Notes CerDem ElaSp_ EleSp_ LemMin MyrSpi NajMin NymOdo SpiPol StuPec ValAme
+| i} 02 Greq Buqhee 4142385 -72 45252 %2 2010 0 10 Sand sunny = Seuth Thick float in 0 0 @ 0 0 9) 0 0 i) ie)
+| 2 50 Greq Buqhee 4142390 -72 45254 %2 2010 040 Sand sunny = South All probably float in | 0 @ 0 4 2 ie) 0 i) a
+| a 100 Greq Bughbee 4142394 7245250 422010 100 Silt sunny South =loatin a 0 0 0 3 0 0 0 0 Qa
+| 4 200 Greg Bughbee 414APAD3 7245260 422010 120 Sand sunny = South 2 0 0 0 2 0 0 0 i) a
+| iz 30.0 Greg Bugbee 4A14APAID 7a 45268 42 2010 150 Sand sunny — Seuth 3 i} 0 0 a (9) 0 0 i) a
+| nh 400 Greg Bugbee 4142418 7245273 922010 1280 Sand sunny South 3 0 0 0 a ) 0 0 0 a
+| 7 500 Greg Bugbee 4142427 -72 45277 %2 2010 1280 Sand sunny South 4 0 0 0 3 3) 0 0 B) Qa
+| fad 50.0 Greg Bugbee 4142433  -72 45251 922010 190 Sand sunny = South 3 0) 0 0 2 i) 0 0 i) a
+| a 70.0 Greg Bugbee 4142443 -72 45292 922010 200 Silt sunny South 3 0 0 0 2 0) 0 0 0 a
+| 10 80.0 Greg Bugbee 4142449 -7245300 "22010 200 Silt sunny = Seuth 2 0 0 0 2 0 0 0 0 a
+2 i} 01 Greg Bugbee 41.42763 -73.44931 9/2/2010 0.10 Gravel sunny South Thick MyrSpi float in 0 0 0 0 0 0 0 0 0 0
+2 2 5.0 Greg Bugbee 41.42760 -73.44935 9/2/2010 1.60 Gravel sunny South 3 0 0 0 3 0 0 0 0 0
+2 3 10.0 Greg Bugbee 41.42757 -73.44941 9/2/2010 2.10 Silt sunny South 3 0 0 0 2 0 0 0 0 0
+2 4 20.0 Greg Bugbee 41.42748 -73.44947 9/2/2010 3.10 Silt sunny South 4 0 0 0 2 0 0 0 0 0
+2 5 30.0 Greg Bugbee 41.42743  -73.44959 9/2/2010 3.00 Silt sunny South 0 0 0 0 3 0 0 0 0 0
+2 6 40.0 Greg Bugbee 4142741 -73.44971 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 7 50.0 Greg Bugbee 41.42737 -73.44978 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 8 60.0 Greg Bugbee 41.42730 -73.44988 9/2/2010 3.00 Sand sunny South 0 0 0 0 3 0 0 0 0 0
+2 9 70.0 Greg Bugbee 41.42721 -73.44995 9/2/2010 3.00 Sand sunny South 0 0 0 0 4 0 0 0 0 0
+2 10 80.0 Greg Bugbee 41.42722 -73.45009 9/2/2010 3.00 Silt sunny South 0 0 0 0 4 0 0 0 0 0
+3 | O11 (sreq Bugbee 4147020 -73 435282 822010 0 10 ‘sravel sunny South 0 2 i@ 0 | is) 0 i) 2 a
+3 2 40 (req Bugqhbes 4147024 -7243522 922010 080 Sand sunny — South 0 0 i@ 0 2 2 0 0 4 a
+3 3 10.0 req Bugbes 4147023  -72 42518 422010 200 Sand sunny South 0 0) 0 0 4 B) 0 0 0 0)
+a 4 20.0 Greq Buqhes 4147025 -7243504 922010 500 Sand sunny = South 0 0 0 0) 0 3) 0 0 DB} ()
+3 a 30 0 req Buqhes 4147028 -724349% 422010 400 Sand sunny = South 0 0 0 i) 0 3) 0 0 0 ie)
+3 f 40.0 Greq Bugqhbes 4147029 -72 43481 %2 2010 & 50 Silt sunny = South 0 0) 0 i) i) i) 0 0 0 0)
+a 7 50.0 Greq Buqhee 4147041 -7243470 22010 % AO Silt sunny = South 0 a) 0 0 0 B} 0 0 0 i
+a Fe B00 Greq Bughee 4147040 -72.49487 G2 2010 a0 Silt sunny = South 0 0 0 0 0 9 0 0 B) a
+3 a TO0 Greq Bugqhbee 4147051 -7243450 S23 27010 10.09 Silt sunny — South 0 a} 0 0 0 i) 0 0 0 a
+3 10 80.0 Greq Bughee 4147047) -72.4343% [232010 1009 Silt sunny = South 0 0 0 0 0 is) 0 0 0 0
+4 1 01 Greg Bugbee 4157121 -73 48837 9/2/2010 010 Muck sunny South 1 0 0 0 1 0 0 0 0 0
+4 2 50 Greg Bugbee 4157116 -73.48837 9/2/2010 050 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 3 10.0 Greg Bugbee 41.57111 -73.48837 9/2/2010 080 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 4 20.0 Greg Bugbee 41.57104 -73.48841 9/2/2010 100 Muck sunny West 0 0 0 0 2 0 2 0 0 0
+4 5 30.0 Greg Bugbee 41.57099 -73.48845 9/2/2010 1.20 Muck sunny West 0 0 0 0 5 0 0 0 0 0
+4 6 40.0 Greg Bugbee 41.57086 -73.48854 9/2/2010 1.90 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 7 50.0 Greg Bugbee 41.57079 -73.48861 9/2/2010 2.20 Silt sunny West 0 0 0 0 4 0 0 0 0 0
+4 8 60.0 Greg Bugbee 41.57072 -73.48867 9/2/2010 3.00 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 9 70.0 Greg Bugbee 41.57064 -73.48871 9/2/2010 3.00 Silt sunny West 0 0 0 0 2 0 0 0 0 0
+4 10 80.0 Greg Bugbee 41.57054 -73.48870 9/2/2010 3.20 Silt sunny West 0 0 0 0 0 0 0 0 0 0
+a | 0.1 Greg Bugbee 41.5021 -7245150 &22010 0 10 Sand sunny South 0 0 0 0) 8) i) 0 i) 0 0
+S 2 50 Greg Bugbee 4150221 -7245158 922010 080 Sand sunny = South ie) 0 0 0) 2 i) 0 i) | 0
+& 3 10.0 (Gsreg Bugbee 4150222 -7245152 422010 100 Sand sunny = South 0 U 0 0) 2 0 i) U | Q
+& 4 20.0 (sreg Buagbee 4150221 -72 45172 822010 1280 Sand sunny South 0 U 0 e) 4 0 0 U 0) a
+a i 30.0 Gareg Bugbee 4150213 -7245154 422010 210 sand sunny south 0 U Q ) i 0 0 U 0 ie)
+a th 40.0 (sreq Buabee 4150215 -72 45198 422010 240 sand sunny — South 0 U i@ 0 4 3) 0 U i} a
+4 7 50.0 Greg Bugbee 4150224 -72 468212 422010 3:10 Sand sunny — South | 0 0 0 4 iB) 0 0 0 Q
+6 By 6O.O Gsreg Bugbee 4150221 -72 48220 422010 400 sand sunny South G a) 0 Bp) i) i) 0 0 0 Q
+6 a 70.0 (Greq Buabes 4150213 -72 46234 422010 600 silt sunny — Seuth 0 i} i@ i) 0 9) 0 U 0 Qa
+6 10 400 req Buabes 4150211 -72 46244 4822010 6 20 silt sunny South G i} 0 0 i) i) 0 0 9 a
+6 1 0.0 Greg Bugbee 4151386 -73.45337 9/2/2010 020 Muck sunny South 0 0 0 2 3 2 0 2 0 0
+6 2 5.0 Greg Bugbee 4151391 -73.45340 9/2/2010 040 Muck sunny South 0 0 0 0 3 2 0 0 0 0
+6 3 10.0 Greg Bugbee 41.51396 -73.45342 9/2/2010 080 Muck sunny South 0 0 0 0 2 1 0 0 0 0
+6 4 20.0 Greg Bugbee 41.51403  -73.45343 9/2/2010 130 Muck sunny South 0 0 0 0 3 0 0 0 0 0
+6 5 30.0 Greg Bugbee 41.51411 -73 45344 9/2/2010 180 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 6 40.0 Greg Bugbee 4151421 -7345345 9/2/2010 190 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 7 50.0 Greg Bugbee 4151429 -73 45342 9/2/2010 210 Muck sunny South 0 0 0 0 4 0 0 0 0 0
+6 8 60.0 Greg Bugbee 4151441 -73.45347 9/2/2010 320 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 9 70.0 Greg Bugbee 4151449 -73 45346 9/2/2010 420 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Greg Bugbee 4151460 -73.45341 9/2/2010 500 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+7 | 00 Greq Bugbee 4157148 7244276 4922010 020 Sand sunny NV 0 0 0 0 i) i) 0 0 0 a
+7 2 5.0 Greg Bugbee 4IS71S2 7244255 422010 100 Gravel sunny NV 0 0 ie) 0 a (0) 0 0 0 a
+7 3 100 Greg Bugbee 47151 7244291 22010 150 Gravel sunny NV 0 0 0 0 3 0 0 0 0 a
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Weather Wind Notes CerDem ElaSp_ EleSp_ LemMin MyrSpi NajMin NymOdo SpiPol StuPec ValAme
+| i} 02 Greq Buqhee 4142385 -72 45252 %2 2010 0 10 Sand sunny = Seuth Thick float in 0 0 @ 0 0 9) 0 0 i) ie)
+| 2 50 Greq Buqhee 4142390 -72 45254 %2 2010 040 Sand sunny = South All probably float in | 0 @ 0 4 2 ie) 0 i) a
+| a 100 Greq Bughbee 4142394 7245250 422010 100 Silt sunny South =loatin a 0 0 0 3 0 0 0 0 Qa
+| 4 200 Greg Bughbee 414APAD3 7245260 422010 120 Sand sunny = South 2 0 0 0 2 0 0 0 i) a
+| iz 30.0 Greg Bugbee 4A14APAID 7a 45268 42 2010 150 Sand sunny — Seuth 3 i} 0 0 a (9) 0 0 i) a
+| nh 400 Greg Bugbee 4142418 7245273 922010 1280 Sand sunny South 3 0 0 0 a ) 0 0 0 a
+| 7 500 Greg Bugbee 4142427 -72 45277 %2 2010 1280 Sand sunny South 4 0 0 0 3 3) 0 0 B) Qa
+| fad 50.0 Greg Bugbee 4142433  -72 45251 922010 190 Sand sunny = South 3 0) 0 0 2 i) 0 0 i) a
+| a 70.0 Greg Bugbee 4142443 -72 45292 922010 200 Silt sunny South 3 0 0 0 2 0) 0 0 0 a
+| 10 80.0 Greg Bugbee 4142449 -7245300 "22010 200 Silt sunny = Seuth 2 0 0 0 2 0 0 0 0 a
+2 i} 01 Greg Bugbee 41.42763 -73.44931 9/2/2010 0.10 Gravel sunny South Thick MyrSpi float in 0 0 0 0 0 0 0 0 0 0
+2 2 5.0 Greg Bugbee 41.42760 -73.44935 9/2/2010 1.60 Gravel sunny South 3 0 0 0 3 0 0 0 0 0
+2 3 10.0 Greg Bugbee 41.42757 -73.44941 9/2/2010 2.10 Silt sunny South 3 0 0 0 2 0 0 0 0 0
+2 4 20.0 Greg Bugbee 41.42748 -73.44947 9/2/2010 3.10 Silt sunny South 4 0 0 0 2 0 0 0 0 0
+2 5 30.0 Greg Bugbee 41.42743  -73.44959 9/2/2010 3.00 Silt sunny South 0 0 0 0 3 0 0 0 0 0
+2 6 40.0 Greg Bugbee 4142741 -73.44971 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 7 50.0 Greg Bugbee 41.42737 -73.44978 9/2/2010 1.30 Rock sunny South 0 0 0 0 2 0 0 0 0 0
+2 8 60.0 Greg Bugbee 41.42730 -73.44988 9/2/2010 3.00 Sand sunny South 0 0 0 0 3 0 0 0 0 0
+2 9 70.0 Greg Bugbee 41.42721 -73.44995 9/2/2010 3.00 Sand sunny South 0 0 0 0 4 0 0 0 0 0
+2 10 80.0 Greg Bugbee 41.42722 -73.45009 9/2/2010 3.00 Silt sunny South 0 0 0 0 4 0 0 0 0 0
+3 | O11 (sreq Bugbee 4147020 -73 435282 822010 0 10 ‘sravel sunny South 0 2 i@ 0 | is) 0 i) 2 a
+3 2 40 (req Bugqhbes 4147024 -7243522 922010 080 Sand sunny — South 0 0 i@ 0 2 2 0 0 4 a
+3 3 10.0 req Bugbes 4147023  -72 42518 422010 200 Sand sunny South 0 0) 0 0 4 B) 0 0 0 0)
+a 4 20.0 Greq Buqhes 4147025 -7243504 922010 500 Sand sunny = South 0 0 0 0) 0 3) 0 0 DB} ()
+3 a 30 0 req Buqhes 4147028 -724349% 422010 400 Sand sunny = South 0 0 0 i) 0 3) 0 0 0 ie)
+3 f 40.0 Greq Bugqhbes 4147029 -72 43481 %2 2010 & 50 Silt sunny = South 0 0) 0 i) i) i) 0 0 0 0)
+a 7 50.0 Greq Buqhee 4147041 -7243470 22010 % AO Silt sunny = South 0 a) 0 0 0 B} 0 0 0 i
+a Fe B00 Greq Bughee 4147040 -72.49487 G2 2010 a0 Silt sunny = South 0 0 0 0 0 9 0 0 B) a
+3 a TO0 Greq Bugqhbee 4147051 -7243450 S23 27010 10.09 Silt sunny — South 0 a} 0 0 0 i) 0 0 0 a
+3 10 80.0 Greq Bughee 4147047) -72.4343% [232010 1009 Silt sunny = South 0 0 0 0 0 is) 0 0 0 0
+4 1 01 Greg Bugbee 4157121 -73 48837 9/2/2010 010 Muck sunny South 1 0 0 0 1 0 0 0 0 0
+4 2 50 Greg Bugbee 4157116 -73.48837 9/2/2010 050 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 3 10.0 Greg Bugbee 41.57111 -73.48837 9/2/2010 080 Muck sunny West 0 0 0 0 2 0 0 0 0 0
+4 4 20.0 Greg Bugbee 41.57104 -73.48841 9/2/2010 100 Muck sunny West 0 0 0 0 2 0 2 0 0 0
+4 5 30.0 Greg Bugbee 41.57099 -73.48845 9/2/2010 1.20 Muck sunny West 0 0 0 0 5 0 0 0 0 0
+4 6 40.0 Greg Bugbee 41.57086 -73.48854 9/2/2010 1.90 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 7 50.0 Greg Bugbee 41.57079 -73.48861 9/2/2010 2.20 Silt sunny West 0 0 0 0 4 0 0 0 0 0
+4 8 60.0 Greg Bugbee 41.57072 -73.48867 9/2/2010 3.00 Silt sunny West 0 0 0 0 3 0 0 0 0 0
+4 9 70.0 Greg Bugbee 41.57064 -73.48871 9/2/2010 3.00 Silt sunny West 0 0 0 0 2 0 0 0 0 0
+4 10 80.0 Greg Bugbee 41.57054 -73.48870 9/2/2010 3.20 Silt sunny West 0 0 0 0 0 0 0 0 0 0
+a | 0.1 Greg Bugbee 41.5021 -7245150 &22010 0 10 Sand sunny South 0 0 0 0) 8) i) 0 i) 0 0
+S 2 50 Greg Bugbee 4150221 -7245158 922010 080 Sand sunny = South ie) 0 0 0) 2 i) 0 i) | 0
+& 3 10.0 (Gsreg Bugbee 4150222 -7245152 422010 100 Sand sunny = South 0 U 0 0) 2 0 i) U | Q
+& 4 20.0 (sreg Buagbee 4150221 -72 45172 822010 1280 Sand sunny South 0 U 0 e) 4 0 0 U 0) a
+a i 30.0 Gareg Bugbee 4150213 -7245154 422010 210 sand sunny south 0 U Q ) i 0 0 U 0 ie)
+a th 40.0 (sreq Buabee 4150215 -72 45198 422010 240 sand sunny — South 0 U i@ 0 4 3) 0 U i} a
+4 7 50.0 Greg Bugbee 4150224 -72 468212 422010 3:10 Sand sunny — South | 0 0 0 4 iB) 0 0 0 Q
+6 By 6O.O Gsreg Bugbee 4150221 -72 48220 422010 400 sand sunny South G a) 0 Bp) i) i) 0 0 0 Q
+6 a 70.0 (Greq Buabes 4150213 -72 46234 422010 600 silt sunny — Seuth 0 i} i@ i) 0 9) 0 U 0 Qa
+6 10 400 req Buabes 4150211 -72 46244 4822010 6 20 silt sunny South G i} 0 0 i) i) 0 0 9 a
+6 1 0.0 Greg Bugbee 4151386 -73.45337 9/2/2010 020 Muck sunny South 0 0 0 2 3 2 0 2 0 0
+6 2 5.0 Greg Bugbee 4151391 -73.45340 9/2/2010 040 Muck sunny South 0 0 0 0 3 2 0 0 0 0
+6 3 10.0 Greg Bugbee 41.51396 -73.45342 9/2/2010 080 Muck sunny South 0 0 0 0 2 1 0 0 0 0
+6 4 20.0 Greg Bugbee 41.51403  -73.45343 9/2/2010 130 Muck sunny South 0 0 0 0 3 0 0 0 0 0
+6 5 30.0 Greg Bugbee 41.51411 -73 45344 9/2/2010 180 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 6 40.0 Greg Bugbee 4151421 -7345345 9/2/2010 190 Muck sunny South 0 0 0 0 5 0 0 0 0 0
+6 7 50.0 Greg Bugbee 4151429 -73 45342 9/2/2010 210 Muck sunny South 0 0 0 0 4 0 0 0 0 0
+6 8 60.0 Greg Bugbee 4151441 -73.45347 9/2/2010 320 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 9 70.0 Greg Bugbee 4151449 -73 45346 9/2/2010 420 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Greg Bugbee 4151460 -73.45341 9/2/2010 500 Silt sunny South 0 0 0 0 0 0 0 0 0 0
+7 | 00 Greq Bugbee 4157148 7244276 4922010 020 Sand sunny NV 0 0 0 0 i) i) 0 0 0 a
+7 2 5.0 Greg Bugbee 4IS71S2 7244255 422010 100 Gravel sunny NV 0 0 ie) 0 a (0) 0 0 0 a
+7 3 100 Greg Bugbee 47151 7244291 22010 150 Gravel sunny NV 0 0 0 0 3 0 0 0 0 a
+

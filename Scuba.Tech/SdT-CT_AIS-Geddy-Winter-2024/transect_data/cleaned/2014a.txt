@@ -1,0 +1,185 @@
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+1 1 05 Greg Bugbee 41 42374 -73.45248 9/2/2014 0.2 Muck 2 0 Q ‘| 0 Q Q 0 i) 8)
+1 2 5 Greg Bugbee 4142379 -7346252 9/2/2014 02 Muck 2 0 ) 1 2 i) 0 3) ) 0
+1 3 10 Greg Bugbee 41 42384 -73.45253 9/2/2014 0.5 Sand 3 6) 0 5 3 O 0 8) O 6)
+1 4 20 (Sreg Bugbee 4142392 -73.45259 9/2/2014 0.7 Sand 2 e) a) 5 4 Q 0 9) ¢) 0
+1 5 320 Greg Bugbee 41 42401 .73 45262 9/2/2014 15 Muck 2 QO 0 5 5 0 0 ) 9) 0
+1 ie) 40 (Greg Bugbee 41 42409 -73 45262 9/2/2014 16 Muck G i) fe) 5 G 0) 0 O ¢) )
+1 7 50 Greq Bugbee 4142419 -723.45267 9/2/2014 19 Muck 2 Q 0 5 0 8) 0 0 ) fa)
+1 B 60 Greg Bugbee 41 42429 -73 45272 9/2/2014 19g Muck 2 i) 0 4 2 0 ¢) ) ¢) 0
+1 Q 70 Greg Bugbee 41.42436 -73.45277 9/2/2014 1.9 Muck a) 8) a 5 4 Q 0 0 2) 0
+4 10 80 Greg Bugbee 41 42444 -73 4528 9/2/2014 19 Muck 1 O fe) 4 3 a) a) 0 0 0
+2 1 05 Greg Bugbee 41 42762 -73 44926 9/2/2014 02 Sand 2 ¢) 0 1 0 6) 8) 0 0 0
+2 2 5 Greg Bugbee 41 42759 -73 44932 9/2/2014 05 Sand 2 0 a 4 2 0 0 0 0 0
+2 3 10 Greg Bugbee 41 4275/7 -73 44937 9/2/2014 2.0 Muck 2 0 0 is) 2 Q 8) 0 6) 0
+2 4 20 Greg Bugbee 41.42753 -73 44944 9/2/2014 32 Muck 4 0 0 3 0 0 0 0 0 Q
+2 5 30 Greg Bugbee 4142745 -73 44959 9/2/2014 34 Muck 3 0 0 4 0 0 0 ) 6) 0
+2 6 40 Greg Bugbee 4142739 -734497 9/2/2014 21 Muck 0 0 0 3 1 0 0 0 0 0
+2 7 50 Greg Bugbee 41 42738 -73 44978 9/2/2014 13 Muck 2 0 ia) 2 0 0 0 ie) 0 0
+2 8 60 Greg Bugbee 49142732 -734499 9/2/2014 29 Muck 2 0 0 4 8) 0 0 0 0 0
+2 Q 70 Greg Bugbee 41 42728 -73 44999 9/2/2014 29 Muck 4 Q a) 4 0 a) 0 0 0 i)
+2 10 80 Greg Bugbee 41.42719 -73 45011 9/2/2014 30 Muck 1 Q Q 4 0 8) 0 0 6) 0
+3 1 05 Greg Bugbee 41 47027 .73 43534 9/2/2014 Q2 Sand Q) Q 0 0 0 a) 3) 0 3 i)
+3 2 5 Greg Bugbee 41 47029 -74 43527 9/2/2014 08 Sand 0 0 0 2 2 5) 0 0 4 0
+3 3 10 Greg Bugbee 41 47028 .73 43521 9/2/2014 14 Sand 8) 0 0 4 Q 8) 0) 0 QO Q
+3 4 20 Greg Bugbee 4147031 -73.4351 9/2/2014 52 Sand 0 0 0 1 0 8) 0 0 0 0
+3 5 30 Greq Bugbee 414703 -73 43499 9/2/2014 84 Sand Q i) 0 0) ) ) QO Q 8) 0
+3 6 40 Greg Bugbee 4147032 -73 43488 9/2/2014 90 Sand 0 fe) 0 Q Q 0 0 0 ¢) fa)
+3 7 50 Greg Bugbee 4147032 -73 43476 9/2/2014 92 Sand 0 0 0 0 0 B) 0 6) 0 0
+3 8 60 Greg Bugbee 4147033 -73 43464 9/2/2014 92 Sand 0 QO 0 Q 0) ) is) 0 a) 8)
+3 a 70 Greg Bugbee 4147036 -73 43453 9/2/2014 972 Sand 0 3) 0 a) 0 i) 0 0 0 0
+3 10 80 Greq Bugbee 41 47039 -73 43442 9/2/2014 9.2? Sand Q QO 0 ) Q 0 8) Q 3) 0
+4 1 0.5 Greg Bugbee 41.57124 -73 48835 9/5/2014 0.5 Muck 0 0 0 2 0 0 0 0 0 0
+4 2 5 Greg Bugbee 415712 -73 48841 9/5/2014 05 Muck. 0 0 0 2 0 5) i) 0 0 D)
+4 3 10 Greg Bugbee 4157112 -73 48838 9/5/2014 10 Muck Q 0 0 Z 0) re) i) ) 0 0
+4 4 20 Greg Bugbee 4157105 -73 48841 9/5/2014 20 Muck 0 0 0 5 0 ry 0 0 0 0
+4 5 30 Greg Bugbee 4157097 -73 48849 9/5/2014 20 Muck 0 0 0 5 8) 6) 0 Q 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSp: NajMin NymOdo PotFol PotPer StuPec ValAme
+1 1 05 Greg Bugbee 4142374 -73.45248 9/2/2014 02 Muck 2 0 ie) 1 ie) 0 0 0 ) 0
+1 2 5 Greg Bugbee 41 42379 -73.45252 9/2/2014 02 Muck 2 0 iv) 1 2 is) 0 0 0 0
+1 3 10 Greg Bugbee 41 42384 .73 45253 9/2/2014 O05 Sand 3 0 0 5 3 0 0 0 0 0
+1 4 20 Greg Bugbee 41 42392 -73.45259 9/2/2014 0.7 Sand 3 0 ie) 5 4 Q 0 0 0 0
+1 5 30 Greg Bugbee 41 42401 .73 45262 9/2/2014 15 Muck 2 0 0 5 5 0 0 0 0 0
+1 6 40 Greg Bugbee 4142409 -7345262 9/2/2014 18 Muck G G ie) 5 0 ) 0 0 0 0
+1 7 50 Greg Bugbee 41 42419 -73 45267 9/2/2014 19 Muck 2 ie) is) 5 ie} ie) 0 0 0 0
+1 B 60 Greg Bugbee 41 42429 .73 45272 9/2/2014 1Q Muck 2 0 8) 4 2? 0 ) 0 0 0
+1 9 70 Greg Bugbee 4142436 -73.45277 9/2/2014 19 Muck 0 0 ie) 5 4 Q 0 0 0 0
+1 10 80 Greg Bugbee 41 42444 -734528 9/2/2014 19 Muck 1 ie) 0 4 3 QO 0 0 0 0
+2 1 05 Greg Bugbee 41 42762 -73 44926 9/2/2014 02 Sand 2 0 0 1 0 0 0 0 0 0
+2 2 5 Greg Bugbee 4142759 -73 44932 9/2/2014 05 Sand 2 0 0 4 2 0 ie) 0 0 0
+2 3 10 Greg Bugbee 4142757 -7344937 9/2/2014 2.0 Muck 2 0 0 5 2 0 ie] 0 0 0
+2 4 20 Greg Bugbee 41.42753 -73 44944 9/2/2014 32 Muck 4 0 0 3 0 0 0 0 0 0
+2 5 30 Greg Bugbee 4142745 -7344959 9/2/2014 34 Muck 3 0 0 4 0 0 ie) 0 0 0
+2 6 40 Greg Bugbee 4142739 -734497 9/2/2014 21 Muck 0 is) 0 3 1 0 0 0 0 0
+2 7 50 Greg Bugbee 41 42738 -73 44978 9/2/2014 13 Muck 2 0 ie) 2 0 0 0 ie) 0 0
+2 8 60 Greg Bugbee 4142732 -734499 9/2/2014 29 Muck 2 Q 0 4 ie) ie) 0 0 0 0
+2 9 70 Greg Bugbee 4142728 -73.44999 9/2/2014 29 Muck 4 0 Q 4 0 0 0 0 0 0
+2 10 80 Greg Bugbee 4142719 -7345011 9/2/2014 30 Muck 1 0 0 4 0 0 0 0 0 0
+3 1 05 Greg Bugbee 4147027 7343534 9/2/2014 O02 Sand 0 0 0 0 0 0 0 0 3 0
+3 2 5 Greg Bugbee 4147029 .73.43527 9/2/2014 08 Sand 0 0 0 2 2 0 0 0 4 0
+3 3 10 Greg Bugbee 41 47028 7343521 9/2/2014 14 Sand 0 0 0 4 ie) 0 fe) 0 0 0
+3 4 20 Greg Bugbee 4147031 -734351 9/2/2014 52 Sand 0 0 0 1 0 0 i) 0 0 8)
+3 § 30 Greg Bugbee 414703 -7343499 9/2/2014 81 Sand 0 0 0 te) ie) ie) 0 0 0 10)
+3 6 40 Greg Bugbee 4147032 -73 43488 9/2/2014 90 Sand 0 e) 0 0 0 0 0 0 0 }
+3 7 50 Greg Bugbee 4147032 .73 43476 9/2/2014 92 Sand 0 0 ia) Q 0 3) 0 0 0 0
+3 8 60 Greg Bugbee 4147033 .73 43464 9/2/2014 92 Sand ce) 0 0 0 0 0 0 0 0 ie)
+3 9 70 Greg Bugbee 4147036 -73 43453 9/2/2014 92 Sand 0 0 0 0 0 is) 0 0 0 0
+3 10 80 Greg Bugbee 41 47039 -73 43442 9/2/2014 92 Sand 0 0 0 0 0 i) 0 0 0 0
+4 1 0.5 Greg Bugbee 41.57124 -7348835 9/5/2014 05 Muck 0 0 0 2 0 0 0 0 0 0
+4 2 5 Greg Bugbee 415712 -73 48841 9/5/2014 O05 Muck 0 0 0 2 0 0 0 0 0 0
+4 3 10 Greg Bugbee 4157112 -73 48838 9/5/2014 10 Muck 0 0 0 2 0 0 0 0 0 0
+4 4 20 Greg Bugbee 4157105 -73 48841 9/5/2014 20 Muck 0 0 ie) 5 0 2 ie) 0 0 2)
+4 5 30 Greg Bugbee 4157097 -73 48849 9/5/2014 20 Muck 0 0 0 5 0 0 0 is) 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+1 1 05 Greg Bugbee 41 42374 -73.45248 9/2/2014 0.2 Muck 2 0 Q ‘| 0 Q Q 0 i) 8)
+1 2 5 Greg Bugbee 4142379 -7346252 9/2/2014 02 Muck 2 0 ) 1 2 i) 0 3) ) 0
+1 3 10 Greg Bugbee 41 42384 -73.45253 9/2/2014 0.5 Sand 3 6) 0 5 3 O 0 8) O 6)
+1 4 20 (Sreg Bugbee 4142392 -73.45259 9/2/2014 0.7 Sand 2 e) a) 5 4 Q 0 9) ¢) 0
+1 5 320 Greg Bugbee 41 42401 .73 45262 9/2/2014 15 Muck 2 QO 0 5 5 0 0 ) 9) 0
+1 ie) 40 (Greg Bugbee 41 42409 -73 45262 9/2/2014 16 Muck G i) fe) 5 G 0) 0 O ¢) )
+1 7 50 Greq Bugbee 4142419 -723.45267 9/2/2014 19 Muck 2 Q 0 5 0 8) 0 0 ) fa)
+1 B 60 Greg Bugbee 41 42429 -73 45272 9/2/2014 19g Muck 2 i) 0 4 2 0 ¢) ) ¢) 0
+1 Q 70 Greg Bugbee 41.42436 -73.45277 9/2/2014 1.9 Muck a) 8) a 5 4 Q 0 0 2) 0
+4 10 80 Greg Bugbee 41 42444 -73 4528 9/2/2014 19 Muck 1 O fe) 4 3 a) a) 0 0 0
+2 1 05 Greg Bugbee 41 42762 -73 44926 9/2/2014 02 Sand 2 ¢) 0 1 0 6) 8) 0 0 0
+2 2 5 Greg Bugbee 41 42759 -73 44932 9/2/2014 05 Sand 2 0 a 4 2 0 0 0 0 0
+2 3 10 Greg Bugbee 41 4275/7 -73 44937 9/2/2014 2.0 Muck 2 0 0 is) 2 Q 8) 0 6) 0
+2 4 20 Greg Bugbee 41.42753 -73 44944 9/2/2014 32 Muck 4 0 0 3 0 0 0 0 0 Q
+2 5 30 Greg Bugbee 4142745 -73 44959 9/2/2014 34 Muck 3 0 0 4 0 0 0 ) 6) 0
+2 6 40 Greg Bugbee 4142739 -734497 9/2/2014 21 Muck 0 0 0 3 1 0 0 0 0 0
+2 7 50 Greg Bugbee 41 42738 -73 44978 9/2/2014 13 Muck 2 0 ia) 2 0 0 0 ie) 0 0
+2 8 60 Greg Bugbee 49142732 -734499 9/2/2014 29 Muck 2 0 0 4 8) 0 0 0 0 0
+2 Q 70 Greg Bugbee 41 42728 -73 44999 9/2/2014 29 Muck 4 Q a) 4 0 a) 0 0 0 i)
+2 10 80 Greg Bugbee 41.42719 -73 45011 9/2/2014 30 Muck 1 Q Q 4 0 8) 0 0 6) 0
+3 1 05 Greg Bugbee 41 47027 .73 43534 9/2/2014 Q2 Sand Q) Q 0 0 0 a) 3) 0 3 i)
+3 2 5 Greg Bugbee 41 47029 -74 43527 9/2/2014 08 Sand 0 0 0 2 2 5) 0 0 4 0
+3 3 10 Greg Bugbee 41 47028 .73 43521 9/2/2014 14 Sand 8) 0 0 4 Q 8) 0) 0 QO Q
+3 4 20 Greg Bugbee 4147031 -73.4351 9/2/2014 52 Sand 0 0 0 1 0 8) 0 0 0 0
+3 5 30 Greq Bugbee 414703 -73 43499 9/2/2014 84 Sand Q i) 0 0) ) ) QO Q 8) 0
+3 6 40 Greg Bugbee 4147032 -73 43488 9/2/2014 90 Sand 0 fe) 0 Q Q 0 0 0 ¢) fa)
+3 7 50 Greg Bugbee 4147032 -73 43476 9/2/2014 92 Sand 0 0 0 0 0 B) 0 6) 0 0
+3 8 60 Greg Bugbee 4147033 -73 43464 9/2/2014 92 Sand 0 QO 0 Q 0) ) is) 0 a) 8)
+3 a 70 Greg Bugbee 4147036 -73 43453 9/2/2014 972 Sand 0 3) 0 a) 0 i) 0 0 0 0
+3 10 80 Greq Bugbee 41 47039 -73 43442 9/2/2014 9.2? Sand Q QO 0 ) Q 0 8) Q 3) 0
+4 1 0.5 Greg Bugbee 41.57124 -73 48835 9/5/2014 0.5 Muck 0 0 0 2 0 0 0 0 0 0
+4 2 5 Greg Bugbee 415712 -73 48841 9/5/2014 05 Muck. 0 0 0 2 0 5) i) 0 0 D)
+4 3 10 Greg Bugbee 4157112 -73 48838 9/5/2014 10 Muck Q 0 0 Z 0) re) i) ) 0 0
+4 4 20 Greg Bugbee 4157105 -73 48841 9/5/2014 20 Muck 0 0 0 5 0 ry 0 0 0 0
+4 5 30 Greg Bugbee 4157097 -73 48849 9/5/2014 20 Muck 0 0 0 5 8) 6) 0 Q 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+1 1 05 Greg Bugbee 41 42374 -73.45248 9/2/2014 0.2 Muck 2 0 Q ‘| 0 Q Q 0 i) 8)
+1 2 5 Greg Bugbee 4142379 -7346252 9/2/2014 02 Muck 2 0 ) 1 2 i) 0 3) ) 0
+1 3 10 Greg Bugbee 41 42384 -73.45253 9/2/2014 0.5 Sand 3 6) 0 5 3 O 0 8) O 6)
+1 4 20 (Sreg Bugbee 4142392 -73.45259 9/2/2014 0.7 Sand 2 e) a) 5 4 Q 0 9) ¢) 0
+1 5 320 Greg Bugbee 41 42401 .73 45262 9/2/2014 15 Muck 2 QO 0 5 5 0 0 ) 9) 0
+1 ie) 40 (Greg Bugbee 41 42409 -73 45262 9/2/2014 16 Muck G i) fe) 5 G 0) 0 O ¢) )
+1 7 50 Greq Bugbee 4142419 -723.45267 9/2/2014 19 Muck 2 Q 0 5 0 8) 0 0 ) fa)
+1 B 60 Greg Bugbee 41 42429 -73 45272 9/2/2014 19g Muck 2 i) 0 4 2 0 ¢) ) ¢) 0
+1 Q 70 Greg Bugbee 41.42436 -73.45277 9/2/2014 1.9 Muck a) 8) a 5 4 Q 0 0 2) 0
+4 10 80 Greg Bugbee 41 42444 -73 4528 9/2/2014 19 Muck 1 O fe) 4 3 a) a) 0 0 0
+2 1 05 Greg Bugbee 41 42762 -73 44926 9/2/2014 02 Sand 2 ¢) 0 1 0 6) 8) 0 0 0
+2 2 5 Greg Bugbee 41 42759 -73 44932 9/2/2014 05 Sand 2 0 a 4 2 0 0 0 0 0
+2 3 10 Greg Bugbee 41 4275/7 -73 44937 9/2/2014 2.0 Muck 2 0 0 is) 2 Q 8) 0 6) 0
+2 4 20 Greg Bugbee 41.42753 -73 44944 9/2/2014 32 Muck 4 0 0 3 0 0 0 0 0 Q
+2 5 30 Greg Bugbee 4142745 -73 44959 9/2/2014 34 Muck 3 0 0 4 0 0 0 ) 6) 0
+2 6 40 Greg Bugbee 4142739 -734497 9/2/2014 21 Muck 0 0 0 3 1 0 0 0 0 0
+2 7 50 Greg Bugbee 41 42738 -73 44978 9/2/2014 13 Muck 2 0 ia) 2 0 0 0 ie) 0 0
+2 8 60 Greg Bugbee 49142732 -734499 9/2/2014 29 Muck 2 0 0 4 8) 0 0 0 0 0
+2 Q 70 Greg Bugbee 41 42728 -73 44999 9/2/2014 29 Muck 4 Q a) 4 0 a) 0 0 0 i)
+2 10 80 Greg Bugbee 41.42719 -73 45011 9/2/2014 30 Muck 1 Q Q 4 0 8) 0 0 6) 0
+3 1 05 Greg Bugbee 41 47027 .73 43534 9/2/2014 Q2 Sand Q) Q 0 0 0 a) 3) 0 3 i)
+3 2 5 Greg Bugbee 41 47029 -74 43527 9/2/2014 08 Sand 0 0 0 2 2 5) 0 0 4 0
+3 3 10 Greg Bugbee 41 47028 .73 43521 9/2/2014 14 Sand 8) 0 0 4 Q 8) 0) 0 QO Q
+3 4 20 Greg Bugbee 4147031 -73.4351 9/2/2014 52 Sand 0 0 0 1 0 8) 0 0 0 0
+3 5 30 Greq Bugbee 414703 -73 43499 9/2/2014 84 Sand Q i) 0 0) ) ) QO Q 8) 0
+3 6 40 Greg Bugbee 4147032 -73 43488 9/2/2014 90 Sand 0 fe) 0 Q Q 0 0 0 ¢) fa)
+3 7 50 Greg Bugbee 4147032 -73 43476 9/2/2014 92 Sand 0 0 0 0 0 B) 0 6) 0 0
+3 8 60 Greg Bugbee 4147033 -73 43464 9/2/2014 92 Sand 0 QO 0 Q 0) ) is) 0 a) 8)
+3 a 70 Greg Bugbee 4147036 -73 43453 9/2/2014 972 Sand 0 3) 0 a) 0 i) 0 0 0 0
+3 10 80 Greq Bugbee 41 47039 -73 43442 9/2/2014 9.2? Sand Q QO 0 ) Q 0 8) Q 3) 0
+4 1 0.5 Greg Bugbee 41.57124 -73 48835 9/5/2014 0.5 Muck 0 0 0 2 0 0 0 0 0 0
+4 2 5 Greg Bugbee 415712 -73 48841 9/5/2014 05 Muck. 0 0 0 2 0 5) i) 0 0 D)
+4 3 10 Greg Bugbee 4157112 -73 48838 9/5/2014 10 Muck Q 0 0 Z 0) re) i) ) 0 0
+4 4 20 Greg Bugbee 4157105 -73 48841 9/5/2014 20 Muck 0 0 0 5 0 ry 0 0 0 0
+4 5 30 Greg Bugbee 4157097 -73 48849 9/5/2014 20 Muck 0 0 0 5 8) 6) 0 Q 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotFol PotPer StuPec ValAme
+1 1 05 Greg Bugbee 41 42374 -73.45248 9/2/2014 0.2 Muck 2 0 Q ‘| 0 Q Q 0 i) 8)
+1 2 5 Greg Bugbee 4142379 -7346252 9/2/2014 02 Muck 2 0 ) 1 2 i) 0 3) ) 0
+1 3 10 Greg Bugbee 41 42384 -73.45253 9/2/2014 0.5 Sand 3 6) 0 5 3 O 0 8) O 6)
+1 4 20 (Sreg Bugbee 4142392 -73.45259 9/2/2014 0.7 Sand 2 e) a) 5 4 Q 0 9) ¢) 0
+1 5 320 Greg Bugbee 41 42401 .73 45262 9/2/2014 15 Muck 2 QO 0 5 5 0 0 ) 9) 0
+1 ie) 40 (Greg Bugbee 41 42409 -73 45262 9/2/2014 16 Muck G i) fe) 5 G 0) 0 O ¢) )
+1 7 50 Greq Bugbee 4142419 -723.45267 9/2/2014 19 Muck 2 Q 0 5 0 8) 0 0 ) fa)
+1 B 60 Greg Bugbee 41 42429 -73 45272 9/2/2014 19g Muck 2 i) 0 4 2 0 ¢) ) ¢) 0
+1 Q 70 Greg Bugbee 41.42436 -73.45277 9/2/2014 1.9 Muck a) 8) a 5 4 Q 0 0 2) 0
+4 10 80 Greg Bugbee 41 42444 -73 4528 9/2/2014 19 Muck 1 O fe) 4 3 a) a) 0 0 0
+2 1 05 Greg Bugbee 41 42762 -73 44926 9/2/2014 02 Sand 2 ¢) 0 1 0 6) 8) 0 0 0
+2 2 5 Greg Bugbee 41 42759 -73 44932 9/2/2014 05 Sand 2 0 a 4 2 0 0 0 0 0
+2 3 10 Greg Bugbee 41 4275/7 -73 44937 9/2/2014 2.0 Muck 2 0 0 is) 2 Q 8) 0 6) 0
+2 4 20 Greg Bugbee 41.42753 -73 44944 9/2/2014 32 Muck 4 0 0 3 0 0 0 0 0 Q
+2 5 30 Greg Bugbee 4142745 -73 44959 9/2/2014 34 Muck 3 0 0 4 0 0 0 ) 6) 0
+2 6 40 Greg Bugbee 4142739 -734497 9/2/2014 21 Muck 0 0 0 3 1 0 0 0 0 0
+2 7 50 Greg Bugbee 41 42738 -73 44978 9/2/2014 13 Muck 2 0 ia) 2 0 0 0 ie) 0 0
+2 8 60 Greg Bugbee 49142732 -734499 9/2/2014 29 Muck 2 0 0 4 8) 0 0 0 0 0
+2 Q 70 Greg Bugbee 41 42728 -73 44999 9/2/2014 29 Muck 4 Q a) 4 0 a) 0 0 0 i)
+2 10 80 Greg Bugbee 41.42719 -73 45011 9/2/2014 30 Muck 1 Q Q 4 0 8) 0 0 6) 0
+3 1 05 Greg Bugbee 41 47027 .73 43534 9/2/2014 Q2 Sand Q) Q 0 0 0 a) 3) 0 3 i)
+3 2 5 Greg Bugbee 41 47029 -74 43527 9/2/2014 08 Sand 0 0 0 2 2 5) 0 0 4 0
+3 3 10 Greg Bugbee 41 47028 .73 43521 9/2/2014 14 Sand 8) 0 0 4 Q 8) 0) 0 QO Q
+3 4 20 Greg Bugbee 4147031 -73.4351 9/2/2014 52 Sand 0 0 0 1 0 8) 0 0 0 0
+3 5 30 Greq Bugbee 414703 -73 43499 9/2/2014 84 Sand Q i) 0 0) ) ) QO Q 8) 0
+3 6 40 Greg Bugbee 4147032 -73 43488 9/2/2014 90 Sand 0 fe) 0 Q Q 0 0 0 ¢) fa)
+3 7 50 Greg Bugbee 4147032 -73 43476 9/2/2014 92 Sand 0 0 0 0 0 B) 0 6) 0 0
+3 8 60 Greg Bugbee 4147033 -73 43464 9/2/2014 92 Sand 0 QO 0 Q 0) ) is) 0 a) 8)
+3 a 70 Greg Bugbee 4147036 -73 43453 9/2/2014 972 Sand 0 3) 0 a) 0 i) 0 0 0 0
+3 10 80 Greq Bugbee 41 47039 -73 43442 9/2/2014 9.2? Sand Q QO 0 ) Q 0 8) Q 3) 0
+4 1 0.5 Greg Bugbee 41.57124 -73 48835 9/5/2014 0.5 Muck 0 0 0 2 0 0 0 0 0 0
+4 2 5 Greg Bugbee 415712 -73 48841 9/5/2014 05 Muck. 0 0 0 2 0 5) i) 0 0 D)
+4 3 10 Greg Bugbee 4157112 -73 48838 9/5/2014 10 Muck Q 0 0 Z 0) re) i) ) 0 0
+4 4 20 Greg Bugbee 4157105 -73 48841 9/5/2014 20 Muck 0 0 0 5 0 ry 0 0 0 0
+4 5 30 Greg Bugbee 4157097 -73 48849 9/5/2014 20 Muck 0 0 0 5 8) 6) 0 Q 0 0
+

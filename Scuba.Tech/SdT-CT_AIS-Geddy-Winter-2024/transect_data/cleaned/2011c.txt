@@ -1,0 +1,78 @@
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+q 7 50.0 Jordan Gibbons 41.48041 9 -73.43520 9 9/13/2011 2.00 Muck O @) O 2 O @) a) ie) O O
+q 8 60.0 Jordan Gibbons  41.48032 9 -73.43530 9/13/2011 2.50 Muck 1 Q O 3 O O fa) Q e) O
+q 9 70.0 Jordan Gibbons  41.48029 — -73.43539 9 9/13/2011 2.10 Muck e) Q O 4 O O QO Q 0 O
+q 10 80.0 Jordan Gibbons  41.48027  -73.43552 9 9/13/2011 0.60 Muck e) Q O 3 O a) QO Q 0 O
+10 1 0.1 Greg Bugbee 41.44734 -73.42949 9/13/2011 0.30 Muck 2 0 2 4 0 0 0 0 0 0
+10 2 5.0 Greg Bugbee 41.44730  -73.42953 9/13/2011 1.00 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 3 10.0 Greg Bugbee 41.44727  -73.42960 9/13/2011 1.10 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 4 20.0 Greg Bugbee 41.44723  -73.42967 9/13/2011 1.60 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 2
+10 5 30.0 Greg Bugbee 41.44718 -73.42982 9/13/2011 1.40 Muck 0 0 0 2 0 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.44712  -73.42987 9/13/2011 0.80 Muck 2 0 0 3 0 2 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44706 -73.42997 9/13/2011 0.20 Muck 2 2 2 0 2 2 0 0 0 2
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+Q 7 50.0 Jordan Gibbons = 41.48041  -73.43520 0 9/13/2011 2.60 Muck 0 0 ie) 2 0 0 a QO 0 ie)
+by) 8 o0.0 Jordan Gibbons = 41.48032 — -73.43530 9 9/13/2011 2.50 Muck 1 0 0 3 ia) ie) 0 a) 0 0
+a i) 70.0 Jordan Gibbons =41.48029 — -73.43539 9/13/2011 2.10 Muck 0 Oo 0 4 0 ie) 0 0 0 0
+Q 10 80.0 Jordan Gibbons =41.48027 — -73.43552 9/13/2011 0.60 Muck 0 oO fa) 3 fa) ia) 0 fa) 0 a)
+10 1 0.1 Greg Bugbee 41.44734 -73.42949 9/13/2011 0.30 Muck 2 0 2 4 0 0 0 0 0 0
+10 2 5.0 Greg Bugbee 41.44730 -73.42953 9/13/2011 1.00 Muck Filamentous Algae 0 0 ) 2 ) 0 0 0 0 )
+10 3 10.0 Greg Bugbee 41.44727. _-73.42960 9/13/2011 1.10 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 4 20.0 Greg Bugbee 41.44723  -73.42967 9/13/2011 1.60 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 2
+10 5 30.0 Greg Bugbee 41.44718 -73.42982 9/13/2011 1.40 Muck 0 0 0 2 0 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.44712 -73.42987 9/13/2011 0.80 Muck 2 0 0 3 0 2 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44706 = -73.42997 9/13/2011 0.20 Muck 2 2 2 0 2 2 0 0 0 2
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+Q 7 50.0 Jordan Gibbons = 41.48041  -73.43520 0 9/13/2011 2.60 Muck 0 0 ie) 2 0 0 a QO 0 ie)
+by) 8 o0.0 Jordan Gibbons = 41.48032 — -73.43530 9 9/13/2011 2.50 Muck 1 0 0 3 ia) ie) 0 a) 0 0
+a i) 70.0 Jordan Gibbons =41.48029 — -73.43539 9/13/2011 2.10 Muck 0 Oo 0 4 0 ie) 0 0 0 0
+Q 10 80.0 Jordan Gibbons =41.48027 — -73.43552 9/13/2011 0.60 Muck 0 oO fa) 3 fa) ia) 0 fa) 0 a)
+10 1 0.1 Greg Bugbee 41.44734 -73.42949 9/13/2011 0.30 Muck 2 0 2 4 0 0 0 0 0 0
+10 2 5.0 Greg Bugbee 41.44730 -73.42953 9/13/2011 1.00 Muck Filamentous Algae 0 0 ) 2 ) 0 0 0 0 )
+10 3 10.0 Greg Bugbee 41.44727. _-73.42960 9/13/2011 1.10 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 4 20.0 Greg Bugbee 41.44723  -73.42967 9/13/2011 1.60 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 2
+10 5 30.0 Greg Bugbee 41.44718 -73.42982 9/13/2011 1.40 Muck 0 0 0 2 0 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.44712 -73.42987 9/13/2011 0.80 Muck 2 0 0 3 0 2 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44706 = -73.42997 9/13/2011 0.20 Muck 2 2 2 0 2 2 0 0 0 2
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+q 7 50.0 Jordan Gibbons 41.48041 9 -73.43520 9 9/13/2011 2.00 Muck O @) O 2 O @) a) ie) O O
+q 8 60.0 Jordan Gibbons  41.48032 9 -73.43530 9/13/2011 2.50 Muck 1 Q O 3 O O fa) Q e) O
+q 9 70.0 Jordan Gibbons  41.48029 — -73.43539 9 9/13/2011 2.10 Muck e) Q O 4 O O QO Q 0 O
+q 10 80.0 Jordan Gibbons  41.48027  -73.43552 9 9/13/2011 0.60 Muck e) Q O 3 O a) QO Q 0 O
+10 1 0.1 Greg Bugbee 41.44734 -73.42949 9/13/2011 0.30 Muck 2 0 2 4 0 0 0 0 0 0
+10 2 5.0 Greg Bugbee 41.44730  -73.42953 9/13/2011 1.00 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 3 10.0 Greg Bugbee 41.44727  -73.42960 9/13/2011 1.10 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 4 20.0 Greg Bugbee 41.44723  -73.42967 9/13/2011 1.60 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 2
+10 5 30.0 Greg Bugbee 41.44718 -73.42982 9/13/2011 1.40 Muck 0 0 0 2 0 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.44712  -73.42987 9/13/2011 0.80 Muck 2 0 0 3 0 2 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44706 -73.42997 9/13/2011 0.20 Muck 2 2 2 0 2 2 0 0 0 2
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+q 7 50.0 Jordan Gibbons 41.48041 9 -73.43520 9 9/13/2011 2.00 Muck O @) O 2 O @) a) ie) O O
+q 8 60.0 Jordan Gibbons  41.48032 9 -73.43530 9/13/2011 2.50 Muck 1 Q O 3 O O fa) Q e) O
+q 9 70.0 Jordan Gibbons  41.48029 — -73.43539 9 9/13/2011 2.10 Muck e) Q O 4 O O QO Q 0 O
+q 10 80.0 Jordan Gibbons  41.48027  -73.43552 9 9/13/2011 0.60 Muck e) Q O 3 O a) QO Q 0 O
+10 1 0.1 Greg Bugbee 41.44734 -73.42949 9/13/2011 0.30 Muck 2 0 2 4 0 0 0 0 0 0
+10 2 5.0 Greg Bugbee 41.44730  -73.42953 9/13/2011 1.00 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 3 10.0 Greg Bugbee 41.44727  -73.42960 9/13/2011 1.10 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 4 20.0 Greg Bugbee 41.44723  -73.42967 9/13/2011 1.60 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 2
+10 5 30.0 Greg Bugbee 41.44718 -73.42982 9/13/2011 1.40 Muck 0 0 0 2 0 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.44712  -73.42987 9/13/2011 0.80 Muck 2 0 0 3 0 2 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44706 -73.42997 9/13/2011 0.20 Muck 2 2 2 0 2 2 0 0 0 2
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+q 7 50.0 Jordan Gibbons 41.48041 9 -73.43520 9 9/13/2011 2.00 Muck O @) O 2 O @) a) ie) O O
+q 8 60.0 Jordan Gibbons  41.48032 9 -73.43530 9/13/2011 2.50 Muck 1 Q O 3 O O fa) Q e) O
+q 9 70.0 Jordan Gibbons  41.48029 — -73.43539 9 9/13/2011 2.10 Muck e) Q O 4 O O QO Q 0 O
+q 10 80.0 Jordan Gibbons  41.48027  -73.43552 9 9/13/2011 0.60 Muck e) Q O 3 O a) QO Q 0 O
+10 1 0.1 Greg Bugbee 41.44734 -73.42949 9/13/2011 0.30 Muck 2 0 2 4 0 0 0 0 0 0
+10 2 5.0 Greg Bugbee 41.44730  -73.42953 9/13/2011 1.00 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 3 10.0 Greg Bugbee 41.44727  -73.42960 9/13/2011 1.10 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 0
+10 4 20.0 Greg Bugbee 41.44723  -73.42967 9/13/2011 1.60 Muck Filamentous Algae 0 0 0 2 0 0 0 0 0 2
+10 5 30.0 Greg Bugbee 41.44718 -73.42982 9/13/2011 1.40 Muck 0 0 0 2 0 0 0 0 0 3
+10 6 40.0 Greg Bugbee 41.44712  -73.42987 9/13/2011 0.80 Muck 2 0 0 3 0 2 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44706 -73.42997 9/13/2011 0.20 Muck 2 2 2 0 2 2 0 0 0 2
+

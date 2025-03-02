@@ -1,0 +1,567 @@
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 0 Robert Capers 41.54282 -73.45859 6/21/2005 0.2 Rock sunny 0 ie] 0 0 0 1 0 0 0 0 0 0 0 0 0 ie)
+9 2 5 Robert Capers 41.54277 -73.45862 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+9 3 10 Robert Capers 41.54274 -73.45866 6/21/2005 ND Silt sunny 0 0 0 0 0 5 0 0 (e} 0 0 0 0 0 0 ie)
+9 4 20 Robert Capers 41.54271 -73.45881 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie)
+10 1 Q BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 2 5 BobC &RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 ND sunny too deep to sample 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 1 0 Greg Bugbee 41.55830 -73.48185 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+11 2 5 Greg Bugbee 41.55833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 3 10 GregBugbee 41.55838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 (e} 0 0 0 ie] 0 0 ie]
+11 4 20 Greg Bugbee 41.55888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie) 0 0 0
+11 5 30 GregBugbee 41.55852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie)
+11 6 40  GregBugbee 41.55862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie]
+11 7 50 Greg Bugbee 41.55872 -73.48160 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 ie)
+11 8 60 GregBugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 ie) 0 0 ie)
+11 9 70 GregBugbee 41.55888 -73.48143 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie] 0 0 ie]
+11 10 80 GregBugbee 41.55897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 ie) 0 0 0 ie) 0 0 ie)
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 5 30 =Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 1 0 Greg Bugbee 41.55870 -73.48475 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 2 5 Greg Bugbee 41.55867 -73.48473 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 0 0 [e} 0 0 0
+13 3 10  GregBugbee 41.55862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+13 4 20 GregBugbee 41.55857 -73.48465 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 ie] 0 0 ie]
+13 5 30 GregBugbee 41.55852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 6 40 GregBugbee 41.55852 -73.48437 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 7 50 GregBugbee 41.55845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 8 60 Greg Bugbee 41.55837 -73.48420 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 9 70 GregBugbee 41.55832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 10 80 GregBugbee 41.55822 -73.48410 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 ie} ie]
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 0 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 5 30 Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 1 a Roslyn Selsky 41.55083 -73.47170 6/21/2005 1.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 0
+15 2 5 Roslyn Selsky 41.55079 -73.47174 6/21/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+15 4 20 ~=Roslyn Selsky 41.55082 -73.47194 6/21/2005 ND ND sunny 0 0 0 0 ie) 0 0 0 0 0 0 0 Q 0 0 Q
+15 5 30 ~=Roslyn Selsky 41.55076 -73.47207 6/21/2005 ND ND sunny 0 ie] 0 0 0 0 0 0 ie] 0 0 0 ie) 0 0 ie)
+15 6 40 Roslyn Selsky 41.55077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+15 7 50 = Roslyn Selsky 41.55067 -73.47227 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 ie)
+15 8 60 Roslyn Selsky 41.55072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+15 9 70 = Roslyn Selsky 41.55082 -73.47254 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie)
+16 1 0 Greg Bugbee 41.55447 -73.48042 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 2 5 Greg Bugbee 41.55450 -73.48033 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 4 20 GregBugbee 41.55461 -73.48022 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 5 30 GregBugbee 41.55467 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 7 50 GregBugbee 41.55489 -73.47967 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 9 70 GregBugbee 41.55489 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 GregBugbee 41.55503 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 1 0 Robert Capers 41.51994 -73.45175 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 ie)
+17 2 5 Robert Capers 41.51992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 3 10 Robert Capers 41.51994 -73.45188 6/21/2005 3.0 Sand sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 0
+17 4 20 Robert Capers 41.51991 -73.45198 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 41.51991 -73.45213 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 6 40 Robert Capers 41.51986 -73.45225 6/21/2005 ND ND sunny too deep 0 0 0 0 0 (e) 0 (e} ie) 0 0 0 ie) 0 0 ie)
+18 1 Q ~=Roslyn Selsky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 = Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 5 30 = Roslyn Selsky 41.54400 -73.46556 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 7 50 Roslyn Selsky 41.54408 -73.46534 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date ODepth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFie PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 ie) Robert Capers 4154282 -73.45859 6/21/2005 02 Rock sunny 0 0 0 ie} 0 1 0 0 0 ie} 0 0 0 0 0 (¢)
+9 2 5 Robert Capers 4154277 -73.45862 6/21/2005 ND NO sunny 0 0 0 0 0 te) 0 0 0 0 0 0 0 0 0 0
+9 3 10 Robert Capers 4154274 -73.45866 6/21/2005 ND Silt sunny 0 0 i) ie} 0 5 0 0 0 ie} 0 0 0 ie) i} (¢)
+9 4 20 Robert Capers 4154271 -73.45881 6/21/2005 ND NO sunny too deep 0 0 0 0 i) ie) 0 0 0 0 0 0 0 0 0 0
+10 1 0 BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 ) ) 0 t) 0 0 0 0
+10 2 5 BobC&RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny Oo 0 0 0 0 t) 0 i) 0 0 0 [) [') 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 NO sunny 0 0 0 0 0 0 0 ) t) 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 NO sunny ) 0 0 0 Qo 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 NOD sunny too deep to sample 0 ) 0 0 0 0 ) ) t) 0 0 0 Y) 0 0 0
+1 1 0 Greg Bugbee 4155830 -73.48185 6/20/2005 ND NO sunny 0 0 0 0 i) i) 0 0 0 0 0 0 0 0 0 0
+11 2 5 Greg Bugbee 4155833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 ie} 0 0 0 0 0 0
+1 3 10 Greg Bugbee 4155838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 i) 1 0 0 0 0 0 0 0 0 0 0
+11 4 20 Greg Bugbee 4155888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 ie} 0 0 0 0 i) 0
+1 5 30 Greg Bugbee 4155852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 i) 4 0 0 0 0 0 0 0 0 0 0
+11 6 40 Greg Bugbee 4155862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 i} 0
+1 7 50 Greg Bugbee 4155872 -73.48160 6/20/2005 ND NOD sunny 0 0 0 0 (0) 3 0 0 0 0 0 0 0 0 0 0
+11 8 60 Greg Bugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 i) 0 0 3 0 0 0 0 0 0 0 0 ie} (¢)
+1 9 70 Greg Bugbee 4155888 -73.48143 6/20/2005 ND NOD sunny 0 0 0 0 i) 5 0 0 0 0 0 0 0 0 0 0
+11 10 80 Greg Bugbee 4155897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 ie} 0 0 0 0 i?) 0
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny ) 0 0 0 0 0 0 t) t) 0 0 0 9 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny ty) ) 0 0 ty) ty) 0 t) tC) 0 t) 0 t) 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny ) 0 0 0 Q 9 0 t) ty) 0 0 0 9 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND NO sunny 0 0 0 0 0 0 0 t) t) 0 0 0 t) 0 0 0
+12 5 30 = Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny ) 0 Oo 0 0 0 0 t) t) 0 0 0 9 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND NO sunny t) ) 0 0 0 0 0 t) t) 0 [) 0 t) 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep tY) 0 Oo 0 0 QO 0 ty) 0 0 0 0 0 0 0 0
+13 1 ie) Greg Bugbee 4155870 -73.48475 6/20/2005 02 ND sunny 0 0 0 0 0 ie) 0 0 0 ie} 0 0 0 0 ie} [¢)
+13 2 5 Greg Bugbee 4155867 -73.48473 6/20/2005 ND ND sunny 0 0 ie) i} 0 0 0 ie) ie) ie} 0 0 0 ie) ie} ie)
+13 3 10 Greg Bugbee 4155862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 [¢)
+13 4 20 Greg Bugbee 4155857 -73.48465 6/20/2005 ND NOD sunny 0 0 i) i} ie) 1 0 0 0 ie} 0 0 0 ie) 0 0
+13 5 30 Greg Bugbee 9 4155852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 i°) ie) ie)
+13 6 40 Greg Bugbee 4155852 -73.48437 6/20/2005 ND NO sunny 0 0 0 ie} 0 ie) 0 0 0 ie} 0 0 i) 0 i} ie)
+13 7 50 Greg Bugbee 4155845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 ie) i°) 0 0 0 0 0 0 0 0 0 0
+13 8 60 Greg Bugbee 4155837 -73.48420 6/20/2005 ND ND sunny 0 0 i) ie} 0 0 0 0 0 ie} 0 0 0 ie) 0 ie)
+13 9 70 Greg Bugbee 4155832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 i¢) 0 0 0 0 0 0 0 0 0 0
+13 10 80 Greg Bugbee 4155822 -73.48410 6/20/2005 ND ND sunny 0 0 0 ie} 0 0 0 0 ie) ie} 0 0 0 ie) ie} ie)
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 ) 0 0 VY) t) 0 t) ) 0 0 0 t) 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected t) 0 Qo 0 t) 2 0 t) ) 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 ) 0 0 t) t) 0 t) t) 0 [) [) t) 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny t) 0 Qo 0 i) 0 0 t) ) 0 0 0 0 0 0 0
+14 5 30 —- Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 ty) 4 0 0 ) 0 0 [') t) 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny t) 0 Qo 0 t) 4 0 t) 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny t) 0 0 0 ) ) 0 t) ) 0 0 [) t) 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND NO sunny LY) 0 QO 0 0 0 0 ) 0 0 t) 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 DY) 0 0 t) ) 0 t) t) 0 t) [) t) 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND NO sunny ) 0 O 0 Qo 0 0 0 0 ) 0 0 0 ) 0 0
+15 1 0 ~~ Roslyn Selsky 4155083 -73.47170 6/21/2005 10 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 2 5 Roslyn Selsky 4155079 -73.47174 6/21/2005 20 Gravel sunny 0 0 0 ie} 0 0 0 0 0 is} 0 0 0 0 te) ie]
+1§ 4 20 Roslyn Selsky 4155082 -73.47194 6/21/2005 ND NO sunny 0 0 0 0 (°) 0 0 0 0 0 0 0 0 0 0 0
+15 i) 30 - Roslyn Selsky 4155076 -73.47207 6/21/2005 ND ND sunny 0 0 0 ie} 0 0 0 0 0 ie} 0 0 0 ie) ie) 0
+15 6 40 Roslyn Selsky 4155077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 i¢) 0 0 0 0 0 0 0 0 0 0
+15 7 50 Roslyn Selsky 4155067 -73.47227 6/21/2005 ND NOD sunny 0 0 i) ie} 0 0 0 0 0 ie} 0 0 0 0 ie) ie)
+1§ 8 60 Roslyn Selsky 4155072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 (9) i) 0 0 0 0 0 0 0 0 0 0
+15 9 70 Roslyn Selsky 4155082 -73.47254 6/21/2005 ND NOD sunny 0 0 i?) ie} 0 0 0 0 0 ie} 0 0 0 ie) i} Q
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 ie) ie) 0 0 0 0 0 0 0 0 0 0
+16 1 Q Greg Bugbee 41.55447 -73.48042 6/21/2005 ND NO sunny t) 0 Qo 0 t) t) 0 t) ) 0 0 0 0 0 0 0
+16 2 5  GregBugbee 41.55450 -73.48033 6/21/2005 ND ND sunny t) 0 0 0 ) ) 0 t) t) 0 0 [') t) 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND NO sunny LY) 0 QO 0 0 0 0 ) t) 0 0 0 0 0 0 0
+16 4 20 Greg Bugbee 41.55461 -73.48022 6/21/2005 ND ND sunny tY) ) 0 0 t) VY) 0 t) t) 0 0 0 t) 0 0 0
+16 § 30 «Greg Bugbee 41.55467 -73.48008 6/21/2005 ND NO sunny LY) 0 Oo 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny tY) t) 0 0 t) ) 0 t) t) 0 [) t) tY) 0 0 0
+16 7 50 Greg Bugbee 41.55489 -73.47967 6/21/2005 ND NO sunny 0 0 ty 0 QO 0 0 0 0 0 t) 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 ) 0 0 ) t) 0 t) t) 0 [) [) t) 0 0 0
+16 9 70 Greg Bugbee 41.55489 -73.47975 6/21/2005 ND NO sunny 0 0 o 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 Greg Bugbee 41.55503 -73.47975 6/21/2005 ND ND sunny ty) ) 0 0 ) t) 0 t) [) 0 0 [) t) 0 0 0
+17 1 Q Robert Capers 4151994 -73.45175 6/21/2005 03 Rock sunny 0 0 0 ie} 0 i) 0 0 0 ie} 0 0 0 0 i} ie]
+17 2 5 Robert Capers 4151992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 te) i) 0 0 0 0 0 0 0 0 0 0
+17 3 10 Robert Capers 4151994 -73.45188 6/21/2005 30 Sand sunny 0 0 i) ie} 0 3 0 0 0 ie} 0 0 0 (e) 0 ie]
+17 4 20 Robert Capers 4151991 -73.45198 6/21/2005 ND NO sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 4151991 -73.45213 6/21/2005 ND ND sunny 0 0 0 ie} 0 0 0 0 0 ie} 0 0 0 ie) 0 ie]
+17 6 40 Robert Capers 4151986 -73.45225 6/21/2005 ND NO sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 1 Q = Roslyn Seisky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 Oo 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny tt) 0 0 0 i) i) 0 [) t) 0 t) 0 t) 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 NO sunny 0 0 O 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny ty) o 0 0 0 i) i) t) t) 0 [) [) [') 0 0 0
+18 § 30 Roslyn Selsky 41.54400 -73.46556 6/21/2005 NO NO sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny i) 0 0 0 i) i) 0 t) t) 0 0 0 [) 0 0 0
+18 7 S50 = Roslyn Selsky 41.54408 -73.46534 6/21/2005 NO NO sunny 0 0 0 0 0 0 0 ty) ) 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny i) 0 0 0 0 0 i) i) i) 0 i) 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date ODepth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFie PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 ie) Robert Capers 4154282 -73.45859 6/21/2005 02 Rock sunny 0 0 0 ie} 0 1 0 0 0 ie} 0 0 0 0 0 (¢)
+9 2 5 Robert Capers 4154277 -73.45862 6/21/2005 ND NO sunny 0 0 0 0 0 te) 0 0 0 0 0 0 0 0 0 0
+9 3 10 Robert Capers 4154274 -73.45866 6/21/2005 ND Silt sunny 0 0 i) ie} 0 5 0 0 0 ie} 0 0 0 ie) i} (¢)
+9 4 20 Robert Capers 4154271 -73.45881 6/21/2005 ND NO sunny too deep 0 0 0 0 i) ie) 0 0 0 0 0 0 0 0 0 0
+10 1 0 BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 ) ) 0 t) 0 0 0 0
+10 2 5 BobC&RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny Oo 0 0 0 0 t) 0 i) 0 0 0 [) [') 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 NO sunny 0 0 0 0 0 0 0 ) t) 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 NO sunny ) 0 0 0 Qo 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 NOD sunny too deep to sample 0 ) 0 0 0 0 ) ) t) 0 0 0 Y) 0 0 0
+1 1 0 Greg Bugbee 4155830 -73.48185 6/20/2005 ND NO sunny 0 0 0 0 i) i) 0 0 0 0 0 0 0 0 0 0
+11 2 5 Greg Bugbee 4155833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 ie} 0 0 0 0 0 0
+1 3 10 Greg Bugbee 4155838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 i) 1 0 0 0 0 0 0 0 0 0 0
+11 4 20 Greg Bugbee 4155888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 ie} 0 0 0 0 i) 0
+1 5 30 Greg Bugbee 4155852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 i) 4 0 0 0 0 0 0 0 0 0 0
+11 6 40 Greg Bugbee 4155862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 i} 0
+1 7 50 Greg Bugbee 4155872 -73.48160 6/20/2005 ND NOD sunny 0 0 0 0 (0) 3 0 0 0 0 0 0 0 0 0 0
+11 8 60 Greg Bugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 i) 0 0 3 0 0 0 0 0 0 0 0 ie} (¢)
+1 9 70 Greg Bugbee 4155888 -73.48143 6/20/2005 ND NOD sunny 0 0 0 0 i) 5 0 0 0 0 0 0 0 0 0 0
+11 10 80 Greg Bugbee 4155897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 ie} 0 0 0 0 i?) 0
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny ) 0 0 0 0 0 0 t) t) 0 0 0 9 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny ty) ) 0 0 ty) ty) 0 t) tC) 0 t) 0 t) 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny ) 0 0 0 Q 9 0 t) ty) 0 0 0 9 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND NO sunny 0 0 0 0 0 0 0 t) t) 0 0 0 t) 0 0 0
+12 5 30 = Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny ) 0 Oo 0 0 0 0 t) t) 0 0 0 9 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND NO sunny t) ) 0 0 0 0 0 t) t) 0 [) 0 t) 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep tY) 0 Oo 0 0 QO 0 ty) 0 0 0 0 0 0 0 0
+13 1 ie) Greg Bugbee 4155870 -73.48475 6/20/2005 02 ND sunny 0 0 0 0 0 ie) 0 0 0 ie} 0 0 0 0 ie} [¢)
+13 2 5 Greg Bugbee 4155867 -73.48473 6/20/2005 ND ND sunny 0 0 ie) i} 0 0 0 ie) ie) ie} 0 0 0 ie) ie} ie)
+13 3 10 Greg Bugbee 4155862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 [¢)
+13 4 20 Greg Bugbee 4155857 -73.48465 6/20/2005 ND NOD sunny 0 0 i) i} ie) 1 0 0 0 ie} 0 0 0 ie) 0 0
+13 5 30 Greg Bugbee 9 4155852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 i°) ie) ie)
+13 6 40 Greg Bugbee 4155852 -73.48437 6/20/2005 ND NO sunny 0 0 0 ie} 0 ie) 0 0 0 ie} 0 0 i) 0 i} ie)
+13 7 50 Greg Bugbee 4155845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 ie) i°) 0 0 0 0 0 0 0 0 0 0
+13 8 60 Greg Bugbee 4155837 -73.48420 6/20/2005 ND ND sunny 0 0 i) ie} 0 0 0 0 0 ie} 0 0 0 ie) 0 ie)
+13 9 70 Greg Bugbee 4155832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 i¢) 0 0 0 0 0 0 0 0 0 0
+13 10 80 Greg Bugbee 4155822 -73.48410 6/20/2005 ND ND sunny 0 0 0 ie} 0 0 0 0 ie) ie} 0 0 0 ie) ie} ie)
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 ) 0 0 VY) t) 0 t) ) 0 0 0 t) 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected t) 0 Qo 0 t) 2 0 t) ) 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 ) 0 0 t) t) 0 t) t) 0 [) [) t) 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny t) 0 Qo 0 i) 0 0 t) ) 0 0 0 0 0 0 0
+14 5 30 —- Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 ty) 4 0 0 ) 0 0 [') t) 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny t) 0 Qo 0 t) 4 0 t) 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny t) 0 0 0 ) ) 0 t) ) 0 0 [) t) 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND NO sunny LY) 0 QO 0 0 0 0 ) 0 0 t) 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 DY) 0 0 t) ) 0 t) t) 0 t) [) t) 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND NO sunny ) 0 O 0 Qo 0 0 0 0 ) 0 0 0 ) 0 0
+15 1 0 ~~ Roslyn Selsky 4155083 -73.47170 6/21/2005 10 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 2 5 Roslyn Selsky 4155079 -73.47174 6/21/2005 20 Gravel sunny 0 0 0 ie} 0 0 0 0 0 is} 0 0 0 0 te) ie]
+1§ 4 20 Roslyn Selsky 4155082 -73.47194 6/21/2005 ND NO sunny 0 0 0 0 (°) 0 0 0 0 0 0 0 0 0 0 0
+15 i) 30 - Roslyn Selsky 4155076 -73.47207 6/21/2005 ND ND sunny 0 0 0 ie} 0 0 0 0 0 ie} 0 0 0 ie) ie) 0
+15 6 40 Roslyn Selsky 4155077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 i¢) 0 0 0 0 0 0 0 0 0 0
+15 7 50 Roslyn Selsky 4155067 -73.47227 6/21/2005 ND NOD sunny 0 0 i) ie} 0 0 0 0 0 ie} 0 0 0 0 ie) ie)
+1§ 8 60 Roslyn Selsky 4155072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 (9) i) 0 0 0 0 0 0 0 0 0 0
+15 9 70 Roslyn Selsky 4155082 -73.47254 6/21/2005 ND NOD sunny 0 0 i?) ie} 0 0 0 0 0 ie} 0 0 0 ie) i} Q
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 ie) ie) 0 0 0 0 0 0 0 0 0 0
+16 1 Q Greg Bugbee 41.55447 -73.48042 6/21/2005 ND NO sunny t) 0 Qo 0 t) t) 0 t) ) 0 0 0 0 0 0 0
+16 2 5  GregBugbee 41.55450 -73.48033 6/21/2005 ND ND sunny t) 0 0 0 ) ) 0 t) t) 0 0 [') t) 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND NO sunny LY) 0 QO 0 0 0 0 ) t) 0 0 0 0 0 0 0
+16 4 20 Greg Bugbee 41.55461 -73.48022 6/21/2005 ND ND sunny tY) ) 0 0 t) VY) 0 t) t) 0 0 0 t) 0 0 0
+16 § 30 «Greg Bugbee 41.55467 -73.48008 6/21/2005 ND NO sunny LY) 0 Oo 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny tY) t) 0 0 t) ) 0 t) t) 0 [) t) tY) 0 0 0
+16 7 50 Greg Bugbee 41.55489 -73.47967 6/21/2005 ND NO sunny 0 0 ty 0 QO 0 0 0 0 0 t) 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 ) 0 0 ) t) 0 t) t) 0 [) [) t) 0 0 0
+16 9 70 Greg Bugbee 41.55489 -73.47975 6/21/2005 ND NO sunny 0 0 o 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 Greg Bugbee 41.55503 -73.47975 6/21/2005 ND ND sunny ty) ) 0 0 ) t) 0 t) [) 0 0 [) t) 0 0 0
+17 1 Q Robert Capers 4151994 -73.45175 6/21/2005 03 Rock sunny 0 0 0 ie} 0 i) 0 0 0 ie} 0 0 0 0 i} ie]
+17 2 5 Robert Capers 4151992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 te) i) 0 0 0 0 0 0 0 0 0 0
+17 3 10 Robert Capers 4151994 -73.45188 6/21/2005 30 Sand sunny 0 0 i) ie} 0 3 0 0 0 ie} 0 0 0 (e) 0 ie]
+17 4 20 Robert Capers 4151991 -73.45198 6/21/2005 ND NO sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 4151991 -73.45213 6/21/2005 ND ND sunny 0 0 0 ie} 0 0 0 0 0 ie} 0 0 0 ie) 0 ie]
+17 6 40 Robert Capers 4151986 -73.45225 6/21/2005 ND NO sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 1 Q = Roslyn Seisky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 Oo 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny tt) 0 0 0 i) i) 0 [) t) 0 t) 0 t) 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 NO sunny 0 0 O 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny ty) o 0 0 0 i) i) t) t) 0 [) [) [') 0 0 0
+18 § 30 Roslyn Selsky 41.54400 -73.46556 6/21/2005 NO NO sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny i) 0 0 0 i) i) 0 t) t) 0 0 0 [) 0 0 0
+18 7 S50 = Roslyn Selsky 41.54408 -73.46534 6/21/2005 NO NO sunny 0 0 0 0 0 0 0 ty) ) 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny i) 0 0 0 0 0 i) i) i) 0 i) 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 0 Robert Capers 41.54282 -73.45859 6/21/2005 0.2 Rock sunny 0 ie] 0 0 0 1 0 0 0 0 0 0 0 0 0 ie)
+9 2 5 Robert Capers 41.54277 -73.45862 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+9 3 10 Robert Capers 41.54274 -73.45866 6/21/2005 ND Silt sunny 0 0 0 0 0 5 0 0 (e} 0 0 0 0 0 0 ie)
+9 4 20 Robert Capers 41.54271 -73.45881 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie)
+10 1 Q BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 2 5 BobC &RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 ND sunny too deep to sample 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 1 0 Greg Bugbee 41.55830 -73.48185 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+11 2 5 Greg Bugbee 41.55833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 3 10 GregBugbee 41.55838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 (e} 0 0 0 ie] 0 0 ie]
+11 4 20 Greg Bugbee 41.55888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie) 0 0 0
+11 5 30 GregBugbee 41.55852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie)
+11 6 40  GregBugbee 41.55862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie]
+11 7 50 Greg Bugbee 41.55872 -73.48160 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 ie)
+11 8 60 GregBugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 ie) 0 0 ie)
+11 9 70 GregBugbee 41.55888 -73.48143 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie] 0 0 ie]
+11 10 80 GregBugbee 41.55897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 ie) 0 0 0 ie) 0 0 ie)
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 5 30 =Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 1 0 Greg Bugbee 41.55870 -73.48475 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 2 5 Greg Bugbee 41.55867 -73.48473 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 0 0 [e} 0 0 0
+13 3 10  GregBugbee 41.55862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+13 4 20 GregBugbee 41.55857 -73.48465 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 ie] 0 0 ie]
+13 5 30 GregBugbee 41.55852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 6 40 GregBugbee 41.55852 -73.48437 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 7 50 GregBugbee 41.55845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 8 60 Greg Bugbee 41.55837 -73.48420 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 9 70 GregBugbee 41.55832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 10 80 GregBugbee 41.55822 -73.48410 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 ie} ie]
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 0 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 5 30 Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 1 a Roslyn Selsky 41.55083 -73.47170 6/21/2005 1.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 0
+15 2 5 Roslyn Selsky 41.55079 -73.47174 6/21/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+15 4 20 ~=Roslyn Selsky 41.55082 -73.47194 6/21/2005 ND ND sunny 0 0 0 0 ie) 0 0 0 0 0 0 0 Q 0 0 Q
+15 5 30 ~=Roslyn Selsky 41.55076 -73.47207 6/21/2005 ND ND sunny 0 ie] 0 0 0 0 0 0 ie] 0 0 0 ie) 0 0 ie)
+15 6 40 Roslyn Selsky 41.55077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+15 7 50 = Roslyn Selsky 41.55067 -73.47227 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 ie)
+15 8 60 Roslyn Selsky 41.55072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+15 9 70 = Roslyn Selsky 41.55082 -73.47254 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie)
+16 1 0 Greg Bugbee 41.55447 -73.48042 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 2 5 Greg Bugbee 41.55450 -73.48033 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 4 20 GregBugbee 41.55461 -73.48022 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 5 30 GregBugbee 41.55467 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 7 50 GregBugbee 41.55489 -73.47967 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 9 70 GregBugbee 41.55489 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 GregBugbee 41.55503 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 1 0 Robert Capers 41.51994 -73.45175 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 ie)
+17 2 5 Robert Capers 41.51992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 3 10 Robert Capers 41.51994 -73.45188 6/21/2005 3.0 Sand sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 0
+17 4 20 Robert Capers 41.51991 -73.45198 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 41.51991 -73.45213 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 6 40 Robert Capers 41.51986 -73.45225 6/21/2005 ND ND sunny too deep 0 0 0 0 0 (e) 0 (e} ie) 0 0 0 ie) 0 0 ie)
+18 1 Q ~=Roslyn Selsky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 = Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 5 30 = Roslyn Selsky 41.54400 -73.46556 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 7 50 Roslyn Selsky 41.54408 -73.46534 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 0 Robert Capers 41.54282 -73.45859 6/21/2005 0.2 Rock sunny 0 ie] 0 0 0 1 0 0 0 0 0 0 0 0 0 ie)
+9 2 5 Robert Capers 41.54277 -73.45862 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+9 3 10 Robert Capers 41.54274 -73.45866 6/21/2005 ND Silt sunny 0 0 0 0 0 5 0 0 (e} 0 0 0 0 0 0 ie)
+9 4 20 Robert Capers 41.54271 -73.45881 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie)
+10 1 Q BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 2 5 BobC &RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 ND sunny too deep to sample 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 1 0 Greg Bugbee 41.55830 -73.48185 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+11 2 5 Greg Bugbee 41.55833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 3 10 GregBugbee 41.55838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 (e} 0 0 0 ie] 0 0 ie]
+11 4 20 Greg Bugbee 41.55888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie) 0 0 0
+11 5 30 GregBugbee 41.55852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie)
+11 6 40  GregBugbee 41.55862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie]
+11 7 50 Greg Bugbee 41.55872 -73.48160 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 ie)
+11 8 60 GregBugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 ie) 0 0 ie)
+11 9 70 GregBugbee 41.55888 -73.48143 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie] 0 0 ie]
+11 10 80 GregBugbee 41.55897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 ie) 0 0 0 ie) 0 0 ie)
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 5 30 =Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 1 0 Greg Bugbee 41.55870 -73.48475 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 2 5 Greg Bugbee 41.55867 -73.48473 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 0 0 [e} 0 0 0
+13 3 10  GregBugbee 41.55862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+13 4 20 GregBugbee 41.55857 -73.48465 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 ie] 0 0 ie]
+13 5 30 GregBugbee 41.55852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 6 40 GregBugbee 41.55852 -73.48437 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 7 50 GregBugbee 41.55845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 8 60 Greg Bugbee 41.55837 -73.48420 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 9 70 GregBugbee 41.55832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 10 80 GregBugbee 41.55822 -73.48410 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 ie} ie]
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 0 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 5 30 Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 1 a Roslyn Selsky 41.55083 -73.47170 6/21/2005 1.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 0
+15 2 5 Roslyn Selsky 41.55079 -73.47174 6/21/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+15 4 20 ~=Roslyn Selsky 41.55082 -73.47194 6/21/2005 ND ND sunny 0 0 0 0 ie) 0 0 0 0 0 0 0 Q 0 0 Q
+15 5 30 ~=Roslyn Selsky 41.55076 -73.47207 6/21/2005 ND ND sunny 0 ie] 0 0 0 0 0 0 ie] 0 0 0 ie) 0 0 ie)
+15 6 40 Roslyn Selsky 41.55077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+15 7 50 = Roslyn Selsky 41.55067 -73.47227 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 ie)
+15 8 60 Roslyn Selsky 41.55072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+15 9 70 = Roslyn Selsky 41.55082 -73.47254 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie)
+16 1 0 Greg Bugbee 41.55447 -73.48042 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 2 5 Greg Bugbee 41.55450 -73.48033 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 4 20 GregBugbee 41.55461 -73.48022 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 5 30 GregBugbee 41.55467 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 7 50 GregBugbee 41.55489 -73.47967 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 9 70 GregBugbee 41.55489 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 GregBugbee 41.55503 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 1 0 Robert Capers 41.51994 -73.45175 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 ie)
+17 2 5 Robert Capers 41.51992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 3 10 Robert Capers 41.51994 -73.45188 6/21/2005 3.0 Sand sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 0
+17 4 20 Robert Capers 41.51991 -73.45198 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 41.51991 -73.45213 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 6 40 Robert Capers 41.51986 -73.45225 6/21/2005 ND ND sunny too deep 0 0 0 0 0 (e) 0 (e} ie) 0 0 0 ie) 0 0 ie)
+18 1 Q ~=Roslyn Selsky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 = Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 5 30 = Roslyn Selsky 41.54400 -73.46556 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 7 50 Roslyn Selsky 41.54408 -73.46534 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 0 Robert Capers 41.54282 -73.45859 6/21/2005 0.2 Rock sunny 0 ie] 0 0 0 1 0 0 0 0 0 0 0 0 0 ie)
+9 2 5 Robert Capers 41.54277 -73.45862 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+9 3 10 Robert Capers 41.54274 -73.45866 6/21/2005 ND Silt sunny 0 0 0 0 0 5 0 0 (e} 0 0 0 0 0 0 ie)
+9 4 20 Robert Capers 41.54271 -73.45881 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie)
+10 1 Q BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 2 5 BobC &RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 ND sunny too deep to sample 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 1 0 Greg Bugbee 41.55830 -73.48185 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+11 2 5 Greg Bugbee 41.55833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 3 10 GregBugbee 41.55838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 (e} 0 0 0 ie] 0 0 ie]
+11 4 20 Greg Bugbee 41.55888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie) 0 0 0
+11 5 30 GregBugbee 41.55852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie)
+11 6 40  GregBugbee 41.55862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie]
+11 7 50 Greg Bugbee 41.55872 -73.48160 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 ie)
+11 8 60 GregBugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 ie) 0 0 ie)
+11 9 70 GregBugbee 41.55888 -73.48143 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie] 0 0 ie]
+11 10 80 GregBugbee 41.55897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 ie) 0 0 0 ie) 0 0 ie)
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 5 30 =Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 1 0 Greg Bugbee 41.55870 -73.48475 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 2 5 Greg Bugbee 41.55867 -73.48473 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 0 0 [e} 0 0 0
+13 3 10  GregBugbee 41.55862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+13 4 20 GregBugbee 41.55857 -73.48465 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 ie] 0 0 ie]
+13 5 30 GregBugbee 41.55852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 6 40 GregBugbee 41.55852 -73.48437 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 7 50 GregBugbee 41.55845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 8 60 Greg Bugbee 41.55837 -73.48420 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 9 70 GregBugbee 41.55832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 10 80 GregBugbee 41.55822 -73.48410 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 ie} ie]
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 0 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 5 30 Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 1 a Roslyn Selsky 41.55083 -73.47170 6/21/2005 1.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 0
+15 2 5 Roslyn Selsky 41.55079 -73.47174 6/21/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+15 4 20 ~=Roslyn Selsky 41.55082 -73.47194 6/21/2005 ND ND sunny 0 0 0 0 ie) 0 0 0 0 0 0 0 Q 0 0 Q
+15 5 30 ~=Roslyn Selsky 41.55076 -73.47207 6/21/2005 ND ND sunny 0 ie] 0 0 0 0 0 0 ie] 0 0 0 ie) 0 0 ie)
+15 6 40 Roslyn Selsky 41.55077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+15 7 50 = Roslyn Selsky 41.55067 -73.47227 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 ie)
+15 8 60 Roslyn Selsky 41.55072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+15 9 70 = Roslyn Selsky 41.55082 -73.47254 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie)
+16 1 0 Greg Bugbee 41.55447 -73.48042 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 2 5 Greg Bugbee 41.55450 -73.48033 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 4 20 GregBugbee 41.55461 -73.48022 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 5 30 GregBugbee 41.55467 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 7 50 GregBugbee 41.55489 -73.47967 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 9 70 GregBugbee 41.55489 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 GregBugbee 41.55503 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 1 0 Robert Capers 41.51994 -73.45175 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 ie)
+17 2 5 Robert Capers 41.51992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 3 10 Robert Capers 41.51994 -73.45188 6/21/2005 3.0 Sand sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 0
+17 4 20 Robert Capers 41.51991 -73.45198 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 41.51991 -73.45213 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 6 40 Robert Capers 41.51986 -73.45225 6/21/2005 ND ND sunny too deep 0 0 0 0 0 (e) 0 (e} ie) 0 0 0 ie) 0 0 ie)
+18 1 Q ~=Roslyn Selsky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 = Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 5 30 = Roslyn Selsky 41.54400 -73.46556 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 7 50 Roslyn Selsky 41.54408 -73.46534 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+9 1 0 Robert Capers 41.54282 -73.45859 6/21/2005 0.2 Rock sunny 0 ie] 0 0 0 1 0 0 0 0 0 0 0 0 0 ie)
+9 2 5 Robert Capers 41.54277 -73.45862 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+9 3 10 Robert Capers 41.54274 -73.45866 6/21/2005 ND Silt sunny 0 0 0 0 0 5 0 0 (e} 0 0 0 0 0 0 ie)
+9 4 20 Robert Capers 41.54271 -73.45881 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie)
+10 1 Q BobC&RozS 41.56302 -73.47768 6/20/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 2 5 BobC &RozS 41.56299 -73.47776 6/20/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 3 10 BobC&RozS 41.56296 -73.47778 6/20/2005 5.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+10 4 20 BobC &RozS 41.56290 -73.47789 6/20/2005 10.0 ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+10 5 30 =BobC&RozS 41.56283 -73.47793 6/20/2005 0.2 ND sunny too deep to sample 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 1 0 Greg Bugbee 41.55830 -73.48185 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+11 2 5 Greg Bugbee 41.55833 -73.48180 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+11 3 10 GregBugbee 41.55838 -73.48177 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 (e} 0 0 0 ie] 0 0 ie]
+11 4 20 Greg Bugbee 41.55888 -73.47515 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie) 0 0 0
+11 5 30 GregBugbee 41.55852 -73.43160 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie)
+11 6 40  GregBugbee 41.55862 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 ie]
+11 7 50 Greg Bugbee 41.55872 -73.48160 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 ie)
+11 8 60 GregBugbee 41.55880 -73.48158 6/20/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 ie) 0 0 ie)
+11 9 70 GregBugbee 41.55888 -73.48143 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 ie] 0 0 ie]
+11 10 80 GregBugbee 41.55897 -73.48142 6/20/2005 ND ND sunny 0 0 0 0 0 5 0 0 ie) 0 0 0 ie) 0 0 ie)
+12 1 Q Robert Capers 41.53916 -73.45686 6/21/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 2 5 Robert Capers 41.53914 -73.45688 6/21/2005 3.5 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 3 10 Robert Capers 41.53913 -73.45698 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 4 20 Robert Capers 41.53909 -73.45714 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 5 30 =Robert Capers 41.53904 -73.45722 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 6 40 Robert Capers 41.53905 -73.45730 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+12 7 50 Robert Capers 41.53897 -73.45745 6/21/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 1 0 Greg Bugbee 41.55870 -73.48475 6/20/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 2 5 Greg Bugbee 41.55867 -73.48473 6/20/2005 ND ND sunny 0 0 0 0 0 ) 0 0 0 0 0 0 [e} 0 0 0
+13 3 10  GregBugbee 41.55862 -73.48472 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+13 4 20 GregBugbee 41.55857 -73.48465 6/20/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 ie] 0 0 ie]
+13 5 30 GregBugbee 41.55852 -73.48453 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 6 40 GregBugbee 41.55852 -73.48437 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 7 50 GregBugbee 41.55845 -73.48428 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+13 8 60 Greg Bugbee 41.55837 -73.48420 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 Q 0 0 Q
+13 9 70 GregBugbee 41.55832 -73.48413 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+13 10 80 GregBugbee 41.55822 -73.48410 6/20/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 ie} ie]
+14 1 0 Robert Capers 41.53125 -73.45427 6/21/2005 0.2 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 2 Q Robert Capers 41.53124 -73.45427 6/21/2005 0.5 Sand sunny StuPec collected 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 3
+14 3 10 Robert Capers 41.53118 -73.45436 6/21/2005 1.0 Sand sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 0 0 0 0
+14 4 20 Robert Capers 41.53108 -73.45439 6/21/2005 2.0 Sand sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 5 30 Robert Capers 41.53100 -73.45445 6/21/2005 3.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 6 40 Robert Capers 41.53093 -73.45452 6/21/2005 4.0 Sand sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+14 7 50 Robert Capers 41.53082 -73.45457 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 8 60 Robert Capers 41.53074 -73.45460 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 9 70 Robert Capers 41.53068 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+14 10 80 Robert Capers 41.53061 -73.45470 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 1 a Roslyn Selsky 41.55083 -73.47170 6/21/2005 1.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 0
+15 2 5 Roslyn Selsky 41.55079 -73.47174 6/21/2005 2.0 Gravel sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+15 4 20 ~=Roslyn Selsky 41.55082 -73.47194 6/21/2005 ND ND sunny 0 0 0 0 ie) 0 0 0 0 0 0 0 Q 0 0 Q
+15 5 30 ~=Roslyn Selsky 41.55076 -73.47207 6/21/2005 ND ND sunny 0 ie] 0 0 0 0 0 0 ie] 0 0 0 ie) 0 0 ie)
+15 6 40 Roslyn Selsky 41.55077 -73.47217 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 ie} ie)
+15 7 50 = Roslyn Selsky 41.55067 -73.47227 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 ie)
+15 8 60 Roslyn Selsky 41.55072 -73.47241 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 ie) 0 0 0 ie) 0 0 ie)
+15 9 70 = Roslyn Selsky 41.55082 -73.47254 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+15 10 80 Roslyn Selsky 41.55072 -73.47266 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie)
+16 1 0 Greg Bugbee 41.55447 -73.48042 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 2 5 Greg Bugbee 41.55450 -73.48033 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 3 10 GregBugbee 41.55456 -73.48028 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 4 20 GregBugbee 41.55461 -73.48022 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 5 30 GregBugbee 41.55467 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 6 40 GregBugbee 41.55475 -73.48008 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 7 50 GregBugbee 41.55489 -73.47967 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 8 60 GregBugbee 41.55486 -73.47986 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 9 70 GregBugbee 41.55489 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+16 10 80 GregBugbee 41.55503 -73.47975 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 1 0 Robert Capers 41.51994 -73.45175 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0 0 ie)
+17 2 5 Robert Capers 41.51992 -73.45180 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 3 10 Robert Capers 41.51994 -73.45188 6/21/2005 3.0 Sand sunny 0 0 0 0 0 3 0 0 ie) 0 0 0 0 0 0 0
+17 4 20 Robert Capers 41.51991 -73.45198 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+17 5 30 Robert Capers 41.51991 -73.45213 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 ie] 0 0 ie]
+17 6 40 Robert Capers 41.51986 -73.45225 6/21/2005 ND ND sunny too deep 0 0 0 0 0 (e) 0 (e} ie) 0 0 0 ie) 0 0 ie)
+18 1 Q ~=Roslyn Selsky 41.54385 -73.46590 6/21/2005 0.3 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 2 5 Roslyn Selsky 41.54389 -73.46589 6/21/2005 2.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 3 10 Roslyn Selsky 41.54394 -73.46584 6/21/2005 11.0 ND sunny 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+18 4 20 = Roslyn Selsky 41.54392 -73.46569 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 5 30 = Roslyn Selsky 41.54400 -73.46556 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 6 40 Roslyn Selsky 41.54408 -73.46552 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 7 50 Roslyn Selsky 41.54408 -73.46534 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+18 8 60 Roslyn Selsky 41.54388 -73.46519 6/21/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+

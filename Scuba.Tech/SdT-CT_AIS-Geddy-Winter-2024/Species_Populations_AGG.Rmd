@@ -1,0 +1,652 @@
+Geddy Lucier
+Merging Data Script
+Scuba.Tech Candlewood Lake
+
+
+```{r}
+library(tidyverse)
+library(sf)
+library(matrixStats)  # For doing fast rowwise operations
+library(terra)
+library(readxl)
+library(ggplot2)
+library(ggforce)
+library(stringr)
+library(cowplot)
+library(dplyr)
+
+setwd("Dropbox/Scuba.Tech/SdT-CT_AIS-Geddy-Winter-2024")
+getwd()
+
+
+```
+
+
+
+```{r}
+
+# Read the first file as the base dataset
+merged_transect <- read_csv(file_list[1])
+
+# Standardize column names (optional)
+clean_names <- function(df) {
+  colnames(df) <- tolower(trimws(gsub("[^A-Za-z0-9]", "_", colnames(df))))
+  return(df)
+}
+
+merged_transect <- clean_names(merged_transect)
+
+# Iterate over the rest of the files
+for (i in seq_along(file_list)[-1]) {  # Skip first file since it's already loaded
+  temp_transect <- read_csv(file_list[i])
+  temp_transect <- clean_names(temp_transect)
+
+  # Ensure both data frames have the same column structure
+  all_cols <- union(colnames(merged_transect), colnames(temp_transect))
+
+  # Add missing columns as NA in both data frames
+  for (col in setdiff(all_cols, colnames(merged_transect))) {
+    merged_transect[[col]] <- NA
+  }
+  for (col in setdiff(all_cols, colnames(temp_transect))) {
+    temp_transect[[col]] <- NA
+  }
+
+  # Ensure column order matches
+  merged_transect <- merged_transect[, all_cols]
+  temp_transect <- temp_transect[, all_cols]
+
+  # Append data
+  merged_transect <- rbind(merged_transect, temp_transect)
+  message(paste("Appended data from", file_list[i]))
+}
+
+# View the result
+glimpse(merged_transect)
+
+
+
+```
+For final troubleshoots with OCR cleaning
+
+```{r}
+# elasp elesp are og
+getOption("max.print" = 1000) 
+
+
+
+merged_transect$date[merged_transect$date >=1] 
+
+options(max.print=1000000)
+unique(merged_transect)
+
+
+
+
+```
+
+
+```{r}
+merged_transect <- read_csv("merged_transect.csv") #START HERE
+
+merged_transect <- merged_transect %>%
+  arrange(transect, point)
+
+merged_transect <- merged_transect[-35]
+
+
+
+merged_transect$date[merged_transect$year == "0.371215278" ]
+
+# merged_transect <- merged_transect %>%
+#   mutate(year = gsub("(.*)/([0-9]+)$", "20\\2", date),
+#           myrspi = ifelse(myrspi < 0 | myrspi > 5, 0, myrspi)
+#          ) %>%
+#   group_by(year) %>%
+#   mutate(myspri.yearsum = sum(myrspi),
+#          cerdem.yearsum = sum(cerdem))
+#   
+
+unique(merged_transect$year)
+ggplot() +  geom_line(aes(data = merged_transect, x = year, y =))
+
+write_csv(merged_transect, "merged_transect.csv")
+
+
+```
+percentage of total
+
+```{r}
+?across
+
+library(dplyr)
+
+species_data <- merged_transect %>%
+  relocate(year, .before = 1) %>%  # Move 'year' to the first column
+  relocate(35, .after = year) %>% 
+  dplyr::select(transect, point, lattitude, longitude, year, 13:ncol(.))  %>% # Move column 35 next to 'year'
+  mutate(point_sum = rowSums(across(6:ncol(.)), na.rm = TRUE), ) %>% #sum of all the species within a point 
+  group_by(year) %>% # Sum across columns 12 to end
+  mutate(yearly_sum = sum(point_sum)) %>%
+mutate(potfol_sum = sum(potfol, na.rm = TRUE), 
+         elonut_sum = sum(elonut, na.rm = TRUE),
+         cerdem_sum = sum(cerdem, na.rm = TRUE),
+         najfle_sum = sum(najfle, na.rm = TRUE),
+         potcri_sum = sum(potcri, na.rm = TRUE),
+         myrspi_sum = sum(myrspi, na.rm = TRUE),
+         valame_sum = sum(valame, na.rm = TRUE),
+         najmin_sum = sum(najmin, na.rm = TRUE),
+         potgra_sum = sum(potgra, na.rm = TRUE),
+         potper_sum = sum(potper, na.rm = TRUE),
+         zanpal_sum = sum(zanpal, na.rm = TRUE),
+         calsp_sum = sum(calsp, na.rm = TRUE),
+         nymodo_sum = sum(nymodo, na.rm = TRUE),
+         lemmin_sum = sum(lemmin, na.rm = TRUE),
+         spipol_sum = sum(spipol, na.rm = TRUE),
+         stupec_sum = sum(stupec, na.rm = TRUE),
+         elasp_sum = sum(elasp, na.rm = TRUE),
+         potbic_sum = sum(potbic, na.rm = TRUE),
+         potpus_sum = sum(potpus, na.rm = TRUE),
+         unidentif3_sum = sum(unidentif3, na.rm = TRUE),
+         elesp_sum = sum(elesp, na.rm = TRUE),
+         spaspp_sum = sum(spaspp, na.rm = TRUE),
+         typha_sum = sum(typha, na.rm = TRUE)) %>%
+  filter(!year == "2007") %>%#filter to year to control for BAD data
+    ungroup()
+
+colnames(species_data)ƒ
+head(species_data)
+tail(species_data)
+unique(merged_transect$typha)
+colnames(merged_transect)
+
+
+#### og code
+other_data <- species_data %>%
+  arrange(transect, point) %>%
+  dplyr::select(-c(   "potfol",     "elonut",    "cerdem",     "najfle",     "potcri",     "myrspi",     "valame",     "najmin",  "potgra",     "potper",     "zanpal",     "calsp",      "nymodo",     "lemmin",  "spipol",     "stupec",     "elasp" ,     "potbic",     "potpus",     "unidentif3",  "elesp",      "spaspp",     "typha")) %>%
+  dplyr::select(-cerdem_sum, -myrspi_sum) %>%
+mutate(
+    other_sum = rowSums(across(8:28))
+  ) %>%
+  dplyr::select(other_sum)
+
+
+
+
+
+species_data <- cbind(species_data, other_data)
+
+write_csv(species_data, "species_data.csv")
+
+
+```
+
+
+```{r}
+
+ggplot(data = species_data) + 
+  # Opaque area for "Total" sum
+  geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+  
+  # Line for "Total" sum
+  geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+  
+  # Myrspi points and lines
+  geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Watermilfoil"), size = 1) + 
+  geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Watermilfoil"), linewidth = 1) + 
+  
+  # Cerdem points and lines
+  geom_point(aes(x = year, y = cerdem_sum, color = "Coontail"), size = 1) + 
+  geom_line(aes(x = year, y = cerdem_sum, color = "Coontail"), linewidth = 1) + 
+  
+  # Other species points and lines
+  geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) + 
+  geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) + 
+  
+  # Define color and fill palettes
+  scale_color_manual(values = c("Eurasian Watermilfoil" = "#E74C3C", "Coontail" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+  scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+  
+  # Labels and theme improvements
+  labs(color = "Species", fill = "Total Area", x = "Year", y = "Observed Sum of Observations",
+       title = "Candlewood Lake, CT Invasive Species Populations") +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.background = element_blank(),  
+    plot.background = element_blank(),  
+    legend.position = "top"
+  ) +
+  scale_x_continuous(
+    breaks = seq(2007.5, 2020, by = 2.5),  # Adjust tick intervals (every 5 years)
+    labels = c("Jul. 2008", "Aug. 2010", "Aug. 2012", "Aug. 2015", "Aug. 2017", "Aug. 2020")  # Custom labels
+  ) 
+
+
+
+
+
+
+
+```
+Plotting (LET'S GET THIS SHIT DONE)
+
+```{r}
+lake_data <- st_read("shapefiles/Lake Polygon/NLA_2017_Lake_Polygon.dbf")
+
+gdb_path <- "shapefiles/fef0ad6f-84a0-42e6-942a-ed3172551e0c.gdb"
+layers <- st_layers(gdb_path)
+ct_lakes <- st_read(gdb_path)
+
+
+
+candlewood_bbox <- st_as_sfc(st_bbox(c(
+  xmin = -73.52,  # Minimum longitude (left)
+  xmax = -73.42,  # Maximum longitude (right)
+  ymin = 41.43,   # Minimum latitude (bottom)
+  ymax = 41.53    # Maximum latitude (top)
+), crs = 4326))
+
+
+ct_lakes <- st_transform(ct_lakes, crs = 4326)
+
+
+candlewood_lake <- ct_lakes %>%
+  filter(st_intersects(SHAPE, candlewood_bbox, sparse = FALSE)) %>%
+  filter(!WBNAME == "Squantz Pond" & SHAPE_Length > 5100)
+
+fivenum(candlewood_lake$SHAPE_Length)
+
+##just a test plot 
+ggplot() +
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") +
+  labs(
+    title = "Candlewood Lake Base Layer",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal()
+
+
+
+```
+```{r}
+ggplot()
+
+coord_gendata <-species_data
+
+transect_heads <-  species_data %>%
+    filter(point == 1 & lattitude > 41.4) ## lat and long coordinates
+
+
+sf_points <- st_as_sf(transect_heads, coords = c("longitude", "lattitude"), crs = 4326) # geometry
+
+
+
+
+
+
+## test plot with points now
+ggplot() +
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") +
+  labs(
+    title = "Candlewood Lake Base Layer",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal() + 
+  geom_sf(data= sf_points)
+
+
+```
+
+Notes: two ways we can plot
+We need some way to aggregate the points so it doesn't look too messy. 
+```{r}
+install.packages("scatterpie")  # Install the package
+library(scatterpie)  # Load the package
+
+transect_heads %>%
+  filter(year == "2008") %>%
+  ggplot() + 
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") +  # Base layer
+  geom_scatterpie(aes(x = longitude, y = lattitude, group = point, 
+                      r = sqrt(yearly_sum) / 2500),  # 🔹 Scale pie size dynamically
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum")) +
+   # ✅ Fix: Ulog()coord_sf() +  # ✅ Fix: Uyearly_sumcoord_sf() +  # ✅ Fix: Use coord_sf() instead of coord_equal()
+  theme_void()   # Removes grid, axes, background
+
+
+
+plot(eight_plot)
+
+```
+```{r}
+library(ggplot2)
+library(scatterpie)
+library(sf)
+library(cowplot)
+
+# Define bounding boxes for North & South
+north_bbox <- c(xmin = -73.52, xmax = -73.42, ymin = 41.48, ymax = 41.53)  # Upper half
+south_bbox <- c(xmin = -73.52, xmax = -73.42, ymin = 41.43, ymax = 41.48)  # Lower half
+
+# Define a custom color palette
+species_colors <- c("myrspi_sum" = "#66c2a5", "cerdem_sum" = "#fc8d62", "other_sum" = "#8da0cb")
+
+# North section plot
+north_plot <- transect_heads %>%
+  filter(year == "2008") %>%
+  ggplot() + 
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "black") +  
+  geom_scatterpie(aes(x = longitude, y = lattitude, group = point, 
+                      r = sqrt(yearly_sum) / 2500), 
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum"),
+                  color = "black", alpha = 0.8) +  
+  scale_fill_manual(values = species_colors, name = "Species") +  # Custom colors
+  coord_sf(xlim = c(north_bbox["xmin"], north_bbox["xmax"]), 
+           ylim = c(north_bbox["ymin"], north_bbox["ymax"])) +  
+  theme_void() +  
+  theme(legend.position = "none") +  
+  labs(title = "Northern Section of Candlewood Lake")
+
+# South section plot
+south_plot <- transect_heads %>%
+  filter(year == "2008") %>%
+  ggplot() + 
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "black") +  
+  geom_scatterpie(aes(x = longitude, y = lattitude, group = point, 
+                      r = sqrt(yearly_sum) / 2500), 
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum"),
+                  color = "black", alpha = 0.8) +  
+  scale_fill_manual(values = species_colors, name = "Species") +
+  coord_sf(xlim = c(south_bbox["xmin"], south_bbox["xmax"]), 
+           ylim = c(south_bbox["ymin"], south_bbox["ymax"])) +  
+  theme_void() +  
+  theme(legend.position = "none") +  
+  labs(title = "Southern Section of Candlewood Lake")
+
+species_colors <- c("myrspi_sum" = "#66c2a5", "cerdem_sum" = "#fc8d62", "other_sum" = "#8da0cb")
+
+# Create a dummy scatterpie plot just to extract the legend
+# Generate a dummy plot with a legend
+legend_plot <- ggplot(data.frame(x = 0, y = 0, myrspi_sum = 1, cerdem_sum = 1, other_sum = 1)) +
+  geom_scatterpie(aes(x = x, y = y, group = 1), 
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum")) +
+  scale_fill_manual(values = species_colors, name = "Species",
+                    labels = c("Eurasian Watermilfoil", "Coontail", "Other Species")) +
+  theme_void() +
+  theme(
+    legend.position = "bottom",
+    legend.key.size = unit(1, "cm"),  
+    legend.text = element_text(size = 12),  
+    legend.title = element_text(size = 14, face = "bold")
+  )
+
+# Extract the legend correctly as a grob
+legend_grob <- ggplotGrob(legend_plot)
+legend_grob <- legend_grob$grobs[which(sapply(legend_grob$grobs, function(x) x$name) == "guide-box")][[1]]
+
+# Convert legend_grob into a valid grob for cowplot
+legend_cowplot <- ggdraw() + draw_grob(legend_grob)
+
+
+# Create title and subtitle
+title_plot <- ggdraw() + 
+  draw_label("Candlewood Lake Survey - 2008", fontface = "bold", size = 20, hjust = 0.5) +
+  draw_label("Species Distribution by Transect", fontface = "italic", size = 14, hjust = 0.5, y = 0.8)
+
+# Combine the legend into a cowplot-compatible object
+legend_cowplot <- ggdraw() + draw_grob(legend_grob)
+
+# Merge everything together
+final_plot <- plot_grid(
+  title_plot,               # Title & Subtitle
+  legend_cowplot,           # Corrected legend
+  plot_grid(north_plot, south_plot, ncol = 2),  # North & South Plots
+  ncol = 1, 
+  rel_heights = c(0.15, 0.05, 0.8),  # Adjusts proportions
+  align = 'v',  # Aligns the components vertically
+  axis = "lr"   # Aligns along the left and right axis
+)
+
+# Display the final plot
+
+final_plot
+# Display the final plot
+ggsave("eight_plot.png", plot = final_plot, bg = "white")
+?ggsave
+
+
+
+```
+```{r}
+
+# Define bounding boxes for North & South
+north_bbox <- c(xmin = -73.52, xmax = -73.42, ymin = 41.48, ymax = 41.53)  # Upper half
+south_bbox <- c(xmin = -73.52, xmax = -73.42, ymin = 41.43, ymax = 41.48)  # Lower half
+
+# Define a custom color palette
+species_colors <- c("myrspi_sum" = "#66c2a5", "cerdem_sum" = "#fc8d62", "other_sum" = "#8da0cb")
+
+# North section plot
+north_plot <- transect_heads %>%
+  filter(year == "2020") %>%
+  ggplot() + 
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "black") +  
+  geom_scatterpie(aes(x = longitude, y = lattitude, group = point, 
+                      r = sqrt(yearly_sum) / 2500), 
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum"),
+                  color = "black", alpha = 0.8) +  
+  scale_fill_manual(values = species_colors, name = "Species") +  # Custom colors
+  coord_sf(xlim = c(north_bbox["xmin"], north_bbox["xmax"]), 
+           ylim = c(north_bbox["ymin"], north_bbox["ymax"])) +  
+  theme_void() +  
+  theme(legend.position = "none") +  
+  labs(title = "Northern Section of Candlewood Lake")
+
+# South section plot
+south_plot <- transect_heads %>%
+  filter(year == "2008") %>%
+  ggplot() + 
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "black") +  
+  geom_scatterpie(aes(x = longitude, y = lattitude, group = point, 
+                      r = sqrt(yearly_sum) / 2500), 
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum"),
+                  color = "black", alpha = 0.8) +  
+  scale_fill_manual(values = species_colors, name = "Species") +
+  coord_sf(xlim = c(south_bbox["xmin"], south_bbox["xmax"]), 
+           ylim = c(south_bbox["ymin"], south_bbox["ymax"])) +  
+  theme_void() +  
+  theme(legend.position = "none") +  
+  labs(title = "Southern Section of Candlewood Lake")
+
+species_colors <- c("myrspi_sum" = "#66c2a5", "cerdem_sum" = "#fc8d62", "other_sum" = "#8da0cb")
+
+# Create a dummy scatterpie plot just to extract the legend
+# Generate a dummy plot with a legend
+legend_plot <- ggplot(data.frame(x = 0, y = 0, myrspi_sum = 1, cerdem_sum = 1, other_sum = 1)) +
+  geom_scatterpie(aes(x = x, y = y, group = 1), 
+                  cols = c("myrspi_sum", "cerdem_sum", "other_sum")) +
+  scale_fill_manual(values = species_colors, name = "Species",
+                    labels = c("Eurasian Watermilfoil", "Coontail", "Other Species")) +
+  theme_void() +
+  theme(
+    legend.position = "bottom",
+    legend.key.size = unit(1, "cm"),  
+    legend.text = element_text(size = 12),  
+    legend.title = element_text(size = 14, face = "bold")
+  )
+
+# Extract the legend correctly as a grob
+legend_grob <- ggplotGrob(legend_plot)
+legend_grob <- legend_grob$grobs[which(sapply(legend_grob$grobs, function(x) x$name) == "guide-box")][[1]]
+
+# Convert legend_grob into a valid grob for cowplot
+legend_cowplot <- ggdraw() + draw_grob(legend_grob)
+
+
+# Create title and subtitle
+title_plot <- ggdraw() + 
+  draw_label("Candlewood Lake Survey - 2020", fontface = "bold", size = 20, hjust = 0.5) +
+  draw_label("Species Distribution by Transect", fontface = "italic", size = 14, hjust = 0.5, y = 0.8)
+
+# Combine the legend into a cowplot-compatible object
+legend_cowplot <- ggdraw() + draw_grob(legend_grob)
+
+# Merge everything together
+final_plot <- plot_grid(
+  title_plot,               # Title & Subtitle
+  legend_cowplot,           # Corrected legend
+  plot_grid(north_plot, south_plot, ncol = 2),  # North & South Plots
+  ncol = 1, 
+  rel_heights = c(0.15, 0.05, 0.8),  # Adjusts proportions
+  align = 'v',  # Aligns the components vertically
+  axis = "lr", # Aligns along the left and right axis
+rel_widths = c(1, 0.7, 1)
+  )
+# Display the final plot
+
+final_plot
+# Display the final plot
+ggsave("twenty_plot.png", plot = final_plot,bg = "white")
+?ggsave
+
+
+
+```
+
+
+
+
+
+
+
+
+Regression
+
+```{r}
+library(glmnet)
+install.packages("glmnet")
+species_data <- na.omit(species_data$)  # Remove rows with any NA values
+
+
+x <- model.matrix(myrspi_sum ~ ., data = species_data)[, -1]  # Remove intercept column
+y <- species_data$myrspi_sum
+
+
+set.seed(42)  # Reproducibility
+train <- sample(1:nrow(x), nrow(x) * 0.7)  
+test <- setdiff(1:nrow(x), train)
+
+grid <- 10^seq(10, -2, length = 100)  # 100 lambda values from 10^10 to 10^-2 - check what this means 
+
+# Fitting Ridge Regression Model - alpha of 0 means ridge 
+ridge.mod <- glmnet(x[train,], y[train], alpha = 0, lambda = grid, thresh = 1e-6)
+
+cv.ridge <- cv.glmnet(x[train,], y[train], alpha = 0)
+best_lambda <- cv.ridge$lambda.min
+
+ridge.final <- glmnet(x[train,], y[train], alpha = 0, lambda = best_lambda)
+ridge.final
+
+ridge.pred <- predict(ridge.final, s = best_lambda, newx = x[test,])
+ridge.pred
+mse <- mean((ridge.pred - y[test])^2)
+print(mse)
+
+
+
+
+```
+Basemap Testing
+
+```{r}
+devtools::install_github("16EAGLE/basemaps")
+library(basemaps)
+
+get_maptypes()
+set_defaults(map_service = "osm", map_type = "topographic")
+basemap_test   <- basemap_magick(ext)
+
+library(sf)
+
+
+library(sf)
+
+# Define bounding box in WGS84
+ext <- st_as_sfc(st_bbox(c(xmin = -73.50, xmax = -73.40, ymin = 41.41, ymax = 41.55), crs = 3857))
+
+
+
+# Now fetch the basemap
+basemap_test <- basemap_gglayer(ext, map_service = "carto", map_type = "light_no_labels")
+
+
+
+basemap_test
+ggplot(basemap_test)
+
+library(ggplot2)
+
+# Create a ggplot and add the basemap layer
+ggplot() +
+  basemap_test +  # Add basemap_gglayer() output
+  coord_sf() +  # Maintain correct spatial reference
+  theme_void()  # Clean map with no axes or gridlines
+
+```
+
+Zebra Muscle incorporation
+```{r}
+
+zebra <- st_read("zeb_msc.kml")
+
+plot(zebra)
+
+
+```
+
+Testing Phase for the jitter function
+```{r}
+species_data
+
+
+geo_stats <- merged_transect %>%
+  filter(year != "2007") %>%
+  select(lattitude, longitude, dfs_m_, depth_m_)
+
+
+speciesDT <- cbind(species_data, geo_stats)
+
+set.seed(123)
+
+
+speciesDT <- speciesDT[rep(1:nrow(speciesDT), each = 4), ] # Make 4x each points
+speciesDT$dfs_m_ <- jitter(as.numeric(speciesDT$dfs_m_), amount = 2)
+speciesDT$depth_m_ <- jitter(as.numeric(speciesDT$depth_m_), amount = 2)
+
+
+# Create jittered duplicates
+df_jittered <- df[rep(1:nrow(df), each = 3), ]  # Triplicate each row
+df_jittered$y <- jitter(df_jittered$y, amount = 1)  # Jitter y
+
+# Create a column to differentiate original vs jittered points
+df$original <- TRUE
+df_jittered$original <- FALSE
+
+# Combine original and jittered data
+df_combined <- rbind(df, df_jittered)
+
+# View the final dataset
+print(df_combined)
+
+speciesDT %>% 
+  select(dfs_m_, depth_m_) %>% 
+  head(12)
+
+
+
+```
+
+

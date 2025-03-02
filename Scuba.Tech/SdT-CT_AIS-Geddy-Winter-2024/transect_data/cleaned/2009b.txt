@@ -1,0 +1,234 @@
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem_ ElaSp. EleSp. LemMin MyrSpi NajFle NajMin PotPer ValAme
+7 | oa Martha Balfour 4157151 -73 44274 831 20049 0.10 Sand windy 0 a 0 0 0) 0 0 0 i)
+7 2 50 Martha Balfour 4157151 9 -73 44279  & 3120049 0.80 Sand windy 0 a ie) 0 2 ie) 0 0 Qa
+7 3 100 Martha Balfour 4157191  -73 44287 & 31 2005 110 Sand windy 0 a 0 0 3 0 2 0 0
+7 4 200 Mertha Balfour 4157191  -72 44800  & 31 200s 2 10 Sand windy 0 a 0 0 3 Q 2 0 Q
+7 fy 30.0 Martha Balfour 4157148  -74 44312 0 & 31 20049 420 sand windy 0 a 0 0 4 0 0 0 0
+7 6 400 Martha Balfour 4147148 “73443273  & 3) DAO 0.00 ND windy 0 a 0 0 O 0 0 0 0
+/ / 50 0 Martha Balfour 414/145 -7444432 8 41 2O04u 0 00 NL) windy 0 U G ie) 0 ie) 0) Q U0
+i a 6U 0 Martha Balfour 4157148  -73 44347 8 41 LOU 0 G0 ND windy 8) U G U e) ie) U ie) 0
+a i] 700 NMarnha Baltour 4157140 9-73 44361 8 31 2000 0.00 ND windy 0 i) G 0 0 ie) 0 0) 0
+a 10 80.0 Martha Balfour 4157134 -7344370 8 31 2004 0.00 ND windy 0 g ie) 0 0 ie) 0 O 0
+8 1 0.0 Martha Balfour 41.51297 = -73.44122 8/31/2009 0.30 Sand windy 0 0 0 0 0 0 0 0 0
+8 2 5.0 Martha Balfour 41.51292 -73.44120 8/31/2009 0.80 Sand Cloudy 0 0 0 0 0 0 0 0 0
+8 3 10.0 Martha Balfour 41.51289 -73.44119 8/31/2009 1.90 Sand Cloudy 0 2 2 0 0 0 2 0 0
+8 4 20.0 Martha Balfour 4151277 = -73.44120 8/31/2009 1.00 Sand Cloudy 0 0 0 0 1 0 0 0 0
+8 5 30.0 Martha Balfour 4151271 -73.44115 8/31/2009 2.20 Sand Cloudy 0 0 0 0 3 0 0 0 0
+8 6 40.0 Martha Balfour 4151258 -73.44119 8/31/2009 2.10 Sand Cloudy 0 0 0 0 2 0 0 0 0
+8 7 50.0 Martha Balfour 4151250 -73.44114 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 8 60.0 Martha Balfour 4151242 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 9 700 Martha Balfour 4151231 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 2 0 0 0 0
+8 10 800 Martha Balfour 4151222 -7344123 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+4 | a0 Martha Balfour 4148045 -74 4346) 0 & 27 D004 0 20 sand Suny 0) 3 G 0 | 0 0 0 0
+a 2 5O Martha Balfour 4146044 9-7/3 43466 9 8 2/ DOUu 0 80 sand sunny 9) u G U 3 0 2 0 U
+u ‘4 100 Martha Balfour 4144043 9 -7343474 0 8 27 2OUu 1 00 sand sunny O U ie) e) 2 0 U | U
+4 4 200 Martha Balfour 4148039 -73.43486 27 2004 1.90 Sand sunny a 0 0 0 | 0 0 0 0
+4 S 30.0 Martha Balfour 4148038 -73 434968 9 827 2000 2.00 Sand sunny O 0 0 0 0 0 0 0 0
+4 6 40.0 Martha Balfour 4148034 73.43508  &.27 2000 2.50 Sand sunny 0) 0 0 0 0 0 0 0 0
+4 7 50.0 Martha Balfour 41 48035 73.4352) &:27 200% 2.50 Sand Sunny 0 ie) ie) 0 0 0 0 0 0
+a 8 60.0 Martha Balfour 4148025 -73.43530 §&.27 2004 2.50 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a i) 70.0 Martha Balfour 4148020  -7343539  &27 2004 2.10 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a 10 800 Martha Balfour 4148017 9-73 4355) 9 & 27 2004 2.00 Sand Sunny 0 0 ie 0 2 0 i) 0 i)
+10 1 0.0 Martha Balfour 4144706 -73.42996 8/27/2009 0.10 Sand sunny 0 0 0 0 2 0 0 0 0
+10 2 5.0 Martha Balfour 4144710 -73.42991 8/27/2009 0.50 Muck partially sunny 2 0 0 0 3 0 0 0 0
+10 3 10.0 Martha Balfour 4144713 -73.42986 8/27/2009 0.50 Muck dartially sunny 0 0 0 0 3 0 0 0 2
+10 4 200 Martha Balfour 4144720 -7342978 8/27/2009 1.20 Muck dartially sunny 2 0 0 0 2 0 0 0 3
+10 5 30.0 Martha Balfour 4144725 -7342969 8/27/2009 1.50 Muck dartially sunny 0 0 0 0 2 0 0 0 4
+10 6 400 Martha Balfour 4144733 -73.42962 8/27/2009 1.00 Muck dartially sunny 0 0 0 0 2 0 0 0 2
+10 7 50.0 Martha Balfour 4144743 = -73.42958 8/27/2009 0.50 Muck partially sunny 0 0 0 0 3 0 0 0 0
+
+Transect Points OFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem_ ElaSp. EleSp. LemMin MyrSpi NajFle NajMin  PotPer ValAme
+7 1 00 Martha Balfour 4157151 “7444274 & 41 2000 010 Sand windy 0 0 0 0 0 ie) 0 ie} a
+7 2 50 Matha Balfour 4157151 -FAS4079 8 31 2008 0 #0 Sand windy 0 0 0 0 2 0 a ie) 0
+7 4 100 Martha Balfour 41 o7 151 -7AS4DR7 R41 2004 110 Sand windy is) a 0 ia) 4 0 2 0 a
+7 4 200 Martha Balfour db e715 -7444400 & 41 2004 210 Sand windy 0 a 0 0 4 0 2 0 0
+7 s 40.0 Martha Balfour AbS71dR 7444412 Bal 200 320 Sand windy 0 a G is) 4 ie} 0 ie] id
+7 e 400 Martha Balfour 41S7 lak -74ddags  & 4T 200u 000 ND windy 0 a 0 0 0 0 oO 0 a
+7 / 500 Martha Balfour 417 14% 24344442 8 41 2000 0.00 ND windy 0 0 0 it) ie) 0 i} ie) id
+7 H 600 Martha Balfour 41 %7 148 P4dd4d7 B41 200 000 ND windy 0 u G 0 ie) G 0 Q 0
+7 a 700 Martha Balfour 4157140 7444461 8 41 2000 000 ND windy is) U G 0 0 0 ie} 0 0
+7 1d 400 Martha Balfour 4157134 7444470 8 41 200U 0 00 ND windy 0 0 ie) 0 ie) ie} 0 0 0
+8 1 00 Martha Balfour 4151297 -73.44122 8/31/2009 0.30 Sand windy 0 0 0 0 0 0 0 0 0
+8 2 5.0 Martha Balfour 4151292 -73.44120 8/31/2009 0.80 Sand Cloudy 0 0 0 0 0 0 0 0 0
+8 3 10.0 Martha Balfour 4151289 -73.44119 8/31/2009 1.90 Sand Cloudy 0 2 2 0 0 0 2 0 0
+8 4 20.0 Martha Balfour 4151277 -73.44120 8/31/2009 1.00 Sand Cloudy 0 0 0 0 1 0 0 0 0
+8 5 30.0 Martha Balfour 4151271 -73.44115 8/31/2009 2.20 Sand Cloudy 0 0 0 0 3 0 0 0 0
+8 6 40.0 Martha Balfour 4151258 -7344119 8/31/2009 2.10 Sand Cloudy 0 0 0 0 2 0 0 0 0
+8 7 50.0 Martha Balfour 4151250 -7344114 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 8 600 Martha Balfour 4151242 -7344116 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 td)
+8 9 700 Martha Balfour 4151231 -7344116 8/31/2009 0.00 ND Cloudy 0 0 0 0 2 0 0 0 0
+8 10 800 Martha Balfour 4151222 -7344123 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+4 1 xe) Martha Balfour 41 4k04% 74 dade B27 oOOu 020 sand sunny 0 4 G 0 | a 0 ie) a
+“ 2 50 Martha Baltour 41 4k044 0-743 4446 B27 DOO ORO sand sunny 0 U G 0 4 0 2 O 0
+4 4 100 Martha Balfour 41 48043 1444474 #27 vO0U 100 sand sunny 0 U ie) 0 2 (0) 0 1 0
+“ 4 200 Martha Baltour 41 4#03" P4aadhe #27 DOOU 1.40 sand sunny 4 U0 G 0 1 ie) 0 0 0
+“ f WO Martha Balfour 41 48034 7443406 0 # 27 200U 200 sand sunny 0 0 G 0 0 0 0 O 0
+" t 400 Martha Balfour 41 48034 7343508  & 27 20040 250 Sand sunny 0 0 ie) 0 0 ie) 0 0 0
+“ 7 500 Martha Balfour 41 48034 7343521 8 27 2000 250 Sand sunny 0 0 ie] 0 0 ie) ie) 0 0
+“ & 600 Martha Balfour 41 48025 7343530 8 27 2004 250 Sand sunny 0 0 0 0 0 ie) 0 0 0
+a a 700 Martha Balfour 41 48020 7343530 8 27 2000 210 Sand sunny 0 ie) 0 0 0 ie) ie) i 0
+4 10 A00 Martha Balfour 4148017 9 -7343651 0 & 27 200% 200 Sand sunny ie) 0 0 0 2 0 0 ie) 0
+10 1 00 Martha Balfour 4144706 -73.42996 8/27/2009 0.10 Sand sunny 0 0 0 0 2 0 0 0 0
+10 2 50 Martha Balfour 4144710 -7342991 8/27/2009 0.50 Muck partially sunny 2 0 0 0 3 0 0 0 0
+10 3 10.0 Martha Balfour 4144713 -73.42986 8/27/2009 0.50 Muck Partially sunny 0 0 0 0 3 0 0 0 2
+10 4 200 Martha Balfour 4144720 -7342978 8/27/2009 1.20 Muck partially sunny 2 0 0 0 2 0 0 0 3
+10 5 300 Martha Balfour 4144725 -7342969 8/27/2009 1.50 Muck Partially sunny 0 0 0 0 2 0 0 0 4
+10 6 400 Martha Balfour 4144733 -73 42962 8/27/2009 1.00 Muck parbally sunny 0 0 0 0 2 0 0 0 2
+10 7 50.0 Martha Balfour 4144743 = -7342958 8/27/2009 0.50 Muck — partially sunny 0 0 0 0 3 0 0 0 0
+
+Transect Points OFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem_ ElaSp. EleSp. LemMin MyrSpi NajFle NajMin  PotPer ValAme
+7 1 00 Martha Balfour 4157151 “7444274 & 41 2000 010 Sand windy 0 0 0 0 0 ie) 0 ie} a
+7 2 50 Matha Balfour 4157151 -FAS4079 8 31 2008 0 #0 Sand windy 0 0 0 0 2 0 a ie) 0
+7 4 100 Martha Balfour 41 o7 151 -7AS4DR7 R41 2004 110 Sand windy is) a 0 ia) 4 0 2 0 a
+7 4 200 Martha Balfour db e715 -7444400 & 41 2004 210 Sand windy 0 a 0 0 4 0 2 0 0
+7 s 40.0 Martha Balfour AbS71dR 7444412 Bal 200 320 Sand windy 0 a G is) 4 ie} 0 ie] id
+7 e 400 Martha Balfour 41S7 lak -74ddags  & 4T 200u 000 ND windy 0 a 0 0 0 0 oO 0 a
+7 / 500 Martha Balfour 417 14% 24344442 8 41 2000 0.00 ND windy 0 0 0 it) ie) 0 i} ie) id
+7 H 600 Martha Balfour 41 %7 148 P4dd4d7 B41 200 000 ND windy 0 u G 0 ie) G 0 Q 0
+7 a 700 Martha Balfour 4157140 7444461 8 41 2000 000 ND windy is) U G 0 0 0 ie} 0 0
+7 1d 400 Martha Balfour 4157134 7444470 8 41 200U 0 00 ND windy 0 0 ie) 0 ie) ie} 0 0 0
+8 1 00 Martha Balfour 4151297 -73.44122 8/31/2009 0.30 Sand windy 0 0 0 0 0 0 0 0 0
+8 2 5.0 Martha Balfour 4151292 -73.44120 8/31/2009 0.80 Sand Cloudy 0 0 0 0 0 0 0 0 0
+8 3 10.0 Martha Balfour 4151289 -73.44119 8/31/2009 1.90 Sand Cloudy 0 2 2 0 0 0 2 0 0
+8 4 20.0 Martha Balfour 4151277 -73.44120 8/31/2009 1.00 Sand Cloudy 0 0 0 0 1 0 0 0 0
+8 5 30.0 Martha Balfour 4151271 -73.44115 8/31/2009 2.20 Sand Cloudy 0 0 0 0 3 0 0 0 0
+8 6 40.0 Martha Balfour 4151258 -7344119 8/31/2009 2.10 Sand Cloudy 0 0 0 0 2 0 0 0 0
+8 7 50.0 Martha Balfour 4151250 -7344114 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 8 600 Martha Balfour 4151242 -7344116 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 td)
+8 9 700 Martha Balfour 4151231 -7344116 8/31/2009 0.00 ND Cloudy 0 0 0 0 2 0 0 0 0
+8 10 800 Martha Balfour 4151222 -7344123 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+4 1 xe) Martha Balfour 41 4k04% 74 dade B27 oOOu 020 sand sunny 0 4 G 0 | a 0 ie) a
+“ 2 50 Martha Baltour 41 4k044 0-743 4446 B27 DOO ORO sand sunny 0 U G 0 4 0 2 O 0
+4 4 100 Martha Balfour 41 48043 1444474 #27 vO0U 100 sand sunny 0 U ie) 0 2 (0) 0 1 0
+“ 4 200 Martha Baltour 41 4#03" P4aadhe #27 DOOU 1.40 sand sunny 4 U0 G 0 1 ie) 0 0 0
+“ f WO Martha Balfour 41 48034 7443406 0 # 27 200U 200 sand sunny 0 0 G 0 0 0 0 O 0
+" t 400 Martha Balfour 41 48034 7343508  & 27 20040 250 Sand sunny 0 0 ie) 0 0 ie) 0 0 0
+“ 7 500 Martha Balfour 41 48034 7343521 8 27 2000 250 Sand sunny 0 0 ie] 0 0 ie) ie) 0 0
+“ & 600 Martha Balfour 41 48025 7343530 8 27 2004 250 Sand sunny 0 0 0 0 0 ie) 0 0 0
+a a 700 Martha Balfour 41 48020 7343530 8 27 2000 210 Sand sunny 0 ie) 0 0 0 ie) ie) i 0
+4 10 A00 Martha Balfour 4148017 9 -7343651 0 & 27 200% 200 Sand sunny ie) 0 0 0 2 0 0 ie) 0
+10 1 00 Martha Balfour 4144706 -73.42996 8/27/2009 0.10 Sand sunny 0 0 0 0 2 0 0 0 0
+10 2 50 Martha Balfour 4144710 -7342991 8/27/2009 0.50 Muck partially sunny 2 0 0 0 3 0 0 0 0
+10 3 10.0 Martha Balfour 4144713 -73.42986 8/27/2009 0.50 Muck Partially sunny 0 0 0 0 3 0 0 0 2
+10 4 200 Martha Balfour 4144720 -7342978 8/27/2009 1.20 Muck partially sunny 2 0 0 0 2 0 0 0 3
+10 5 300 Martha Balfour 4144725 -7342969 8/27/2009 1.50 Muck Partially sunny 0 0 0 0 2 0 0 0 4
+10 6 400 Martha Balfour 4144733 -73 42962 8/27/2009 1.00 Muck parbally sunny 0 0 0 0 2 0 0 0 2
+10 7 50.0 Martha Balfour 4144743 = -7342958 8/27/2009 0.50 Muck — partially sunny 0 0 0 0 3 0 0 0 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem_ ElaSp. EleSp. LemMin MyrSpi NajFle NajMin PotPer ValAme
+7 | oa Martha Balfour 4157151 -73 44274 831 20049 0.10 Sand windy 0 a 0 0 0) 0 0 0 i)
+7 2 50 Martha Balfour 4157151 9 -73 44279  & 3120049 0.80 Sand windy 0 a ie) 0 2 ie) 0 0 Qa
+7 3 100 Martha Balfour 4157191  -73 44287 & 31 2005 110 Sand windy 0 a 0 0 3 0 2 0 0
+7 4 200 Mertha Balfour 4157191  -72 44800  & 31 200s 2 10 Sand windy 0 a 0 0 3 Q 2 0 Q
+7 fy 30.0 Martha Balfour 4157148  -74 44312 0 & 31 20049 420 sand windy 0 a 0 0 4 0 0 0 0
+7 6 400 Martha Balfour 4147148 “73443273  & 3) DAO 0.00 ND windy 0 a 0 0 O 0 0 0 0
+/ / 50 0 Martha Balfour 414/145 -7444432 8 41 2O04u 0 00 NL) windy 0 U G ie) 0 ie) 0) Q U0
+i a 6U 0 Martha Balfour 4157148  -73 44347 8 41 LOU 0 G0 ND windy 8) U G U e) ie) U ie) 0
+a i] 700 NMarnha Baltour 4157140 9-73 44361 8 31 2000 0.00 ND windy 0 i) G 0 0 ie) 0 0) 0
+a 10 80.0 Martha Balfour 4157134 -7344370 8 31 2004 0.00 ND windy 0 g ie) 0 0 ie) 0 O 0
+8 1 0.0 Martha Balfour 41.51297 = -73.44122 8/31/2009 0.30 Sand windy 0 0 0 0 0 0 0 0 0
+8 2 5.0 Martha Balfour 41.51292 -73.44120 8/31/2009 0.80 Sand Cloudy 0 0 0 0 0 0 0 0 0
+8 3 10.0 Martha Balfour 41.51289 -73.44119 8/31/2009 1.90 Sand Cloudy 0 2 2 0 0 0 2 0 0
+8 4 20.0 Martha Balfour 4151277 = -73.44120 8/31/2009 1.00 Sand Cloudy 0 0 0 0 1 0 0 0 0
+8 5 30.0 Martha Balfour 4151271 -73.44115 8/31/2009 2.20 Sand Cloudy 0 0 0 0 3 0 0 0 0
+8 6 40.0 Martha Balfour 4151258 -73.44119 8/31/2009 2.10 Sand Cloudy 0 0 0 0 2 0 0 0 0
+8 7 50.0 Martha Balfour 4151250 -73.44114 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 8 60.0 Martha Balfour 4151242 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 9 700 Martha Balfour 4151231 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 2 0 0 0 0
+8 10 800 Martha Balfour 4151222 -7344123 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+4 | a0 Martha Balfour 4148045 -74 4346) 0 & 27 D004 0 20 sand Suny 0) 3 G 0 | 0 0 0 0
+a 2 5O Martha Balfour 4146044 9-7/3 43466 9 8 2/ DOUu 0 80 sand sunny 9) u G U 3 0 2 0 U
+u ‘4 100 Martha Balfour 4144043 9 -7343474 0 8 27 2OUu 1 00 sand sunny O U ie) e) 2 0 U | U
+4 4 200 Martha Balfour 4148039 -73.43486 27 2004 1.90 Sand sunny a 0 0 0 | 0 0 0 0
+4 S 30.0 Martha Balfour 4148038 -73 434968 9 827 2000 2.00 Sand sunny O 0 0 0 0 0 0 0 0
+4 6 40.0 Martha Balfour 4148034 73.43508  &.27 2000 2.50 Sand sunny 0) 0 0 0 0 0 0 0 0
+4 7 50.0 Martha Balfour 41 48035 73.4352) &:27 200% 2.50 Sand Sunny 0 ie) ie) 0 0 0 0 0 0
+a 8 60.0 Martha Balfour 4148025 -73.43530 §&.27 2004 2.50 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a i) 70.0 Martha Balfour 4148020  -7343539  &27 2004 2.10 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a 10 800 Martha Balfour 4148017 9-73 4355) 9 & 27 2004 2.00 Sand Sunny 0 0 ie 0 2 0 i) 0 i)
+10 1 0.0 Martha Balfour 4144706 -73.42996 8/27/2009 0.10 Sand sunny 0 0 0 0 2 0 0 0 0
+10 2 5.0 Martha Balfour 4144710 -73.42991 8/27/2009 0.50 Muck partially sunny 2 0 0 0 3 0 0 0 0
+10 3 10.0 Martha Balfour 4144713 -73.42986 8/27/2009 0.50 Muck dartially sunny 0 0 0 0 3 0 0 0 2
+10 4 200 Martha Balfour 4144720 -7342978 8/27/2009 1.20 Muck dartially sunny 2 0 0 0 2 0 0 0 3
+10 5 30.0 Martha Balfour 4144725 -7342969 8/27/2009 1.50 Muck dartially sunny 0 0 0 0 2 0 0 0 4
+10 6 400 Martha Balfour 4144733 -73.42962 8/27/2009 1.00 Muck dartially sunny 0 0 0 0 2 0 0 0 2
+10 7 50.0 Martha Balfour 4144743 = -73.42958 8/27/2009 0.50 Muck partially sunny 0 0 0 0 3 0 0 0 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem_ ElaSp. EleSp. LemMin MyrSpi NajFle NajMin PotPer ValAme
+7 | oa Martha Balfour 4157151 -73 44274 831 20049 0.10 Sand windy 0 a 0 0 0) 0 0 0 i)
+7 2 50 Martha Balfour 4157151 9 -73 44279  & 3120049 0.80 Sand windy 0 a ie) 0 2 ie) 0 0 Qa
+7 3 100 Martha Balfour 4157191  -73 44287 & 31 2005 110 Sand windy 0 a 0 0 3 0 2 0 0
+7 4 200 Mertha Balfour 4157191  -72 44800  & 31 200s 2 10 Sand windy 0 a 0 0 3 Q 2 0 Q
+7 fy 30.0 Martha Balfour 4157148  -74 44312 0 & 31 20049 420 sand windy 0 a 0 0 4 0 0 0 0
+7 6 400 Martha Balfour 4147148 “73443273  & 3) DAO 0.00 ND windy 0 a 0 0 O 0 0 0 0
+/ / 50 0 Martha Balfour 414/145 -7444432 8 41 2O04u 0 00 NL) windy 0 U G ie) 0 ie) 0) Q U0
+i a 6U 0 Martha Balfour 4157148  -73 44347 8 41 LOU 0 G0 ND windy 8) U G U e) ie) U ie) 0
+a i] 700 NMarnha Baltour 4157140 9-73 44361 8 31 2000 0.00 ND windy 0 i) G 0 0 ie) 0 0) 0
+a 10 80.0 Martha Balfour 4157134 -7344370 8 31 2004 0.00 ND windy 0 g ie) 0 0 ie) 0 O 0
+8 1 0.0 Martha Balfour 41.51297 = -73.44122 8/31/2009 0.30 Sand windy 0 0 0 0 0 0 0 0 0
+8 2 5.0 Martha Balfour 41.51292 -73.44120 8/31/2009 0.80 Sand Cloudy 0 0 0 0 0 0 0 0 0
+8 3 10.0 Martha Balfour 41.51289 -73.44119 8/31/2009 1.90 Sand Cloudy 0 2 2 0 0 0 2 0 0
+8 4 20.0 Martha Balfour 4151277 = -73.44120 8/31/2009 1.00 Sand Cloudy 0 0 0 0 1 0 0 0 0
+8 5 30.0 Martha Balfour 4151271 -73.44115 8/31/2009 2.20 Sand Cloudy 0 0 0 0 3 0 0 0 0
+8 6 40.0 Martha Balfour 4151258 -73.44119 8/31/2009 2.10 Sand Cloudy 0 0 0 0 2 0 0 0 0
+8 7 50.0 Martha Balfour 4151250 -73.44114 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 8 60.0 Martha Balfour 4151242 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 9 700 Martha Balfour 4151231 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 2 0 0 0 0
+8 10 800 Martha Balfour 4151222 -7344123 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+4 | a0 Martha Balfour 4148045 -74 4346) 0 & 27 D004 0 20 sand Suny 0) 3 G 0 | 0 0 0 0
+a 2 5O Martha Balfour 4146044 9-7/3 43466 9 8 2/ DOUu 0 80 sand sunny 9) u G U 3 0 2 0 U
+u ‘4 100 Martha Balfour 4144043 9 -7343474 0 8 27 2OUu 1 00 sand sunny O U ie) e) 2 0 U | U
+4 4 200 Martha Balfour 4148039 -73.43486 27 2004 1.90 Sand sunny a 0 0 0 | 0 0 0 0
+4 S 30.0 Martha Balfour 4148038 -73 434968 9 827 2000 2.00 Sand sunny O 0 0 0 0 0 0 0 0
+4 6 40.0 Martha Balfour 4148034 73.43508  &.27 2000 2.50 Sand sunny 0) 0 0 0 0 0 0 0 0
+4 7 50.0 Martha Balfour 41 48035 73.4352) &:27 200% 2.50 Sand Sunny 0 ie) ie) 0 0 0 0 0 0
+a 8 60.0 Martha Balfour 4148025 -73.43530 §&.27 2004 2.50 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a i) 70.0 Martha Balfour 4148020  -7343539  &27 2004 2.10 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a 10 800 Martha Balfour 4148017 9-73 4355) 9 & 27 2004 2.00 Sand Sunny 0 0 ie 0 2 0 i) 0 i)
+10 1 0.0 Martha Balfour 4144706 -73.42996 8/27/2009 0.10 Sand sunny 0 0 0 0 2 0 0 0 0
+10 2 5.0 Martha Balfour 4144710 -73.42991 8/27/2009 0.50 Muck partially sunny 2 0 0 0 3 0 0 0 0
+10 3 10.0 Martha Balfour 4144713 -73.42986 8/27/2009 0.50 Muck dartially sunny 0 0 0 0 3 0 0 0 2
+10 4 200 Martha Balfour 4144720 -7342978 8/27/2009 1.20 Muck dartially sunny 2 0 0 0 2 0 0 0 3
+10 5 30.0 Martha Balfour 4144725 -7342969 8/27/2009 1.50 Muck dartially sunny 0 0 0 0 2 0 0 0 4
+10 6 400 Martha Balfour 4144733 -73.42962 8/27/2009 1.00 Muck dartially sunny 0 0 0 0 2 0 0 0 2
+10 7 50.0 Martha Balfour 4144743 = -73.42958 8/27/2009 0.50 Muck partially sunny 0 0 0 0 3 0 0 0 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem_ ElaSp. EleSp. LemMin MyrSpi NajFle NajMin PotPer ValAme
+7 | oa Martha Balfour 4157151 -73 44274 831 20049 0.10 Sand windy 0 a 0 0 0) 0 0 0 i)
+7 2 50 Martha Balfour 4157151 9 -73 44279  & 3120049 0.80 Sand windy 0 a ie) 0 2 ie) 0 0 Qa
+7 3 100 Martha Balfour 4157191  -73 44287 & 31 2005 110 Sand windy 0 a 0 0 3 0 2 0 0
+7 4 200 Mertha Balfour 4157191  -72 44800  & 31 200s 2 10 Sand windy 0 a 0 0 3 Q 2 0 Q
+7 fy 30.0 Martha Balfour 4157148  -74 44312 0 & 31 20049 420 sand windy 0 a 0 0 4 0 0 0 0
+7 6 400 Martha Balfour 4147148 “73443273  & 3) DAO 0.00 ND windy 0 a 0 0 O 0 0 0 0
+/ / 50 0 Martha Balfour 414/145 -7444432 8 41 2O04u 0 00 NL) windy 0 U G ie) 0 ie) 0) Q U0
+i a 6U 0 Martha Balfour 4157148  -73 44347 8 41 LOU 0 G0 ND windy 8) U G U e) ie) U ie) 0
+a i] 700 NMarnha Baltour 4157140 9-73 44361 8 31 2000 0.00 ND windy 0 i) G 0 0 ie) 0 0) 0
+a 10 80.0 Martha Balfour 4157134 -7344370 8 31 2004 0.00 ND windy 0 g ie) 0 0 ie) 0 O 0
+8 1 0.0 Martha Balfour 41.51297 = -73.44122 8/31/2009 0.30 Sand windy 0 0 0 0 0 0 0 0 0
+8 2 5.0 Martha Balfour 41.51292 -73.44120 8/31/2009 0.80 Sand Cloudy 0 0 0 0 0 0 0 0 0
+8 3 10.0 Martha Balfour 41.51289 -73.44119 8/31/2009 1.90 Sand Cloudy 0 2 2 0 0 0 2 0 0
+8 4 20.0 Martha Balfour 4151277 = -73.44120 8/31/2009 1.00 Sand Cloudy 0 0 0 0 1 0 0 0 0
+8 5 30.0 Martha Balfour 4151271 -73.44115 8/31/2009 2.20 Sand Cloudy 0 0 0 0 3 0 0 0 0
+8 6 40.0 Martha Balfour 4151258 -73.44119 8/31/2009 2.10 Sand Cloudy 0 0 0 0 2 0 0 0 0
+8 7 50.0 Martha Balfour 4151250 -73.44114 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 8 60.0 Martha Balfour 4151242 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+8 9 700 Martha Balfour 4151231 -73.44116 8/31/2009 0.00 ND Cloudy 0 0 0 0 2 0 0 0 0
+8 10 800 Martha Balfour 4151222 -7344123 8/31/2009 0.00 ND Cloudy 0 0 0 0 4 0 0 0 0
+4 | a0 Martha Balfour 4148045 -74 4346) 0 & 27 D004 0 20 sand Suny 0) 3 G 0 | 0 0 0 0
+a 2 5O Martha Balfour 4146044 9-7/3 43466 9 8 2/ DOUu 0 80 sand sunny 9) u G U 3 0 2 0 U
+u ‘4 100 Martha Balfour 4144043 9 -7343474 0 8 27 2OUu 1 00 sand sunny O U ie) e) 2 0 U | U
+4 4 200 Martha Balfour 4148039 -73.43486 27 2004 1.90 Sand sunny a 0 0 0 | 0 0 0 0
+4 S 30.0 Martha Balfour 4148038 -73 434968 9 827 2000 2.00 Sand sunny O 0 0 0 0 0 0 0 0
+4 6 40.0 Martha Balfour 4148034 73.43508  &.27 2000 2.50 Sand sunny 0) 0 0 0 0 0 0 0 0
+4 7 50.0 Martha Balfour 41 48035 73.4352) &:27 200% 2.50 Sand Sunny 0 ie) ie) 0 0 0 0 0 0
+a 8 60.0 Martha Balfour 4148025 -73.43530 §&.27 2004 2.50 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a i) 70.0 Martha Balfour 4148020  -7343539  &27 2004 2.10 Sand sunny 0 0 ie) 0 0 0 0 0 0
+a 10 800 Martha Balfour 4148017 9-73 4355) 9 & 27 2004 2.00 Sand Sunny 0 0 ie 0 2 0 i) 0 i)
+10 1 0.0 Martha Balfour 4144706 -73.42996 8/27/2009 0.10 Sand sunny 0 0 0 0 2 0 0 0 0
+10 2 5.0 Martha Balfour 4144710 -73.42991 8/27/2009 0.50 Muck partially sunny 2 0 0 0 3 0 0 0 0
+10 3 10.0 Martha Balfour 4144713 -73.42986 8/27/2009 0.50 Muck dartially sunny 0 0 0 0 3 0 0 0 2
+10 4 200 Martha Balfour 4144720 -7342978 8/27/2009 1.20 Muck dartially sunny 2 0 0 0 2 0 0 0 3
+10 5 30.0 Martha Balfour 4144725 -7342969 8/27/2009 1.50 Muck dartially sunny 0 0 0 0 2 0 0 0 4
+10 6 400 Martha Balfour 4144733 -73.42962 8/27/2009 1.00 Muck dartially sunny 0 0 0 0 2 0 0 0 2
+10 7 50.0 Martha Balfour 4144743 = -73.42958 8/27/2009 0.50 Muck partially sunny 0 0 0 0 3 0 0 0 0
+

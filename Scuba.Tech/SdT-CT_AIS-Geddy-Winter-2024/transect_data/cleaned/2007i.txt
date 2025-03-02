@@ -1,0 +1,567 @@
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 41.51895 -73.43571 6/22/2005 ND ND sunny 0 0 0 0 0} 0 0 0 0 0 0 ie) 0 0 i¢) 0
+85 2 5 Greg Bugbee 41.51898 -73.43576 6/22/2005 0.9 ND sunny 0 0 0 0 0 0 0 0) 0 0 0 0 0 0 0 0
+85 3 10 Greg Bugbee 41.51902 -73.43578 6/22/2005 1.2 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 ie) 0
+85 4 20 Greg Bugbee 41.51911 -73.43581 6/22/2005 12 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 i¢) 0
+85 5 30 Greg Bugbee 41.51919 -73.43588 6/22/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+85 6 40 Greg Bugbee 41.51933 -73.43590 6/22/2005 42 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) 0
+85 7 50 Greg Bugbee 41.51939 -73.43593 6/22/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+85 8 60 Greg Bugbee 41.51946 -73.43597 6/22/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 9 70 Greg Bugbee 41.51953 -73.43610 6/22/2005 76 ND sunny 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 QO 0
+86 1 Q Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 3 Q Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 0 0 0 0 0 0 0 0 0
+86 5 30 Robert Capers 41.42678 -73.44970 6/23/2005 ND ND sunny 0 0 0 0 5 3 i¢) 0 0 ie) 0 0 0 0 ie) 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND ND sunny 0 0 i¢) 0 4 0 i¢) 0 0 i¢) 0 0 0 0 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 0 (¢) 0 5 2 0 0 0 0 0 0 0 0 0 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 0 0 0 4 3 0 0 0 0 0 0 0 0 0 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 0 0 0 5 3 0 0 0 (¢) 0 0 0 0 0 0
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND ND sunny 0 0 ie) 0 4 3 0 0 0 (¢) 0 0 0 0 (¢) 0
+87 1 QO Greg Bugbee 41.49632 -73.46357 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+87 2 5 Greg Bugbee 41.49627 -73.46352 6/23/2005 0.9 ND sunny 0 0 0 0 0 0 ie} 1 0 0 1 0 0 0 (e} 0
+87 3 10 Greg Bugbee 41.49624 -73.46349 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 2 0 0 2 i 0 0 ie) 0
+87 4 20 GregBugbee 41.49617 -73.46339 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1
+87 5 30 GregBugbee 41.49608 -73.46332 6/23/2005 2.4 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny 0 0 0) 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 7 50 Greg Bugbee 41.49599 -73.46313 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 Q 0 0
+87 8 60 Greg Bugbee 41.49589 -73.46311 6/23/2005 3.6 ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 9 70 GregBugbee 41.49580 -73.46305 6/23/2005 45 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 0 0 0 0 0
+87 10 80 GregBugbee 41.49574 -73.46297 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+88 1 Q Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 0.6 ND sunny 0 0 i¢) 0 0 0 i¢) 0 0 0 0 0 0 0 (¢) 0
+88 3 10 Greg Bugbee 41.49625 -73.46024 6/23/2005 0.9 ND sunny 0 0 (¢) 0 0 0 ie) 0 0 (¢) 0 0 0 0 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 1.2 ND sunny 0 0 (¢) 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 (¢) 0 0 0 0 0 0
+88 7 50 GregBugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny 0 0 0 0 0 3 (¢) 0 0 (¢) 0 0 0 0 (¢) 0
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 ND ND sunny 0 0 (¢) 0 0 4 i¢) 0 0 0 0 0 0 (¢) (¢) 0
+88 9 70 Greg Bugbee 41.48625 -73.45950 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+88 10 80 Greg Bugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+89 1 QO Greg Bugbee 41.49107 -73.45407 6/23/2005 ND ND sunny 0 0 0 0 0 (0) 0 0 0 0 0 0 0 0 i¢) ie)
+89 2 5 Greg Bugbee 41.49107 -73.45399 6/23/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+89 3 10 Greg Bugbee 41.49110 -73.45394 6/23/2005 ND ND sunny 0 0 0 0 0} 2 0 0 0 0 0 ie) 0 0 i¢) 0
+89 4 20 Greg Bugbee 41.49119 -73.45389 6/23/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 5 30 GregBugbee 41.49122 -73.45377 6/23/2005 7.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 41.49122 -73.45367 6/23/2005 6.7 ND sunny ) 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 GregBugbee 41.49123 -73.45351 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 1 Q Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 2 5 Greg Bugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (¢) 0
+90 3 10 Greg Bugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny 0 0 i¢) 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+91 1 0 Greg Bugbee 41.47175 -73.45037 6/23/2005 ND ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0) 0 0
+91 2 5 Greg Bugbee 41.47173 -73.45033 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+91 3 10 Greg Bugbee 41.47169 -73.45027 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0 ie) ie)
+91 4 20 Greg Bugbee 41.47179 -73.45016 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+92 1 QO Greg Bugbee 41.47208 -73.44672 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) ie)
+92 2 5 Greg Bugbee 41.47210 -73.44679 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 3 10 Greg Bugbee 41.47201 -73.44683 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 4 20 Greg Bugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 0 (¢) 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+93 1 QO Greg Bugbee 41.46211 -73.44546 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) ie)
+93 2 5 Greg Bugbee 41.46210 -73.44539 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+93 3 10 Greg Bugbee 41.46206 -73.44534 6/23/2005 21 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 0 0
+93 4 20 GregBugbee 41.46194 -73.44527 6/23/2005 27 ND sunny 0 0 ) 0 0 2 0 0 0 0 0 0 [e} 0 0 0
+93 5 30 GregBugbee 41.46193 -73.44518 6/23/2005 48 ND sunny 0 0 ) 0 0 ie} 0 0 0 0 0 0 0 0 i¢) 0
+93 6 40 Greg Bugbee 41.46184 -73.44508 6/23/2005 6.1 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 ie) 0 0 ie) ie)
+93 7 50 Greg Bugbee 41.46183 -73.44493 6/23/2005 7.9 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+94 1 QO Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 i¢) 0
+94 2 5 Greg Bugbee 41.46385 -73.44727 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 1.8 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 ND sunny 0 0 (¢) 0 0 3 0 0 0 0 0 0 0 0 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 6 40 Greg Bugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 7 50 GregBugbee 41.46391 -73.44793 6/23/2005 2.4 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny i) 0 iy 0 0 0 0 0 0 0 0 o 0 t) 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 t') 0 QO 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 9 4151895 -73.43571 6/22/2005 ND ND sunny i} 0 0 0 0 0 0 0 ie) 0 0 0 (e) 0 0 ie)
+85 2 5 Greg Bugbee 9 41.51898 -73.43576 6/22/2005 og ND sunny i?) 0 0 0 0 i) 0 0 0 0 0 0 i?) i?) ie) 0
+85 3 10 Greg Bugbee 4151902 -73.43578 6/22/2005 12 ND sunny ie} 0 (¢) 0 QO 2 0 i) 0 0 0 0 0 ie} 0 QO
+85 4 20 Greg Bugbee 4151911 -73.43581 6/22/2005 12 ND sunny ie} 0 0 0 ie) 2 0 i) 0 0 0 0 0 ie 0 ie)
+85 5 30 Greg Bugbee 4151919 -73.43588 6/22/2005 36 ND sunny ie} 0 0 0 ie) 0 0 i} ie) 0 0 i?) 0 0 0 0
+85 6 40 Greg Bugbee 41.1933 -73.43590 6/22/2005 42 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i} (e) 0 0 0
+85 7 50 Greg Bugbee 4151939 -73.43593 6/22/2005 61 ND sunny oO 0 0 ie) QO 0 0 0 ie) 0 ie) oO 0 0 0 0
+85 8 60 Greg Bugbee 4151946 -73.43597 6/22/2005 67 ND sunny ie} 0 0 0 QO 0 (¢) i) 0 (¢) 0 0 0 ie} 0 QO
+85 9 70 Greg Bugbee 4151953 -73.43610 6/22/2005 76 ND sunny ie} 0 0 0 ie) 0 0 0 0 0 0 ie) i} i} 0 ie)
+86 1 0 Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 t') ) 0 ) 0 0 0 t) t') 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 ) () 0 t) [') [) 0 ) 0 i) 0 Oo 0 Qo 0
+86 3 0 Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 [) [') 0 [) 5 [) t) 0 ) 0 0 [) 0 [) 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 Vy) 0 0 0 0 0 0 ) t)
+86 5 30 = Robert Capers 41.42678 -73.44970 6/23/2005 ND NO sunny 0 0 0 0 5 3 0 0 0 0 0 ) 0 t') 0 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND NO sunny 0 0 0 ) 4 [') ) 0 ) 0 ) 0 CY) t') 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 ) 0 0 5 2 [) ty) 0 0 0 ty) t) t') t) 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 [) ) 0 4 3 [) t) 0 0 0 [) 0 t') [) 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 ) 0 0 5 3 0 Qo 0 0 0 0 0 0 9 )
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND NO sunny ) ) 0 0 4 3 0 0 0 0 0 0 t) t') 0 0
+87 1 (¢] Greg Bugbee 4149632 -73.46357 6/23/2005 ND ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i} 0 i?) (e) 0
+87 2 5 Greg Bugbee 4149627 -73.46352 6/23/2005 09g ND sunny ie 0 Q 0 QO 0 ie) 1 0 0 a] 0 0 ie) 0 QO
+87 3 10 Greg Bugbee 4149624 -73.46349 6/23/2005 12 ND sunny ie} 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0
+87 4 20 Greg Bugbee 4149617 -73.46339 6/23/2005 12 ND sunny ie} 0 0 0 ie) i) 0 0 ie) 0 1 i} i?) 0 0 1
+87 5 30 Greg Bugbee 4149608 -73.46332 6/23/2005 24 ND sunny ie} 0 0 0 0 2 0 0 0 0 0 0 0 i?) 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny i} 0 0 0 0 3 0 0 0 0 0 0 QO i) 0 0
+87 7 50 Greg Bugbee 4149599 -73.46313 6/23/2005 ND ND sunny ie} 0 te) 0 0 3 0 0 0 0 0 0 QO (¢) 0 0
+87 8 60 Greg Bugbee 4149589 -73.46311 6/23/2005 36 ND sunny i} 0 0 0 0 3 0 ie) 0 0 0 QO i) 0 0 ie)
+87 9 70 Greg Bugbee 4149580 -73.46305 6/23/2005 45 ND sunny ie} 0 0 0 ie) 0 0 0 ie) 0 0 0 0 i?) 0 0
+87 10 80 Greg Bugbee 4149574 -73.46297 6/23/2005 55 ND sunny i?) 0 0 0 0 0 0 0 0 0 0 0 (e) i?) (e) 0
+88 1 0 Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 [') 0 t) t') t) t) 0 t) 0 0 0 0 [) 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 06 ND sunny i) 0 0 0 i) 0 0 0 ) ) 0 0 ) 0 ty) 0
+88 3 10 GregBugbee 41.49625 -73.46024 6/23/2005 09 NO sunny 0 ) 0 ) 0 t') 0 VY) ) 0 ) 0 0 t') 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 12 NO sunny 0 0 0 ) DY) 2 ty) 0 0 0 ) ) CY) t') 0 DY)
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 15 ND sunny 0 ) 2 0 0 2 t) ty) 0 0 0 ty) 0 t') t) 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 15 ND sunny 0 [') 2 0 0 2 ) t) 0 0 0 t) t) t') t) 0
+88 7 50 Greg Bugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny ) ) 0 0 0 3 0 0 0 0 0 ) 0 0 0 )
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 NO NO sunny 0 0 0 0 t) 4 0 0 0 0 0 t) 0 0 0 t)
+88 9 70 GregBugbee 41.48625 -73.45950 6/23/2005 NO NO sunny 0 0 ) 0 0 3 ) t) ) ) 0 0 0 0 0 DY)
+88 10 80 GregBugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 t') t) ) 0 0 0 ) t) t') t) 0
+89 1 0 Greg Bugbee 4149107 -73.45407 6/23/2005 ND ND sunny ie) 0 0 (¢) QO 0 0 i} 0 0 (¢) 0 0 0 0 0
+89 2 § Greg Bugbee 4149107 -73.45399 6/23/2005 ND ND sunny ie} 0 0 0 0 1 0 i} ie) 0 0 i} i) 0 0 ie)
+89 3 10 Greg Bugbee 4149110 -73.45394 6/23/2005 ND ND sunny i} 0 0 0 0 2 0 0 ie) 0 0 0 (e) 0 0 ie)
+89 4 20 Greg Bugbee 4149119 -73.45389 6/23/2005 61 ND sunny 0 0 0 0 0 0 0 0 0 0 0 i) 0 ie} 0 0
+89 § 30 Greg Bugbee 4149122 -73.45377 6/23/2005 70 ND sunny ie) 0 (¢) 0 0 0 ie) is) 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 4149122 -73.45367 6/23/2005 67 ND sunny ie) 0 0 0 ie) 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 Greg Bugbee 4149123 -73.45351 6/23/2005 67 ND sunny i) 0 0 0 ie) i?) 0 0 ie) 0 0 i?) 0 i?) 0 ie)
+90 1 0 Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 NO sunny 0 0 t) ) 0 [') ) ) ) YY) ) 0 0 0 0 0
+90 2 5  GregBugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 ) 0 0 t) t') t) ty) 0 ) 0 0 0 0 [) 0
+90 3 10 GregBugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny iy 0 0 0 0 t') t') t) 0 0 0 t) t) t') t) 0
+91 1 0 Greg Bugbee 9 41.47175 -73.45037 6/23/2005 ND ND sunny ie} 0 0 0 0 i) 0 ie} 0 0 0 i} 0 0 0 0
+91 2 5 Greg Bugbee 4147173 -73.45033 6/23/2005 30 ND sunny i} 0 0 0 ie) 0 0 0 0 0 0 0 0 i?) 0 0
+91 3 10 Greg Bugbee 4147169 -73.45027 6/23/2005 3.0 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 0 (e) i?) (e) 0
+91 4 20 Greg Bugbee 4147179 -73.45016 6/23/2005 §5 ND sunny ie} 0 (¢) 0 QO 0 0 i) 0 0 0 0 0 0 0 0
+92 1 ie) Greg Bugbee 4147208 -73.44672 6/23/2005 NO ND sunny ie) 0 0 0 ie) 0 0 0 0 0 0 0 0 ie} 0 0
+92 2 §  GregBugbee 41.47210 -73.44679 6/23/2005 ND NO sunny 0 0 0 ) ) t') 0 0 0 0 ) ) 0 t') 0 )
+92 3 10 GregBugbee 41.47201 -73.44683 6/23/2005 ND NO sunny 0 0 ) ) DY) [') tC) t) DY) 0 ) 0 t) t') 0 DY)
+92 4 20 GregBugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 ) t') 0 0 [') t) ty) 0 0 0 ty) [) t') t) 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 [) [) 0 0 t') t) t) 0 0 0 [) t) t') [) 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 NOD sunny 0 0 0 ) 0 0 0 0 0 0 ) 0 0 t') 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND NO sunny ) ) 0 0 ) [') 0 0 ) ) 0 ) 0 t') 0 )
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 t') 0 0 t') 0 t) 0 0 i) 0 0 0 i) 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 67 ND sunny ) [) [') 0 0 t') [) [) 0 0 0 t) [) t') 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny tY) ) 0 0 t) 0 0 0 0 0 0 0 0 0 ty) 0
+93 1 0 Greg Bugbee 9 41.46211 -73.44546 6/23/2005 ND ND sunny ie} 0 0 0 ie) i) 0 0 ie) 0 0 i} i?) 0 0 0
+93 2 5 Greg Bugbee 4146210 -73.44539 6/23/2005 15 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i} 0 0 0 0
+93 3 10 Greg Bugbee 4146206 -73.44534 6/23/2005 21 ND sunny i) 0 Q ie) 0 2 0 0 0 0 ie) oO i} 0 0 0
+93 4 20 Greg Bugbee 4146194 -73.44527 6/23/2005 27 ND sunny ie} 0 (¢) 0 0 2 (¢) ie} ie) 0 0 0 0 ie) 0 0
+93 iB) 30 Greg Bugbee 4146193 -73.44518 6/23/2005 48 ND sunny i} 0 0 0 ie) 0 0 i} 0 0 0 QO i) 0 0 0
+93 6 40 Greg Bugbee 4146184 -73.44508 6/23/2005 61 ND sunny ie} 0 0 0 ie) 0 0 0 ie) 0 0 0 0 i?) 0 0
+93 7 50 Greg Bugbee 4146183 -73.44493 6/23/2005 79 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i) 0 ie} 0 0
+94 1 0 Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 ) [') 0 0 t') t) t) ) 0 0 t) [) t') t) 0
+94 2 5 GregBugbee 41.46385 -73.44727 6/23/2005 15 ND sunny 0 0 0 0 0 0 0 0 0 0 0 o 0 0 ) 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 18 NO sunny 0 0 0 0 ) 2 0 0 ) 0 0 ) 0 t') 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 NO sunny 0 0 ) ) 0 3 ty) t) ) 0 ) 0 CY) t') 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 ) 0 0 0 2 [) 0 DY) t) 0 0 0 0 t) 0
+94 6 40 GregBugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 [') 0 0 2 t) t) 0 0 0 t) ty) [') t) 0
+94 7 50 Greg Bugbee 41.46391 -73.44793 6/23/2005 24 ND sunny ) 0 0 0 0 0 0 0 0 0 0 0 0 t') 9 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny i) 0 iy 0 0 0 0 0 0 0 0 o 0 t) 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 t') 0 QO 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 9 4151895 -73.43571 6/22/2005 ND ND sunny i} 0 0 0 0 0 0 0 ie) 0 0 0 (e) 0 0 ie)
+85 2 5 Greg Bugbee 9 41.51898 -73.43576 6/22/2005 og ND sunny i?) 0 0 0 0 i) 0 0 0 0 0 0 i?) i?) ie) 0
+85 3 10 Greg Bugbee 4151902 -73.43578 6/22/2005 12 ND sunny ie} 0 (¢) 0 QO 2 0 i) 0 0 0 0 0 ie} 0 QO
+85 4 20 Greg Bugbee 4151911 -73.43581 6/22/2005 12 ND sunny ie} 0 0 0 ie) 2 0 i) 0 0 0 0 0 ie 0 ie)
+85 5 30 Greg Bugbee 4151919 -73.43588 6/22/2005 36 ND sunny ie} 0 0 0 ie) 0 0 i} ie) 0 0 i?) 0 0 0 0
+85 6 40 Greg Bugbee 41.1933 -73.43590 6/22/2005 42 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i} (e) 0 0 0
+85 7 50 Greg Bugbee 4151939 -73.43593 6/22/2005 61 ND sunny oO 0 0 ie) QO 0 0 0 ie) 0 ie) oO 0 0 0 0
+85 8 60 Greg Bugbee 4151946 -73.43597 6/22/2005 67 ND sunny ie} 0 0 0 QO 0 (¢) i) 0 (¢) 0 0 0 ie} 0 QO
+85 9 70 Greg Bugbee 4151953 -73.43610 6/22/2005 76 ND sunny ie} 0 0 0 ie) 0 0 0 0 0 0 ie) i} i} 0 ie)
+86 1 0 Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 t') ) 0 ) 0 0 0 t) t') 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 ) () 0 t) [') [) 0 ) 0 i) 0 Oo 0 Qo 0
+86 3 0 Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 [) [') 0 [) 5 [) t) 0 ) 0 0 [) 0 [) 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 Vy) 0 0 0 0 0 0 ) t)
+86 5 30 = Robert Capers 41.42678 -73.44970 6/23/2005 ND NO sunny 0 0 0 0 5 3 0 0 0 0 0 ) 0 t') 0 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND NO sunny 0 0 0 ) 4 [') ) 0 ) 0 ) 0 CY) t') 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 ) 0 0 5 2 [) ty) 0 0 0 ty) t) t') t) 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 [) ) 0 4 3 [) t) 0 0 0 [) 0 t') [) 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 ) 0 0 5 3 0 Qo 0 0 0 0 0 0 9 )
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND NO sunny ) ) 0 0 4 3 0 0 0 0 0 0 t) t') 0 0
+87 1 (¢] Greg Bugbee 4149632 -73.46357 6/23/2005 ND ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i} 0 i?) (e) 0
+87 2 5 Greg Bugbee 4149627 -73.46352 6/23/2005 09g ND sunny ie 0 Q 0 QO 0 ie) 1 0 0 a] 0 0 ie) 0 QO
+87 3 10 Greg Bugbee 4149624 -73.46349 6/23/2005 12 ND sunny ie} 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0
+87 4 20 Greg Bugbee 4149617 -73.46339 6/23/2005 12 ND sunny ie} 0 0 0 ie) i) 0 0 ie) 0 1 i} i?) 0 0 1
+87 5 30 Greg Bugbee 4149608 -73.46332 6/23/2005 24 ND sunny ie} 0 0 0 0 2 0 0 0 0 0 0 0 i?) 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny i} 0 0 0 0 3 0 0 0 0 0 0 QO i) 0 0
+87 7 50 Greg Bugbee 4149599 -73.46313 6/23/2005 ND ND sunny ie} 0 te) 0 0 3 0 0 0 0 0 0 QO (¢) 0 0
+87 8 60 Greg Bugbee 4149589 -73.46311 6/23/2005 36 ND sunny i} 0 0 0 0 3 0 ie) 0 0 0 QO i) 0 0 ie)
+87 9 70 Greg Bugbee 4149580 -73.46305 6/23/2005 45 ND sunny ie} 0 0 0 ie) 0 0 0 ie) 0 0 0 0 i?) 0 0
+87 10 80 Greg Bugbee 4149574 -73.46297 6/23/2005 55 ND sunny i?) 0 0 0 0 0 0 0 0 0 0 0 (e) i?) (e) 0
+88 1 0 Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 [') 0 t) t') t) t) 0 t) 0 0 0 0 [) 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 06 ND sunny i) 0 0 0 i) 0 0 0 ) ) 0 0 ) 0 ty) 0
+88 3 10 GregBugbee 41.49625 -73.46024 6/23/2005 09 NO sunny 0 ) 0 ) 0 t') 0 VY) ) 0 ) 0 0 t') 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 12 NO sunny 0 0 0 ) DY) 2 ty) 0 0 0 ) ) CY) t') 0 DY)
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 15 ND sunny 0 ) 2 0 0 2 t) ty) 0 0 0 ty) 0 t') t) 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 15 ND sunny 0 [') 2 0 0 2 ) t) 0 0 0 t) t) t') t) 0
+88 7 50 Greg Bugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny ) ) 0 0 0 3 0 0 0 0 0 ) 0 0 0 )
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 NO NO sunny 0 0 0 0 t) 4 0 0 0 0 0 t) 0 0 0 t)
+88 9 70 GregBugbee 41.48625 -73.45950 6/23/2005 NO NO sunny 0 0 ) 0 0 3 ) t) ) ) 0 0 0 0 0 DY)
+88 10 80 GregBugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 t') t) ) 0 0 0 ) t) t') t) 0
+89 1 0 Greg Bugbee 4149107 -73.45407 6/23/2005 ND ND sunny ie) 0 0 (¢) QO 0 0 i} 0 0 (¢) 0 0 0 0 0
+89 2 § Greg Bugbee 4149107 -73.45399 6/23/2005 ND ND sunny ie} 0 0 0 0 1 0 i} ie) 0 0 i} i) 0 0 ie)
+89 3 10 Greg Bugbee 4149110 -73.45394 6/23/2005 ND ND sunny i} 0 0 0 0 2 0 0 ie) 0 0 0 (e) 0 0 ie)
+89 4 20 Greg Bugbee 4149119 -73.45389 6/23/2005 61 ND sunny 0 0 0 0 0 0 0 0 0 0 0 i) 0 ie} 0 0
+89 § 30 Greg Bugbee 4149122 -73.45377 6/23/2005 70 ND sunny ie) 0 (¢) 0 0 0 ie) is) 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 4149122 -73.45367 6/23/2005 67 ND sunny ie) 0 0 0 ie) 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 Greg Bugbee 4149123 -73.45351 6/23/2005 67 ND sunny i) 0 0 0 ie) i?) 0 0 ie) 0 0 i?) 0 i?) 0 ie)
+90 1 0 Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 NO sunny 0 0 t) ) 0 [') ) ) ) YY) ) 0 0 0 0 0
+90 2 5  GregBugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 ) 0 0 t) t') t) ty) 0 ) 0 0 0 0 [) 0
+90 3 10 GregBugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny iy 0 0 0 0 t') t') t) 0 0 0 t) t) t') t) 0
+91 1 0 Greg Bugbee 9 41.47175 -73.45037 6/23/2005 ND ND sunny ie} 0 0 0 0 i) 0 ie} 0 0 0 i} 0 0 0 0
+91 2 5 Greg Bugbee 4147173 -73.45033 6/23/2005 30 ND sunny i} 0 0 0 ie) 0 0 0 0 0 0 0 0 i?) 0 0
+91 3 10 Greg Bugbee 4147169 -73.45027 6/23/2005 3.0 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 0 (e) i?) (e) 0
+91 4 20 Greg Bugbee 4147179 -73.45016 6/23/2005 §5 ND sunny ie} 0 (¢) 0 QO 0 0 i) 0 0 0 0 0 0 0 0
+92 1 ie) Greg Bugbee 4147208 -73.44672 6/23/2005 NO ND sunny ie) 0 0 0 ie) 0 0 0 0 0 0 0 0 ie} 0 0
+92 2 §  GregBugbee 41.47210 -73.44679 6/23/2005 ND NO sunny 0 0 0 ) ) t') 0 0 0 0 ) ) 0 t') 0 )
+92 3 10 GregBugbee 41.47201 -73.44683 6/23/2005 ND NO sunny 0 0 ) ) DY) [') tC) t) DY) 0 ) 0 t) t') 0 DY)
+92 4 20 GregBugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 ) t') 0 0 [') t) ty) 0 0 0 ty) [) t') t) 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 [) [) 0 0 t') t) t) 0 0 0 [) t) t') [) 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 NOD sunny 0 0 0 ) 0 0 0 0 0 0 ) 0 0 t') 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND NO sunny ) ) 0 0 ) [') 0 0 ) ) 0 ) 0 t') 0 )
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 t') 0 0 t') 0 t) 0 0 i) 0 0 0 i) 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 67 ND sunny ) [) [') 0 0 t') [) [) 0 0 0 t) [) t') 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny tY) ) 0 0 t) 0 0 0 0 0 0 0 0 0 ty) 0
+93 1 0 Greg Bugbee 9 41.46211 -73.44546 6/23/2005 ND ND sunny ie} 0 0 0 ie) i) 0 0 ie) 0 0 i} i?) 0 0 0
+93 2 5 Greg Bugbee 4146210 -73.44539 6/23/2005 15 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i} 0 0 0 0
+93 3 10 Greg Bugbee 4146206 -73.44534 6/23/2005 21 ND sunny i) 0 Q ie) 0 2 0 0 0 0 ie) oO i} 0 0 0
+93 4 20 Greg Bugbee 4146194 -73.44527 6/23/2005 27 ND sunny ie} 0 (¢) 0 0 2 (¢) ie} ie) 0 0 0 0 ie) 0 0
+93 iB) 30 Greg Bugbee 4146193 -73.44518 6/23/2005 48 ND sunny i} 0 0 0 ie) 0 0 i} 0 0 0 QO i) 0 0 0
+93 6 40 Greg Bugbee 4146184 -73.44508 6/23/2005 61 ND sunny ie} 0 0 0 ie) 0 0 0 ie) 0 0 0 0 i?) 0 0
+93 7 50 Greg Bugbee 4146183 -73.44493 6/23/2005 79 ND sunny ie} 0 0 0 0 0 0 0 0 0 0 i) 0 ie} 0 0
+94 1 0 Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 ) [') 0 0 t') t) t) ) 0 0 t) [) t') t) 0
+94 2 5 GregBugbee 41.46385 -73.44727 6/23/2005 15 ND sunny 0 0 0 0 0 0 0 0 0 0 0 o 0 0 ) 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 18 NO sunny 0 0 0 0 ) 2 0 0 ) 0 0 ) 0 t') 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 NO sunny 0 0 ) ) 0 3 ty) t) ) 0 ) 0 CY) t') 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 ) 0 0 0 2 [) 0 DY) t) 0 0 0 0 t) 0
+94 6 40 GregBugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 [') 0 0 2 t) t) 0 0 0 t) ty) [') t) 0
+94 7 50 Greg Bugbee 41.46391 -73.44793 6/23/2005 24 ND sunny ) 0 0 0 0 0 0 0 0 0 0 0 0 t') 9 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 41.51895 -73.43571 6/22/2005 ND ND sunny 0 0 0 0 0} 0 0 0 0 0 0 ie) 0 0 i¢) 0
+85 2 5 Greg Bugbee 41.51898 -73.43576 6/22/2005 0.9 ND sunny 0 0 0 0 0 0 0 0) 0 0 0 0 0 0 0 0
+85 3 10 Greg Bugbee 41.51902 -73.43578 6/22/2005 1.2 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 ie) 0
+85 4 20 Greg Bugbee 41.51911 -73.43581 6/22/2005 12 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 i¢) 0
+85 5 30 Greg Bugbee 41.51919 -73.43588 6/22/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+85 6 40 Greg Bugbee 41.51933 -73.43590 6/22/2005 42 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) 0
+85 7 50 Greg Bugbee 41.51939 -73.43593 6/22/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+85 8 60 Greg Bugbee 41.51946 -73.43597 6/22/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 9 70 Greg Bugbee 41.51953 -73.43610 6/22/2005 76 ND sunny 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 QO 0
+86 1 Q Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 3 Q Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 0 0 0 0 0 0 0 0 0
+86 5 30 Robert Capers 41.42678 -73.44970 6/23/2005 ND ND sunny 0 0 0 0 5 3 i¢) 0 0 ie) 0 0 0 0 ie) 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND ND sunny 0 0 i¢) 0 4 0 i¢) 0 0 i¢) 0 0 0 0 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 0 (¢) 0 5 2 0 0 0 0 0 0 0 0 0 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 0 0 0 4 3 0 0 0 0 0 0 0 0 0 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 0 0 0 5 3 0 0 0 (¢) 0 0 0 0 0 0
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND ND sunny 0 0 ie) 0 4 3 0 0 0 (¢) 0 0 0 0 (¢) 0
+87 1 QO Greg Bugbee 41.49632 -73.46357 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+87 2 5 Greg Bugbee 41.49627 -73.46352 6/23/2005 0.9 ND sunny 0 0 0 0 0 0 ie} 1 0 0 1 0 0 0 (e} 0
+87 3 10 Greg Bugbee 41.49624 -73.46349 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 2 0 0 2 i 0 0 ie) 0
+87 4 20 GregBugbee 41.49617 -73.46339 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1
+87 5 30 GregBugbee 41.49608 -73.46332 6/23/2005 2.4 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny 0 0 0) 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 7 50 Greg Bugbee 41.49599 -73.46313 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 Q 0 0
+87 8 60 Greg Bugbee 41.49589 -73.46311 6/23/2005 3.6 ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 9 70 GregBugbee 41.49580 -73.46305 6/23/2005 45 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 0 0 0 0 0
+87 10 80 GregBugbee 41.49574 -73.46297 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+88 1 Q Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 0.6 ND sunny 0 0 i¢) 0 0 0 i¢) 0 0 0 0 0 0 0 (¢) 0
+88 3 10 Greg Bugbee 41.49625 -73.46024 6/23/2005 0.9 ND sunny 0 0 (¢) 0 0 0 ie) 0 0 (¢) 0 0 0 0 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 1.2 ND sunny 0 0 (¢) 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 (¢) 0 0 0 0 0 0
+88 7 50 GregBugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny 0 0 0 0 0 3 (¢) 0 0 (¢) 0 0 0 0 (¢) 0
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 ND ND sunny 0 0 (¢) 0 0 4 i¢) 0 0 0 0 0 0 (¢) (¢) 0
+88 9 70 Greg Bugbee 41.48625 -73.45950 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+88 10 80 Greg Bugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+89 1 QO Greg Bugbee 41.49107 -73.45407 6/23/2005 ND ND sunny 0 0 0 0 0 (0) 0 0 0 0 0 0 0 0 i¢) ie)
+89 2 5 Greg Bugbee 41.49107 -73.45399 6/23/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+89 3 10 Greg Bugbee 41.49110 -73.45394 6/23/2005 ND ND sunny 0 0 0 0 0} 2 0 0 0 0 0 ie) 0 0 i¢) 0
+89 4 20 Greg Bugbee 41.49119 -73.45389 6/23/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 5 30 GregBugbee 41.49122 -73.45377 6/23/2005 7.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 41.49122 -73.45367 6/23/2005 6.7 ND sunny ) 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 GregBugbee 41.49123 -73.45351 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 1 Q Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 2 5 Greg Bugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (¢) 0
+90 3 10 Greg Bugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny 0 0 i¢) 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+91 1 0 Greg Bugbee 41.47175 -73.45037 6/23/2005 ND ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0) 0 0
+91 2 5 Greg Bugbee 41.47173 -73.45033 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+91 3 10 Greg Bugbee 41.47169 -73.45027 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0 ie) ie)
+91 4 20 Greg Bugbee 41.47179 -73.45016 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+92 1 QO Greg Bugbee 41.47208 -73.44672 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) ie)
+92 2 5 Greg Bugbee 41.47210 -73.44679 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 3 10 Greg Bugbee 41.47201 -73.44683 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 4 20 Greg Bugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 0 (¢) 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+93 1 QO Greg Bugbee 41.46211 -73.44546 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) ie)
+93 2 5 Greg Bugbee 41.46210 -73.44539 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+93 3 10 Greg Bugbee 41.46206 -73.44534 6/23/2005 21 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 0 0
+93 4 20 GregBugbee 41.46194 -73.44527 6/23/2005 27 ND sunny 0 0 ) 0 0 2 0 0 0 0 0 0 [e} 0 0 0
+93 5 30 GregBugbee 41.46193 -73.44518 6/23/2005 48 ND sunny 0 0 ) 0 0 ie} 0 0 0 0 0 0 0 0 i¢) 0
+93 6 40 Greg Bugbee 41.46184 -73.44508 6/23/2005 6.1 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 ie) 0 0 ie) ie)
+93 7 50 Greg Bugbee 41.46183 -73.44493 6/23/2005 7.9 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+94 1 QO Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 i¢) 0
+94 2 5 Greg Bugbee 41.46385 -73.44727 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 1.8 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 ND sunny 0 0 (¢) 0 0 3 0 0 0 0 0 0 0 0 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 6 40 Greg Bugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 7 50 GregBugbee 41.46391 -73.44793 6/23/2005 2.4 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 41.51895 -73.43571 6/22/2005 ND ND sunny 0 0 0 0 0} 0 0 0 0 0 0 ie) 0 0 i¢) 0
+85 2 5 Greg Bugbee 41.51898 -73.43576 6/22/2005 0.9 ND sunny 0 0 0 0 0 0 0 0) 0 0 0 0 0 0 0 0
+85 3 10 Greg Bugbee 41.51902 -73.43578 6/22/2005 1.2 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 ie) 0
+85 4 20 Greg Bugbee 41.51911 -73.43581 6/22/2005 12 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 i¢) 0
+85 5 30 Greg Bugbee 41.51919 -73.43588 6/22/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+85 6 40 Greg Bugbee 41.51933 -73.43590 6/22/2005 42 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) 0
+85 7 50 Greg Bugbee 41.51939 -73.43593 6/22/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+85 8 60 Greg Bugbee 41.51946 -73.43597 6/22/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 9 70 Greg Bugbee 41.51953 -73.43610 6/22/2005 76 ND sunny 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 QO 0
+86 1 Q Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 3 Q Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 0 0 0 0 0 0 0 0 0
+86 5 30 Robert Capers 41.42678 -73.44970 6/23/2005 ND ND sunny 0 0 0 0 5 3 i¢) 0 0 ie) 0 0 0 0 ie) 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND ND sunny 0 0 i¢) 0 4 0 i¢) 0 0 i¢) 0 0 0 0 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 0 (¢) 0 5 2 0 0 0 0 0 0 0 0 0 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 0 0 0 4 3 0 0 0 0 0 0 0 0 0 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 0 0 0 5 3 0 0 0 (¢) 0 0 0 0 0 0
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND ND sunny 0 0 ie) 0 4 3 0 0 0 (¢) 0 0 0 0 (¢) 0
+87 1 QO Greg Bugbee 41.49632 -73.46357 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+87 2 5 Greg Bugbee 41.49627 -73.46352 6/23/2005 0.9 ND sunny 0 0 0 0 0 0 ie} 1 0 0 1 0 0 0 (e} 0
+87 3 10 Greg Bugbee 41.49624 -73.46349 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 2 0 0 2 i 0 0 ie) 0
+87 4 20 GregBugbee 41.49617 -73.46339 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1
+87 5 30 GregBugbee 41.49608 -73.46332 6/23/2005 2.4 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny 0 0 0) 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 7 50 Greg Bugbee 41.49599 -73.46313 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 Q 0 0
+87 8 60 Greg Bugbee 41.49589 -73.46311 6/23/2005 3.6 ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 9 70 GregBugbee 41.49580 -73.46305 6/23/2005 45 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 0 0 0 0 0
+87 10 80 GregBugbee 41.49574 -73.46297 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+88 1 Q Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 0.6 ND sunny 0 0 i¢) 0 0 0 i¢) 0 0 0 0 0 0 0 (¢) 0
+88 3 10 Greg Bugbee 41.49625 -73.46024 6/23/2005 0.9 ND sunny 0 0 (¢) 0 0 0 ie) 0 0 (¢) 0 0 0 0 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 1.2 ND sunny 0 0 (¢) 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 (¢) 0 0 0 0 0 0
+88 7 50 GregBugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny 0 0 0 0 0 3 (¢) 0 0 (¢) 0 0 0 0 (¢) 0
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 ND ND sunny 0 0 (¢) 0 0 4 i¢) 0 0 0 0 0 0 (¢) (¢) 0
+88 9 70 Greg Bugbee 41.48625 -73.45950 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+88 10 80 Greg Bugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+89 1 QO Greg Bugbee 41.49107 -73.45407 6/23/2005 ND ND sunny 0 0 0 0 0 (0) 0 0 0 0 0 0 0 0 i¢) ie)
+89 2 5 Greg Bugbee 41.49107 -73.45399 6/23/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+89 3 10 Greg Bugbee 41.49110 -73.45394 6/23/2005 ND ND sunny 0 0 0 0 0} 2 0 0 0 0 0 ie) 0 0 i¢) 0
+89 4 20 Greg Bugbee 41.49119 -73.45389 6/23/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 5 30 GregBugbee 41.49122 -73.45377 6/23/2005 7.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 41.49122 -73.45367 6/23/2005 6.7 ND sunny ) 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 GregBugbee 41.49123 -73.45351 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 1 Q Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 2 5 Greg Bugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (¢) 0
+90 3 10 Greg Bugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny 0 0 i¢) 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+91 1 0 Greg Bugbee 41.47175 -73.45037 6/23/2005 ND ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0) 0 0
+91 2 5 Greg Bugbee 41.47173 -73.45033 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+91 3 10 Greg Bugbee 41.47169 -73.45027 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0 ie) ie)
+91 4 20 Greg Bugbee 41.47179 -73.45016 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+92 1 QO Greg Bugbee 41.47208 -73.44672 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) ie)
+92 2 5 Greg Bugbee 41.47210 -73.44679 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 3 10 Greg Bugbee 41.47201 -73.44683 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 4 20 Greg Bugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 0 (¢) 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+93 1 QO Greg Bugbee 41.46211 -73.44546 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) ie)
+93 2 5 Greg Bugbee 41.46210 -73.44539 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+93 3 10 Greg Bugbee 41.46206 -73.44534 6/23/2005 21 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 0 0
+93 4 20 GregBugbee 41.46194 -73.44527 6/23/2005 27 ND sunny 0 0 ) 0 0 2 0 0 0 0 0 0 [e} 0 0 0
+93 5 30 GregBugbee 41.46193 -73.44518 6/23/2005 48 ND sunny 0 0 ) 0 0 ie} 0 0 0 0 0 0 0 0 i¢) 0
+93 6 40 Greg Bugbee 41.46184 -73.44508 6/23/2005 6.1 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 ie) 0 0 ie) ie)
+93 7 50 Greg Bugbee 41.46183 -73.44493 6/23/2005 7.9 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+94 1 QO Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 i¢) 0
+94 2 5 Greg Bugbee 41.46385 -73.44727 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 1.8 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 ND sunny 0 0 (¢) 0 0 3 0 0 0 0 0 0 0 0 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 6 40 Greg Bugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 7 50 GregBugbee 41.46391 -73.44793 6/23/2005 2.4 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 41.51895 -73.43571 6/22/2005 ND ND sunny 0 0 0 0 0} 0 0 0 0 0 0 ie) 0 0 i¢) 0
+85 2 5 Greg Bugbee 41.51898 -73.43576 6/22/2005 0.9 ND sunny 0 0 0 0 0 0 0 0) 0 0 0 0 0 0 0 0
+85 3 10 Greg Bugbee 41.51902 -73.43578 6/22/2005 1.2 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 ie) 0
+85 4 20 Greg Bugbee 41.51911 -73.43581 6/22/2005 12 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 i¢) 0
+85 5 30 Greg Bugbee 41.51919 -73.43588 6/22/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+85 6 40 Greg Bugbee 41.51933 -73.43590 6/22/2005 42 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) 0
+85 7 50 Greg Bugbee 41.51939 -73.43593 6/22/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+85 8 60 Greg Bugbee 41.51946 -73.43597 6/22/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 9 70 Greg Bugbee 41.51953 -73.43610 6/22/2005 76 ND sunny 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 QO 0
+86 1 Q Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 3 Q Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 0 0 0 0 0 0 0 0 0
+86 5 30 Robert Capers 41.42678 -73.44970 6/23/2005 ND ND sunny 0 0 0 0 5 3 i¢) 0 0 ie) 0 0 0 0 ie) 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND ND sunny 0 0 i¢) 0 4 0 i¢) 0 0 i¢) 0 0 0 0 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 0 (¢) 0 5 2 0 0 0 0 0 0 0 0 0 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 0 0 0 4 3 0 0 0 0 0 0 0 0 0 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 0 0 0 5 3 0 0 0 (¢) 0 0 0 0 0 0
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND ND sunny 0 0 ie) 0 4 3 0 0 0 (¢) 0 0 0 0 (¢) 0
+87 1 QO Greg Bugbee 41.49632 -73.46357 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+87 2 5 Greg Bugbee 41.49627 -73.46352 6/23/2005 0.9 ND sunny 0 0 0 0 0 0 ie} 1 0 0 1 0 0 0 (e} 0
+87 3 10 Greg Bugbee 41.49624 -73.46349 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 2 0 0 2 i 0 0 ie) 0
+87 4 20 GregBugbee 41.49617 -73.46339 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1
+87 5 30 GregBugbee 41.49608 -73.46332 6/23/2005 2.4 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny 0 0 0) 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 7 50 Greg Bugbee 41.49599 -73.46313 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 Q 0 0
+87 8 60 Greg Bugbee 41.49589 -73.46311 6/23/2005 3.6 ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 9 70 GregBugbee 41.49580 -73.46305 6/23/2005 45 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 0 0 0 0 0
+87 10 80 GregBugbee 41.49574 -73.46297 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+88 1 Q Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 0.6 ND sunny 0 0 i¢) 0 0 0 i¢) 0 0 0 0 0 0 0 (¢) 0
+88 3 10 Greg Bugbee 41.49625 -73.46024 6/23/2005 0.9 ND sunny 0 0 (¢) 0 0 0 ie) 0 0 (¢) 0 0 0 0 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 1.2 ND sunny 0 0 (¢) 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 (¢) 0 0 0 0 0 0
+88 7 50 GregBugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny 0 0 0 0 0 3 (¢) 0 0 (¢) 0 0 0 0 (¢) 0
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 ND ND sunny 0 0 (¢) 0 0 4 i¢) 0 0 0 0 0 0 (¢) (¢) 0
+88 9 70 Greg Bugbee 41.48625 -73.45950 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+88 10 80 Greg Bugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+89 1 QO Greg Bugbee 41.49107 -73.45407 6/23/2005 ND ND sunny 0 0 0 0 0 (0) 0 0 0 0 0 0 0 0 i¢) ie)
+89 2 5 Greg Bugbee 41.49107 -73.45399 6/23/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+89 3 10 Greg Bugbee 41.49110 -73.45394 6/23/2005 ND ND sunny 0 0 0 0 0} 2 0 0 0 0 0 ie) 0 0 i¢) 0
+89 4 20 Greg Bugbee 41.49119 -73.45389 6/23/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 5 30 GregBugbee 41.49122 -73.45377 6/23/2005 7.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 41.49122 -73.45367 6/23/2005 6.7 ND sunny ) 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 GregBugbee 41.49123 -73.45351 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 1 Q Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 2 5 Greg Bugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (¢) 0
+90 3 10 Greg Bugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny 0 0 i¢) 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+91 1 0 Greg Bugbee 41.47175 -73.45037 6/23/2005 ND ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0) 0 0
+91 2 5 Greg Bugbee 41.47173 -73.45033 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+91 3 10 Greg Bugbee 41.47169 -73.45027 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0 ie) ie)
+91 4 20 Greg Bugbee 41.47179 -73.45016 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+92 1 QO Greg Bugbee 41.47208 -73.44672 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) ie)
+92 2 5 Greg Bugbee 41.47210 -73.44679 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 3 10 Greg Bugbee 41.47201 -73.44683 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 4 20 Greg Bugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 0 (¢) 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+93 1 QO Greg Bugbee 41.46211 -73.44546 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) ie)
+93 2 5 Greg Bugbee 41.46210 -73.44539 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+93 3 10 Greg Bugbee 41.46206 -73.44534 6/23/2005 21 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 0 0
+93 4 20 GregBugbee 41.46194 -73.44527 6/23/2005 27 ND sunny 0 0 ) 0 0 2 0 0 0 0 0 0 [e} 0 0 0
+93 5 30 GregBugbee 41.46193 -73.44518 6/23/2005 48 ND sunny 0 0 ) 0 0 ie} 0 0 0 0 0 0 0 0 i¢) 0
+93 6 40 Greg Bugbee 41.46184 -73.44508 6/23/2005 6.1 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 ie) 0 0 ie) ie)
+93 7 50 Greg Bugbee 41.46183 -73.44493 6/23/2005 7.9 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+94 1 QO Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 i¢) 0
+94 2 5 Greg Bugbee 41.46385 -73.44727 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 1.8 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 ND sunny 0 0 (¢) 0 0 3 0 0 0 0 0 0 0 0 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 6 40 Greg Bugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 7 50 GregBugbee 41.46391 -73.44793 6/23/2005 2.4 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Lattitude Longitude Date Depth(m) Substrate Weather Wind Notes PotFol EloNut CerDem NajFle PotCri MyrSpi ValAme NajMin PotGra PotPer ZanPal CalSp NymOdo LemMin SpiPol StuPec
+84 6 40 Robert Capers 41.43631 -73.45484 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+84 7 50 Robert Capers 41.43633 -73.45495 6/23/2005 ND ND sunny too deep 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 1 0 Greg Bugbee 41.51895 -73.43571 6/22/2005 ND ND sunny 0 0 0 0 0} 0 0 0 0 0 0 ie) 0 0 i¢) 0
+85 2 5 Greg Bugbee 41.51898 -73.43576 6/22/2005 0.9 ND sunny 0 0 0 0 0 0 0 0) 0 0 0 0 0 0 0 0
+85 3 10 Greg Bugbee 41.51902 -73.43578 6/22/2005 1.2 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 ie) 0
+85 4 20 Greg Bugbee 41.51911 -73.43581 6/22/2005 12 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 i¢) 0
+85 5 30 Greg Bugbee 41.51919 -73.43588 6/22/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+85 6 40 Greg Bugbee 41.51933 -73.43590 6/22/2005 42 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) 0
+85 7 50 Greg Bugbee 41.51939 -73.43593 6/22/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+85 8 60 Greg Bugbee 41.51946 -73.43597 6/22/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+85 9 70 Greg Bugbee 41.51953 -73.43610 6/22/2005 76 ND sunny 0 0 0 0 0 0 0 (e} 0 0 0 0 0 0 QO 0
+86 1 Q Robert Capers 41.42667 -73.44934 6/23/2005 1.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 2 5 Robert Capers 41.42670 -73.44940 6/23/2005 3.0 Rock sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+86 3 Q Robert Capers 41.42669 -73.44947 6/23/2005 5.0 ND sunny 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+86 4 20 Robert Capers 41.42673 -73.44959 6/23/2005 ND ND sunny 0 0 5 0 4 4 0 0 0 0 0 0 0 0 0 0
+86 5 30 Robert Capers 41.42678 -73.44970 6/23/2005 ND ND sunny 0 0 0 0 5 3 i¢) 0 0 ie) 0 0 0 0 ie) 0
+86 6 40 Robert Capers 41.42679 -73.44982 6/23/2005 ND ND sunny 0 0 i¢) 0 4 0 i¢) 0 0 i¢) 0 0 0 0 0 0
+86 7 50 Robert Capers 41.42683 -73.44991 6/23/2005 ND ND sunny 0 0 (¢) 0 5 2 0 0 0 0 0 0 0 0 0 0
+86 8 60 Robert Capers 41.42685 -73.45004 6/23/2005 ND ND sunny 0 0 0 0 4 3 0 0 0 0 0 0 0 0 0 0
+86 9 70 Robert Capers 41.42680 -73.45017 6/23/2005 ND ND sunny 2 0 0 0 5 3 0 0 0 (¢) 0 0 0 0 0 0
+86 10 80 Robert Capers 41.42690 -73.45027 6/23/2005 ND ND sunny 0 0 ie) 0 4 3 0 0 0 (¢) 0 0 0 0 (¢) 0
+87 1 QO Greg Bugbee 41.49632 -73.46357 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+87 2 5 Greg Bugbee 41.49627 -73.46352 6/23/2005 0.9 ND sunny 0 0 0 0 0 0 ie} 1 0 0 1 0 0 0 (e} 0
+87 3 10 Greg Bugbee 41.49624 -73.46349 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 2 0 0 2 i 0 0 ie) 0
+87 4 20 GregBugbee 41.49617 -73.46339 6/23/2005 1.2 ND sunny 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1
+87 5 30 GregBugbee 41.49608 -73.46332 6/23/2005 2.4 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+87 6 40 Greg Bugbee 41.49601 -73.46330 6/23/2005 ND ND sunny 0 0 0) 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 7 50 Greg Bugbee 41.49599 -73.46313 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 Q 0 0
+87 8 60 Greg Bugbee 41.49589 -73.46311 6/23/2005 3.6 ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+87 9 70 GregBugbee 41.49580 -73.46305 6/23/2005 45 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 0 0 0 0 0
+87 10 80 GregBugbee 41.49574 -73.46297 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+88 1 Q Greg Bugbee 41.49622 -73.46035 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+88 2 5 Greg Bugbee 41.49623 -73.46031 6/23/2005 0.6 ND sunny 0 0 i¢) 0 0 0 i¢) 0 0 0 0 0 0 0 (¢) 0
+88 3 10 Greg Bugbee 41.49625 -73.46024 6/23/2005 0.9 ND sunny 0 0 (¢) 0 0 0 ie) 0 0 (¢) 0 0 0 0 0 0
+88 4 20 Greg Bugbee 41.49631 -73.46012 6/23/2005 1.2 ND sunny 0 0 (¢) 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 5 30 GregBugbee 41.48629 -73.45998 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+88 6 40 Greg Bugbee 41.48634 -73.45992 6/23/2005 1.5 ND sunny 0 0 2 0 0 2 0 0 0 (¢) 0 0 0 0 0 0
+88 7 50 GregBugbee 41.48634 -73.45979 6/23/2005 1.8 ND sunny 0 0 0 0 0 3 (¢) 0 0 (¢) 0 0 0 0 (¢) 0
+88 8 60 Greg Bugbee 41.48626 -73.45964 6/23/2005 ND ND sunny 0 0 (¢) 0 0 4 i¢) 0 0 0 0 0 0 (¢) (¢) 0
+88 9 70 Greg Bugbee 41.48625 -73.45950 6/23/2005 ND ND sunny 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+88 10 80 Greg Bugbee 41.48625 -73.45938 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+89 1 QO Greg Bugbee 41.49107 -73.45407 6/23/2005 ND ND sunny 0 0 0 0 0 (0) 0 0 0 0 0 0 0 0 i¢) ie)
+89 2 5 Greg Bugbee 41.49107 -73.45399 6/23/2005 ND ND sunny 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+89 3 10 Greg Bugbee 41.49110 -73.45394 6/23/2005 ND ND sunny 0 0 0 0 0} 2 0 0 0 0 0 ie) 0 0 i¢) 0
+89 4 20 Greg Bugbee 41.49119 -73.45389 6/23/2005 6.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 5 30 GregBugbee 41.49122 -73.45377 6/23/2005 7.0 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 6 40 Greg Bugbee 41.49122 -73.45367 6/23/2005 6.7 ND sunny ) 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+89 7 50 GregBugbee 41.49123 -73.45351 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 1 Q Greg Bugbee 41.48119 -73.45300 6/23/2005 0.2 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+90 2 5 Greg Bugbee 41.48120 -73.45300 6/23/2005 9.1 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 (¢) 0
+90 3 10 Greg Bugbee 41.41220 -73.45287 6/23/2005 11.2 ND sunny 0 0 i¢) 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+91 1 0 Greg Bugbee 41.47175 -73.45037 6/23/2005 ND ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0) 0 0
+91 2 5 Greg Bugbee 41.47173 -73.45033 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0 0 0 0 0 0
+91 3 10 Greg Bugbee 41.47169 -73.45027 6/23/2005 3.0 ND sunny 0 0 ) 0 0 0 0 0 0 0 0) 0 0 0 ie) ie)
+91 4 20 Greg Bugbee 41.47179 -73.45016 6/23/2005 55 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+92 1 QO Greg Bugbee 41.47208 -73.44672 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) ie)
+92 2 5 Greg Bugbee 41.47210 -73.44679 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 3 10 Greg Bugbee 41.47201 -73.44683 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 (¢) 0 0 0 0 0 0
+92 4 20 Greg Bugbee 41.47198 -73.44695 6/23/2005 ND ND sunny 0 0 (¢) 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 5 30 GregBugbee 41.47197 -73.44708 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 6 40 Greg Bugbee 41.47194 -73.44719 6/23/2005 3.6 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 7 50 GregBugbee 41.47197 -73.44731 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 8 60 Greg Bugbee 41.47194 -73.44746 6/23/2005 5.2 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+92 9 70 Greg Bugbee 41.47193 -73.44759 6/23/2005 6.7 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+92 10 80 Greg Bugbee 41.47195 -73.44771 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+93 1 QO Greg Bugbee 41.46211 -73.44546 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 i¢) ie)
+93 2 5 Greg Bugbee 41.46210 -73.44539 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 QO 0
+93 3 10 Greg Bugbee 41.46206 -73.44534 6/23/2005 21 ND sunny 0 0 0 0 0 2 0 (e} 0 0 0 0 0 0 0 0
+93 4 20 GregBugbee 41.46194 -73.44527 6/23/2005 27 ND sunny 0 0 ) 0 0 2 0 0 0 0 0 0 [e} 0 0 0
+93 5 30 GregBugbee 41.46193 -73.44518 6/23/2005 48 ND sunny 0 0 ) 0 0 ie} 0 0 0 0 0 0 0 0 i¢) 0
+93 6 40 Greg Bugbee 41.46184 -73.44508 6/23/2005 6.1 ND sunny 0 0 ) 0 0 (0) 0 0 0 0 0 ie) 0 0 ie) ie)
+93 7 50 Greg Bugbee 41.46183 -73.44493 6/23/2005 7.9 ND sunny 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ie) 0
+94 1 QO Greg Bugbee 41.46383 -73.44720 6/23/2005 ND ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 i¢) 0
+94 2 5 Greg Bugbee 41.46385 -73.44727 6/23/2005 1.5 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+94 3 10 Greg Bugbee 41.46384 -73.44734 6/23/2005 1.8 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 4 20 Greg Bugbee 41.46389 -73.44745 6/23/2005 3.6 ND sunny 0 0 (¢) 0 0 3 0 0 0 0 0 0 0 0 0 0
+94 5 30 GregBugbee 41.46386 -73.44759 6/23/2005 ND ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 6 40 Greg Bugbee 41.46397 -73.44742 6/23/2005 45 ND sunny 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+94 7 50 GregBugbee 41.46391 -73.44793 6/23/2005 2.4 ND sunny 0 0 0 0 0 0 0 0 0 i¢) 0 0 0 0 0 0
+

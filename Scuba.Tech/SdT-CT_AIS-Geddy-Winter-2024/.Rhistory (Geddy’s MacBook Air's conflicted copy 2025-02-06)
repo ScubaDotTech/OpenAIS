@@ -1,0 +1,512 @@
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) + # Yearly sum
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+title("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) + # Yearly sum
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) + # Yearly sum
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total", fill = 0.2), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total", fill = NA), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "NA",), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total",), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "#2C3E50", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total",), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "Fill", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total",), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = "NA", "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+geom_point(aes(x = year, y = yearly_sum, color = "Total"), size = 1) +
+geom_area(aes(x = year, y = yearly_sum, color = "Total",), linewidth = 1) +
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) + # Myrspi
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) + # Cerdem
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Total" = NA, "Other" = "#27AE60")) +
+labs(color = "Species", x = "Year", y = "Sum") +
+theme_minimal(base_size = 12)  + ylab("Relative Sum of Observations") +
+theme(
+panel.background = element_blank(),  # Remove background panel
+plot.background = element_blank(),  # Remove outer background
+legend.position = "top") +
+ggtitle("Candlewood Lake Invasive Species Populations")
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5) +  # Use fill instead of color
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5) +  # Use fill instead of color
+geom_line(aes(x = year, y = yearly_sum, fill = "Total_Line")) =
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60", "Total_Line" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+) + show.le
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Myrspi"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Myrspi"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Myrspi" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Cerdem"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Cerdem"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Eurasian Waterfoil" = "#E74C3C", "Cerdem" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Coontail"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Coontail"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Eurasian Waterfoil" = "#E74C3C", "Coontail" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Coontail"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Coontail"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Eurasian Waterfoil" = "#E74C3C", "Coontail" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+) +
+scale_x_continuous(
+breaks = seq(2007.5, 2020, by = 2.5),  # Adjust tick intervals (every 5 years)
+labels = c("July 2007", "2010", "2015", "2015", "2020", "2025")  # Custom labels
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Coontail"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Coontail"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Eurasian Waterfoil" = "#E74C3C", "Coontail" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+)# +
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Coontail"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Coontail"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Eurasian Waterfoil" = "#E74C3C", "Coontail" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+) +
+scale_x_continuous(
+breaks = seq(2007.5, 2020, by = 2.5),  # Adjust tick intervals (every 5 years)
+labels = c("Jul. 2008", "Aug. 2010", "Aug. 2012", "Aug 2015", "Aug 2017", "Aug 202")  # Custom labels
+)
+ggplot(data = species_data) +
+# Opaque area for "Total" sum
+geom_area(aes(x = year, y = yearly_sum, fill = "Total"), alpha = 0.5, show.legend = F) +  # Use fill instead of color
+# Line for "Total" sum
+geom_line(aes(x = year, y = yearly_sum, color = "Total"), linewidth = 1) +  # Use color, not fill
+# Myrspi points and lines
+geom_point(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), size = 1) +
+geom_line(aes(x = year, y = myrspi_sum, color = "Eurasian Waterfoil"), linewidth = 1) +
+# Cerdem points and lines
+geom_point(aes(x = year, y = cerdem_sum, color = "Coontail"), size = 1) +
+geom_line(aes(x = year, y = cerdem_sum, color = "Coontail"), linewidth = 1) +
+# Other species points and lines
+geom_point(aes(x = year, y = other_sum, color = "Other"), size = 1) +
+geom_line(aes(x = year, y = other_sum, color = "Other"), linewidth = 1) +
+# Define color and fill palettes
+scale_color_manual(values = c("Eurasian Waterfoil" = "#E74C3C", "Coontail" = "#3498DB", "Other" = "#27AE60", "Total" = "Grey")) +
+scale_fill_manual(values = c("Total" = "#95A5A6")) +  # Opaque gray for total area
+# Labels and theme improvements
+labs(color = "Species", fill = "Total Area", x = "Year", y = "Relative Sum of Observations",
+title = "Candlewood Lake Invasive Species Populations") +
+theme_minimal(base_size = 12) +
+theme(
+panel.background = element_blank(),
+plot.background = element_blank(),
+legend.position = "top"
+) +
+scale_x_continuous(
+breaks = seq(2007.5, 2020, by = 2.5),  # Adjust tick intervals (every 5 years)
+labels = c("Jul. 2008", "Aug. 2010", "Aug. 2012", "Aug 2015", "Aug 2017", "Aug 2020")  # Custom labels
+)

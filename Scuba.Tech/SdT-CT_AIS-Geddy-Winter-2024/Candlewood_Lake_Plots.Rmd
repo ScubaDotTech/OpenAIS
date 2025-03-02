@@ -1,0 +1,226 @@
+Geddy Lucier
+Scuba.Tech Project
+Feb2025
+
+```{r}
+library(tidyverse)
+library(sf)
+library(matrixStats)  # For doing fast rowwise operations
+library(terra)
+library(readxl)
+library(ggplot2)
+library(ggforce)
+
+
+setwd("Dropbox/Scuba.Tech/SdT-CT_AIS-Geddy-Winter-2024/")
+getwd()
+```
+
+
+```{r}
+lake_data <- st_read("shapefiles/Lake Polygon/NLA_2017_Lake_Polygon.dbf")
+
+gdb_path <- "shapefiles/fef0ad6f-84a0-42e6-942a-ed3172551e0c.gdb"
+layers <- st_layers(gdb_path)
+ct_lakes <- st_read(gdb_path)
+
+
+
+candlewood_bbox <- st_as_sfc(st_bbox(c(
+  xmin = -73.52,  # Minimum longitude (left)
+  xmax = -73.42,  # Maximum longitude (right)
+  ymin = 41.43,   # Minimum latitude (bottom)
+  ymax = 41.53    # Maximum latitude (top)
+), crs = 4326))
+
+
+ct_lakes <- st_transform(ct_lakes, crs = 4326)
+
+
+candlewood_lake <- ct_lakes %>%
+  filter(st_intersects(SHAPE, candlewood_bbox, sparse = FALSE)) %>%
+  filter(!WBNAME == "Squantz Pond" & SHAPE_Length > 5100)
+
+fivenum(candlewood_lake$SHAPE_Length)
+
+##just a test plot 
+ggplot() +
+  geom_sf(data = candlewood_lake, fill = "lightblue", color = "darkblue") +
+  labs(
+    title = "Candlewood Lake Base Layer",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal()
+```
+
+2008 Plot
+```{r}
+
+
+
+
+```
+```{r}
+library(sf)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(ggforce)
+eight <- read_csv("transect_data/csv/2008.csv")
+ 
+eight = eight[-1,]
+
+species_columns <- names(eight)[8:ncol(eight)]  # Select columns from 8th onward
+
+species_columns <- species_columns[sapply(eight[species_columns], is.numeric)]
+
+species_aggregated <- eight %>%
+  group_by(Transect) %>%
+  summarise(across(all_of(species_columns), sum, na.rm = TRUE), ) 
+
+eight_joined <- left_join(eight, species_aggregated, by = "Transect", suffix = c("", "_total")) 
+
+species_long <- species_aggregated %>%
+  pivot_longer(cols = all_of(species_columns), names_to = "Species", values_to = "Count")
+
+species_long <- species_long %>%
+  group_by(Transect) %>%
+  mutate(
+    start_angle = cumsum(lag(Count, default = 0)) / sum(Count) * 2 * pi,
+    end_angle = cumsum(Count) / sum(Count) * 2 * pi
+  ) %>% 
+  filter(!Species == "Depth(m)")
+
+# Merge latitude and longitude into species_long based on Transect
+species_long <- species_long %>%
+  left_join(eight %>% select(Transect, Latitude, Longitude) %>% distinct(), by = "Transect") %>%
+  group_by(Species) %>%
+  filter(!Count == 0) %>%
+  mutate(species_total = sum(Count)) %>%
+  arrange(species_total) %>%
+  filter(species_total > 20 ) #number needs to be tweaked for each dataset
+
+ggplot(species_long) +
+  geom_arc_bar(
+    aes(
+      x0 = Longitude,  # Use actual coordinate for x-axis
+      y0 = Latitude, # Use actual coordinate for y-axis
+      r0 = 0, r =  0.01,  # Adjust size scaling factor
+      start = start_angle, end = end_angle,
+      fill = Species
+    ),
+    inherit.aes = FALSE  
+  ) +
+  coord_fixed() +  # Keep aspect ratio equal
+  theme_minimal() +
+  labs(title = "Species Distribution by Transect", x = "Latitude", y = "Longitude") +
+  theme(legend.position = "top") + 
+  geom_sf(data = candlewood_lake) +   
+  scale_fill_viridis_d(option = "plasma") +  # Apply viridis color scale to species
+  theme_minimal() +  
+  theme(
+    axis.title = element_blank(),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank(),
+    panel.background = element_blank()
+  ) 
+
+
+
+```
+
+
+```{r}
+
+ggplot(species_long) +
+  geom_arc_bar(
+    aes(
+      x0 = Longitude,  
+      y0 = Latitude,  
+      r0 = 0, r = 0.01,  
+      start = start_angle, end = end_angle,
+      fill = species_total  # Use total species count for color
+    ),
+    inherit.aes = FALSE  
+  ) +
+  coord_fixed() +  
+  theme_minimal() +
+  labs(title = "Species Distribution by Transect", x = "Latitude", y = "Longitude", fill = "Total Count") +
+  theme(legend.position = "top") + 
+  geom_sf(data = candlewood_lake) +   
+  scale_fill_viridis_c(option = "plasma") +  # Continuous scale for species count
+  theme(
+    axis.title = element_blank(),
+    axis.text = element_blank(),
+    axis.ticks = element_blank(),
+    panel.grid = element_blank(),
+    panel.background = element_blank()
+  ) 
+```
+Statistics Time 
+
+
+```{r}
+
+data <- read_csv("transect_data/csv/2020.csv")
+data = data[-1,]
+
+data$Substrate <- as.factor(data$Substrate)
+
+# Impute missing values for Substrate using the most common value
+data$Substrate <- ifelse(is.na(data$Substrate), 
+                         names(sort(table(data$Substrate), decreasing = TRUE))[1], 
+                         data$Substrate)
+
+# Select features (X) and target species (y)
+species_columns <- names(data)[9:ncol(data)]  # Assuming species presence starts at column 9
+X <- data %>% select(Latitude, Longitude, X.m., Substrate)  # Environmental features
+
+# Prepare the target variable (y) for classification (presence/absence)
+# Each species column will be treated separately as a binary classification
+y <- data %>% select(all_of(species_columns))
+
+# Convert species data to factors (presence/absence)
+y <- as.data.frame(lapply(y, as.factor))
+
+# Merge cleaned dataset
+data_cleaned <- cbind(X, y)
+
+# Split into training (80%) and testing (20%) sets
+set.seed(42)
+train_index <- createDataPartition(y[,1], p = 0.8, list = FALSE)  # Use first species column for partitioning
+train_data <- data_cleaned[train_index, ]
+test_data <- data_cleaned[-train_index, ]
+
+# Train separate Random Forest models for each species
+rf_models <- list()
+for (species in species_columns) {
+  y_train <- as.factor(train_data[[species]])  # Train for each species separately
+  
+  # Train the Random Forest model for the species
+  rf_model <- randomForest(x = train_data[, c("Latitude", "Longitude", "X.m.", "Substrate")], 
+                           y = y_train, 
+                           ntree = 200)
+  
+  # Store the trained model
+  rf_models[[species]] <- rf_model
+  
+  # Make predictions for the test data
+  predictions <- predict(rf_model, newdata = test_data[, c("Latitude", "Longitude", "X.m.", "Substrate")])
+  
+  # Evaluate the model performance using confusion matrix for each species
+  cat("Performance for species:", species, "\n")
+  conf_matrix <- confusionMatrix(predictions, test_data[[species]])
+  print(conf_matrix)
+  
+  # Print the feature importance for each species model
+  print(importance(rf_model))
+}
+
+
+
+
+
+

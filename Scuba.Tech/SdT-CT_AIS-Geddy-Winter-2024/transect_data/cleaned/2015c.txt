@@ -1,0 +1,35 @@
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+10 3 19 Sreg Bugbee 4144728 -73 42962 9/1/2015 = 1.00 Sand 2 Q 0 2 0 0 Q Qa 0 2
+10 4 20 Greg Bugbee 41.44719 -73.42971 9/1/2015 1.30 Sand 0 0 0 2 0 0 0 Q 0 2
+10 5 30 Greg Bugbee 41.44714 -72.42980 9/1/2015 1.00 Sand 0 Q 0 0 0 ia) 0 Q 0 4
+10 6 40 (sreg Bugbee 4144709 -73 42989 9/1/7018 040 Sand 3 () 0 3 0 0 a Q 0 3
+10 7 50 Greg Bugbee 41.44706 -73.42997 9/1/2015 9010 Muck Actually 47 5m 2 Q) 0 3 2 0 0 0 0 0
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+10 3 10 Greg Bugbee 4144728 -7342962 9/1/2015 100 Sana 2 0 v0 2 0 0 0 0 0 2
+10 4 20 Greg Bugbee 41.44719 -73.42971 9/1/2015 1.30 Sand 0 0 0 2 i) 0 0 9 0 2
+10 B) 30 Greg Bugbee 41.44714 -73.42980 9/1/2015 1.00 Sand 0 0 0 0 0 0 0 0 0 4
+10 6 40 Greg Bugbee 4144709 -73 42989 9/172015 040 Sand 3 0 0 3 0 0 a 0 0 3
+10 7 50 Greg Bugbee 41.44706 -73.42997 9/1/2015 9019 Muck Actually 47 5m 2 0 0 3 2 0 Q 0 0 0
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+10 3 19 Sreg Bugbee 4144728 -73 42962 9/1/2015 = 1.00 Sand 2 Q 0 2 0 0 Q Qa 0 2
+10 4 20 Greg Bugbee 41.44719 -73.42971 9/1/2015 1.30 Sand 0 0 0 2 0 0 0 Q 0 2
+10 5 30 Greg Bugbee 41.44714 -72.42980 9/1/2015 1.00 Sand 0 Q 0 0 0 ia) 0 Q 0 4
+10 6 40 (sreg Bugbee 4144709 -73 42989 9/1/7018 040 Sand 3 () 0 3 0 0 a Q 0 3
+10 7 50 Greg Bugbee 41.44706 -73.42997 9/1/2015 9010 Muck Actually 47 5m 2 Q) 0 3 2 0 0 0 0 0
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+10 3 19 Sreg Bugbee 4144728 -73 42962 9/1/2015 = 1.00 Sand 2 Q 0 2 0 0 Q Qa 0 2
+10 4 20 Greg Bugbee 41.44719 -73.42971 9/1/2015 1.30 Sand 0 0 0 2 0 0 0 Q 0 2
+10 5 30 Greg Bugbee 41.44714 -72.42980 9/1/2015 1.00 Sand 0 Q 0 0 0 ia) 0 Q 0 4
+10 6 40 (sreg Bugbee 4144709 -73 42989 9/1/7018 040 Sand 3 () 0 3 0 0 a Q 0 3
+10 7 50 Greg Bugbee 41.44706 -73.42997 9/1/2015 9010 Muck Actually 47 5m 2 Q) 0 3 2 0 0 0 0 0
+
+Transect Point shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem ElaSp EleSp MyrSpi NajMin NymOdo PotPer SpiPol StuPec ValAme
+10 3 19 Sreg Bugbee 4144728 -73 42962 9/1/2015 = 1.00 Sand 2 Q 0 2 0 0 Q Qa 0 2
+10 4 20 Greg Bugbee 41.44719 -73.42971 9/1/2015 1.30 Sand 0 0 0 2 0 0 0 Q 0 2
+10 5 30 Greg Bugbee 41.44714 -72.42980 9/1/2015 1.00 Sand 0 Q 0 0 0 ia) 0 Q 0 4
+10 6 40 (sreg Bugbee 4144709 -73 42989 9/1/7018 040 Sand 3 () 0 3 0 0 a Q 0 3
+10 7 50 Greg Bugbee 41.44706 -73.42997 9/1/2015 9010 Muck Actually 47 5m 2 Q) 0 3 2 0 0 0 0 0
+

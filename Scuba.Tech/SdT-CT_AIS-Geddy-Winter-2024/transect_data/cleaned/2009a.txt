@@ -1,0 +1,372 @@
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem  ElaSp. EleSp. LemMin  MyrSpi NajFle NajMin  PotPer ValAme
+. . ona) Marna Balfour 4° 42275 -F2. 45264 0 OD7/20]2 22) Muck sutry a) C 0 2 ) 0 C a in)
+. 2 bam @] Marna Baltcur =<‘ 4232684 -F2 45268 ODT IDOI=S 243 Much sur y pe} C 0 o . ia] C 0 Qo
+. 3 120 Marna Balfour <’ 42203 -r2 452E6 827 LOIe 249 Much sur y 3 C 0 a 2 ia] C o ia)
+. 4 2290 Marna Balfour 4° 42295 -F2 45272 82 LOIe 163 Sard sur y ) C 0 a 4 0 Cc 0 0
+. 3 320 Marne Balfcur =<" 42407 9 -72.45272 8D PLOI2 - 03 Sard sur y 3 C 0 ia] 4 0 C 0 0
+. 6 400 Manna Balfour <' 424°4 0 -72.45290) | O'D7/2092 23 Sard sur y pe) C ie) a 3 0 C o 0
+. 7 cco Manna Balfour <' 42422 9 -F2.45292 WD PLOIs 223 Sard sur y pe) C 0 a 4 ia] C o 0
+. fal 6c0 Marna Balfcur =<’ 42452 -72. 45298  2D7ILOI: 22) Sard sur y pe) C 0 a 4 0 C 0 0
+. Es] 700 Manna Balfcur <' 42457 -F2.45252  WD72OI2 23) Sard sur y pe} C 0 a 2 0 C Oo 0
+. “9 320 Manna Balfcur =<’ 42443 -F2.45255 8 DPLOI: 23) Sard sur y a C 0 a 2 0 C o 0
+2 1 0.0 Martha Balfour 4142760 -73.44924 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+2 2 5.0 Martha Balfour 4142756 -73.44928 8/27/2009 0.50 Sand sunny 0 0 0 0 3 0 0 0 0
+2 3 10.0 Martha Balfour 4142753 = -73.44929 8/27/2009 2.10 Sand sunny 4 0 0 0 3 0 0 0 0
+2 4 200 Martha Balfour 4142747 -73.44940 8/27/2009 3.20 Sand sunny 3 0 0 0 i} 0 0 0 0
+2 5 300 Martha Balfour 4142746 -73.44954 8/27/2009 3.50 Sand sunny BE) 0 0 0 3 0 0 0 0
+2 6 400 Martha Balfour 4142742 -73.44964 8/27/2009 2.90 Sand sunny 2 0 0 0 4 0 0 0 0
+2 7 50.0 Martha Balfour 4142736 -73.44974 8/27/2009 1.80 Sand sunny 0 0 0 0 1 0 0 0 0
+2 8 600 Martha Balfour 4142734 -73.44988 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 9 700 Martha Balfour 4142728 -73.44993 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 10 80.0 Martha Balfour 4142726 -73.45010 98/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+3 . ena Marna Balfcur <° 47022 -F2 48572 272002 209 Sard sur y ) 3 3 a a o C o 0
+3 2 fC Marna Balfour 2° 47023 -F2 45527 0 oar tods 233 Sard suiry ) C a a a i C o 0
+3 3 12.0 Marna Balkcur =’ 47022 -72 45520 8'DTIDOI=: - 09 Sard sutry 2 C 0 0 2 . 2 o 0
+3 4 220 Manna Balfcur <° 47023  -F2. 45909 oD T IDOI: 203 No suiry 3 C 0 a a 0 C o 0
+3 3 320 Marna Balfour 2° 47025 -72 43424 2/DT IDOI: 203 No sur y BD) C 0 0 ) 0 C a 0
+3 6 400 Marna Balfour 2° 47027 -F2 43492 0 Oa7/D002 203 No sudry a) C 0 Oo ) 0 C a 0
+x) 7 20 Marna Balfcur 2° 47025  -F2 4346 2D7/2092 70) No sui y 3 C 0 Qo <) 0 C ia} 0
+ki bs 320 Marna Balfour =<’ 47024  -Fr2 454E7 0 WOR LOIs 2 03 No sur y py} C 0 a a 0 a o 0
+3 q eee) Marna Balcur <° 47025  -r2 45427 0 2/DTIDOIS 2 03 No sur y By} C 0 a a 0 C o i)
+3 9 220 Marna Balfcur <' 47021 -F2.43422 PDT IDOJ=2 209 No suiry 0 C 0 ia] a 0 C a i)
+4 1 0.0 Martha Balfour 41.57117 = -73.48831 8/31/2009 0.50 Sand Partially sunny 0 0 0 0 2 0 0 0 0
+4 2 5.0 Martha Balfour 4157115 = -73.48836 8/31/2009 1.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 3 100 Martha Balfour 4157111 -73.48840 8/31/2009 1.00 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 4 20.0 Martha Balfour 4157101 -73.48847 8/31/2009 1.50 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 5 30.0 Martha Balfour 4157094 -73.48851 8/31/2009 2.20 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 6 300 Martha Balfour 4157086 -73.48860 8/31/2009 2.70 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 7 500 Martha Balfour 4157077 -73.48866 8/31/2009 3.10 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 8 600 Martha Balfour 4157070 =-73.48873 = 8/31/2009 3.40 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 9 700 Martha Balfour 4157063 -73.48878 98/31/2009 3.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 10 800 Martha Balfour 4157055 -73.48884 8/31/2009 0.00 ND partially sunny 0 0 0 0 i} 0 0 0 0
+3 . on) Marna Balfour <° 50223 -72 45148 27/2002 203 Sard sur y pe) C 0 a a 0 C 0 0
+3 2 £0 Manna Balfcur =<" 50225 -F2.451S5 Dr 2OI2 103 Sard sur y 3 C 0 ia) 2 0 C o 0
+3 3 120 Marna Balfcur <=" 50223 -r245l€> WD r2OIe 103 Sard sur y a C 0 a 7 is) i. o 0
+3 4 200 Marna Balfour <° 50221 -P2 45175 WDPDOIS 203 Sard sur y a C 0 a 3 0 4 o 0
+3 3 300 Manna Balfcur <° 502°9  -72.45198 9 O'DTLOD=: 2°39 Sard sur y ia] C 0 ia] 2 0 4 Q 0
+3 6 320 Manna Balfcur =° 502°3 -F2. 45122 ODT DOs 299 Sard sur y 2 c 0 ia 4 0 C o 0
+3 7 £20 Marna Balfcur =<" 502°) -72.45208 27202 203 No sur y pa) C 0 a 4 iH] C i 0
+3 6 320 Marna Balfour =° 50202 -72 45217 9 22702 203 No suiry Py) C 0 ia] 5 0 C o 0
+3 q 720 Manna Balfcur =° 59203) -F2.4522° 9 2’DTto j=: 203 No suiry 3 C 0 a 5 0 C o o
+5 ms) 320 Marna Balfour 2° 50°92) -F2. 45226 9 O'D7/2002 209 No sutry Oo C 0 ao 5 0 a a in)
+6 1 0.0 Martha Balfour 4151389 -73.45361 8/27/2009 0.10 Sand sunny 0 0 0 0 0 0 0 0 0
+6 2 5.0 Martha Balfour 4151392 = -73.45356 8/27/2009 0.50 Sand sunny 0 0 0 0 1 0 0 0 0
+6 3 100 Martha Balfour 4151396 -73.453S5 8/27/2009 1.00 Sand sunny 0 0 0 0 2 0 0 0 0
+6 4 200 Martha Balfour 4151404 = -73.45352 = 8/27/2009 1.90 Sand sunny 0 0 0 0 3 0 0 0 0
+6 5 300 Martha Balfour 4151416 -73.45354 8/27/2009 2.00 Sand sunny 0 0 0 0 4 0 i} 0 0
+6 6 400 Martha Balfour 4151424 = -73.45351 = 8/27/2009 2.50 Sand sunny 0 0 0 0 3 0 0 0 0
+6 7 50.0 Martha Balfour 4151433 -73.453S7 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+6 8 600 Martha Balfour 4151443 = -73.45358 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 9 700 Martha Balfour 4151453 = -73.45362 = 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 10 80.0 Martha Balfour 4151460 -73.45375 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem  ElaSp. EleSp. LemMin  MyrSpi NajFle NajyMin = PotPer ValAme
+. . 20 Martha Balfour 4° 42273 9-72 45264 9/27/2092 229 Muck sumy a) C 0 2 i) 0 0 0 ie)
+. 2 £0 Martha Balfour 4° 42264 9-73 45266 9 2/27/2002 249 Muck sum y a) C 0 0 . 0 0 0 0
+‘ 3 120 Marna Balfour 4° 42263) -73 45266 9 9/727/200% 299 Muck suiry 3 C 0 0 3 0 i) 0 0
+. 4 220 Marna Balfour 4° 42395 9 -73.45272 0 9/27/2092 149 Sard sumy a) C 0 0 4 0 i) 0 0
+. 5 300 Marna Balfour 4° 42407 9 -7245273 0 9/27/2092 209 Sard sur y 3 C 0 0 4 0 C 0 0
+. 6 400 Marna Balfour 4° 424°4 9 -73.45290 0 2/27/209% 2°19 Sard sum y a) C 0 0 3 0 0 0 0
+. 7 20 Marna Balfour 4° 42422 0 -73.45293 0 9/27/2092 229 Sard sun y ps) C 0 0 4 0 C 0 0
+. 6 320 Marna Balfour 4° 42432 9 -7245298 9 9/27/2092 229 Sard sunt y p) C 0 0 4 0 C 0 0
+. g 70 Marna Balfour 4° 42437 9 -73452523 0 9/27/2092 239 Sard sui y p) C 0 0 3 0 i) 0 0
+‘ “9 320 Marna Balfour 4° 424430 -7345295 0 9/27/2092 239 Sard sun y 0 C 0 0 2 0 C 0 0
+2 1 0.0 Marthe Balfour 4142760 -73.44924 8/27/2009 0.00 ND sunny 0 0 i) 0 0 0 0 0 0
+2 2 5.0 Martha Balfour 4142756 -73.44928 8/27/2009 0.50 Sand sunny 0 0 0 0 3 0 0 0 0
+2 3 10.0 Martha Balfour 4142753 -73.44929 8/27/2009 2.10 Sand sunny 4 0 t') 0 3 t) 0 i!) 0
+2 4 200 Martha Balfour 4142747 -73.44940 8/27/2009 3.20 Sand sunny 3 0 i) 0 0 0 0 i) 0
+2 5 3.0 Marthe Balfour 4142746 -73.44954 8/27/2009 3.50 Sand sunny 5 0 0 0 3 0 0 0 0
+2 6 400 Marthe Balfour 4142742 = -73.44964 8/27/2009 2.90 Sand sunny 2 0 0 0 4 0 0 0 0
+2 7 $0.0 Martha Balfour 4142736 -73.44974 8/27/2009 1.80 Sand sunny 0 0 0 0 1 0 0 t') 0
+2 8 600 Marthe Balfour 4142734 -73.44988 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 9 700 Martha Balfour 4142728 -73.44993 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 10 80.0 Marthe Balfour 4142726 -73.45010 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 i) 0 0
+3 . 20 Marna Balfour 3° 47029 9 -73.43572 0 9/27/2005 209 Sard suiry a) 2 3 0 C 0 C 0 0
+3 2 £0 Marna Balfour 4° 47023 -73 43527 0 9/27/200% 239 Sard sum y a) C 3 0 0 0 0 0 0
+3 3 120 Martha Balfour 4° 47022 9 -7243520 9 9/27/2092 209 Sard sumy 2 C 0 0 2 . 2 0 0
+3 4 220 Marna Balfour 4° 470230 -7343509 9 2/27/209% 209 nd sumry a) C 0 0 C 0 C 0 0
+3 5 320 Varna Balfour 4° 47025 9 -73.43454 0 9/27/200% 209 ND sunry a) C 0 0 0 0 C 0 0
+3 5 400 Marna Balfour 4° 47027 9 -7345492 0 9/27/2092 209 ND sumy a) C 0 0 Cc 0 Cc 0 0
+3 7 00 Marna Balfour 3° 47025 9-73 43469 9 2/27/2092 209 no sumy ps) C 0 0 c 0 i] 0 0
+3 é $20 Martha Balfour 4° 47023 -73 43467 9 9/27/209% 209 nd suy a) C 0 0 i] 0 0 0 0
+3 9 720 Marna Balfour 4° 47025 9-73 43447 0 9/27/2092 209 ND sun y p) C 0 0 i) 0 C 0 0
+3 ba) 320 Marna Balfour 4° 47021 9 -72434220 9/27/2092 209 ND sunry 0 C 0 0 i] 0 i] 0 0
+4 1 0.0 Martha Balfour 4157117 -73.48831 8/31/2009 0.50 Sand _ partially sunny 0 0 0 0 2 0 0 0 0
+4 2 5.0 Martha Balfour 4157115 -73.48836 8/31/2009 1.50 Sand partially sunny 0 0 i) 0 2 0 0 0 0
+4 3 100 Martha Balfour 4157111  -73.48840 8/31/2009 1.00 Sand partially sunny 0 0 i!) 0 2 0 0 0 0
+4 4 20.0 Martha Balfour 4157101 -73.48847 8/31/2009 1.50 Sand _ partially sunny 0 0 0 0 3 0 0 0 0
+4 5 3.0 Martha Balfour 4157094 -73.48851 8/31/2009 2.20 Sand partially sunny 0 0 0 0 2 0 0 i!) 0
+4 6 30 Martha Balfour 4157086 -73.48860 9831/2009 2.70 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 7 50.0 Martha Balfour 4157077 -73.48866 8/31/2009 3.10 Sand _ partially sunny 0 0 0 0 3 0 0 0 0
+4 8 60.0 Marthe Balfour 4157070 -73.48873 8/31/2009 3.40 Sand _s partially sunny 0 0 0 0 0 0 0 0 0
+4 9 70.0 Marthe Balfour 4157063 -73.48878 8/31/2009 3.50 Sand _ partially sunny 0 0 0 0 2 0 0 0 0
+4 10 800 Marthe Balfour 4157055 -73.48884 8/31/2009 0.00 ND partially sunny 0 0 0 0 0 0 i) 0 0
+5 . 20 Martha Balfour 4° 50223 -72451468 9 9/27/2002 209 Sard sumry a) C 0 0 i) 0 C 0 0
+3 2 £0 Wanna Balfour 4° 50225 -73 45185 9 2/27/2005 109 Sard sunry Ba} C 0 0 2 0 C 0 0
+5 3 120 Marna Balfour 4° 50223 -73. 48162 9/27/2005 109 Sard suiry 0 C 0 0 2 0 2 0 0
+5 4 220 Marna Balfour 4° 50221 9-73 45175 9 9/27/2002 209 Sard sumry 0 C 0 0 3 0 4 0 0
+5 5 320 Marna Balfour 4° 50273 9-72 45196 9 9/27/2092 2:9 Sard sumy 0 C 0 0 3 0 4 0 0
+5 6 $20 Marna Balfour 4° 502°3) 0 -73.451223 0 2/27/200% 299 Sard sur y 2 C 0 0 4 0 0 0 0
+5 7 sc0 Martha Balfour 4°502°9 9-73 45206 9 9/27/2092 209 ND su y p) C 0 0 4 0 i) 0 0
+5 6 $20 Marna Balfour 4° 50202 9-732 45217 9 9/27/2092 209 ND sumy a) C 0 0 5 0 0 0 0
+5 g 720 Marna Balfour 4° 50209 9 -734522" 9 2/27/2092 209 no su y ps) C 0 0 6 0 i) 0 0
+5 ban) 300 Marna Balfour 4° 50°92) -73.45226 9 9/27/200% 209 NO suwy 0 C 0 0 S$ 0 C 0 0
+6 1 00 Martha Balfour 4151389 -73.45361 8/27/2009 0.10 Sand sunny 0 0 0 0 0 0 0 0 0
+6 2 5.0 Martha Balfour 4151392 -73.45356 8/27/2009 0.50 Sand sunny 0 0 0 0 1 0 0 0 0
+6 3 100 Martha Balfour 4151396 -73.45355 8/27/2009 1.00 Sand sunny 0 0 0 0 2 0 0 0 0
+6 4 200 Martha Balfour 4151404 -73.45352 8/27/2009 1.90 Sand sunny 0 0 0 0 3 0 0 0 0
+6 5 w0 Marthe Balfour 4151416 -73.45354 8/27/2009 2.00 Sand sunny 0 0 0 0 4 0 0 0 0
+6 6 40.0 Martha Balfour 4151424 -73.45351 8/27/2009 2.50 Sand sunny 0 0 ') 0 3 0 0 0 0
+6 7 50.0 Martha Balfour 4151433  -73.45357 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 i!) 0
+6 8 600 Martha Balfour 4151443 -73.45358 8/27/2009 0.00 NOD sunny 0 0 0 0 0 0 0 0 0
+6 9 70.0 Martha Balfour 4151453  -73.45362 8/27/2009 0.00 NO sunny 0 0 ty) 0 0 0 0 0 0
+6 10 80.0 Marthe Balfour 4151460 -73.45375 8/27/2009 0.00 ND sunny 0 0 [') 0 0 0 it) [') 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem  ElaSp. EleSp. LemMin  MyrSpi NajFle NajyMin = PotPer ValAme
+. . 20 Martha Balfour 4° 42273 9-72 45264 9/27/2092 229 Muck sumy a) C 0 2 i) 0 0 0 ie)
+. 2 £0 Martha Balfour 4° 42264 9-73 45266 9 2/27/2002 249 Muck sum y a) C 0 0 . 0 0 0 0
+‘ 3 120 Marna Balfour 4° 42263) -73 45266 9 9/727/200% 299 Muck suiry 3 C 0 0 3 0 i) 0 0
+. 4 220 Marna Balfour 4° 42395 9 -73.45272 0 9/27/2092 149 Sard sumy a) C 0 0 4 0 i) 0 0
+. 5 300 Marna Balfour 4° 42407 9 -7245273 0 9/27/2092 209 Sard sur y 3 C 0 0 4 0 C 0 0
+. 6 400 Marna Balfour 4° 424°4 9 -73.45290 0 2/27/209% 2°19 Sard sum y a) C 0 0 3 0 0 0 0
+. 7 20 Marna Balfour 4° 42422 0 -73.45293 0 9/27/2092 229 Sard sun y ps) C 0 0 4 0 C 0 0
+. 6 320 Marna Balfour 4° 42432 9 -7245298 9 9/27/2092 229 Sard sunt y p) C 0 0 4 0 C 0 0
+. g 70 Marna Balfour 4° 42437 9 -73452523 0 9/27/2092 239 Sard sui y p) C 0 0 3 0 i) 0 0
+‘ “9 320 Marna Balfour 4° 424430 -7345295 0 9/27/2092 239 Sard sun y 0 C 0 0 2 0 C 0 0
+2 1 0.0 Marthe Balfour 4142760 -73.44924 8/27/2009 0.00 ND sunny 0 0 i) 0 0 0 0 0 0
+2 2 5.0 Martha Balfour 4142756 -73.44928 8/27/2009 0.50 Sand sunny 0 0 0 0 3 0 0 0 0
+2 3 10.0 Martha Balfour 4142753 -73.44929 8/27/2009 2.10 Sand sunny 4 0 t') 0 3 t) 0 i!) 0
+2 4 200 Martha Balfour 4142747 -73.44940 8/27/2009 3.20 Sand sunny 3 0 i) 0 0 0 0 i) 0
+2 5 3.0 Marthe Balfour 4142746 -73.44954 8/27/2009 3.50 Sand sunny 5 0 0 0 3 0 0 0 0
+2 6 400 Marthe Balfour 4142742 = -73.44964 8/27/2009 2.90 Sand sunny 2 0 0 0 4 0 0 0 0
+2 7 $0.0 Martha Balfour 4142736 -73.44974 8/27/2009 1.80 Sand sunny 0 0 0 0 1 0 0 t') 0
+2 8 600 Marthe Balfour 4142734 -73.44988 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 9 700 Martha Balfour 4142728 -73.44993 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 10 80.0 Marthe Balfour 4142726 -73.45010 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 i) 0 0
+3 . 20 Marna Balfour 3° 47029 9 -73.43572 0 9/27/2005 209 Sard suiry a) 2 3 0 C 0 C 0 0
+3 2 £0 Marna Balfour 4° 47023 -73 43527 0 9/27/200% 239 Sard sum y a) C 3 0 0 0 0 0 0
+3 3 120 Martha Balfour 4° 47022 9 -7243520 9 9/27/2092 209 Sard sumy 2 C 0 0 2 . 2 0 0
+3 4 220 Marna Balfour 4° 470230 -7343509 9 2/27/209% 209 nd sumry a) C 0 0 C 0 C 0 0
+3 5 320 Varna Balfour 4° 47025 9 -73.43454 0 9/27/200% 209 ND sunry a) C 0 0 0 0 C 0 0
+3 5 400 Marna Balfour 4° 47027 9 -7345492 0 9/27/2092 209 ND sumy a) C 0 0 Cc 0 Cc 0 0
+3 7 00 Marna Balfour 3° 47025 9-73 43469 9 2/27/2092 209 no sumy ps) C 0 0 c 0 i] 0 0
+3 é $20 Martha Balfour 4° 47023 -73 43467 9 9/27/209% 209 nd suy a) C 0 0 i] 0 0 0 0
+3 9 720 Marna Balfour 4° 47025 9-73 43447 0 9/27/2092 209 ND sun y p) C 0 0 i) 0 C 0 0
+3 ba) 320 Marna Balfour 4° 47021 9 -72434220 9/27/2092 209 ND sunry 0 C 0 0 i] 0 i] 0 0
+4 1 0.0 Martha Balfour 4157117 -73.48831 8/31/2009 0.50 Sand _ partially sunny 0 0 0 0 2 0 0 0 0
+4 2 5.0 Martha Balfour 4157115 -73.48836 8/31/2009 1.50 Sand partially sunny 0 0 i) 0 2 0 0 0 0
+4 3 100 Martha Balfour 4157111  -73.48840 8/31/2009 1.00 Sand partially sunny 0 0 i!) 0 2 0 0 0 0
+4 4 20.0 Martha Balfour 4157101 -73.48847 8/31/2009 1.50 Sand _ partially sunny 0 0 0 0 3 0 0 0 0
+4 5 3.0 Martha Balfour 4157094 -73.48851 8/31/2009 2.20 Sand partially sunny 0 0 0 0 2 0 0 i!) 0
+4 6 30 Martha Balfour 4157086 -73.48860 9831/2009 2.70 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 7 50.0 Martha Balfour 4157077 -73.48866 8/31/2009 3.10 Sand _ partially sunny 0 0 0 0 3 0 0 0 0
+4 8 60.0 Marthe Balfour 4157070 -73.48873 8/31/2009 3.40 Sand _s partially sunny 0 0 0 0 0 0 0 0 0
+4 9 70.0 Marthe Balfour 4157063 -73.48878 8/31/2009 3.50 Sand _ partially sunny 0 0 0 0 2 0 0 0 0
+4 10 800 Marthe Balfour 4157055 -73.48884 8/31/2009 0.00 ND partially sunny 0 0 0 0 0 0 i) 0 0
+5 . 20 Martha Balfour 4° 50223 -72451468 9 9/27/2002 209 Sard sumry a) C 0 0 i) 0 C 0 0
+3 2 £0 Wanna Balfour 4° 50225 -73 45185 9 2/27/2005 109 Sard sunry Ba} C 0 0 2 0 C 0 0
+5 3 120 Marna Balfour 4° 50223 -73. 48162 9/27/2005 109 Sard suiry 0 C 0 0 2 0 2 0 0
+5 4 220 Marna Balfour 4° 50221 9-73 45175 9 9/27/2002 209 Sard sumry 0 C 0 0 3 0 4 0 0
+5 5 320 Marna Balfour 4° 50273 9-72 45196 9 9/27/2092 2:9 Sard sumy 0 C 0 0 3 0 4 0 0
+5 6 $20 Marna Balfour 4° 502°3) 0 -73.451223 0 2/27/200% 299 Sard sur y 2 C 0 0 4 0 0 0 0
+5 7 sc0 Martha Balfour 4°502°9 9-73 45206 9 9/27/2092 209 ND su y p) C 0 0 4 0 i) 0 0
+5 6 $20 Marna Balfour 4° 50202 9-732 45217 9 9/27/2092 209 ND sumy a) C 0 0 5 0 0 0 0
+5 g 720 Marna Balfour 4° 50209 9 -734522" 9 2/27/2092 209 no su y ps) C 0 0 6 0 i) 0 0
+5 ban) 300 Marna Balfour 4° 50°92) -73.45226 9 9/27/200% 209 NO suwy 0 C 0 0 S$ 0 C 0 0
+6 1 00 Martha Balfour 4151389 -73.45361 8/27/2009 0.10 Sand sunny 0 0 0 0 0 0 0 0 0
+6 2 5.0 Martha Balfour 4151392 -73.45356 8/27/2009 0.50 Sand sunny 0 0 0 0 1 0 0 0 0
+6 3 100 Martha Balfour 4151396 -73.45355 8/27/2009 1.00 Sand sunny 0 0 0 0 2 0 0 0 0
+6 4 200 Martha Balfour 4151404 -73.45352 8/27/2009 1.90 Sand sunny 0 0 0 0 3 0 0 0 0
+6 5 w0 Marthe Balfour 4151416 -73.45354 8/27/2009 2.00 Sand sunny 0 0 0 0 4 0 0 0 0
+6 6 40.0 Martha Balfour 4151424 -73.45351 8/27/2009 2.50 Sand sunny 0 0 ') 0 3 0 0 0 0
+6 7 50.0 Martha Balfour 4151433  -73.45357 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 i!) 0
+6 8 600 Martha Balfour 4151443 -73.45358 8/27/2009 0.00 NOD sunny 0 0 0 0 0 0 0 0 0
+6 9 70.0 Martha Balfour 4151453  -73.45362 8/27/2009 0.00 NO sunny 0 0 ty) 0 0 0 0 0 0
+6 10 80.0 Marthe Balfour 4151460 -73.45375 8/27/2009 0.00 ND sunny 0 0 [') 0 0 0 it) [') 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem  ElaSp. EleSp. LemMin  MyrSpi NajFle NajMin  PotPer ValAme
+. . ona) Marna Balfour 4° 42275 -F2. 45264 0 OD7/20]2 22) Muck sutry a) C 0 2 ) 0 C a in)
+. 2 bam @] Marna Baltcur =<‘ 4232684 -F2 45268 ODT IDOI=S 243 Much sur y pe} C 0 o . ia] C 0 Qo
+. 3 120 Marna Balfour <’ 42203 -r2 452E6 827 LOIe 249 Much sur y 3 C 0 a 2 ia] C o ia)
+. 4 2290 Marna Balfour 4° 42295 -F2 45272 82 LOIe 163 Sard sur y ) C 0 a 4 0 Cc 0 0
+. 3 320 Marne Balfcur =<" 42407 9 -72.45272 8D PLOI2 - 03 Sard sur y 3 C 0 ia] 4 0 C 0 0
+. 6 400 Manna Balfour <' 424°4 0 -72.45290) | O'D7/2092 23 Sard sur y pe) C ie) a 3 0 C o 0
+. 7 cco Manna Balfour <' 42422 9 -F2.45292 WD PLOIs 223 Sard sur y pe) C 0 a 4 ia] C o 0
+. fal 6c0 Marna Balfcur =<’ 42452 -72. 45298  2D7ILOI: 22) Sard sur y pe) C 0 a 4 0 C 0 0
+. Es] 700 Manna Balfcur <' 42457 -F2.45252  WD72OI2 23) Sard sur y pe} C 0 a 2 0 C Oo 0
+. “9 320 Manna Balfcur =<’ 42443 -F2.45255 8 DPLOI: 23) Sard sur y a C 0 a 2 0 C o 0
+2 1 0.0 Martha Balfour 4142760 -73.44924 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+2 2 5.0 Martha Balfour 4142756 -73.44928 8/27/2009 0.50 Sand sunny 0 0 0 0 3 0 0 0 0
+2 3 10.0 Martha Balfour 4142753 = -73.44929 8/27/2009 2.10 Sand sunny 4 0 0 0 3 0 0 0 0
+2 4 200 Martha Balfour 4142747 -73.44940 8/27/2009 3.20 Sand sunny 3 0 0 0 i} 0 0 0 0
+2 5 300 Martha Balfour 4142746 -73.44954 8/27/2009 3.50 Sand sunny BE) 0 0 0 3 0 0 0 0
+2 6 400 Martha Balfour 4142742 -73.44964 8/27/2009 2.90 Sand sunny 2 0 0 0 4 0 0 0 0
+2 7 50.0 Martha Balfour 4142736 -73.44974 8/27/2009 1.80 Sand sunny 0 0 0 0 1 0 0 0 0
+2 8 600 Martha Balfour 4142734 -73.44988 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 9 700 Martha Balfour 4142728 -73.44993 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 10 80.0 Martha Balfour 4142726 -73.45010 98/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+3 . ena Marna Balfcur <° 47022 -F2 48572 272002 209 Sard sur y ) 3 3 a a o C o 0
+3 2 fC Marna Balfour 2° 47023 -F2 45527 0 oar tods 233 Sard suiry ) C a a a i C o 0
+3 3 12.0 Marna Balkcur =’ 47022 -72 45520 8'DTIDOI=: - 09 Sard sutry 2 C 0 0 2 . 2 o 0
+3 4 220 Manna Balfcur <° 47023  -F2. 45909 oD T IDOI: 203 No suiry 3 C 0 a a 0 C o 0
+3 3 320 Marna Balfour 2° 47025 -72 43424 2/DT IDOI: 203 No sur y BD) C 0 0 ) 0 C a 0
+3 6 400 Marna Balfour 2° 47027 -F2 43492 0 Oa7/D002 203 No sudry a) C 0 Oo ) 0 C a 0
+x) 7 20 Marna Balfcur 2° 47025  -F2 4346 2D7/2092 70) No sui y 3 C 0 Qo <) 0 C ia} 0
+ki bs 320 Marna Balfour =<’ 47024  -Fr2 454E7 0 WOR LOIs 2 03 No sur y py} C 0 a a 0 a o 0
+3 q eee) Marna Balcur <° 47025  -r2 45427 0 2/DTIDOIS 2 03 No sur y By} C 0 a a 0 C o i)
+3 9 220 Marna Balfcur <' 47021 -F2.43422 PDT IDOJ=2 209 No suiry 0 C 0 ia] a 0 C a i)
+4 1 0.0 Martha Balfour 41.57117 = -73.48831 8/31/2009 0.50 Sand Partially sunny 0 0 0 0 2 0 0 0 0
+4 2 5.0 Martha Balfour 4157115 = -73.48836 8/31/2009 1.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 3 100 Martha Balfour 4157111 -73.48840 8/31/2009 1.00 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 4 20.0 Martha Balfour 4157101 -73.48847 8/31/2009 1.50 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 5 30.0 Martha Balfour 4157094 -73.48851 8/31/2009 2.20 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 6 300 Martha Balfour 4157086 -73.48860 8/31/2009 2.70 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 7 500 Martha Balfour 4157077 -73.48866 8/31/2009 3.10 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 8 600 Martha Balfour 4157070 =-73.48873 = 8/31/2009 3.40 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 9 700 Martha Balfour 4157063 -73.48878 98/31/2009 3.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 10 800 Martha Balfour 4157055 -73.48884 8/31/2009 0.00 ND partially sunny 0 0 0 0 i} 0 0 0 0
+3 . on) Marna Balfour <° 50223 -72 45148 27/2002 203 Sard sur y pe) C 0 a a 0 C 0 0
+3 2 £0 Manna Balfcur =<" 50225 -F2.451S5 Dr 2OI2 103 Sard sur y 3 C 0 ia) 2 0 C o 0
+3 3 120 Marna Balfcur <=" 50223 -r245l€> WD r2OIe 103 Sard sur y a C 0 a 7 is) i. o 0
+3 4 200 Marna Balfour <° 50221 -P2 45175 WDPDOIS 203 Sard sur y a C 0 a 3 0 4 o 0
+3 3 300 Manna Balfcur <° 502°9  -72.45198 9 O'DTLOD=: 2°39 Sard sur y ia] C 0 ia] 2 0 4 Q 0
+3 6 320 Manna Balfcur =° 502°3 -F2. 45122 ODT DOs 299 Sard sur y 2 c 0 ia 4 0 C o 0
+3 7 £20 Marna Balfcur =<" 502°) -72.45208 27202 203 No sur y pa) C 0 a 4 iH] C i 0
+3 6 320 Marna Balfour =° 50202 -72 45217 9 22702 203 No suiry Py) C 0 ia] 5 0 C o 0
+3 q 720 Manna Balfcur =° 59203) -F2.4522° 9 2’DTto j=: 203 No suiry 3 C 0 a 5 0 C o o
+5 ms) 320 Marna Balfour 2° 50°92) -F2. 45226 9 O'D7/2002 209 No sutry Oo C 0 ao 5 0 a a in)
+6 1 0.0 Martha Balfour 4151389 -73.45361 8/27/2009 0.10 Sand sunny 0 0 0 0 0 0 0 0 0
+6 2 5.0 Martha Balfour 4151392 = -73.45356 8/27/2009 0.50 Sand sunny 0 0 0 0 1 0 0 0 0
+6 3 100 Martha Balfour 4151396 -73.453S5 8/27/2009 1.00 Sand sunny 0 0 0 0 2 0 0 0 0
+6 4 200 Martha Balfour 4151404 = -73.45352 = 8/27/2009 1.90 Sand sunny 0 0 0 0 3 0 0 0 0
+6 5 300 Martha Balfour 4151416 -73.45354 8/27/2009 2.00 Sand sunny 0 0 0 0 4 0 i} 0 0
+6 6 400 Martha Balfour 4151424 = -73.45351 = 8/27/2009 2.50 Sand sunny 0 0 0 0 3 0 0 0 0
+6 7 50.0 Martha Balfour 4151433 -73.453S7 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+6 8 600 Martha Balfour 4151443 = -73.45358 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 9 700 Martha Balfour 4151453 = -73.45362 = 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 10 80.0 Martha Balfour 4151460 -73.45375 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem  ElaSp. EleSp. LemMin  MyrSpi NajFle NajMin  PotPer ValAme
+. . ona) Marna Balfour 4° 42275 -F2. 45264 0 OD7/20]2 22) Muck sutry a) C 0 2 ) 0 C a in)
+. 2 bam @] Marna Baltcur =<‘ 4232684 -F2 45268 ODT IDOI=S 243 Much sur y pe} C 0 o . ia] C 0 Qo
+. 3 120 Marna Balfour <’ 42203 -r2 452E6 827 LOIe 249 Much sur y 3 C 0 a 2 ia] C o ia)
+. 4 2290 Marna Balfour 4° 42295 -F2 45272 82 LOIe 163 Sard sur y ) C 0 a 4 0 Cc 0 0
+. 3 320 Marne Balfcur =<" 42407 9 -72.45272 8D PLOI2 - 03 Sard sur y 3 C 0 ia] 4 0 C 0 0
+. 6 400 Manna Balfour <' 424°4 0 -72.45290) | O'D7/2092 23 Sard sur y pe) C ie) a 3 0 C o 0
+. 7 cco Manna Balfour <' 42422 9 -F2.45292 WD PLOIs 223 Sard sur y pe) C 0 a 4 ia] C o 0
+. fal 6c0 Marna Balfcur =<’ 42452 -72. 45298  2D7ILOI: 22) Sard sur y pe) C 0 a 4 0 C 0 0
+. Es] 700 Manna Balfcur <' 42457 -F2.45252  WD72OI2 23) Sard sur y pe} C 0 a 2 0 C Oo 0
+. “9 320 Manna Balfcur =<’ 42443 -F2.45255 8 DPLOI: 23) Sard sur y a C 0 a 2 0 C o 0
+2 1 0.0 Martha Balfour 4142760 -73.44924 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+2 2 5.0 Martha Balfour 4142756 -73.44928 8/27/2009 0.50 Sand sunny 0 0 0 0 3 0 0 0 0
+2 3 10.0 Martha Balfour 4142753 = -73.44929 8/27/2009 2.10 Sand sunny 4 0 0 0 3 0 0 0 0
+2 4 200 Martha Balfour 4142747 -73.44940 8/27/2009 3.20 Sand sunny 3 0 0 0 i} 0 0 0 0
+2 5 300 Martha Balfour 4142746 -73.44954 8/27/2009 3.50 Sand sunny BE) 0 0 0 3 0 0 0 0
+2 6 400 Martha Balfour 4142742 -73.44964 8/27/2009 2.90 Sand sunny 2 0 0 0 4 0 0 0 0
+2 7 50.0 Martha Balfour 4142736 -73.44974 8/27/2009 1.80 Sand sunny 0 0 0 0 1 0 0 0 0
+2 8 600 Martha Balfour 4142734 -73.44988 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 9 700 Martha Balfour 4142728 -73.44993 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 10 80.0 Martha Balfour 4142726 -73.45010 98/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+3 . ena Marna Balfcur <° 47022 -F2 48572 272002 209 Sard sur y ) 3 3 a a o C o 0
+3 2 fC Marna Balfour 2° 47023 -F2 45527 0 oar tods 233 Sard suiry ) C a a a i C o 0
+3 3 12.0 Marna Balkcur =’ 47022 -72 45520 8'DTIDOI=: - 09 Sard sutry 2 C 0 0 2 . 2 o 0
+3 4 220 Manna Balfcur <° 47023  -F2. 45909 oD T IDOI: 203 No suiry 3 C 0 a a 0 C o 0
+3 3 320 Marna Balfour 2° 47025 -72 43424 2/DT IDOI: 203 No sur y BD) C 0 0 ) 0 C a 0
+3 6 400 Marna Balfour 2° 47027 -F2 43492 0 Oa7/D002 203 No sudry a) C 0 Oo ) 0 C a 0
+x) 7 20 Marna Balfcur 2° 47025  -F2 4346 2D7/2092 70) No sui y 3 C 0 Qo <) 0 C ia} 0
+ki bs 320 Marna Balfour =<’ 47024  -Fr2 454E7 0 WOR LOIs 2 03 No sur y py} C 0 a a 0 a o 0
+3 q eee) Marna Balcur <° 47025  -r2 45427 0 2/DTIDOIS 2 03 No sur y By} C 0 a a 0 C o i)
+3 9 220 Marna Balfcur <' 47021 -F2.43422 PDT IDOJ=2 209 No suiry 0 C 0 ia] a 0 C a i)
+4 1 0.0 Martha Balfour 41.57117 = -73.48831 8/31/2009 0.50 Sand Partially sunny 0 0 0 0 2 0 0 0 0
+4 2 5.0 Martha Balfour 4157115 = -73.48836 8/31/2009 1.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 3 100 Martha Balfour 4157111 -73.48840 8/31/2009 1.00 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 4 20.0 Martha Balfour 4157101 -73.48847 8/31/2009 1.50 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 5 30.0 Martha Balfour 4157094 -73.48851 8/31/2009 2.20 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 6 300 Martha Balfour 4157086 -73.48860 8/31/2009 2.70 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 7 500 Martha Balfour 4157077 -73.48866 8/31/2009 3.10 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 8 600 Martha Balfour 4157070 =-73.48873 = 8/31/2009 3.40 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 9 700 Martha Balfour 4157063 -73.48878 98/31/2009 3.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 10 800 Martha Balfour 4157055 -73.48884 8/31/2009 0.00 ND partially sunny 0 0 0 0 i} 0 0 0 0
+3 . on) Marna Balfour <° 50223 -72 45148 27/2002 203 Sard sur y pe) C 0 a a 0 C 0 0
+3 2 £0 Manna Balfcur =<" 50225 -F2.451S5 Dr 2OI2 103 Sard sur y 3 C 0 ia) 2 0 C o 0
+3 3 120 Marna Balfcur <=" 50223 -r245l€> WD r2OIe 103 Sard sur y a C 0 a 7 is) i. o 0
+3 4 200 Marna Balfour <° 50221 -P2 45175 WDPDOIS 203 Sard sur y a C 0 a 3 0 4 o 0
+3 3 300 Manna Balfcur <° 502°9  -72.45198 9 O'DTLOD=: 2°39 Sard sur y ia] C 0 ia] 2 0 4 Q 0
+3 6 320 Manna Balfcur =° 502°3 -F2. 45122 ODT DOs 299 Sard sur y 2 c 0 ia 4 0 C o 0
+3 7 £20 Marna Balfcur =<" 502°) -72.45208 27202 203 No sur y pa) C 0 a 4 iH] C i 0
+3 6 320 Marna Balfour =° 50202 -72 45217 9 22702 203 No suiry Py) C 0 ia] 5 0 C o 0
+3 q 720 Manna Balfcur =° 59203) -F2.4522° 9 2’DTto j=: 203 No suiry 3 C 0 a 5 0 C o o
+5 ms) 320 Marna Balfour 2° 50°92) -F2. 45226 9 O'D7/2002 209 No sutry Oo C 0 ao 5 0 a a in)
+6 1 0.0 Martha Balfour 4151389 -73.45361 8/27/2009 0.10 Sand sunny 0 0 0 0 0 0 0 0 0
+6 2 5.0 Martha Balfour 4151392 = -73.45356 8/27/2009 0.50 Sand sunny 0 0 0 0 1 0 0 0 0
+6 3 100 Martha Balfour 4151396 -73.453S5 8/27/2009 1.00 Sand sunny 0 0 0 0 2 0 0 0 0
+6 4 200 Martha Balfour 4151404 = -73.45352 = 8/27/2009 1.90 Sand sunny 0 0 0 0 3 0 0 0 0
+6 5 300 Martha Balfour 4151416 -73.45354 8/27/2009 2.00 Sand sunny 0 0 0 0 4 0 i} 0 0
+6 6 400 Martha Balfour 4151424 = -73.45351 = 8/27/2009 2.50 Sand sunny 0 0 0 0 3 0 0 0 0
+6 7 50.0 Martha Balfour 4151433 -73.453S7 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+6 8 600 Martha Balfour 4151443 = -73.45358 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 9 700 Martha Balfour 4151453 = -73.45362 = 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 10 80.0 Martha Balfour 4151460 -73.45375 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+
+Transect Points DFS (m) Surveyor Latitude Longitude Date Depth (m) Substrate Weather Wind Notes CerDem  ElaSp. EleSp. LemMin  MyrSpi NajFle NajMin  PotPer ValAme
+. . ona) Marna Balfour 4° 42275 -F2. 45264 0 OD7/20]2 22) Muck sutry a) C 0 2 ) 0 C a in)
+. 2 bam @] Marna Baltcur =<‘ 4232684 -F2 45268 ODT IDOI=S 243 Much sur y pe} C 0 o . ia] C 0 Qo
+. 3 120 Marna Balfour <’ 42203 -r2 452E6 827 LOIe 249 Much sur y 3 C 0 a 2 ia] C o ia)
+. 4 2290 Marna Balfour 4° 42295 -F2 45272 82 LOIe 163 Sard sur y ) C 0 a 4 0 Cc 0 0
+. 3 320 Marne Balfcur =<" 42407 9 -72.45272 8D PLOI2 - 03 Sard sur y 3 C 0 ia] 4 0 C 0 0
+. 6 400 Manna Balfour <' 424°4 0 -72.45290) | O'D7/2092 23 Sard sur y pe) C ie) a 3 0 C o 0
+. 7 cco Manna Balfour <' 42422 9 -F2.45292 WD PLOIs 223 Sard sur y pe) C 0 a 4 ia] C o 0
+. fal 6c0 Marna Balfcur =<’ 42452 -72. 45298  2D7ILOI: 22) Sard sur y pe) C 0 a 4 0 C 0 0
+. Es] 700 Manna Balfcur <' 42457 -F2.45252  WD72OI2 23) Sard sur y pe} C 0 a 2 0 C Oo 0
+. “9 320 Manna Balfcur =<’ 42443 -F2.45255 8 DPLOI: 23) Sard sur y a C 0 a 2 0 C o 0
+2 1 0.0 Martha Balfour 4142760 -73.44924 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+2 2 5.0 Martha Balfour 4142756 -73.44928 8/27/2009 0.50 Sand sunny 0 0 0 0 3 0 0 0 0
+2 3 10.0 Martha Balfour 4142753 = -73.44929 8/27/2009 2.10 Sand sunny 4 0 0 0 3 0 0 0 0
+2 4 200 Martha Balfour 4142747 -73.44940 8/27/2009 3.20 Sand sunny 3 0 0 0 i} 0 0 0 0
+2 5 300 Martha Balfour 4142746 -73.44954 8/27/2009 3.50 Sand sunny BE) 0 0 0 3 0 0 0 0
+2 6 400 Martha Balfour 4142742 -73.44964 8/27/2009 2.90 Sand sunny 2 0 0 0 4 0 0 0 0
+2 7 50.0 Martha Balfour 4142736 -73.44974 8/27/2009 1.80 Sand sunny 0 0 0 0 1 0 0 0 0
+2 8 600 Martha Balfour 4142734 -73.44988 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 9 700 Martha Balfour 4142728 -73.44993 8/27/2009 3.10 Sand sunny 0 0 0 0 4 0 0 0 0
+2 10 80.0 Martha Balfour 4142726 -73.45010 98/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+3 . ena Marna Balfcur <° 47022 -F2 48572 272002 209 Sard sur y ) 3 3 a a o C o 0
+3 2 fC Marna Balfour 2° 47023 -F2 45527 0 oar tods 233 Sard suiry ) C a a a i C o 0
+3 3 12.0 Marna Balkcur =’ 47022 -72 45520 8'DTIDOI=: - 09 Sard sutry 2 C 0 0 2 . 2 o 0
+3 4 220 Manna Balfcur <° 47023  -F2. 45909 oD T IDOI: 203 No suiry 3 C 0 a a 0 C o 0
+3 3 320 Marna Balfour 2° 47025 -72 43424 2/DT IDOI: 203 No sur y BD) C 0 0 ) 0 C a 0
+3 6 400 Marna Balfour 2° 47027 -F2 43492 0 Oa7/D002 203 No sudry a) C 0 Oo ) 0 C a 0
+x) 7 20 Marna Balfcur 2° 47025  -F2 4346 2D7/2092 70) No sui y 3 C 0 Qo <) 0 C ia} 0
+ki bs 320 Marna Balfour =<’ 47024  -Fr2 454E7 0 WOR LOIs 2 03 No sur y py} C 0 a a 0 a o 0
+3 q eee) Marna Balcur <° 47025  -r2 45427 0 2/DTIDOIS 2 03 No sur y By} C 0 a a 0 C o i)
+3 9 220 Marna Balfcur <' 47021 -F2.43422 PDT IDOJ=2 209 No suiry 0 C 0 ia] a 0 C a i)
+4 1 0.0 Martha Balfour 41.57117 = -73.48831 8/31/2009 0.50 Sand Partially sunny 0 0 0 0 2 0 0 0 0
+4 2 5.0 Martha Balfour 4157115 = -73.48836 8/31/2009 1.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 3 100 Martha Balfour 4157111 -73.48840 8/31/2009 1.00 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 4 20.0 Martha Balfour 4157101 -73.48847 8/31/2009 1.50 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 5 30.0 Martha Balfour 4157094 -73.48851 8/31/2009 2.20 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 6 300 Martha Balfour 4157086 -73.48860 8/31/2009 2.70 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 7 500 Martha Balfour 4157077 -73.48866 8/31/2009 3.10 Sand partially sunny 0 0 0 0 3 0 0 0 0
+4 8 600 Martha Balfour 4157070 =-73.48873 = 8/31/2009 3.40 Sand partially sunny 0 0 0 0 0 0 0 0 0
+4 9 700 Martha Balfour 4157063 -73.48878 98/31/2009 3.50 Sand partially sunny 0 0 0 0 2 0 0 0 0
+4 10 800 Martha Balfour 4157055 -73.48884 8/31/2009 0.00 ND partially sunny 0 0 0 0 i} 0 0 0 0
+3 . on) Marna Balfour <° 50223 -72 45148 27/2002 203 Sard sur y pe) C 0 a a 0 C 0 0
+3 2 £0 Manna Balfcur =<" 50225 -F2.451S5 Dr 2OI2 103 Sard sur y 3 C 0 ia) 2 0 C o 0
+3 3 120 Marna Balfcur <=" 50223 -r245l€> WD r2OIe 103 Sard sur y a C 0 a 7 is) i. o 0
+3 4 200 Marna Balfour <° 50221 -P2 45175 WDPDOIS 203 Sard sur y a C 0 a 3 0 4 o 0
+3 3 300 Manna Balfcur <° 502°9  -72.45198 9 O'DTLOD=: 2°39 Sard sur y ia] C 0 ia] 2 0 4 Q 0
+3 6 320 Manna Balfcur =° 502°3 -F2. 45122 ODT DOs 299 Sard sur y 2 c 0 ia 4 0 C o 0
+3 7 £20 Marna Balfcur =<" 502°) -72.45208 27202 203 No sur y pa) C 0 a 4 iH] C i 0
+3 6 320 Marna Balfour =° 50202 -72 45217 9 22702 203 No suiry Py) C 0 ia] 5 0 C o 0
+3 q 720 Manna Balfcur =° 59203) -F2.4522° 9 2’DTto j=: 203 No suiry 3 C 0 a 5 0 C o o
+5 ms) 320 Marna Balfour 2° 50°92) -F2. 45226 9 O'D7/2002 209 No sutry Oo C 0 ao 5 0 a a in)
+6 1 0.0 Martha Balfour 4151389 -73.45361 8/27/2009 0.10 Sand sunny 0 0 0 0 0 0 0 0 0
+6 2 5.0 Martha Balfour 4151392 = -73.45356 8/27/2009 0.50 Sand sunny 0 0 0 0 1 0 0 0 0
+6 3 100 Martha Balfour 4151396 -73.453S5 8/27/2009 1.00 Sand sunny 0 0 0 0 2 0 0 0 0
+6 4 200 Martha Balfour 4151404 = -73.45352 = 8/27/2009 1.90 Sand sunny 0 0 0 0 3 0 0 0 0
+6 5 300 Martha Balfour 4151416 -73.45354 8/27/2009 2.00 Sand sunny 0 0 0 0 4 0 i} 0 0
+6 6 400 Martha Balfour 4151424 = -73.45351 = 8/27/2009 2.50 Sand sunny 0 0 0 0 3 0 0 0 0
+6 7 50.0 Martha Balfour 4151433 -73.453S7 8/27/2009 3.20 Sand sunny 0 0 0 0 4 0 0 0 0
+6 8 600 Martha Balfour 4151443 = -73.45358 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 9 700 Martha Balfour 4151453 = -73.45362 = 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+6 10 80.0 Martha Balfour 4151460 -73.45375 8/27/2009 0.00 ND sunny 0 0 0 0 0 0 0 0 0
+

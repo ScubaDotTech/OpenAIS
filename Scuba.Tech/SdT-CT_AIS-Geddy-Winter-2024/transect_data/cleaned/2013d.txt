@@ -1,0 +1,30 @@
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem MyrSpi NajMin NymOdo PotFol StuPec ValAme
+10 4 20.0 Greg Bugbee 41.44725 -73.42966 8/21/2013 0.80 Silt 0 0 0 0 0 0 3
+10 5 30.0 Greg Bugbee 41.44722 -73.42983 8/21/2013 0.80 Sand 0 2 0 ) 0 0 2
+10 6 40.0 Greg Bugbee 41.44712 -73.42991 8/21/2013 0.30 Sand 2 2 0 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44710 -73.42997 8/21/2013 0.10 Sand 2 2 0 0 1 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem MyrSpi NajMin NymOdo PotFol StuPec ValAme
+10 4 20.0 Greg Bugbee 4144725 -73.42966 8/21/2013 0.80 Silt 0 0 0 0 0 0 3
+10 5 30.0 Greg Bugbee 4144722 -73.42983 8/21/2013 0.80 Sand 0 2 0 0 0 0 2
+10 6 40.0 Greg Bugbee 41.44712 -73.42991 8/21/2013 0.30 Sand 2 2 0 0 0 0 0
+10 7 50.0 Greg Bugbee 4144710 -73.42997 8/21/2013 0.10 Sand 2 2 0 0 1 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem MyrSpi NajMin NymOdo PotFol StuPec ValAme
+10 4 20.0 Greg Bugbee 41.44725 -73.42966 8/21/2013 0.80 Silt 0 0 0 0 0 0 3
+10 5 30.0 Greg Bugbee 41.44722 -73.42983 8/21/2013 0.80 Sand 0 2 0 ) 0 0 2
+10 6 40.0 Greg Bugbee 41.44712 -73.42991 8/21/2013 0.30 Sand 2 2 0 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44710 -73.42997 8/21/2013 0.10 Sand 2 2 0 0 1 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem MyrSpi NajMin NymOdo PotFol StuPec ValAme
+10 4 20.0 Greg Bugbee 41.44725 -73.42966 8/21/2013 0.80 Silt 0 0 0 0 0 0 3
+10 5 30.0 Greg Bugbee 41.44722 -73.42983 8/21/2013 0.80 Sand 0 2 0 ) 0 0 2
+10 6 40.0 Greg Bugbee 41.44712 -73.42991 8/21/2013 0.30 Sand 2 2 0 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44710 -73.42997 8/21/2013 0.10 Sand 2 2 0 0 1 0 0
+
+Transect Point Shore(m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem MyrSpi NajMin NymOdo PotFol StuPec ValAme
+10 4 20.0 Greg Bugbee 41.44725 -73.42966 8/21/2013 0.80 Silt 0 0 0 0 0 0 3
+10 5 30.0 Greg Bugbee 41.44722 -73.42983 8/21/2013 0.80 Sand 0 2 0 ) 0 0 2
+10 6 40.0 Greg Bugbee 41.44712 -73.42991 8/21/2013 0.30 Sand 2 2 0 0 0 0 0
+10 7 50.0 Greg Bugbee 41.44710 -73.42997 8/21/2013 0.10 Sand 2 2 0 0 1 0 0
+

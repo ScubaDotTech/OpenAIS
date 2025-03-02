@@ -1,0 +1,270 @@
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+5 4 20.0 Jordan Gibbons 41.50230 -73.45167 99/13/2011 1.40 Sand ie) a) @) 3 @) 2 0 a) 0 0
+5 5 30.0 Jordan Gibbons = 41.50235)) -73.45172 9/13/2011 1.40 Sand 0 0 @) 3 (@) 3 0 0 0 0
+5 6 40.0 Jordan Gibbons  41.50233 ) -73.4518G6 9/13/2011 2.10 Sand fe) 0 a) 5 (a) 0 0 a) 0 0
+5 7 50.0 Jordan Gibbons  41.50243 9 -73.45194 9/13/2011 1.60 Sand fe) Oo a) 3 a) 0 0 ia) fa) (a)
+5 8 60.0 Jordan Gibbons = 41.50248 — -73.45205 9/13/2011 3.00 Sand 0 0 0 3 0 0 0 a 0 Q
+5 a 70.0 Jordan Gibbons =41.50249 — -73.45212 9 9/13/2011 3.50 Sand 0 oO a) 4 e) oO 0 a 0 a
+5 10 80.0 Jordan Gibbons 41.50256 — -73.45221 9 9/13/2011 4.30 Sand 0 O a) 3 0 0 © Q 0 Q
+6 1 5 Jordan Gibbons 41.51386 -73.45329 9/13/2011 0.50 Organic 0 0 0 2 0 0 0 0 0 0)
+6 2 5.0 Jordan Gibbons 41.51391 = -73.45331 = 9/13/2011 1.00 Muck 0 0 0 5 0 i) 0 0 0 i)
+6 3 10.0 Jordan Gibbons 41.51395 _-73.45332 9/13/2011 +=1.10 Muck 0 0 0 5 0 i) 0 0 0 0
+6 4 20.0 Jordan Gibbons 41.51406 -73.45334 9/13/2011 0.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 5 30.0 Jordan Gibbons 41.51415  _-73.45332 9/13/2011 1.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 6 40.0 Jordan Gibbons 41.51423  -73.45331 9/13/2011 2.30 Muck 0 0 0 4 0 0 0 0 0 ie)
+6 7 50.0 Jordan Gibbons 41.51432  -73.45328 9/13/2011 2.40 Muck 0 fe) 0 3 0 ie) fe) 0 fe) ie)
+6 8 60.0 Jordan Gibbons 41.51441 -73.45329 9/13/2011 3.00 Muck 0 0 0 2 0 18) 0 0 0 0
+6 9 70.0 Jordan Gibbons 41.51452 _-73.45332. 9/13/2011 4.70 Muck 0 e) 0 (8) 0 ie) 0 0 0 (0)
+6 10 80.0 Jordan Gibbons 41.51458  -73.45335 9/13/2011 5.50 Muck 0 0 0 (8) 0 (8) 0 0 0 i)
+7 1 1.0 Greg Bugbeée 31.57145 -73.44270 9/13/2011 0.30 Rock 0 a) ie) 0 (@) 0 0 0 0 0
+7 2 5.0 Greg Bugbee 31.57144 9 -73.44276 0 9/13/2011 1.50 Rock i) a) @) 2 @) @) 0 0 ie) e)
+7 3 10.0 Greg Bugbee 31.57145 9 -73.44283 0 9/13/2011 1.30 Gravel ie) 0 @) 4 @) 2 0 @) ie) 0
+7 4 20.0 Greg Bugbee 41.57145 9 -73.44297 0 9/13/2011 2.50 Gravel 0 0 0 4 0 Q 0 a 0 0
+7 5 30.0 Greg Bugbee 41.57140 9 -73.44309 9 9/13/2011 2.80 Muck 0 0 0 4 0 Q 0 a Q 0
+7 6 40.0 Greg Bugbee 41.57148 — -73.44319 9/13/2011 4.00 Gravel 2 0 0 3 0 0 0 a 0 0
+7 7 50.0 Greg Bugbee 41.57146 9 -73.44332 0 9/13/2011 5.50 Silt 0 O 0 0 0 0 © a 0 0
+7 8 60.0 Greg Bugbee 41.57141 9 -73.44341 0 9/13/2011 6.20 Silt 0 O 0 0 0 O O G 0 0
+7 a 70.0 Greg Bugbee 41.57142 9 -73.44352. 0 9/13/2011 6.20 Silt 0 O 0 0 0 0 QO a 0 0
+7 10 80.0 Greg Bugbee 41.57146 -73.44309 9 9/13/2011 7.10 Silt 0 O 0) 0 e) O 0 a 0 0
+8 1 0.5 Greg Bugbee 41.51296 -73.44120 9/13/2011 0.50 Rock 0 0 0 (8) 0 i) 0 0 0 ie)
+8 2 5.0 Greg Bugbee 41.51293 -73.44117 9/13/2011 1.00 Gravel 0 0 0 8) 0 2 0 2 0 0
+8 3 10.0 Greg Bugbee 41.51287 -73.44121 9/13/2011 1.50 Gravel 0 0 0 2 0 0 0 0 0 0)
+8 4 20.0 Greg Bugbee 41.51278 -73.44121 9/13/2011 1.50 Rock 0 0 fe) 2 fe) 2 0 0 0 ie)
+8 5 30.0 Greg Bugbee 41.51268 -73.44120 9/13/2011 1.70 Rock 0 fe) 0 3 0 (0) fe) 0 fe) ie)
+8 6 40.0 Greg Bugbee 41.51258 -73.44123 9/13/2011 2.00 Rock 0 0 0 3 0 18) 0 0 0 0
+8 7 50.0 Greg Bugbee 41.51251 -73.44130 9/13/2011 2.00 Rock 0 fe) ie) 3 0 (0) 0 0 0 ie)
+8 8 60.0 Greg Bugbee 41.51242 -73.44125 9/13/2011 3.00 Rock 0 0 0 3 0 (8) 0 0 0 (8)
+8 9 70.0 Greg Bugbee 41.51231 -73.44133 9/13/2011 3.00 Gravel 0 0 0 3 0 i) 0 0 0 ie)
+8 10 80.0 Greg Bugbee 41.51223  -73.44122. 9/13/2011 4.80 Silt 0 0 0 0 0 0 0 0 0 i)
+a 1 5 Jordan Gibbons = 41.48051 -73.43461 0 9/13/2011 0.50 Muck 2 0 @) 4 @) 0 0 0 Q 0
+ss 2 5.0 Jordan Gibbons = 41.48051 — -73.434607 0 9/13/2011 0.50 Muck 0 0 0 3 0 3 0 1 Q 0
+a 3 10.0 Jordan Gibbons 4148046 9 -73.43471 0 9/13/2011 1.00 Muck a 0 0 3 0 2 0 Q 0 0
+G 4 20.0 Jordan Gibbons  41.48046 9 -73.43483 9 9/13/2011 1.60 Muck 0 0 0 2 0 Q 0 a 0 0
+G 5 30.0 Jordan Gibbons = 41.48043 9 -73.43498 9/13/2011 2.00 Muck 0 0 0 4 0 Q 0 a 0 0
+G 6 40.0 Jordan Gibbons = 41.48041 — -73.43509 9/13/2011 2.50 Muck 0 0 0 3 0 Q 0 a 0 0
+
+Transect Point Shore (m) Surveyor latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+5 4 200 Jordan Gibbons 4150230 -73.45167 9 9/13/2011 140 Sand ie) ie) ie) 3 0 2 ie) a ia) ia)
+5 5 30.0 Jordan Gibbons 4150235 9 -73.95172 9/13/2011 1.40 Sand ia) 0 ia) 3 0 3 ia} 0 a) 0
+5 ia) 40.0 Jordan Gibbons 4150233) -73.45186 9/13/2011 210 Sand ia) fe) ia) 5 0 ie) ia) ie) a) ie)
+4 7 500 Jotdan Gibbons — 491.50243 73.45194 9/13/2011 1.60 Sand ie) 0 ie) 3 0 ie) ie) ie) 0 ie)
+5 & 60.0 Jordan Gibbons = 41.50248 73.45205 9/13/2011 3.00 Sand 0 0 0 3 0 0 ia) ia) QO QO
+5 a 70.0 Jordan Gibbons = 4150249 -73.45212 9 9/13/2011 3.50 Sand 0 ie) 0 4 0 ia) ia) Q QO ia)
+S 10 80.0 Jordan Gibbons = 41.50256  -73.45221) 0 9/13/2011 4.30 Sand 0 ie) 0 3 0 e) a ia) Oo 0
+6 1 5 Jordan Gibbons 41.51386 -73.45329 9/13/2011 0.50 Organic 0 0 0 2 0 0 0 0 0 0
+6 2 5.0 Jordan Gibbons 41.51391  -73.45331 9/13/2011 +=1.00 Muck (1) 0 (1) 5 0 0 0 0 0 0
+6 3 10.0 Jordan Gibbons 41.51395 -73.45332 9/13/2011 1.10 Muck 0 0 0 5 0 0 0 0 0 0
+6 4 20.0 Jordan Gibbons 41.51406 -73.45334 9/13/2011 0.80 Muck 0 0 0 5 0 0 0 0 0 0
+6 5 30.0 Jordan Gibbons 41.51415 -73.45332 9/13/2011 1.80 Muck 0 0 [1 5 0 0 0 0 0 0
+6 6 40.0 JordanGibbons 41.51423  -73.45331 9/13/2011 2.30 Muck 0 0 0 4 0 0 0 0 0 0
+6 7 $0.0 JordanGibbons 41.51432 -73.45328 9/13/2011 2.40 Muck 0 0 0 3 0 0 0 0 0 0
+6 8 60.0 Jordan Gibbons 41.51441 -73.45329 9/13/2011 3.00 Muck 0 0 0 2 0 0 0 0 0 0
+6 9 70.0 Jordan Gibbons 41.51452  -73.45332 9/13/2011 4.70 Muck 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Jordan Gibbons 41.51458 -73.45335 9/13/2011 5.50 Muck 0 0 tH) 0 0 0 0 0 0 0
+7 1 1.0 Greg Bugbee 3157145 -73.44270 9 9/13/2011 0.30 Rock ia) 0 ia) ia) 0 0 0 0 ia) 0
+7 2 5.0 Greg Bugbee 3157144 -73 44276 9/13/2011 150 Rock ie) ie) ie) 2 0 i) ia) ie) 0 ia)
+7 3 100 Greg Bugbee 3157145 9 -73.44283 0 9/13/2011 1 30 Gravel 0 re) ia) 4 ia) 2 0 0 0 i)
+7 4 200 Greg Bugbee 3157145 7344297 9/13/2011 2.50 Gravel 0 ie) 0 4 0 0 0 0 a 0
+7 S 300 Greg Bugbee 3157140 -73-44309 0 9/13/2011 2 80 Muck 0 0 0 4 0 0 0 Q a 0
+7 6 woo Greg Bugbee 4157148 7344319 9/73/2011 4300 Gravel 2 ie) 0 3 0 (e) (a) Q 0 (e)
+7 7 500 Greg Bugbee 3157146 9 -73.44332 0 9/13/2011 5.50 Silt 0 0 0 id 0 0 ia) 0 Oo 0
+7 8 60.0 Greg Bugbee 3157141 -73.44342 0 9/13/2011 6.20 Silt 0 fe) 0 0 0 i) ie) ie) 0 QO
+7 Q 70.0 Greg Bugbee 3157142) -73.443520 9/13/2011 6.20 Silt 0 fe) 0 0 0 Qa Q ie) 0 Qa
+7 10 80.0 Greg Bugbee 4157146 -73.443609 9 9/13/2011 7.10 Silt 0 0 0 0 0 ie) Qa Q Q ie)
+8 1 0.5 Greg Bugbee 41.51296 -73.44120 9/13/2011 0.50 Rock 0 0 0 0 0 0 0 0 0 0
+8 2 5.0 Greg Bugbee 41.51293  -73.44117 9/13/2011 1.00 Gravel 0 0 0 0 i) 2 0 2 0 0
+8 3 10.0 Greg Bugbee 41.51287 -73.44121 9/13/2011 1.50 Gravel 0 0 0 2 0 0 0 0 0 0
+8 4 20.0 Greg Bugbee 41.51278 -73.44121 9/13/2011 1.50 Rock 0 0 0 2 0 2 0 0 0 0
+8 5 30.0 Greg Bugbee 41.51268 -73.44120 9/13/2011 1.70 Rock [) 0 (1) 3 0 0 0 0 0 0
+8 6 40.0 Greg Bugbee 41.51258 -73.44123 9/13/2011 2.00 Rock 0 0 0 3 0 0 0 0 0 0
+8 7 50.0 Greg Bugbee 41.51251 -73.44130 9/13/2011 2.00 Rock 0 0 0 3 0 0 0 0 0 0
+8 8 60.0 Greg Bugbee 41.51242  -73.44125 9/13/2011 3.00 Rock 0 0 0 3 0 0 0 0 ) 0
+8 9 70.0 Greg Bugbee 41.51231 -73.44133 9/13/2011 3.00 Gravel 0 0 0 3 0 0 0 0 0 0
+8 10 80.0 Greg Bugbee 41.51223  -73.44122 9/13/2011 4.80 Silt 0 0 0 0 0 0 tH) 0 0 0
+Q 1 5 Jordan Gibbons 4148051) -73.93461 0 9/13/2011 050 Muck 2 a) ia) 4 0 a) ie) 0 0 i
+i) 2 5.0 Jordan Gibbons 43148051 7343407 9/13/2011 0.50 Muck 0 0 0 3 0 3 ia) 1 QO 0
+o 3 100 Jordan Gibbons = 41 48046 7343471 9/13/2011 100 Muck 0 0 0 3 0 2 ia) Q 0 ia)
+a 4 200 Jordan Gibbons =491.48046 — -73.43483 0 9/13/2011 1.60 Muck 0 0 0 2 0 0 ie) 0 QO 0
+o 5 30.0 Jordan Gibbons = 41.48043 73.43498 9/73/2011 2.00 Muck 0 0 0 4 0 0 0 0 Qa 0
+a 6 40 Jordan Gibbons = 41 48041 -73.43509 0 9/13/2011 2.50 Muck 0 fe) 0 3 0 ia) Qa 0 QO ia)
+
+Transect Point Shore (m) Surveyor latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+5 4 200 Jordan Gibbons 4150230 -73.45167 9 9/13/2011 140 Sand ie) ie) ie) 3 0 2 ie) a ia) ia)
+5 5 30.0 Jordan Gibbons 4150235 9 -73.95172 9/13/2011 1.40 Sand ia) 0 ia) 3 0 3 ia} 0 a) 0
+5 ia) 40.0 Jordan Gibbons 4150233) -73.45186 9/13/2011 210 Sand ia) fe) ia) 5 0 ie) ia) ie) a) ie)
+4 7 500 Jotdan Gibbons — 491.50243 73.45194 9/13/2011 1.60 Sand ie) 0 ie) 3 0 ie) ie) ie) 0 ie)
+5 & 60.0 Jordan Gibbons = 41.50248 73.45205 9/13/2011 3.00 Sand 0 0 0 3 0 0 ia) ia) QO QO
+5 a 70.0 Jordan Gibbons = 4150249 -73.45212 9 9/13/2011 3.50 Sand 0 ie) 0 4 0 ia) ia) Q QO ia)
+S 10 80.0 Jordan Gibbons = 41.50256  -73.45221) 0 9/13/2011 4.30 Sand 0 ie) 0 3 0 e) a ia) Oo 0
+6 1 5 Jordan Gibbons 41.51386 -73.45329 9/13/2011 0.50 Organic 0 0 0 2 0 0 0 0 0 0
+6 2 5.0 Jordan Gibbons 41.51391  -73.45331 9/13/2011 +=1.00 Muck (1) 0 (1) 5 0 0 0 0 0 0
+6 3 10.0 Jordan Gibbons 41.51395 -73.45332 9/13/2011 1.10 Muck 0 0 0 5 0 0 0 0 0 0
+6 4 20.0 Jordan Gibbons 41.51406 -73.45334 9/13/2011 0.80 Muck 0 0 0 5 0 0 0 0 0 0
+6 5 30.0 Jordan Gibbons 41.51415 -73.45332 9/13/2011 1.80 Muck 0 0 [1 5 0 0 0 0 0 0
+6 6 40.0 JordanGibbons 41.51423  -73.45331 9/13/2011 2.30 Muck 0 0 0 4 0 0 0 0 0 0
+6 7 $0.0 JordanGibbons 41.51432 -73.45328 9/13/2011 2.40 Muck 0 0 0 3 0 0 0 0 0 0
+6 8 60.0 Jordan Gibbons 41.51441 -73.45329 9/13/2011 3.00 Muck 0 0 0 2 0 0 0 0 0 0
+6 9 70.0 Jordan Gibbons 41.51452  -73.45332 9/13/2011 4.70 Muck 0 0 0 0 0 0 0 0 0 0
+6 10 80.0 Jordan Gibbons 41.51458 -73.45335 9/13/2011 5.50 Muck 0 0 tH) 0 0 0 0 0 0 0
+7 1 1.0 Greg Bugbee 3157145 -73.44270 9 9/13/2011 0.30 Rock ia) 0 ia) ia) 0 0 0 0 ia) 0
+7 2 5.0 Greg Bugbee 3157144 -73 44276 9/13/2011 150 Rock ie) ie) ie) 2 0 i) ia) ie) 0 ia)
+7 3 100 Greg Bugbee 3157145 9 -73.44283 0 9/13/2011 1 30 Gravel 0 re) ia) 4 ia) 2 0 0 0 i)
+7 4 200 Greg Bugbee 3157145 7344297 9/13/2011 2.50 Gravel 0 ie) 0 4 0 0 0 0 a 0
+7 S 300 Greg Bugbee 3157140 -73-44309 0 9/13/2011 2 80 Muck 0 0 0 4 0 0 0 Q a 0
+7 6 woo Greg Bugbee 4157148 7344319 9/73/2011 4300 Gravel 2 ie) 0 3 0 (e) (a) Q 0 (e)
+7 7 500 Greg Bugbee 3157146 9 -73.44332 0 9/13/2011 5.50 Silt 0 0 0 id 0 0 ia) 0 Oo 0
+7 8 60.0 Greg Bugbee 3157141 -73.44342 0 9/13/2011 6.20 Silt 0 fe) 0 0 0 i) ie) ie) 0 QO
+7 Q 70.0 Greg Bugbee 3157142) -73.443520 9/13/2011 6.20 Silt 0 fe) 0 0 0 Qa Q ie) 0 Qa
+7 10 80.0 Greg Bugbee 4157146 -73.443609 9 9/13/2011 7.10 Silt 0 0 0 0 0 ie) Qa Q Q ie)
+8 1 0.5 Greg Bugbee 41.51296 -73.44120 9/13/2011 0.50 Rock 0 0 0 0 0 0 0 0 0 0
+8 2 5.0 Greg Bugbee 41.51293  -73.44117 9/13/2011 1.00 Gravel 0 0 0 0 i) 2 0 2 0 0
+8 3 10.0 Greg Bugbee 41.51287 -73.44121 9/13/2011 1.50 Gravel 0 0 0 2 0 0 0 0 0 0
+8 4 20.0 Greg Bugbee 41.51278 -73.44121 9/13/2011 1.50 Rock 0 0 0 2 0 2 0 0 0 0
+8 5 30.0 Greg Bugbee 41.51268 -73.44120 9/13/2011 1.70 Rock [) 0 (1) 3 0 0 0 0 0 0
+8 6 40.0 Greg Bugbee 41.51258 -73.44123 9/13/2011 2.00 Rock 0 0 0 3 0 0 0 0 0 0
+8 7 50.0 Greg Bugbee 41.51251 -73.44130 9/13/2011 2.00 Rock 0 0 0 3 0 0 0 0 0 0
+8 8 60.0 Greg Bugbee 41.51242  -73.44125 9/13/2011 3.00 Rock 0 0 0 3 0 0 0 0 ) 0
+8 9 70.0 Greg Bugbee 41.51231 -73.44133 9/13/2011 3.00 Gravel 0 0 0 3 0 0 0 0 0 0
+8 10 80.0 Greg Bugbee 41.51223  -73.44122 9/13/2011 4.80 Silt 0 0 0 0 0 0 tH) 0 0 0
+Q 1 5 Jordan Gibbons 4148051) -73.93461 0 9/13/2011 050 Muck 2 a) ia) 4 0 a) ie) 0 0 i
+i) 2 5.0 Jordan Gibbons 43148051 7343407 9/13/2011 0.50 Muck 0 0 0 3 0 3 ia) 1 QO 0
+o 3 100 Jordan Gibbons = 41 48046 7343471 9/13/2011 100 Muck 0 0 0 3 0 2 ia) Q 0 ia)
+a 4 200 Jordan Gibbons =491.48046 — -73.43483 0 9/13/2011 1.60 Muck 0 0 0 2 0 0 ie) 0 QO 0
+o 5 30.0 Jordan Gibbons = 41.48043 73.43498 9/73/2011 2.00 Muck 0 0 0 4 0 0 0 0 Qa 0
+a 6 40 Jordan Gibbons = 41 48041 -73.43509 0 9/13/2011 2.50 Muck 0 fe) 0 3 0 ia) Qa 0 QO ia)
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+5 4 20.0 Jordan Gibbons 41.50230 -73.45167 99/13/2011 1.40 Sand ie) a) @) 3 @) 2 0 a) 0 0
+5 5 30.0 Jordan Gibbons = 41.50235)) -73.45172 9/13/2011 1.40 Sand 0 0 @) 3 (@) 3 0 0 0 0
+5 6 40.0 Jordan Gibbons  41.50233 ) -73.4518G6 9/13/2011 2.10 Sand fe) 0 a) 5 (a) 0 0 a) 0 0
+5 7 50.0 Jordan Gibbons  41.50243 9 -73.45194 9/13/2011 1.60 Sand fe) Oo a) 3 a) 0 0 ia) fa) (a)
+5 8 60.0 Jordan Gibbons = 41.50248 — -73.45205 9/13/2011 3.00 Sand 0 0 0 3 0 0 0 a 0 Q
+5 a 70.0 Jordan Gibbons =41.50249 — -73.45212 9 9/13/2011 3.50 Sand 0 oO a) 4 e) oO 0 a 0 a
+5 10 80.0 Jordan Gibbons 41.50256 — -73.45221 9 9/13/2011 4.30 Sand 0 O a) 3 0 0 © Q 0 Q
+6 1 5 Jordan Gibbons 41.51386 -73.45329 9/13/2011 0.50 Organic 0 0 0 2 0 0 0 0 0 0)
+6 2 5.0 Jordan Gibbons 41.51391 = -73.45331 = 9/13/2011 1.00 Muck 0 0 0 5 0 i) 0 0 0 i)
+6 3 10.0 Jordan Gibbons 41.51395 _-73.45332 9/13/2011 +=1.10 Muck 0 0 0 5 0 i) 0 0 0 0
+6 4 20.0 Jordan Gibbons 41.51406 -73.45334 9/13/2011 0.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 5 30.0 Jordan Gibbons 41.51415  _-73.45332 9/13/2011 1.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 6 40.0 Jordan Gibbons 41.51423  -73.45331 9/13/2011 2.30 Muck 0 0 0 4 0 0 0 0 0 ie)
+6 7 50.0 Jordan Gibbons 41.51432  -73.45328 9/13/2011 2.40 Muck 0 fe) 0 3 0 ie) fe) 0 fe) ie)
+6 8 60.0 Jordan Gibbons 41.51441 -73.45329 9/13/2011 3.00 Muck 0 0 0 2 0 18) 0 0 0 0
+6 9 70.0 Jordan Gibbons 41.51452 _-73.45332. 9/13/2011 4.70 Muck 0 e) 0 (8) 0 ie) 0 0 0 (0)
+6 10 80.0 Jordan Gibbons 41.51458  -73.45335 9/13/2011 5.50 Muck 0 0 0 (8) 0 (8) 0 0 0 i)
+7 1 1.0 Greg Bugbeée 31.57145 -73.44270 9/13/2011 0.30 Rock 0 a) ie) 0 (@) 0 0 0 0 0
+7 2 5.0 Greg Bugbee 31.57144 9 -73.44276 0 9/13/2011 1.50 Rock i) a) @) 2 @) @) 0 0 ie) e)
+7 3 10.0 Greg Bugbee 31.57145 9 -73.44283 0 9/13/2011 1.30 Gravel ie) 0 @) 4 @) 2 0 @) ie) 0
+7 4 20.0 Greg Bugbee 41.57145 9 -73.44297 0 9/13/2011 2.50 Gravel 0 0 0 4 0 Q 0 a 0 0
+7 5 30.0 Greg Bugbee 41.57140 9 -73.44309 9 9/13/2011 2.80 Muck 0 0 0 4 0 Q 0 a Q 0
+7 6 40.0 Greg Bugbee 41.57148 — -73.44319 9/13/2011 4.00 Gravel 2 0 0 3 0 0 0 a 0 0
+7 7 50.0 Greg Bugbee 41.57146 9 -73.44332 0 9/13/2011 5.50 Silt 0 O 0 0 0 0 © a 0 0
+7 8 60.0 Greg Bugbee 41.57141 9 -73.44341 0 9/13/2011 6.20 Silt 0 O 0 0 0 O O G 0 0
+7 a 70.0 Greg Bugbee 41.57142 9 -73.44352. 0 9/13/2011 6.20 Silt 0 O 0 0 0 0 QO a 0 0
+7 10 80.0 Greg Bugbee 41.57146 -73.44309 9 9/13/2011 7.10 Silt 0 O 0) 0 e) O 0 a 0 0
+8 1 0.5 Greg Bugbee 41.51296 -73.44120 9/13/2011 0.50 Rock 0 0 0 (8) 0 i) 0 0 0 ie)
+8 2 5.0 Greg Bugbee 41.51293 -73.44117 9/13/2011 1.00 Gravel 0 0 0 8) 0 2 0 2 0 0
+8 3 10.0 Greg Bugbee 41.51287 -73.44121 9/13/2011 1.50 Gravel 0 0 0 2 0 0 0 0 0 0)
+8 4 20.0 Greg Bugbee 41.51278 -73.44121 9/13/2011 1.50 Rock 0 0 fe) 2 fe) 2 0 0 0 ie)
+8 5 30.0 Greg Bugbee 41.51268 -73.44120 9/13/2011 1.70 Rock 0 fe) 0 3 0 (0) fe) 0 fe) ie)
+8 6 40.0 Greg Bugbee 41.51258 -73.44123 9/13/2011 2.00 Rock 0 0 0 3 0 18) 0 0 0 0
+8 7 50.0 Greg Bugbee 41.51251 -73.44130 9/13/2011 2.00 Rock 0 fe) ie) 3 0 (0) 0 0 0 ie)
+8 8 60.0 Greg Bugbee 41.51242 -73.44125 9/13/2011 3.00 Rock 0 0 0 3 0 (8) 0 0 0 (8)
+8 9 70.0 Greg Bugbee 41.51231 -73.44133 9/13/2011 3.00 Gravel 0 0 0 3 0 i) 0 0 0 ie)
+8 10 80.0 Greg Bugbee 41.51223  -73.44122. 9/13/2011 4.80 Silt 0 0 0 0 0 0 0 0 0 i)
+a 1 5 Jordan Gibbons = 41.48051 -73.43461 0 9/13/2011 0.50 Muck 2 0 @) 4 @) 0 0 0 Q 0
+ss 2 5.0 Jordan Gibbons = 41.48051 — -73.434607 0 9/13/2011 0.50 Muck 0 0 0 3 0 3 0 1 Q 0
+a 3 10.0 Jordan Gibbons 4148046 9 -73.43471 0 9/13/2011 1.00 Muck a 0 0 3 0 2 0 Q 0 0
+G 4 20.0 Jordan Gibbons  41.48046 9 -73.43483 9 9/13/2011 1.60 Muck 0 0 0 2 0 Q 0 a 0 0
+G 5 30.0 Jordan Gibbons = 41.48043 9 -73.43498 9/13/2011 2.00 Muck 0 0 0 4 0 Q 0 a 0 0
+G 6 40.0 Jordan Gibbons = 41.48041 — -73.43509 9/13/2011 2.50 Muck 0 0 0 3 0 Q 0 a 0 0
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+5 4 20.0 Jordan Gibbons 41.50230 -73.45167 99/13/2011 1.40 Sand ie) a) @) 3 @) 2 0 a) 0 0
+5 5 30.0 Jordan Gibbons = 41.50235)) -73.45172 9/13/2011 1.40 Sand 0 0 @) 3 (@) 3 0 0 0 0
+5 6 40.0 Jordan Gibbons  41.50233 ) -73.4518G6 9/13/2011 2.10 Sand fe) 0 a) 5 (a) 0 0 a) 0 0
+5 7 50.0 Jordan Gibbons  41.50243 9 -73.45194 9/13/2011 1.60 Sand fe) Oo a) 3 a) 0 0 ia) fa) (a)
+5 8 60.0 Jordan Gibbons = 41.50248 — -73.45205 9/13/2011 3.00 Sand 0 0 0 3 0 0 0 a 0 Q
+5 a 70.0 Jordan Gibbons =41.50249 — -73.45212 9 9/13/2011 3.50 Sand 0 oO a) 4 e) oO 0 a 0 a
+5 10 80.0 Jordan Gibbons 41.50256 — -73.45221 9 9/13/2011 4.30 Sand 0 O a) 3 0 0 © Q 0 Q
+6 1 5 Jordan Gibbons 41.51386 -73.45329 9/13/2011 0.50 Organic 0 0 0 2 0 0 0 0 0 0)
+6 2 5.0 Jordan Gibbons 41.51391 = -73.45331 = 9/13/2011 1.00 Muck 0 0 0 5 0 i) 0 0 0 i)
+6 3 10.0 Jordan Gibbons 41.51395 _-73.45332 9/13/2011 +=1.10 Muck 0 0 0 5 0 i) 0 0 0 0
+6 4 20.0 Jordan Gibbons 41.51406 -73.45334 9/13/2011 0.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 5 30.0 Jordan Gibbons 41.51415  _-73.45332 9/13/2011 1.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 6 40.0 Jordan Gibbons 41.51423  -73.45331 9/13/2011 2.30 Muck 0 0 0 4 0 0 0 0 0 ie)
+6 7 50.0 Jordan Gibbons 41.51432  -73.45328 9/13/2011 2.40 Muck 0 fe) 0 3 0 ie) fe) 0 fe) ie)
+6 8 60.0 Jordan Gibbons 41.51441 -73.45329 9/13/2011 3.00 Muck 0 0 0 2 0 18) 0 0 0 0
+6 9 70.0 Jordan Gibbons 41.51452 _-73.45332. 9/13/2011 4.70 Muck 0 e) 0 (8) 0 ie) 0 0 0 (0)
+6 10 80.0 Jordan Gibbons 41.51458  -73.45335 9/13/2011 5.50 Muck 0 0 0 (8) 0 (8) 0 0 0 i)
+7 1 1.0 Greg Bugbeée 31.57145 -73.44270 9/13/2011 0.30 Rock 0 a) ie) 0 (@) 0 0 0 0 0
+7 2 5.0 Greg Bugbee 31.57144 9 -73.44276 0 9/13/2011 1.50 Rock i) a) @) 2 @) @) 0 0 ie) e)
+7 3 10.0 Greg Bugbee 31.57145 9 -73.44283 0 9/13/2011 1.30 Gravel ie) 0 @) 4 @) 2 0 @) ie) 0
+7 4 20.0 Greg Bugbee 41.57145 9 -73.44297 0 9/13/2011 2.50 Gravel 0 0 0 4 0 Q 0 a 0 0
+7 5 30.0 Greg Bugbee 41.57140 9 -73.44309 9 9/13/2011 2.80 Muck 0 0 0 4 0 Q 0 a Q 0
+7 6 40.0 Greg Bugbee 41.57148 — -73.44319 9/13/2011 4.00 Gravel 2 0 0 3 0 0 0 a 0 0
+7 7 50.0 Greg Bugbee 41.57146 9 -73.44332 0 9/13/2011 5.50 Silt 0 O 0 0 0 0 © a 0 0
+7 8 60.0 Greg Bugbee 41.57141 9 -73.44341 0 9/13/2011 6.20 Silt 0 O 0 0 0 O O G 0 0
+7 a 70.0 Greg Bugbee 41.57142 9 -73.44352. 0 9/13/2011 6.20 Silt 0 O 0 0 0 0 QO a 0 0
+7 10 80.0 Greg Bugbee 41.57146 -73.44309 9 9/13/2011 7.10 Silt 0 O 0) 0 e) O 0 a 0 0
+8 1 0.5 Greg Bugbee 41.51296 -73.44120 9/13/2011 0.50 Rock 0 0 0 (8) 0 i) 0 0 0 ie)
+8 2 5.0 Greg Bugbee 41.51293 -73.44117 9/13/2011 1.00 Gravel 0 0 0 8) 0 2 0 2 0 0
+8 3 10.0 Greg Bugbee 41.51287 -73.44121 9/13/2011 1.50 Gravel 0 0 0 2 0 0 0 0 0 0)
+8 4 20.0 Greg Bugbee 41.51278 -73.44121 9/13/2011 1.50 Rock 0 0 fe) 2 fe) 2 0 0 0 ie)
+8 5 30.0 Greg Bugbee 41.51268 -73.44120 9/13/2011 1.70 Rock 0 fe) 0 3 0 (0) fe) 0 fe) ie)
+8 6 40.0 Greg Bugbee 41.51258 -73.44123 9/13/2011 2.00 Rock 0 0 0 3 0 18) 0 0 0 0
+8 7 50.0 Greg Bugbee 41.51251 -73.44130 9/13/2011 2.00 Rock 0 fe) ie) 3 0 (0) 0 0 0 ie)
+8 8 60.0 Greg Bugbee 41.51242 -73.44125 9/13/2011 3.00 Rock 0 0 0 3 0 (8) 0 0 0 (8)
+8 9 70.0 Greg Bugbee 41.51231 -73.44133 9/13/2011 3.00 Gravel 0 0 0 3 0 i) 0 0 0 ie)
+8 10 80.0 Greg Bugbee 41.51223  -73.44122. 9/13/2011 4.80 Silt 0 0 0 0 0 0 0 0 0 i)
+a 1 5 Jordan Gibbons = 41.48051 -73.43461 0 9/13/2011 0.50 Muck 2 0 @) 4 @) 0 0 0 Q 0
+ss 2 5.0 Jordan Gibbons = 41.48051 — -73.434607 0 9/13/2011 0.50 Muck 0 0 0 3 0 3 0 1 Q 0
+a 3 10.0 Jordan Gibbons 4148046 9 -73.43471 0 9/13/2011 1.00 Muck a 0 0 3 0 2 0 Q 0 0
+G 4 20.0 Jordan Gibbons  41.48046 9 -73.43483 9 9/13/2011 1.60 Muck 0 0 0 2 0 Q 0 a 0 0
+G 5 30.0 Jordan Gibbons = 41.48043 9 -73.43498 9/13/2011 2.00 Muck 0 0 0 4 0 Q 0 a 0 0
+G 6 40.0 Jordan Gibbons = 41.48041 — -73.43509 9/13/2011 2.50 Muck 0 0 0 3 0 Q 0 a 0 0
+
+Transect Point Shore (m) Surveyor Latitude Longitude Date (m) Substrate Notes CerDem EleSpp LemMin MyrSpi NajFle NajMin NymOdo PotFol SpiPol ValAme
+5 4 20.0 Jordan Gibbons 41.50230 -73.45167 99/13/2011 1.40 Sand ie) a) @) 3 @) 2 0 a) 0 0
+5 5 30.0 Jordan Gibbons = 41.50235)) -73.45172 9/13/2011 1.40 Sand 0 0 @) 3 (@) 3 0 0 0 0
+5 6 40.0 Jordan Gibbons  41.50233 ) -73.4518G6 9/13/2011 2.10 Sand fe) 0 a) 5 (a) 0 0 a) 0 0
+5 7 50.0 Jordan Gibbons  41.50243 9 -73.45194 9/13/2011 1.60 Sand fe) Oo a) 3 a) 0 0 ia) fa) (a)
+5 8 60.0 Jordan Gibbons = 41.50248 — -73.45205 9/13/2011 3.00 Sand 0 0 0 3 0 0 0 a 0 Q
+5 a 70.0 Jordan Gibbons =41.50249 — -73.45212 9 9/13/2011 3.50 Sand 0 oO a) 4 e) oO 0 a 0 a
+5 10 80.0 Jordan Gibbons 41.50256 — -73.45221 9 9/13/2011 4.30 Sand 0 O a) 3 0 0 © Q 0 Q
+6 1 5 Jordan Gibbons 41.51386 -73.45329 9/13/2011 0.50 Organic 0 0 0 2 0 0 0 0 0 0)
+6 2 5.0 Jordan Gibbons 41.51391 = -73.45331 = 9/13/2011 1.00 Muck 0 0 0 5 0 i) 0 0 0 i)
+6 3 10.0 Jordan Gibbons 41.51395 _-73.45332 9/13/2011 +=1.10 Muck 0 0 0 5 0 i) 0 0 0 0
+6 4 20.0 Jordan Gibbons 41.51406 -73.45334 9/13/2011 0.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 5 30.0 Jordan Gibbons 41.51415  _-73.45332 9/13/2011 1.80 Muck 0 0 0 5 0 (0) 0 0 0 ie)
+6 6 40.0 Jordan Gibbons 41.51423  -73.45331 9/13/2011 2.30 Muck 0 0 0 4 0 0 0 0 0 ie)
+6 7 50.0 Jordan Gibbons 41.51432  -73.45328 9/13/2011 2.40 Muck 0 fe) 0 3 0 ie) fe) 0 fe) ie)
+6 8 60.0 Jordan Gibbons 41.51441 -73.45329 9/13/2011 3.00 Muck 0 0 0 2 0 18) 0 0 0 0
+6 9 70.0 Jordan Gibbons 41.51452 _-73.45332. 9/13/2011 4.70 Muck 0 e) 0 (8) 0 ie) 0 0 0 (0)
+6 10 80.0 Jordan Gibbons 41.51458  -73.45335 9/13/2011 5.50 Muck 0 0 0 (8) 0 (8) 0 0 0 i)
+7 1 1.0 Greg Bugbeée 31.57145 -73.44270 9/13/2011 0.30 Rock 0 a) ie) 0 (@) 0 0 0 0 0
+7 2 5.0 Greg Bugbee 31.57144 9 -73.44276 0 9/13/2011 1.50 Rock i) a) @) 2 @) @) 0 0 ie) e)
+7 3 10.0 Greg Bugbee 31.57145 9 -73.44283 0 9/13/2011 1.30 Gravel ie) 0 @) 4 @) 2 0 @) ie) 0
+7 4 20.0 Greg Bugbee 41.57145 9 -73.44297 0 9/13/2011 2.50 Gravel 0 0 0 4 0 Q 0 a 0 0
+7 5 30.0 Greg Bugbee 41.57140 9 -73.44309 9 9/13/2011 2.80 Muck 0 0 0 4 0 Q 0 a Q 0
+7 6 40.0 Greg Bugbee 41.57148 — -73.44319 9/13/2011 4.00 Gravel 2 0 0 3 0 0 0 a 0 0
+7 7 50.0 Greg Bugbee 41.57146 9 -73.44332 0 9/13/2011 5.50 Silt 0 O 0 0 0 0 © a 0 0
+7 8 60.0 Greg Bugbee 41.57141 9 -73.44341 0 9/13/2011 6.20 Silt 0 O 0 0 0 O O G 0 0
+7 a 70.0 Greg Bugbee 41.57142 9 -73.44352. 0 9/13/2011 6.20 Silt 0 O 0 0 0 0 QO a 0 0
+7 10 80.0 Greg Bugbee 41.57146 -73.44309 9 9/13/2011 7.10 Silt 0 O 0) 0 e) O 0 a 0 0
+8 1 0.5 Greg Bugbee 41.51296 -73.44120 9/13/2011 0.50 Rock 0 0 0 (8) 0 i) 0 0 0 ie)
+8 2 5.0 Greg Bugbee 41.51293 -73.44117 9/13/2011 1.00 Gravel 0 0 0 8) 0 2 0 2 0 0
+8 3 10.0 Greg Bugbee 41.51287 -73.44121 9/13/2011 1.50 Gravel 0 0 0 2 0 0 0 0 0 0)
+8 4 20.0 Greg Bugbee 41.51278 -73.44121 9/13/2011 1.50 Rock 0 0 fe) 2 fe) 2 0 0 0 ie)
+8 5 30.0 Greg Bugbee 41.51268 -73.44120 9/13/2011 1.70 Rock 0 fe) 0 3 0 (0) fe) 0 fe) ie)
+8 6 40.0 Greg Bugbee 41.51258 -73.44123 9/13/2011 2.00 Rock 0 0 0 3 0 18) 0 0 0 0
+8 7 50.0 Greg Bugbee 41.51251 -73.44130 9/13/2011 2.00 Rock 0 fe) ie) 3 0 (0) 0 0 0 ie)
+8 8 60.0 Greg Bugbee 41.51242 -73.44125 9/13/2011 3.00 Rock 0 0 0 3 0 (8) 0 0 0 (8)
+8 9 70.0 Greg Bugbee 41.51231 -73.44133 9/13/2011 3.00 Gravel 0 0 0 3 0 i) 0 0 0 ie)
+8 10 80.0 Greg Bugbee 41.51223  -73.44122. 9/13/2011 4.80 Silt 0 0 0 0 0 0 0 0 0 i)
+a 1 5 Jordan Gibbons = 41.48051 -73.43461 0 9/13/2011 0.50 Muck 2 0 @) 4 @) 0 0 0 Q 0
+ss 2 5.0 Jordan Gibbons = 41.48051 — -73.434607 0 9/13/2011 0.50 Muck 0 0 0 3 0 3 0 1 Q 0
+a 3 10.0 Jordan Gibbons 4148046 9 -73.43471 0 9/13/2011 1.00 Muck a 0 0 3 0 2 0 Q 0 0
+G 4 20.0 Jordan Gibbons  41.48046 9 -73.43483 9 9/13/2011 1.60 Muck 0 0 0 2 0 Q 0 a 0 0
+G 5 30.0 Jordan Gibbons = 41.48043 9 -73.43498 9/13/2011 2.00 Muck 0 0 0 4 0 Q 0 a 0 0
+G 6 40.0 Jordan Gibbons = 41.48041 — -73.43509 9/13/2011 2.50 Muck 0 0 0 3 0 Q 0 a 0 0
+

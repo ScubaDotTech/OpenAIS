@@ -1,0 +1,312 @@
+Transect Point DFS(m) Surveyor Latitude Longitude Date Depth(m) Substrate Weather Wind Notes CerDem ElaSp LemMin MyrSpi NajMin NymOdo PotBic PotCri PotPer PotPus StuPec Unidentif3 ValAme ZanPal
+1 1 1 Greg Bugbee 41.4238 -73.45253 9/4/2008 0.20 Sand sunny South 1105 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 2 0 Greg Bugbee 41.42384 -73.45252 9/4/2008 0.50 Sand sunny South 1105 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 3 10 Greg Bugbee 41.42389 -73.45256 9/4/2008 1.00 Sand sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 4 20 Greg Bugbee 41.42397 -73.45259 9/4/2008 1.50 Silt sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 5 30  GregBugbee 41.42406 -73.45267 9/4/2008 1.50 Sand T105 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 6 40 Greg Bugbee 41.42414 -73.4527 9/4/2008 1.60 Sitt South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 7 50 Greg Bugbee 41.42421 -73.45277 9/4/2008 0.00 Silt sunny South 7105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 8 60  GregBugbee 41.4243 -73.45279 9/4/2008 2.00 Silt sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 9 70 Greg Bugbee 41.42439 -73.45284 9/4/2008 1.80 Silt sunny South 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 10 80 Greg Bugbee 41.42445 -73.45293 9/4/2008 1.80 Silt sunny — South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 1 0 Greg Bugbee 41.42755 -73.44926 9/4/2008 0.20 Gravel sunny South 186 _MyrSpiFloatinDense_OtherwiseNothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 2 1 Greg Bugbee 41.42755 -73.44932 9/4/2008 1.00 Sand sunny — South 2 0 0 4 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.42751 -73.44937 9/4/2008 2.50 Silt sunny — South 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.42751 -73.44949 9/4/2008 2.50 Sand sunny South T86 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.42748 -73.44959 9/4/2008 3.00 Silt sunny South 186 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.42743 -73.44971 9/4/2008 1.50 Gravel sunny = South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.42738 -73.44985 9/4/2008 1.50 Gravel sunny Northwest T86 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.42727 -73.44988 9/4/2008 2.00 Gravel sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.42723 -73.44999 9/4/2008 1.60 Sand sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.42719 -73.45009 9/4/2008 3.00 Gravel sunny Northwest T86 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 1 0 Greg Bugbee 41.47028 -73.43531 9/4/2008 0.20 Gravel sunny Northwest T74.Nothing_NewConstruction_wallEtc. 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Greg Bugbee 41.4703 -73.43523 9/4/2008 1.00 Sand sunny South 174 0 0 0 2 2 0 0 0 0 0 2 0 0 0
+3 3 10 Greg Bugbee 41.47028 -73.43518 9/4/2008 2.20 Sand sunny Northwest 774 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+3 4 20 Greg Bugbee 41.47027 -73.43508 9/4/2008 3.00 Sitt sunny Northwest 174 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 5 30 Greg Bugbee 41.47031 -73.43496 9/4/2008 7.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 6 40 Greg Bugbee 41.47032 -73.43481 9/4/2008 8.00 Sitt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 50  GregBugbee 41.47046 -73.43478 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 60 Greg Bugbee 41.47034 -73.43459 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 9 70 Greg Bugbee 41.47046 -73.4345 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 10 80 Greg Bugbee 41.47057 -73.43444 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 1 1 Greg Bugbee 41.57116 -73.48834 9/4/2008 0.30 Peat sunny West 12 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 2 5 Greg Bugbee 41.57112 -73.48838 9/4/2008 0.50 Peat sunny West T2 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 3 10 Greg Bugbee 41.57106 -73.4884 9/4/2008 1.50 Gravel sunny West 12 1 0 0 3 0 2 0 0 0 0 0 0 0 0
+4 4 20 Greg Bugbee 41.57099 -73.48843 9/4/2008 1.20 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 5 30 Greg Bugbee 41.57092 -73.48852 9/4/2008 2.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 6 40 Greg Bugbee 41.57085 -73.48861 9/4/2008 2.20 Silt sunny West 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 7 50 Greg Bugbee 41.57076 -73.48857 9/4/2008 3.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 8 60 Greg Bugbee 41.57066 -73.48865 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 9 70 Greg Bugbee 41.57054 -73.48871 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 10 80 Greg Bugbee 41.57045 -73.48869 9/4/2008 3.10 Silt sunny = West 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 1 1 Greg Bugbee 41.50217 -73.45151 9/5/2008 (0.10 Sand sunny South 125 NothingBeach 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 2 5  GregBugbee 41.50217 -73.45158 9/5/2008 1.00 Sand sunny T25 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.50221 -73.45163 9/5/2008 1.20 Sand sunny South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.50217 -73.45175 9/5/2008 1.50 Sand sunny South 125 0 0 0 2 1 0 0 1 0 0 0 0 0 0
+5 5 30  GregBugbee 41.50212 -73.45187 9/5/2008 2.80 Sand sunny South 125 2 0 0 5 0 0 0 0 0 0 0 0 0 0
+bs) 6 40 Greg Bugbee 41.50217 -73.45198 9/5/2008 0.00 Sand sunny South 725 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.5021 -73.45214 9/5/2008 3.50 Sand sunny — South 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 8 60  GregBugbee 41.50205 -73.45222 9/5/2008 3.80 Sand sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 41.50212 -73.45236 9/5/2008 5.00 Sand sunny South 125 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.50221 -73.45249 9/5/2008 5.50 Sand sunny South 125 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Latitude Longitude Date Depth(m) Substrate Weather Wind Notes CerDem ElaSp LemMin MyrSpi NajMin NymOdo PotBic PotCri PotPer PotPus StuPec Unidentif3 ValAme ZanPal
+1 1 1 Greg Bugbee 41.4238 -73.45253 9/4/2008 0.20 Sand sunny South 1105 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 2 0 Greg Bugbee 41.42384 -73.45252 9/4/2008 0.50 Sand sunny South 1105 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 3 10 Greg Bugbee 41.42389 -73.45256 9/4/2008 1.00 Sand sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 4 20 Greg Bugbee 41.42397 -73.45259 9/4/2008 1.50 Sit sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 5 30 Greg Bugbee 41.42406 -73.45267 9/4/2008 1.50 Sand T105 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 6 40 Greg Bugbee 41.42414 -73.4527 9/4/2008 1.60 Sit South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 7 50 Greg Bugbee 41.42421 -73.45277 9/4/2008 0.00 Sit sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 8 60 Greg Bugbee 41.4243 -73.45279 9/4/2008 2.00 Silt sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 9 70 Greg Bugbee 41.42439 -73.45284 9/4/2008 1.80 Sit sunny South 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 10 80 Greg Bugbee 41.42445 -73.45293 9/4/2008 1.80 Sit sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 1 0 Greg Bugbee 41.42755 -73.44926 9/4/2008 0.20 Gravel sunny South T86_MyrSpiFloatinDense_OtherwiseNothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 2 1 Greg Bugbee 41.42755 -73.44932 9/4/2008 1.00 Sand sunny = South 2 0 0 4 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.42751 -73.44937 9/4/2008 2.50 Silt sunny South 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.42751 -73.44949 9/4/2008 2.50 Sand sunny South 86 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.42748 -73.44959 9/4/2008 3.00 Silt sunny South T86 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.42743 -73.44971 9/4/2008 1.50 Gravel sunny — South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.42738 -73.44985 9/4/2008 150 Gravel sunny Northwest T86 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.42727 -73.44988 9/4/2008 2.00 Gravel sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.42723 -73.44999 9/4/2008 1.60 Sand sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.42719 -73.45009 9/4/2008 3.00 Gravel sunny Northwest T86 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 1 0 Greg Bugbee 41.47028 -73.43531 9/4/2008 0.20 Gravel sunny Northwest T74 Nothing NewConstruction_wallEtc. 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Greg Bugbee 41.4703 -73.43523 9/4/2008 1.00 Sand sunny South 174 0 0 0 2 2 0 0 0 0 0 2 0 0 0
+3 3 10 Greg Bugbee 41.47028 -73.43518 9/4/2008 2.20 Sand sunny Northwest T74 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+3 4 20 Greg Bugbee 41.47027 -73.43508 9/4/2008 3.00 Sit sunny Northwest 174 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 5 30 Greg Bugbee 41.47031 -73.43496 9/4/2008 7.00 Silt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 6 40 Greg Bugbee 41.47032 -73.43481 9/4/2008 8.00 Sit sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 50 Greg Bugbee 41.47046 -73.43478 9/4/2008 9.00 Silt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 60 Greg Bugbee 41.47034 -73.43459 9/4/2008 9.00 Sit sunny South 174 _Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 9 70 Greg Bugbee 41.47046 -73.4345 9/4/2008 9.00 Sit sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 10 80 Greg Bugbee 41.47057 -73.43444 9/4/2008 9.00 Sit sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 1 1 Greg Bugbee 41.57116 -73.48834 9/4/2008 0.30 Peat sunny West 12 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 2 5 Greg Bugbee 41.57112 -73.48838 9/4/2008 0.50 Peat sunny West 12 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 3 10 Greg Bugbee 41.57106 -73.4884 9/4/2008 1.50 Gravel sunny West 12 1 0 0 3 0 2 0 0 0 0 0 0 0 0
+4 4 20 Greg Bugbee 41.57099 -73.48843 9/4/2008 1.20 Silt sunny West T2 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 5 30 Greg Bugbee 41.57092 -73.48852 9/4/2008 2.00 Sit sunny West T2 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 6 40 Greg Bugbee 41.57085 -73.48861 9/4/2008 2.20 Silt sunny West 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 7 50 Greg Bugbee 41.57076 -73.48857 9/4/2008 3.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 8 60 Greg Bugbee 41.57066 -73.48865 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 9 70 Greg Bugbee 41.57054 -73.48871 9/4/2008 3.00 Silt sunny West T2 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 10 80 Greg Bugbee 41.57045 -73.48869 9/4/2008 3.10 Silt sunny West 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 1 1 Greg Bugbee 41.50217 -73.45151 9/5/2008 0.10 Sand sunny South 125 NothingBeach 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.50217 -73.45158 9/5/2008 1.00 Sand sunny T25 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.50221 -73.45163 9/5/2008 1.20 Sand sunny South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.50217 -73.45175 9/5/2008 1.50 Sand sunny South 125 0 0 0 2 1 0 0 1 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.50212 -73.45187 9/5/2008 2.80 Sand sunny South 125 2 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.50217 -73.45198 9/5/2008 0.00 Sand sunny South 725 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.5021 -73.45214 9/5/2008 3.50 Sand sunny South 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.50205 -73.45222 9/5/2008 3.80 Sand sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 41.50212 -73.45236 9/5/2008 5.00 Sand sunny South 125 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.50221 -73.45249 9/5/2008 5.50 Sand sunny South 125 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Latitude Longitude Date Depth(m) Substrate Weather Wind Notes CerDem ElaSp LemMin MyrSpi NajMin NymOdo PotBic PotCri PotPer PotPus StuPec Unidentif3 ValAme ZanPal
+1 1 1 Greg Bugbee 41.4238 -73.45253 9/4/2008 0.20 Sand sunny South 1105 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 2 0 Greg Bugbee 41.42384 -73.45252 9/4/2008 0.50 Sand sunny South 1105 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 3 10 Greg Bugbee 41.42389 -73.45256 9/4/2008 1.00 Sand sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 4 20 Greg Bugbee 41.42397 -73.45259 9/4/2008 1.50 Sit sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 5 30 Greg Bugbee 41.42406 -73.45267 9/4/2008 1.50 Sand T105 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 6 40 Greg Bugbee 41.42414 -73.4527 9/4/2008 1.60 Sit South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 7 50 Greg Bugbee 41.42421 -73.45277 9/4/2008 0.00 Sit sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 8 60 Greg Bugbee 41.4243 -73.45279 9/4/2008 2.00 Silt sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 9 70 Greg Bugbee 41.42439 -73.45284 9/4/2008 1.80 Sit sunny South 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 10 80 Greg Bugbee 41.42445 -73.45293 9/4/2008 1.80 Sit sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 1 0 Greg Bugbee 41.42755 -73.44926 9/4/2008 0.20 Gravel sunny South T86_MyrSpiFloatinDense_OtherwiseNothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 2 1 Greg Bugbee 41.42755 -73.44932 9/4/2008 1.00 Sand sunny = South 2 0 0 4 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.42751 -73.44937 9/4/2008 2.50 Silt sunny South 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.42751 -73.44949 9/4/2008 2.50 Sand sunny South 86 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.42748 -73.44959 9/4/2008 3.00 Silt sunny South T86 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.42743 -73.44971 9/4/2008 1.50 Gravel sunny — South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.42738 -73.44985 9/4/2008 150 Gravel sunny Northwest T86 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.42727 -73.44988 9/4/2008 2.00 Gravel sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.42723 -73.44999 9/4/2008 1.60 Sand sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.42719 -73.45009 9/4/2008 3.00 Gravel sunny Northwest T86 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 1 0 Greg Bugbee 41.47028 -73.43531 9/4/2008 0.20 Gravel sunny Northwest T74 Nothing NewConstruction_wallEtc. 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Greg Bugbee 41.4703 -73.43523 9/4/2008 1.00 Sand sunny South 174 0 0 0 2 2 0 0 0 0 0 2 0 0 0
+3 3 10 Greg Bugbee 41.47028 -73.43518 9/4/2008 2.20 Sand sunny Northwest T74 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+3 4 20 Greg Bugbee 41.47027 -73.43508 9/4/2008 3.00 Sit sunny Northwest 174 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 5 30 Greg Bugbee 41.47031 -73.43496 9/4/2008 7.00 Silt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 6 40 Greg Bugbee 41.47032 -73.43481 9/4/2008 8.00 Sit sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 50 Greg Bugbee 41.47046 -73.43478 9/4/2008 9.00 Silt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 60 Greg Bugbee 41.47034 -73.43459 9/4/2008 9.00 Sit sunny South 174 _Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 9 70 Greg Bugbee 41.47046 -73.4345 9/4/2008 9.00 Sit sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 10 80 Greg Bugbee 41.47057 -73.43444 9/4/2008 9.00 Sit sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 1 1 Greg Bugbee 41.57116 -73.48834 9/4/2008 0.30 Peat sunny West 12 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 2 5 Greg Bugbee 41.57112 -73.48838 9/4/2008 0.50 Peat sunny West 12 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 3 10 Greg Bugbee 41.57106 -73.4884 9/4/2008 1.50 Gravel sunny West 12 1 0 0 3 0 2 0 0 0 0 0 0 0 0
+4 4 20 Greg Bugbee 41.57099 -73.48843 9/4/2008 1.20 Silt sunny West T2 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 5 30 Greg Bugbee 41.57092 -73.48852 9/4/2008 2.00 Sit sunny West T2 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 6 40 Greg Bugbee 41.57085 -73.48861 9/4/2008 2.20 Silt sunny West 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 7 50 Greg Bugbee 41.57076 -73.48857 9/4/2008 3.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 8 60 Greg Bugbee 41.57066 -73.48865 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 9 70 Greg Bugbee 41.57054 -73.48871 9/4/2008 3.00 Silt sunny West T2 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 10 80 Greg Bugbee 41.57045 -73.48869 9/4/2008 3.10 Silt sunny West 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 1 1 Greg Bugbee 41.50217 -73.45151 9/5/2008 0.10 Sand sunny South 125 NothingBeach 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 2 5 Greg Bugbee 41.50217 -73.45158 9/5/2008 1.00 Sand sunny T25 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.50221 -73.45163 9/5/2008 1.20 Sand sunny South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.50217 -73.45175 9/5/2008 1.50 Sand sunny South 125 0 0 0 2 1 0 0 1 0 0 0 0 0 0
+5 5 30 Greg Bugbee 41.50212 -73.45187 9/5/2008 2.80 Sand sunny South 125 2 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 6 40 Greg Bugbee 41.50217 -73.45198 9/5/2008 0.00 Sand sunny South 725 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.5021 -73.45214 9/5/2008 3.50 Sand sunny South 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 8 60 Greg Bugbee 41.50205 -73.45222 9/5/2008 3.80 Sand sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 41.50212 -73.45236 9/5/2008 5.00 Sand sunny South 125 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.50221 -73.45249 9/5/2008 5.50 Sand sunny South 125 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Latitude Longitude Date Depth(m) Substrate Weather Wind Notes CerDem ElaSp LemMin MyrSpi NajMin NymOdo PotBic PotCri PotPer PotPus StuPec Unidentif3 ValAme ZanPal
+1 1 1 Greg Bugbee 41.4238 -73.45253 9/4/2008 0.20 Sand sunny South 1105 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 2 0 Greg Bugbee 41.42384 -73.45252 9/4/2008 0.50 Sand sunny South 1105 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 3 10 Greg Bugbee 41.42389 -73.45256 9/4/2008 1.00 Sand sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 4 20 Greg Bugbee 41.42397 -73.45259 9/4/2008 1.50 Silt sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 5 30  GregBugbee 41.42406 -73.45267 9/4/2008 1.50 Sand T105 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 6 40 Greg Bugbee 41.42414 -73.4527 9/4/2008 1.60 Sitt South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 7 50 Greg Bugbee 41.42421 -73.45277 9/4/2008 0.00 Silt sunny South 7105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 8 60  GregBugbee 41.4243 -73.45279 9/4/2008 2.00 Silt sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 9 70 Greg Bugbee 41.42439 -73.45284 9/4/2008 1.80 Silt sunny South 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 10 80 Greg Bugbee 41.42445 -73.45293 9/4/2008 1.80 Silt sunny — South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 1 0 Greg Bugbee 41.42755 -73.44926 9/4/2008 0.20 Gravel sunny South 186 _MyrSpiFloatinDense_OtherwiseNothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 2 1 Greg Bugbee 41.42755 -73.44932 9/4/2008 1.00 Sand sunny — South 2 0 0 4 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.42751 -73.44937 9/4/2008 2.50 Silt sunny — South 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.42751 -73.44949 9/4/2008 2.50 Sand sunny South T86 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.42748 -73.44959 9/4/2008 3.00 Silt sunny South 186 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.42743 -73.44971 9/4/2008 1.50 Gravel sunny = South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.42738 -73.44985 9/4/2008 1.50 Gravel sunny Northwest T86 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.42727 -73.44988 9/4/2008 2.00 Gravel sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.42723 -73.44999 9/4/2008 1.60 Sand sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.42719 -73.45009 9/4/2008 3.00 Gravel sunny Northwest T86 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 1 0 Greg Bugbee 41.47028 -73.43531 9/4/2008 0.20 Gravel sunny Northwest T74.Nothing_NewConstruction_wallEtc. 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Greg Bugbee 41.4703 -73.43523 9/4/2008 1.00 Sand sunny South 174 0 0 0 2 2 0 0 0 0 0 2 0 0 0
+3 3 10 Greg Bugbee 41.47028 -73.43518 9/4/2008 2.20 Sand sunny Northwest 774 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+3 4 20 Greg Bugbee 41.47027 -73.43508 9/4/2008 3.00 Sitt sunny Northwest 174 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 5 30 Greg Bugbee 41.47031 -73.43496 9/4/2008 7.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 6 40 Greg Bugbee 41.47032 -73.43481 9/4/2008 8.00 Sitt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 50  GregBugbee 41.47046 -73.43478 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 60 Greg Bugbee 41.47034 -73.43459 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 9 70 Greg Bugbee 41.47046 -73.4345 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 10 80 Greg Bugbee 41.47057 -73.43444 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 1 1 Greg Bugbee 41.57116 -73.48834 9/4/2008 0.30 Peat sunny West 12 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 2 5 Greg Bugbee 41.57112 -73.48838 9/4/2008 0.50 Peat sunny West T2 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 3 10 Greg Bugbee 41.57106 -73.4884 9/4/2008 1.50 Gravel sunny West 12 1 0 0 3 0 2 0 0 0 0 0 0 0 0
+4 4 20 Greg Bugbee 41.57099 -73.48843 9/4/2008 1.20 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 5 30 Greg Bugbee 41.57092 -73.48852 9/4/2008 2.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 6 40 Greg Bugbee 41.57085 -73.48861 9/4/2008 2.20 Silt sunny West 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 7 50 Greg Bugbee 41.57076 -73.48857 9/4/2008 3.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 8 60 Greg Bugbee 41.57066 -73.48865 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 9 70 Greg Bugbee 41.57054 -73.48871 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 10 80 Greg Bugbee 41.57045 -73.48869 9/4/2008 3.10 Silt sunny = West 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 1 1 Greg Bugbee 41.50217 -73.45151 9/5/2008 (0.10 Sand sunny South 125 NothingBeach 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 2 5  GregBugbee 41.50217 -73.45158 9/5/2008 1.00 Sand sunny T25 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.50221 -73.45163 9/5/2008 1.20 Sand sunny South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.50217 -73.45175 9/5/2008 1.50 Sand sunny South 125 0 0 0 2 1 0 0 1 0 0 0 0 0 0
+5 5 30  GregBugbee 41.50212 -73.45187 9/5/2008 2.80 Sand sunny South 125 2 0 0 5 0 0 0 0 0 0 0 0 0 0
+bs) 6 40 Greg Bugbee 41.50217 -73.45198 9/5/2008 0.00 Sand sunny South 725 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.5021 -73.45214 9/5/2008 3.50 Sand sunny — South 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 8 60  GregBugbee 41.50205 -73.45222 9/5/2008 3.80 Sand sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 41.50212 -73.45236 9/5/2008 5.00 Sand sunny South 125 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.50221 -73.45249 9/5/2008 5.50 Sand sunny South 125 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Latitude Longitude Date Depth(m) Substrate Weather Wind Notes CerDem ElaSp LemMin MyrSpi NajMin NymOdo PotBic PotCri PotPer PotPus StuPec Unidentif3 ValAme ZanPal
+1 1 1 Greg Bugbee 41.4238 -73.45253 9/4/2008 0.20 Sand sunny South 1105 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 2 0 Greg Bugbee 41.42384 -73.45252 9/4/2008 0.50 Sand sunny South 1105 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 3 10 Greg Bugbee 41.42389 -73.45256 9/4/2008 1.00 Sand sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 4 20 Greg Bugbee 41.42397 -73.45259 9/4/2008 1.50 Silt sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 5 30  GregBugbee 41.42406 -73.45267 9/4/2008 1.50 Sand T105 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 6 40 Greg Bugbee 41.42414 -73.4527 9/4/2008 1.60 Sitt South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 7 50 Greg Bugbee 41.42421 -73.45277 9/4/2008 0.00 Silt sunny South 7105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 8 60  GregBugbee 41.4243 -73.45279 9/4/2008 2.00 Silt sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 9 70 Greg Bugbee 41.42439 -73.45284 9/4/2008 1.80 Silt sunny South 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 10 80 Greg Bugbee 41.42445 -73.45293 9/4/2008 1.80 Silt sunny — South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 1 0 Greg Bugbee 41.42755 -73.44926 9/4/2008 0.20 Gravel sunny South 186 _MyrSpiFloatinDense_OtherwiseNothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 2 1 Greg Bugbee 41.42755 -73.44932 9/4/2008 1.00 Sand sunny — South 2 0 0 4 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.42751 -73.44937 9/4/2008 2.50 Silt sunny — South 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.42751 -73.44949 9/4/2008 2.50 Sand sunny South T86 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.42748 -73.44959 9/4/2008 3.00 Silt sunny South 186 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.42743 -73.44971 9/4/2008 1.50 Gravel sunny = South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.42738 -73.44985 9/4/2008 1.50 Gravel sunny Northwest T86 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.42727 -73.44988 9/4/2008 2.00 Gravel sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.42723 -73.44999 9/4/2008 1.60 Sand sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.42719 -73.45009 9/4/2008 3.00 Gravel sunny Northwest T86 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 1 0 Greg Bugbee 41.47028 -73.43531 9/4/2008 0.20 Gravel sunny Northwest T74.Nothing_NewConstruction_wallEtc. 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Greg Bugbee 41.4703 -73.43523 9/4/2008 1.00 Sand sunny South 174 0 0 0 2 2 0 0 0 0 0 2 0 0 0
+3 3 10 Greg Bugbee 41.47028 -73.43518 9/4/2008 2.20 Sand sunny Northwest 774 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+3 4 20 Greg Bugbee 41.47027 -73.43508 9/4/2008 3.00 Sitt sunny Northwest 174 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 5 30 Greg Bugbee 41.47031 -73.43496 9/4/2008 7.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 6 40 Greg Bugbee 41.47032 -73.43481 9/4/2008 8.00 Sitt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 50  GregBugbee 41.47046 -73.43478 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 60 Greg Bugbee 41.47034 -73.43459 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 9 70 Greg Bugbee 41.47046 -73.4345 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 10 80 Greg Bugbee 41.47057 -73.43444 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 1 1 Greg Bugbee 41.57116 -73.48834 9/4/2008 0.30 Peat sunny West 12 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 2 5 Greg Bugbee 41.57112 -73.48838 9/4/2008 0.50 Peat sunny West T2 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 3 10 Greg Bugbee 41.57106 -73.4884 9/4/2008 1.50 Gravel sunny West 12 1 0 0 3 0 2 0 0 0 0 0 0 0 0
+4 4 20 Greg Bugbee 41.57099 -73.48843 9/4/2008 1.20 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 5 30 Greg Bugbee 41.57092 -73.48852 9/4/2008 2.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 6 40 Greg Bugbee 41.57085 -73.48861 9/4/2008 2.20 Silt sunny West 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 7 50 Greg Bugbee 41.57076 -73.48857 9/4/2008 3.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 8 60 Greg Bugbee 41.57066 -73.48865 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 9 70 Greg Bugbee 41.57054 -73.48871 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 10 80 Greg Bugbee 41.57045 -73.48869 9/4/2008 3.10 Silt sunny = West 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 1 1 Greg Bugbee 41.50217 -73.45151 9/5/2008 (0.10 Sand sunny South 125 NothingBeach 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 2 5  GregBugbee 41.50217 -73.45158 9/5/2008 1.00 Sand sunny T25 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.50221 -73.45163 9/5/2008 1.20 Sand sunny South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.50217 -73.45175 9/5/2008 1.50 Sand sunny South 125 0 0 0 2 1 0 0 1 0 0 0 0 0 0
+5 5 30  GregBugbee 41.50212 -73.45187 9/5/2008 2.80 Sand sunny South 125 2 0 0 5 0 0 0 0 0 0 0 0 0 0
+bs) 6 40 Greg Bugbee 41.50217 -73.45198 9/5/2008 0.00 Sand sunny South 725 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.5021 -73.45214 9/5/2008 3.50 Sand sunny — South 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 8 60  GregBugbee 41.50205 -73.45222 9/5/2008 3.80 Sand sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 41.50212 -73.45236 9/5/2008 5.00 Sand sunny South 125 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.50221 -73.45249 9/5/2008 5.50 Sand sunny South 125 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
+Transect Point DFS(m) Surveyor Latitude Longitude Date Depth(m) Substrate Weather Wind Notes CerDem ElaSp LemMin MyrSpi NajMin NymOdo PotBic PotCri PotPer PotPus StuPec Unidentif3 ValAme ZanPal
+1 1 1 Greg Bugbee 41.4238 -73.45253 9/4/2008 0.20 Sand sunny South 1105 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 2 0 Greg Bugbee 41.42384 -73.45252 9/4/2008 0.50 Sand sunny South 1105 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 3 10 Greg Bugbee 41.42389 -73.45256 9/4/2008 1.00 Sand sunny South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 4 20 Greg Bugbee 41.42397 -73.45259 9/4/2008 1.50 Silt sunny South 1105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 5 30  GregBugbee 41.42406 -73.45267 9/4/2008 1.50 Sand T105 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 6 40 Greg Bugbee 41.42414 -73.4527 9/4/2008 1.60 Sitt South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 7 50 Greg Bugbee 41.42421 -73.45277 9/4/2008 0.00 Silt sunny South 7105 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 8 60  GregBugbee 41.4243 -73.45279 9/4/2008 2.00 Silt sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+1 9 70 Greg Bugbee 41.42439 -73.45284 9/4/2008 1.80 Silt sunny South 2 0 0 2 0 0 0 0 0 0 0 0 0 0
+1 10 80 Greg Bugbee 41.42445 -73.45293 9/4/2008 1.80 Silt sunny — South 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 1 0 Greg Bugbee 41.42755 -73.44926 9/4/2008 0.20 Gravel sunny South 186 _MyrSpiFloatinDense_OtherwiseNothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 2 1 Greg Bugbee 41.42755 -73.44932 9/4/2008 1.00 Sand sunny — South 2 0 0 4 0 0 0 0 0 0 0 0 0 0
+2 3 10 Greg Bugbee 41.42751 -73.44937 9/4/2008 2.50 Silt sunny — South 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 4 20 Greg Bugbee 41.42751 -73.44949 9/4/2008 2.50 Sand sunny South T86 3 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 5 30 Greg Bugbee 41.42748 -73.44959 9/4/2008 3.00 Silt sunny South 186 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 6 40 Greg Bugbee 41.42743 -73.44971 9/4/2008 1.50 Gravel sunny = South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 7 50 Greg Bugbee 41.42738 -73.44985 9/4/2008 1.50 Gravel sunny Northwest T86 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+2 8 60 Greg Bugbee 41.42727 -73.44988 9/4/2008 2.00 Gravel sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 9 70 Greg Bugbee 41.42723 -73.44999 9/4/2008 1.60 Sand sunny Northwest T86 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+2 10 80 Greg Bugbee 41.42719 -73.45009 9/4/2008 3.00 Gravel sunny Northwest T86 3 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 1 0 Greg Bugbee 41.47028 -73.43531 9/4/2008 0.20 Gravel sunny Northwest T74.Nothing_NewConstruction_wallEtc. 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 2 5 Greg Bugbee 41.4703 -73.43523 9/4/2008 1.00 Sand sunny South 174 0 0 0 2 2 0 0 0 0 0 2 0 0 0
+3 3 10 Greg Bugbee 41.47028 -73.43518 9/4/2008 2.20 Sand sunny Northwest 774 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+3 4 20 Greg Bugbee 41.47027 -73.43508 9/4/2008 3.00 Sitt sunny Northwest 174 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+3 5 30 Greg Bugbee 41.47031 -73.43496 9/4/2008 7.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 6 40 Greg Bugbee 41.47032 -73.43481 9/4/2008 8.00 Sitt sunny South 174_Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 7 50  GregBugbee 41.47046 -73.43478 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 8 60 Greg Bugbee 41.47034 -73.43459 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 9 70 Greg Bugbee 41.47046 -73.4345 9/4/2008 9.00 Silt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+3 10 80 Greg Bugbee 41.47057 -73.43444 9/4/2008 9.00 Sitt sunny South 174 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+4 1 1 Greg Bugbee 41.57116 -73.48834 9/4/2008 0.30 Peat sunny West 12 3 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 2 5 Greg Bugbee 41.57112 -73.48838 9/4/2008 0.50 Peat sunny West T2 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+4 3 10 Greg Bugbee 41.57106 -73.4884 9/4/2008 1.50 Gravel sunny West 12 1 0 0 3 0 2 0 0 0 0 0 0 0 0
+4 4 20 Greg Bugbee 41.57099 -73.48843 9/4/2008 1.20 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 5 30 Greg Bugbee 41.57092 -73.48852 9/4/2008 2.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 6 40 Greg Bugbee 41.57085 -73.48861 9/4/2008 2.20 Silt sunny West 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 7 50 Greg Bugbee 41.57076 -73.48857 9/4/2008 3.00 Silt sunny West 12 0 0 0 3 0 0 0 0 0 0 0 0 0 0
+4 8 60 Greg Bugbee 41.57066 -73.48865 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 9 70 Greg Bugbee 41.57054 -73.48871 9/4/2008 3.00 Silt sunny West 12 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+4 10 80 Greg Bugbee 41.57045 -73.48869 9/4/2008 3.10 Silt sunny = West 0 0 0 5 0 0 0 0 0 0 0 0 0 0
+5 1 1 Greg Bugbee 41.50217 -73.45151 9/5/2008 (0.10 Sand sunny South 125 NothingBeach 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+5 2 5  GregBugbee 41.50217 -73.45158 9/5/2008 1.00 Sand sunny T25 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 3 10 Greg Bugbee 41.50221 -73.45163 9/5/2008 1.20 Sand sunny South 0 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 4 20 Greg Bugbee 41.50217 -73.45175 9/5/2008 1.50 Sand sunny South 125 0 0 0 2 1 0 0 1 0 0 0 0 0 0
+5 5 30  GregBugbee 41.50212 -73.45187 9/5/2008 2.80 Sand sunny South 125 2 0 0 5 0 0 0 0 0 0 0 0 0 0
+bs) 6 40 Greg Bugbee 41.50217 -73.45198 9/5/2008 0.00 Sand sunny South 725 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 7 50 Greg Bugbee 41.5021 -73.45214 9/5/2008 3.50 Sand sunny — South 0 0 0 4 0 0 0 0 0 0 0 0 0 0
+5 8 60  GregBugbee 41.50205 -73.45222 9/5/2008 3.80 Sand sunny South 2 0 0 3 0 0 0 0 0 0 0 0 0 0
+5 9 70 Greg Bugbee 41.50212 -73.45236 9/5/2008 5.00 Sand sunny South 125 1 0 0 2 0 0 0 0 0 0 0 0 0 0
+5 10 80 Greg Bugbee 41.50221 -73.45249 9/5/2008 5.50 Sand sunny South 125 Nothing 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
