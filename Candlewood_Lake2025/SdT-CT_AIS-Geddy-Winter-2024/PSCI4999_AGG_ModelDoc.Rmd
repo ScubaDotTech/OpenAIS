@@ -1,0 +1,745 @@
+Geddy Lucier
+PSCI4999 Agregate Model Library
+
+Preamble
+```{r}
+rm(list=ls())
+
+library(data.table)
+library(caret)
+
+
+
+
+```
+
+
+Poling Data Setup and Cleaning - Cleans by recoding different variables and 
+```{r}
+library(caret)
+library(devtools)
+install_github("jamesmartherus/anesr")
+library(anesr)
+
+data(package="anesr") #View a list of available datasets
+
+data(timeseries_cum) #Load Time Series Cumulative File (1948-2016)
+data(timeseries_cum_doc) #Load documentation for the Time Series Cumulative File
+
+data(pilot_2018) #Load 2018 Pilot Study
+
+View(pilot_2018)
+
+####### Load Packages ################
+
+library(data.table)
+library(caret)
+
+
+data(package="anesr") 
+
+pilot_2018DT<-data.table(pilot_2018)
+
+##### See the Documentation 
+docDT<-data.table(timeseries_cum_doc)
+docDT[1:100]$description
+docDT[description%in%"DEMOGRAPHICS: Respondent - Gender"]$marginals
+
+
+#### See the Names. There are a lot of Variables ######
+names(pilot_2018DT)
+
+################.     Clean and Create Main Election Data    			   ########################
+
+### Subset the data
+MainDT<-pilot_2018DT[,.(caseid,version,reg,birthyr,howreg,turnout18ns,race,gender,educ,faminc_new,region,marstat,ideo5,presvote16post)]
+
+
+### Age
+MainDT[,"Age":=as.numeric(2018-birthyr)]
+
+### Gender
+MainDT[,"GenderLabel":=ifelse(gender==1,"Male",ifelse(gender==2,"Female",NA))]
+MainDT[,"Female":=ifelse(gender==2,1,ifelse(gender==1,0,NA))]
+
+#### Education 
+
+
+## 1 No HS
+## 2 High school graduate
+## 3 Some college
+## 4 2-year
+## 5 4-year
+## 6 Post-grad
+
+MainDT[,"Education":=educ]
+
+#### Race
+
+## -7 No Answer
+##  1 White
+##  2 Black
+##  3 Hispanic
+##  4 Asian
+##  5 Native American
+##  6 Mixed
+##  7 Other
+
+
+MainDT[,"White":=ifelse(race==1,1,0)]
+MainDT[,"Black":=ifelse(race==2,1,0)]
+MainDT[,"Hispanic":=ifelse(race==3,1,0)]
+MainDT[,"Asian":=ifelse(race==4,1,0)]
+
+
+?case_when
+
+## Income
+### Examples
+## 3 $20,000 - $29,999
+## 5 $40,000 - $49,999
+## 8 $70,000 - $79,999
+## 11 $120,000 - $149,999
+
+#table(MainDT$faminc_new)
+
+MainDT[,"Income":=ifelse(faminc_new==97,NA,faminc_new)]
+
+
+
+
+### Region 
+
+## 1 Northeast
+## 2 Midwest
+## 3 South
+## 4 West
+
+MainDT[,"Northeast":=ifelse(region==1,1,0)]
+MainDT[,"Midwest":=ifelse(region==2,1,0)]
+MainDT[,"South":=ifelse(region==3,1,0)]
+MainDT[,"West":=ifelse(region==4,1,0)]
+
+
+
+
+#### Married
+
+MainDT[,"Married":=ifelse(marstat==1,1,0)]
+
+
+
+#### Ideology
+
+
+## 1 Very liberal
+## 2 Liberal
+## 3 Moderate
+## 4 Conservative
+## 5 Very conservative
+## 6 Not sure
+
+MainDT[,"Ideology":=ideo5][,"Ideology":=ifelse(Ideology==-7,NA,Ideology)][,"Ideology":=ifelse(Ideology==6,3,Ideology)]
+
+#table(MainDT$ideo5)
+
+
+##### Presidential Vote in 2016
+
+#presvote16post
+
+## -7 No Answer
+## 1 Hillary Clinton
+## 2 Donald Trump
+## 3 Gary Johnson
+## 4 Jill Stein
+## 5 Evan McMullin
+## 6 Other
+## 7 Did not vote for President
+
+MainDT[,"ClintonVote":=ifelse(presvote16post==1,1,0)]
+MainDT[,"TrumpVote":=ifelse(presvote16post==2,1,0)]
+MainDT[,"JohnsonVote":=ifelse(presvote16post==3,1,0)]
+MainDT[,"SteinVote":=ifelse(presvote16post==4,1,0)]
+
+#### Create a Subset of TestData
+VoteDT <-data.table(MainDT[,.(TrumpVote,Age,Female,Education,White,Black,Income,South,Married,Ideology)])
+
+###Train the KNN
+#### Omit Cases with an NA
+VoteDT <-data.table(na.omit(VoteDT))
+
+```
+
+Ridge and Lasso regressions
+```{r}
+library(MASS) # Dataset Boston
+library(glmnet) # LASSO and Ridge
+n=nrow(Boston)
+p=ncol(Boston)
+test.index = sample(n,100)
+test = Boston[test.index,] # test set
+train = Boston[-test.index,] # train set
+
+
+## Linear LASSO and Ridge Regression 
+
+linear <- lm(medv~.,data = train)
+
+lasso <- glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 1,family = "gaussian",lambda = 0.2) # alpha = 1 for lasso
+
+ridge <- glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 0,family = "gaussian",lambda = 0.2) #alpha = 0 for ridge
+
+
+
+pred.linear = predict(linear,test[,1:(p-1)])
+pred.lasso = predict(lasso,as.matrix(test[,1:(p-1)]))
+pred.ridge = predict(ridge,as.matrix(test[,1:(p-1)]))
+
+SSR.linear = sum((test[,p]-pred.linear)^2)
+SSR.lasso = sum((test[,p]-pred.lasso)^2)
+SSR.ridge = sum((test[,p]-pred.ridge)^2)
+
+cat(SSR.linear,' ',SSR.lasso,' ',SSR.ridge)
+
+
+# Cross Validation
+
+lam.lasso <- cv.glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 1,family = "gaussian")$lambda.min
+lam.ridge <- cv.glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 0,family = "gaussian")$lambda.min
+
+lasso <- glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 1,family = "gaussian",lambda = lam.lasso)
+ridge <- glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 0,family = "gaussian",lambda = lam.ridge)
+
+pred.linear = predict(linear,test[,1:(p-1)])
+pred.lasso = predict(lasso,as.matrix(test[,1:(p-1)]))
+pred.ridge = predict(ridge,as.matrix(test[,1:(p-1)]))
+
+SSR.linear = sum((test[,p]-pred.linear)^2)
+SSR.lasso = sum((test[,p]-pred.lasso)^2)
+SSR.ridge = sum((test[,p]-pred.ridge)^2)
+
+cat(SSR.linear,' ',SSR.lasso,' ',SSR.ridge)
+
+
+```
+
+Ridge and Lasso on 
+```{r}
+library(gamlss)
+data("oil")
+oil
+View(oil)
+
+
+oil <- na.omit(oil)
+
+#response variable
+x <- model.matrix(GNR_log ~ ., data = oil)[, -1]  # Remove intercept column
+y <- oil$GNR_log
+
+set.seed(42)  # Reproducibility
+train <- sample(1:nrow(x), nrow(x) * 0.7)  
+test <- setdiff(1:nrow(x), train)
+
+grid <- 10^seq(10, -2, length = 100)  # 100 lambda values from 10^10 to 10^-2 - check what this means 
+
+# Fitting Ridge Regression Model - alpha of 0 means ridge 
+ridge.mod <- glmnet(x[train,], y[train], alpha = 0, lambda = grid, thresh = 1e-12)
+
+cv.ridge <- cv.glmnet(x[train,], y[train], alpha = 0)
+best_lambda <- cv.ridge$lambda.min
+
+ridge.final <- glmnet(x[train,], y[train], alpha = 0, lambda = best_lambda)
+ridge.final
+
+ridge.pred <- predict(ridge.final, s = best_lambda, newx = x[test,])
+ridge.pred
+mse <- mean((ridge.pred - y[test])^2)
+print(mse)
+
+#0.0007154864 MSE
+
+############################## Lasso Regression based on USCI_log (the United States Commodity Index)
+
+
+x <- model.matrix(USCI_log ~ ., data = oil)[, -1]  
+y <- oil$USCI_log  
+
+set.seed(73)  
+train <- sample(1:nrow(x), nrow(x) * 0.7)  # Select 70% of rows for training
+
+test <- setdiff(1:nrow(x), train)  # Remaining 30% for testing
+
+# Create a Sequence of Lambda Values (Regularization Parameter)
+grid <- 10^seq(10, -2, length = 100)  # 100 lambda values from 10^10 to 10^-2
+
+# Fit Lasso Regression Model (alpha = 1 for Lasso)
+lasso.mod <- glmnet(x[train,], y[train], alpha = 1, lambda = grid, thresh = 1e-12)
+
+### Cross validation but for lasso
+cv.lasso <- cv.glmnet(x[train,], y[train], alpha = 1)
+plot(cv.lasso)
+best_lambda <- cv.lasso$lambda.min  # Optimal lambda value
+
+lasso.final <- glmnet(x[train,], y[train], alpha = 1, lambda = best_lambda)
+lasso.final
+# Make Predictions on Test Data
+
+lasso.pred <- predict(lasso.final, s = best_lambda, newx = x[test,])
+lasso.pred
+# Compute Mean Squared Error (MSE) for Model Performance 
+mse <- mean((lasso.pred - y[test])^2)
+print(mse)  # lower means better
+
+#mse of 
+lasso.coef <- coef(lasso.final) #selected features 
+print(lasso.coef[lasso.coef != 0])  
+```
+
+
+
+Logit Model
+```{r}
+#### Split Data Into Train Data and Test Data ######
+#### Split Data Into Train Data and Test Data ######
+
+#trainIndex <- sample(1:length(VoteDT$TrumpVote),size=200)
+
+trainIndex <- createDataPartition(VoteDT$TrumpVote, p=0.8, list=FALSE)
+
+
+    VoteTrainDT <- VoteDT[trainIndex]
+    VoteTestDT <-VoteDT[-trainIndex]
+
+
+
+
+##### Overall Data
+TrumpModel <- glm(TrumpVote~Age+Female+Education+White+Black+Income+South+Married+Ideology, family="binomial", data=VoteTrainDT)
+
+summary(TrumpModel)
+
+#### Training Predictions:  See How Well the Model Predicted in Training ######### 
+#### Training Predictions:  See How Well the Model Predicted in Training ######### 
+
+TrainPredictions <- predict(TrumpModel, VoteTrainDT, type="response")
+FinalTrainPredicted <-as.numeric(ifelse(TrainPredictions > 0.5, 1, 0))
+
+#### See the Cases the Model Correctly Predicted
+confusionMatrix(factor(FinalTrainPredicted), factor(VoteTrainDT$TrumpVote))
+
+#### Test Predictions ######### 
+#### Test Predictions  ######### 
+
+
+TestPredictions <- predict(TrumpModel, VoteTestDT, type="response")
+FinalTestPredicted <-as.numeric(ifelse(TestPredictions > 0.5, 1, 0))
+
+#### See the Cases the Model Correctly Predicted
+confusionMatrix(factor(FinalTestPredicted), factor(VoteTestDT$TrumpVote))
+
+
+
+
+###. On Case Test Predition ######
+
+
+
+
+OneCaseTestDT<-data.table(cbind(Age=32,Female=1,Education=4,White=1,Black=0,Income=3,South=0,Married=0,Ideology=3))
+#OneCaseTestDT<-data.table(cbind(Age=60,Female=0,Education=1,White=1,Black=0,Income=1,South=1,Married=0,Ideology=5))
+
+OneCaseTestDT<-data.table(cbind(Age=60, Female=0,Education=1,White=1,Black=0,Income=1 ,South=1 ,Married=0,Ideology=5))
+
+OneCaseTestDT<-data.table(cbind(Age=40, Female=0,Education=1, White=1, Black=1 ,Income=3 ,South= 0 ,Married=1,Ideology= 4))
+
+
+OneCasePredictions <- predict(TrumpModel, OneCaseTestDT, type="response")
+OneCasePredictions
+
+FinalOneCasePredicted<-as.numeric(ifelse(OneCasePredictions > 0.5, 1, 0))
+FinalOneCasePredicted
+
+
+  
+
+#########   Let's Look At a Model With Hilary Clinton  ################
+#########   Let's Look At a Model With Hilary Clinton  ################
+#########   Let's Look At a Model With Hilary Clinton  ################
+#########   Let's Look At a Model With Hilary Clinton  ################
+
+ClintonDT<-data.table(MainDT[,.(ClintonVote,Age,Female,Education,White,Black,Income,South,Married,Ideology)])
+
+
+#### Omit Cases with an NA
+ClintonDT<-data.table(na.omit(ClintonDT))
+
+
+###split data into a training and test dataset
+  
+trainIndex <- createDataPartition(ClintonDT$ClintonVote, p=0.8, list=FALSE)
+
+
+VoteTrainDT <- ClintonDT[trainIndex]
+VoteTestDT <-ClintonDT[-trainIndex]
+
+#### model building 
+
+ClintonModel <- glm(ClintonVote~Age+Female+Education+White+Black+Income+South+Married+Ideology, family="binomial", data=ClintonDT)
+
+summary(ClintonModel)
+
+### Test Training
+TrainPredictions <- predict(ClintonModel, VoteTrainDT, type="response")
+FinalTrainPredicted <-as.numeric(ifelse(TrainPredictions > 0.5, 1, 0))
+
+#ConfusionMatrix
+confusionMatrix(factor(FinalTestPredicted), factor(VoteTestDT$ClintonVote))
+
+
+# Messing Around with Test Predictions 
+#Unikely Test
+OneCaseTestDT<-data.table(cbind(Age=60, Female=0,Education=0, White=1, Black=0 ,Income=3 ,South= 1 ,Married=1,Ideology= 4))
+
+#Likely Test
+OneCaseTestDT<-data.table(cbind(Age= 20, Female=1,Education= 5, White= 0, Black=1 ,Income= 5 ,South= 0 ,Married= 0,Ideology= 2))
+
+
+
+OneCasePredictions <- predict(ClintonModel, OneCaseTestDT, type="response")
+OneCasePredictions
+
+# Yes or No 
+FinalOneCasePredicted<-as.numeric(ifelse(OneCasePredictions > 0.5, 1, 0))
+FinalOneCasePredicted
+
+
+
+ 
+### MoneyGain_CorrWithTime_score #####  
+### MoneyGain_CorrWithTime_score #####   
+   
+#    MoneyGain_CorrWithTime_categories = data.table(MoneyGain_CorrWithTime_score = c(0,1, 2, 3,4,5), MoneyGain_CorrWithTime_min = c(-#Inf,.70, .78, .85,.91,.97), 
+#                           MoneyGain_CorrWithTime_max = c(.70,.78, .85,.91,.97, Inf))
+
+#   TestDT[MoneyGain_CorrWithTime_categories, `:=`(MoneyGain_CorrWithTime_score = i.MoneyGain_CorrWithTime_score),
+#    on = .(MoneyGain_CorrelationWithTime >= MoneyGain_CorrWithTime_min, MoneyGain_CorrelationWithTime < MoneyGain_CorrWithTime_max)]
+```
+
+Raw KNN, not using any specific library
+```{r}
+### KNN ( Income and Education == > Voting for Trump)
+
+TestPersonEducation <- 3
+TestPersonIncome <- 4 
+
+VoteSampleDT
+?haven
+Euc_Dist <- sqrt((TestPersonEducation- VoteSampleDT$Education) ** 2)
+
+#As.numeric()
+VoteSampleDT$Education <- as.numeric(VoteSampleDT$Education)
+
+
+VoteSampleDT[, "Euclidean_Distance":= sqrt((TestPersonEducation - VoteSampleDT$Education)^2)]
+
+
+VoteSampleDT[, "Euclidean_Distance_Neighbors":= sqrt(((TestPersonEducation - VoteSampleDT$Education)^2) + ((TestPersonIncome- VoteSampleDT$Income)^2))][,"Euclidean_Distance_Neighbors":= round(Euclidean_Distance_Neighbors,2)]
+VoteSampleDT[, "Lorenzian_Distance_Neighbors":= log(1+(abs(TestPersonEducation - Education))) + log(1+(abs(TestPersonIncome-Income)))]
+VoteSampleDT[, "Lorenzian_Distance_Neighbors":= round(Lorenzian_Distance_Neighbors, 2)]
+
+VoteSampleDT[order(Euclidean_Distance_Neighbors)]
+
+#5 Closest
+VoteSampleDT[order(Euclidean_Distance_Neighbors)][1:5]
+
+TrumpVote5 <- VoteSampleDT[order(Euclidean_Distance_Neighbors)][1:5]$TrumpVote
+mean(TrumpVote5)
+mean(TrumpVote5)>.5
+
+#10 Closest
+VoteSampleDT[order(Euclidean_Distance_Neighbors)][1:10]
+
+TrumpVote10 <- VoteSampleDT[order(Euclidean_Distance_Neighbors)][1:10]$TrumpVote
+mean(TrumpVote10)
+mean(TrumpVote10)>.5
+
+### Stock Market Data 
+
+
+library(quantmod)
+  getSymbols("AAPL", src = "yahoo", from = Sys.Date() - 365, to = Sys.Date())
+  apple_data <- na.omit(AAPL)
+  head(apple_data)
+  tail(apple_data)
+
+
+library(TTR)
+  apple_data$RSI <- RSI(Cl(apple_data), n=14)
+  apple_data$VWAP <- VWAP(Cl(apple_data), Vo(apple_data), n=14)
+  apple_data$SMA_10 <- SMA(Cl(apple_data), n=10)
+  apple_data$EMA_20 <- EMA(Cl(apple_data), n=20)
+  apple_data$Momentum <- momentum(Cl(apple_data), n=5)
+  
+  
+
+RealTime <- index(apple_data)
+
+apple_dataDT <- data.table(apple_data)
+
+apple_data$Date<- index(apple_data)
+  
+
+###Create a Variable that Tells you Close Price 4 Days in the Future
+
+source_col <- "AAPL.Close"
+
+apple_dataDT$FutureClosePRice <- shift(apple_dataDT[[source_col]], 4, type = "lead")
+
+source_col <- "AAPL.Close"
+
+apple_dataDT[, "ClosePrice":= .SD[[source_col]]]
+
+apple_dataDT[, "FutureClosePrice":= shift(ClosePrice, 4, type = "lead")]
+
+apple_dataDT[, "FutureClosePrice_PercentGain":= ((FutureClosePrice - ClosePrice/ClosePrice)) *100]
+
+apple_dataDT[, "FutureClosePrice_Outcome":= ifelse(FutureClosePrice > ClosePrice, 1, 0)]
+
+
+apple_dataDT <- na.omit(apple_dataDT)
+
+
+Stock_SampleDT <- apple_dataDT[1:10]
+
+TestRSI <- 38
+TestVWAP <- 172
+
+Stock_SampleDT[, "Euclidean_Distance_Neighbors":= sqrt(((TestRSI - Stock_SampleDT$RSI)^2) + ((TestVWAP - Stock_SampleDT$VWAP)^2))][,"Euclidean_Distance_Neighbors":= round(Euclidean_Distance_Neighbors,2)]
+Stock_SampleDT[, "Lorenzian_Distance_Neighbors":= log(1+(abs(TestRSI - Stock_SampleDT$RSI))) + log(1+(abs(TestVWAP - Stock_SampleDT$VWAP)^2))]
+Stock_SampleDT[, "Lorenzian_Distance_Neighbors":= round(Lorenzian_Distance_Neighbors, 2)]
+
+#5 Closest
+Stock_SampleDT[order(Euclidean_Distance_Neighbors)][1:5]
+
+AppleStock5 <- Stock_SampleDT[order(Euclidean_Distance_Neighbors)][1:5]$FutureClosePrice_Outcome
+mean(AppleStock5)
+mean(AppleStock5)>.5
+
+#10 Closest
+Stock_SampleDT[order(Euclidean_Distance_Neighbors)][1:10]
+
+AppleStock10 <- Stock_SampleDT[order(Euclidean_Distance_Neighbors)][1:10]$FutureClosePrice_Outcome
+mean(AppleStock10)
+mean(AppleStock10)>.5
+
+#A
+AppleStock_Outcome <- Stock_SampleDT[order(Euclidean_Distance_Neighbors)]$FutureClosePrice_Outcome
+mean(AppleStock_Outcome)
+
+
+
+#use caret to run a KNN model on the voting dataset that we have. Split in a training set and a testing set. Training is 80 and test is 10.
+#Give predictions about the Clinton regarding test set 
+
+```
+
+Variable weighting for SVM and KNN models 
+```{r}
+index <- createDataPartition(VoteDT$TrumpVote, p = 0.8, list = F)
+train_dataDT <- VoteDT[index,]
+test_dataDT <- VoteDT[-index,]
+
+
+NoDep_train_dataDT <- data.table(train_dataDT)
+NoDep_test_dataDT <- data.table(test_dataDT)
+
+colnames(NoDep_test_dataDT)
+
+
+NoDep_train_dataDT[, TrumpVote := NULL]
+NoDep_test_dataDT[, TrumpVote := NULL]
+
+mean_OfData <- apply(NoDep_train_dataDT, 2, mean)
+sd_OfData <- apply(NoDep_train_dataDT, 2, sd)
+
+mean_OfData_DT <- data.table(t(mean_OfData))
+sd_OfData_DT <- data.table(t(sd_OfData))
+
+Both_Mean_SD_DT <- rbindlist(list(mean_OfData_DT, sd_OfData_DT))
+
+#Now here we scale both based on mean and SD of the TRAIN DATA
+train_dataDT_Scale <- data.table(scale(NoDep_train_dataDT, center = mean_OfData, scale = sd_OfData))
+test_dataDT_Scale <- data.table(scale(NoDep_test_dataDT, center = mean_OfData, scale = sd_OfData))
+
+
+#Now bringing dependent variable back in
+train_dataDT_Scale$TrumpVote <- as.factor(ifelse(train_dataDT$TrumpVote==1, "VotedTrump", "NoVoteTrump"))
+test_dataDT_Scale$TrumpVote <- as.factor(ifelse(test_dataDT$TrumpVote==1, "VotedTrump", "NoVoteTrump"))
+
+#Creating folds. k = 5 means five folds, meaning wer seperate the training data into 5 groups, 
+#and "test" on this to see how it does before we use the real test data. This makes the model
+#work better
+myFolds_S <- createFolds(train_dataDT_Scale$TrumpVote, k = 5)
+str(myFolds_S)
+
+myControl_S <- trainControl(
+  summaryFunction = twoClassSummary,
+  classProb = TRUE, 
+  verboseIter = FALSE,
+  savePredictions = FALSE,
+  index = myFolds_S
+)
+
+myControl_S
+
+tune_grid_K <- expand.grid(k = c(5)) 
+
+```
+KNN
+```{r}
+knn_model_Scaled <- caret::train(TrumpVote ~ .,
+       train_dataDT_Scale,
+       metric = "ROC",
+       method = "knn", 
+       tuneGrid = tune_grid_K,
+       trControl = myControl_S
+                    
+                                 )
+
+
+pred_knn_train <- predict(knn_model_Scaled, train_dataDT_Scale)
+pred_knn_prob_train <- predict(knn_model_Scaled, train_dataDT_Scale, "prob")
+confusionMatrix(pred_knn_train, train_dataDT_Scale$TrumpVote)
+
+pred_knn_test <- predict(knn_model_Scaled, test_dataDT_Scale)
+pred_knn_prob_test <- predict(knn_model_Scaled, test_dataDT_Scale, "prob")
+confusionMatrix(pred_knn_test, test_dataDT_Scale$TrumpVote)
+
+levels(pred_knn_test)
+levels(test_dataDT_Scale$TrumpVote)
+```
+SVM (standard vector model)
+```{r}
+svm_model_Scaled <- caret::train(TrumpVote ~ . ,
+                                 train_dataDT_Scale,
+                                 metric = "ROC",
+                                 method = "svmRadial",
+                                 tuneLength = 10,
+                                 trControl = myControl_S)
+
+print(svm_model_Scaled)
+
+plot(svm_model_Scaled)
+
+pred_svm_train <- predict(svm_model_Scaled, train_dataDT_Scale)
+pred_svm_train <- predict(svm_model_Scaled, train_dataDT_Scale, "prob")
+confusionMatrix(pred_svm_train, train_dataDT_Scale$TrumpVote)
+
+
+
+levels(svm_model_Scaled)
+levels(train_dataDT_Scale$TrumpVote)
+
+pred_svm_test <- predict(svm_model_Scaled, test_dataDT_Scale)
+pred_svm_prob_test <- predict(svm_model_Scaled, test_dataDT_Scale, "prob")
+confusionMatrix(pred_svm_test, test_dataDT_Scale$TrumpVote)
+
+```
+
+Decision Trees are a supervised learning technique for classification and regression
+- they use a tree like model of decisions and their possible consequences
+- popular for their interpret ability and ease of use
+
+A Decision Tree model recursively partitions the feature space
+At each node, the algorithm picks a feature and a threshold (if numeric) or a category (if categorical) that yields best split.
+The best split is often determined by minimizing impurity or maximizing purity of the resulting subsets.
+common impurity measures:
+Entrophy 0 - 1 in terms of mixed
+Gini Impurity 0.5 is the most mixed
+
+
+Decision Trees: 
+```{r}
+
+library(data.table)
+
+Issue_Number <- c(1:9)
+Pages <- c(167, 182,176,173,172,174,169, 173, 170)
+Cost <- c(51,62,69, 64, 65, 56, 58, 57, 55)
+Class <- c("White", "Black", "Black", "Black", "Black", "White", "Black", "Black" , "Black")
+
+
+Book_DT <- data.table(Issue_Number, Pages, Cost, Class)
+
+Book_DT <- data.table(cbind(Pages, Cost, type = Class))
+Book_DT <- data.table(cbind(Issue_Number, Pages, Cost, type = Class))
+
+Book_DT[, "Pages":= as.numeric(Pages)][,"Cost":= as.numeric(Cost)][, "Issue_Number":= as.numeric(Issue_Number)]
+
+Books_DF <-data.frame(Book_DT)
+########################################################
+
+get_entropy <- function(x){
+  
+  if(length(x) == 0) return(0)
+  weights = table(x)/length(x)
+  info_content= -weights*log2(weights)
+  entropy = sum(info_content)
+  return(entropy)
+  
+}
+
+get_entropy(c(0,0,0,0,0,0))
+
+
+
+get_gini_impurity <- function(x) {
+  if(length(x) == 0) return (0)
+  weights = table(x)/length(x)
+  weights_squared = weights ^2 
+  sum_of_squares = sum(weights_squared)
+  gini = 1 - sum_of_squares
+  return(gini)
+  
+  
+}
+
+get_gini_impurity(c(0,0,0,0,0,0))
+
+get_gini_impurity(c(0,0,1,1))
+
+
+library(rpart)
+#install.packages("rpart.plot")
+library(rpart.plot)
+
+tree <- rpart(type ~., data = Books_DF, minsplit = 3, minbucket = 1, method = "class")
+rpart.plot(tree)
+
+
+###########################################################################
+######################### APPLYING TO TRUMP DATA #########################
+###########################################################################
+trainIndex <- createDataPartition(VoteDT$TrumpVote, p=0.8, list=FALSE)
+
+
+VoteTrainDT <- VoteDT[trainIndex] #only need train index
+VoteTestDT <-VoteDT[-trainIndex]
+
+TrumpTreeModel <- rpart(TrumpVote~., data = VoteTrainDT, minsplit = 3, minbucket = 1, method = "class")
+rpart.plot(TrumpTreeModel)
+
+predictions_train <- predict(TrumpTreeModel, VoteTrainDT, type = "class")
+
+mean(predictions_train == VoteTrainDT$TrumpVote)
+
+predictions_test <- predict(TrumpTreeModel, VoteTestDT, type = "class")
+
+mean(predictions_test == VoteTestDT$TrumpVote)
+
+
+```
+
+
