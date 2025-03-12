@@ -1,0 +1,181 @@
+Geddy Lucier
+Testing out a BRT Model for Candlewood Lake Future Ecological Data 
+3/11/2024
+
+
+Preamble
+```{r}
+#install.packages("gbm")
+#install.packages("dismo")
+
+library(gbm)
+library(dismo)
+library(dplyr)
+library(tidyverse)
+
+eco <- read.csv("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/eco_data.csv")
+
+species <- read.csv("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/species_data.csv")
+
+substrate <- read.csv("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/geo_data.csv")
+?write_csv
+
+
+```
+Column Substrate Recoding and Cleaning
+```{r}
+# #bind substrate from merged_transect (species_pop_agg doc)
+# ?left_join
+# # 
+# eco <- left_join(eco, substrate, by = "year")
+# # 
+# write_csv(eco, file = ("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/eco_data.csv"))
+
+#write_csv(substrate, file = ("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/geo_data.csv"))
+
+
+colnames(substrate)
+
+colnames(eco_base)
+substrate
+
+eco_base <- bind_cols(species, substrate)  # Drop duplicate 'year'
+eco_base <- eco_base %>% 
+  select(-year...56)  %>%
+  rename("year" = "year...5"  )
+
+
+eco_base <- eco_base %>%
+  mutate(substrate = str_to_lower(substrate)) %>%  # Convert to lowercase
+  mutate(substrate = str_replace_all(substrate, "sitt|slt|sit|sill|silt", "silt")) %>%  # Standardize "silt"
+  mutate(substrate = str_replace_all(substrate, "sard", "sand")) %>%  # Fix "sard" to "sand"
+  mutate(substrate = str_replace_all(substrate, "muck\\.", "muck")) %>%  # Remove extra dot in "muck."
+  mutate(substrate = str_to_title(substrate))  # Capitalize first letter
+
+
+
+eco_base <- eco_base %>%
+  mutate(substrate.code = case_when( # give each substrate a numerical code based on hardness and density
+    substrate == "Muck" ~ 1,
+        substrate == "Organic" ~ 2,
+            substrate == "Peat" ~ 3,
+             substrate == "Silt" ~ 4,
+                 substrate == "Sand" ~ 5,
+                     substrate == "Gravel" ~ 6,
+                         substrate == "Rock" ~ 7
+  )
+         )
+
+eco_base <- eco_base %>%
+  mutate(
+    depth_m_ = as.numeric(as.character(depth_m_)),  # Convert depth to numeric
+    dfs_m_ = as.numeric(as.character(dfs_m_))  # Convert dfs to numeric
+  )
+
+
+```
+
+Implement Jitter from Jitter testing stage 
+```{r}
+# "dfs_m_" "depth_m_" "lattitude"  "longitude"
+
+eco_jit <- eco_base[rep(1:nrow(eco_base), each = 5), ]  # Triplicate each row
+eco_jit$dfs_m_ <- round(jitter(eco_jit$dfs_m_, amount = 2)) # jitter distance from shore
+eco_jit$depth_m_ <- round(jitter(eco_jit$depth_m_, amount = 1)) # jitter depth 
+
+eco_jit <- eco_jit %>%  filter(dfs_m_ > 0 & depth_m_ > 0) # no values that are less than one < 0 
+
+
+```
+
+
+
+
+
+```{r}
+colnames(eco_jit)
+
+eco_jit[is.na(eco_jit)] <- 0
+eco_jit <- na.omit(eco_jit)
+
+response_vars <- c(
+  "yearly_sum", "potfol_sum", "elonut_sum", "cerdem_sum", "najfle_sum", 
+  "potcri_sum", "myrspi_sum", "valame_sum", "najmin_sum", "potgra_sum", 
+  "potper_sum", "zanpal_sum", "calsp_sum", "nymodo_sum", "lemmin_sum", 
+  "spipol_sum", "stupec_sum", "elasp_sum", "potbic_sum", "potpus_sum", 
+  "unidentif3_sum", "elesp_sum", "spaspp_sum", "typha_sum", "other_sum"
+)
+
+# Define the predictor variables
+predictors <- c("dfs_m_", "depth_m_", "substrate.code")
+
+
+brt_models <- list()
+
+# Loop through each response variable and train a model
+for (resp in response_vars) {
+  cat("Training GBM model for", resp, "...\n")
+  model <- tryCatch({
+    gbm(
+      formula = as.formula(paste(resp, "~", paste(predictors, collapse = " + "))),
+      data = eco_jit,                # Replace with your training data frame
+      distribution = "gaussian",      # Use Gaussian for continuous responses
+      n.trees = 1000,                 # Number of trees
+      interaction.depth = 5,          # Maximum depth of trees
+      shrinkage = 0.01,               # Learning rate
+      bag.fraction = 0.75,            # Fraction of data used for each tree
+      cv.folds = 10                   # 10-fold cross-validation
+    )
+  }, error = function(e) {
+    cat("Error training model for", resp, ":", e$message, "\n")
+    return(NULL)
+  })
+  
+  brt_models[[resp]] <- model
+  cat("Finished training model for", resp, "\n")
+}
+
+successful_models <- names(brt_models)[!sapply(brt_models, is.null)]
+
+successful_models <- brt_models[nzchar(names(brt_models))]
+
+
+cat("Models that trained successfully:\n")
+print(successful_models)
+```
+Synthetic data creation
+
+```{r}
+set.seed(123)  # For reproducibility
+
+future_data <- data.frame(
+  dfs_m_ = runif(100, min = min(eco_jit$dfs_m_, na.rm = TRUE), max = max(eco_jit$dfs_m_, na.rm = TRUE)),
+  depth_m_ = runif(100, min = min(eco_jit$depth_m_, na.rm = TRUE), max = max(eco_jit$depth_m_, na.rm = TRUE)),
+  substrate.code = sample(unique(eco_jit$substrate.code), 100, replace = TRUE)
+)
+
+
+future_predictions <- list()
+
+for (resp in names(successful_models)) {
+  cat("Predicting", resp, "...\n")
+  future_predictions[[resp]] <- predict(
+    successful_models[[resp]], 
+    newdata = future_data, 
+    n.trees = 1000, 
+    type = "response"
+  )
+}
+
+
+# Combine predictions with the synthetic predictors
+future_synthetic <- cbind(future_data, as.data.frame(future_predictions))
+head(future_synthetic)
+
+?write_csv
+
+
+
+#write_csv(substrate, file = ("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/geo_data.csv"))
+```
+
