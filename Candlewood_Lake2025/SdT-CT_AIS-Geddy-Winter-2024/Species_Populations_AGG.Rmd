@@ -96,16 +96,16 @@ merged_transect <- merged_transect[-35]
 
 
 
-merged_transect$date[merged_transect$year == "0.371215278" ]
+#merged_transect$date[merged_transect$year == "0.371215278" ]
 
-# merged_transect <- merged_transect %>%
-#   mutate(year = gsub("(.*)/([0-9]+)$", "20\\2", date),
-#           myrspi = ifelse(myrspi < 0 | myrspi > 5, 0, myrspi)
-#          ) %>%
-#   group_by(year) %>%
-#   mutate(myspri.yearsum = sum(myrspi),
-#          cerdem.yearsum = sum(cerdem))
-#   
+merged_transect <- merged_transect %>%
+  mutate(year = gsub("(.*)/([0-9]+)$", "20\\2", date),
+          myrspi = ifelse(myrspi < 0 | myrspi > 5, 0, myrspi)
+         ) %>%
+  group_by(year) %>%
+  mutate(myspri.yearsum = sum(myrspi),
+         cerdem.yearsum = sum(cerdem)) # to create year variable
+
 
 unique(merged_transect$year)
 ggplot() +  geom_line(aes(data = merged_transect, x = year, y =))
@@ -114,6 +114,19 @@ write_csv(merged_transect, "merged_transect.csv")
 
 
 ```
+temporary troubleshooting - disregard for later
+
+```{r}
+substrate <- merged_transect %>%
+  filter(year != 2007) %>%
+  select(substrate, year ,dfs_m_, depth_m_)
+
+
+
+```
+
+
+
 percentage of total
 
 ```{r}
@@ -128,7 +141,7 @@ species_data <- merged_transect %>%
   mutate(point_sum = rowSums(across(6:ncol(.)), na.rm = TRUE), ) %>% #sum of all the species within a point 
   group_by(year) %>% # Sum across columns 12 to end
   mutate(yearly_sum = sum(point_sum)) %>%
-mutate(potfol_sum = sum(potfol, na.rm = TRUE), 
+  mutate(potfol_sum = sum(potfol, na.rm = TRUE), 
          elonut_sum = sum(elonut, na.rm = TRUE),
          cerdem_sum = sum(cerdem, na.rm = TRUE),
          najfle_sum = sum(najfle, na.rm = TRUE),

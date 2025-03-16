@@ -34,10 +34,7 @@ Column Substrate Recoding and Cleaning
 #write_csv(substrate, file = ("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/geo_data.csv"))
 
 
-colnames(substrate)
 
-colnames(eco_base)
-substrate
 
 eco_base <- bind_cols(species, substrate)  # Drop duplicate 'year'
 eco_base <- eco_base %>% 
@@ -72,8 +69,35 @@ eco_base <- eco_base %>%
     dfs_m_ = as.numeric(as.character(dfs_m_))  # Convert dfs to numeric
   )
 
+#
+eco_base$depth_m_[which(eco_base$depth_m_ > 80)] <- eco_base$depth_m_[which(eco_base$depth_m_ > 80)] / 10
 
+
+
+unique(eco_base$depth_m_)
+colnames(eco_jit)
 ```
+ [1] "transect"       "point"          "lattitude"      "longitude"      "year"           "potfol"        
+ [7] "elonut"         "cerdem"         "najfle"         "potcri"         "myrspi"         "valame"        
+[13] "najmin"         "potgra"         "potper"         "zanpal"         "calsp"          "nymodo"        
+[19] "lemmin"         "spipol"         "stupec"         "elasp"          "potbic"         "potpus"        
+[25] "unidentif3"     "elesp"          "spaspp"         "typha"          "point_sum"      "yearly_sum"    
+[31] "potfol_sum"     "elonut_sum"     "cerdem_sum"     "najfle_sum"     "potcri_sum"     "myrspi_sum"    
+[37] "valame_sum"     "najmin_sum"     "potgra_sum"     "potper_sum"     "zanpal_sum"     "calsp_sum"     
+[43] "nymodo_sum"     "lemmin_sum"     "spipol_sum"     "stupec_sum"     "elasp_sum"      "potbic_sum"    
+[49] "potpus_sum"     "unidentif3_sum" "elesp_sum"      "spaspp_sum"     "typha_sum"      "other_sum"     
+[55] "substrate"      "dfs_m_"         "depth_m_"       "substrate.code"
+
+
+```{r}
+colnames(eco_jit)
+colnames(eco_base)
+
+eco_base %>% 
+  summary(year, transect, other_sum, point, yearly_sum, myrspi_sum)
+```
+
+
 
 Implement Jitter from Jitter testing stage 
 ```{r}
@@ -85,6 +109,9 @@ eco_jit$depth_m_ <- round(jitter(eco_jit$depth_m_, amount = 1)) # jitter depth
 
 eco_jit <- eco_jit %>%  filter(dfs_m_ > 0 & depth_m_ > 0) # no values that are less than one < 0 
 
+eco_jit <- eco_jit %>% select(transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, yearly_sum, cerdem_sum, myrspi_sum, other_sum)
+
+eco_jit # eco_jit variable created  
 
 ```
 
@@ -98,33 +125,31 @@ colnames(eco_jit)
 eco_jit[is.na(eco_jit)] <- 0
 eco_jit <- na.omit(eco_jit)
 
-response_vars <- c(
-  "yearly_sum", "potfol_sum", "elonut_sum", "cerdem_sum", "najfle_sum", 
-  "potcri_sum", "myrspi_sum", "valame_sum", "najmin_sum", "potgra_sum", 
-  "potper_sum", "zanpal_sum", "calsp_sum", "nymodo_sum", "lemmin_sum", 
-  "spipol_sum", "stupec_sum", "elasp_sum", "potbic_sum", "potpus_sum", 
-  "unidentif3_sum", "elesp_sum", "spaspp_sum", "typha_sum", "other_sum"
-)
-
-# Define the predictor variables
-predictors <- c("dfs_m_", "depth_m_", "substrate.code")
 
 
+# Suppose we want to fit a single model for each response, 
+# but across all data from 2008–2020, with year, depth, dfs, substrate_code
+response_vars <- c("cerdem_sum", "myrspi_sum", "other_sum")
 brt_models <- list()
 
-# Loop through each response variable and train a model
 for (resp in response_vars) {
-  cat("Training GBM model for", resp, "...\n")
+  cat("Training GBM model for", resp, "across all years...\n")
+  
+  # Year as numeric predictor:
+  formula_all <- as.formula(
+    paste(resp, "~ year + depth_m_ + dfs_m_ + substrate.code")
+  )
+  
   model <- tryCatch({
     gbm(
-      formula = as.formula(paste(resp, "~", paste(predictors, collapse = " + "))),
-      data = eco_jit,                # Replace with your training data frame
-      distribution = "gaussian",      # Use Gaussian for continuous responses
-      n.trees = 1000,                 # Number of trees
-      interaction.depth = 5,          # Maximum depth of trees
-      shrinkage = 0.01,               # Learning rate
-      bag.fraction = 0.75,            # Fraction of data used for each tree
-      cv.folds = 10                   # 10-fold cross-validation
+      formula = formula_all,
+      data = eco_jit,  # includes 2008–2020
+      distribution = "gaussian",
+      n.trees = 1000,
+      interaction.depth = 5,
+      shrinkage = 0.01,
+      bag.fraction = 0.75,
+      cv.folds = 10
     )
   }, error = function(e) {
     cat("Error training model for", resp, ":", e$message, "\n")
@@ -135,47 +160,50 @@ for (resp in response_vars) {
   cat("Finished training model for", resp, "\n")
 }
 
+# Check success
 successful_models <- names(brt_models)[!sapply(brt_models, is.null)]
-
-successful_models <- brt_models[nzchar(names(brt_models))]
-
-
 cat("Models that trained successfully:\n")
 print(successful_models)
+
 ```
 Synthetic data creation
 
 ```{r}
-set.seed(123)  # For reproducibility
-
-future_data <- data.frame(
-  dfs_m_ = runif(100, min = min(eco_jit$dfs_m_, na.rm = TRUE), max = max(eco_jit$dfs_m_, na.rm = TRUE)),
-  depth_m_ = runif(100, min = min(eco_jit$depth_m_, na.rm = TRUE), max = max(eco_jit$depth_m_, na.rm = TRUE)),
-  substrate.code = sample(unique(eco_jit$substrate.code), 100, replace = TRUE)
-)
 
 
-future_predictions <- list()
+twenty <- eco_base %>%
+  filter(year == 2020)
 
-for (resp in names(successful_models)) {
-  cat("Predicting", resp, "...\n")
-  future_predictions[[resp]] <- predict(
-    successful_models[[resp]], 
-    newdata = future_data, 
-    n.trees = 1000, 
-    type = "response"
+twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code)
+
+twenty_base$year <- 2021 #overide so that year is involved in the calculations
+
+
+# For each response variable, generate predictions for 2021
+responses <- c("cerdem_sum", "myrspi_sum", "other_sum")
+
+for (resp in responses) {
+  # Retrieve the trained model for this response
+  model <- brt_models[[resp]]
+  
+  # Generate predictions for 2021 using 'twenty_base'
+  # n.trees must match however many trees the model ended with
+  preds <- predict(
+    model,
+    newdata = twenty_base,
+    n.trees = model$n.trees
   )
+  
+  # Store the predictions in a new column, e.g. "pred_cerdem_sum"
+  pred_colname <- paste0("pred_", resp)
+  twenty_base[[pred_colname]] <- preds
 }
 
-
-# Combine predictions with the synthetic predictors
-future_synthetic <- cbind(future_data, as.data.frame(future_predictions))
-head(future_synthetic)
-
-?write_csv
+# Now 'twenty_base' will have additional columns:
+# pred_cerdem_sum, pred_myrspi_sum, pred_other_sum
 
 
 
-#write_csv(substrate, file = ("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/geo_data.csv"))
+
 ```
 
