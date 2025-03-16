@@ -7,11 +7,13 @@ Preamble
 ```{r}
 #install.packages("gbm")
 #install.packages("dismo")
-
+#install.packages("superml")
 library(gbm)
 library(dismo)
 library(dplyr)
 library(tidyverse)
+library(superml)
+library(caret)
 
 eco <- read.csv("/Users/geddylucier/Documents/GitHub/LakeCandlewood/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/eco_data.csv")
 
@@ -151,15 +153,6 @@ ggplot() +
 
 ```
 ```{r}
-colnames(eco_jit)
-
-eco_jit[is.na(eco_jit)] <- 0
-eco_jit <- na.omit(eco_jit)
-
-
-
-# Suppose we want to fit a single model for each response, 
-# but across all data from 2008–2020, with year, depth, dfs, substrate_code
 response_vars <- c("point_sum_cerdem", "point_sum_myrspi", "point_sum_others")
 brt_models <- list()
 
@@ -180,7 +173,7 @@ for (resp in response_vars) {
       interaction.depth = 5,
       shrinkage = 0.1,
       bag.fraction = 0.9,
-      cv.folds = 10
+      cv.folds = 10 
     )
   }, error = function(e) {
     cat("Error training model for", resp, ":", e$message, "\n")
@@ -196,7 +189,10 @@ successful_models <- names(brt_models)[!sapply(brt_models, is.null)]
 cat("Models that trained successfully:\n")
 print(successful_models)
 
+
+
 ```
+
 Model evaluation
 
 
@@ -238,13 +234,6 @@ evaluate_brt_models(brt_models, eco_jit)
 ```
 
 
-```{r}
-
-
-```
-
-
-
 Synthetic data creation
 
 ```{r}
@@ -256,6 +245,8 @@ twenty <- eco_base %>%
 twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point)
 
 twenty_base$year <- 2021 #overide so that year is involved in the calculations
+twenty_base$june_temp <- 73.29
+twenty_base$june_dew_point <-  64.08 
 
 
 # For each response variable, generate predictions for 2021
