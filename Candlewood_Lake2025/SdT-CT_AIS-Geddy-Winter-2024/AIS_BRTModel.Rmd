@@ -75,50 +75,81 @@ eco_base$depth_m_[which(eco_base$depth_m_ > 80)] <- eco_base$depth_m_[which(eco_
 
 
 unique(eco_base$depth_m_)
-colnames(eco_jit)
+colnames(eco_base)
 ```
- [1] "transect"       "point"          "lattitude"      "longitude"      "year"           "potfol"        
- [7] "elonut"         "cerdem"         "najfle"         "potcri"         "myrspi"         "valame"        
-[13] "najmin"         "potgra"         "potper"         "zanpal"         "calsp"          "nymodo"        
-[19] "lemmin"         "spipol"         "stupec"         "elasp"          "potbic"         "potpus"        
-[25] "unidentif3"     "elesp"          "spaspp"         "typha"          "point_sum"      "yearly_sum"    
-[31] "potfol_sum"     "elonut_sum"     "cerdem_sum"     "najfle_sum"     "potcri_sum"     "myrspi_sum"    
-[37] "valame_sum"     "najmin_sum"     "potgra_sum"     "potper_sum"     "zanpal_sum"     "calsp_sum"     
-[43] "nymodo_sum"     "lemmin_sum"     "spipol_sum"     "stupec_sum"     "elasp_sum"      "potbic_sum"    
-[49] "potpus_sum"     "unidentif3_sum" "elesp_sum"      "spaspp_sum"     "typha_sum"      "other_sum"     
-[55] "substrate"      "dfs_m_"         "depth_m_"       "substrate.code"
+
+
+Cleaning Eco_base to perform species totals at various points 
+```{r}
+# note to self 
+# you are calculating the sum of species by transect and point. If you wanted to graph the species divide, you should use previous values.This approach is prime for trainign the BRT model
+eco_base <- eco_base %>% 
+  group_by(transect, point) %>%
+  select(year, transect, lattitude, longitude, depth_m_, dfs_m_, substrate.code, point, 
+         potfol, elonut, cerdem, najfle, potcri, myrspi, valame, 
+         najmin, potgra, potper, zanpal, calsp, nymodo, 
+         lemmin, spipol, stupec, elasp, potbic, potpus, 
+         unidentif3, elesp, spaspp, typha) %>%
+  mutate(
+    point_sum_myrspi = sum(myrspi, na.rm = TRUE),
+    point_sum_cerdem = sum(cerdem, na.rm = TRUE),
+    point_sum_others = sum(c_across(c(potfol, elonut, najfle, potcri, valame, najmin, 
+                                potgra, potper, zanpal, calsp, nymodo, lemmin, 
+                                spipol, stupec, elasp, potbic, potpus, unidentif3, 
+                                elesp, spaspp, typha)), na.rm = TRUE) 
+    )
+
+
+
+
+```
+incorporate weather data into model
 
 
 ```{r}
-colnames(eco_jit)
-colnames(eco_base)
+july_weather <- data.frame(
+  year = c(2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008),
+  june_temp = c(71.71, 74.64, 72.93, 71.33, 73.88, 71.51, 71.19, 75.46, 73.69, 74.23, 74.49, 67.95, 72.29),
+  june_dew_point = c(59.78, 64.39, 64.88, 62.99, 62.81, 59.59, 60.68, 66.16, 63.04, 64.54, 63.74, 60.52, 63.6),
+  precipitation = c(0.04, 0.04, 0.22, 0.14, 0.13, 0.19, 0.12, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00)
+)
 
-eco_base %>% 
-  summary(year, transect, other_sum, point, yearly_sum, myrspi_sum)
+eco_base <- eco_base %>% 
+  left_join(july_weather, by = "year")
+
+linear <- lm(myrspi ~ june_temp + june_dew_point + precipitation,data = eco_base)
+summary(linear) # WE HAVE SIGNIFICANCE
+
 ```
-
-
 
 Implement Jitter from Jitter testing stage 
 ```{r}
 # "dfs_m_" "depth_m_" "lattitude"  "longitude"
+eco_jit <- eco_base %>% select(transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, precipitation, point_sum_myrspi, point_sum_cerdem, point_sum_others) 
 
-eco_jit <- eco_base[rep(1:nrow(eco_base), each = 5), ]  # Triplicate each row
+eco_jit <- eco_jit[rep(1:nrow(eco_jit), each = 5), ]  # Triplicate each row
 eco_jit$dfs_m_ <- round(jitter(eco_jit$dfs_m_, amount = 2)) # jitter distance from shore
 eco_jit$depth_m_ <- round(jitter(eco_jit$depth_m_, amount = 1)) # jitter depth 
+eco_jit$lattitude <- (jitter(eco_jit$lattitude, amount = 0.005)) # jitter latitude
+eco_jit$longitude <- (jitter(eco_jit$longitude, amount = 0.005)) # jitter longitude 
+
 
 eco_jit <- eco_jit %>%  filter(dfs_m_ > 0 & depth_m_ > 0) # no values that are less than one < 0 
 
-eco_jit <- eco_jit %>% select(transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, yearly_sum, cerdem_sum, myrspi_sum, other_sum)
 
-eco_jit # eco_jit variable created  
+ggplot() +
+  geom_point(data = eco_jit, aes(x = longitude, y = lattitude), color = "blue") +
+  geom_point(data = eco_base, aes(x = longitude, y = lattitude), color = "red") +
+  labs(
+    x = "Longitude",
+    y = "Latitude",
+    title = "Map of Points with Additional Data"
+  ) +
+  theme_minimal() +
+  coord_fixed()
+
 
 ```
-
-
-
-
-
 ```{r}
 colnames(eco_jit)
 
@@ -129,7 +160,7 @@ eco_jit <- na.omit(eco_jit)
 
 # Suppose we want to fit a single model for each response, 
 # but across all data from 2008–2020, with year, depth, dfs, substrate_code
-response_vars <- c("cerdem_sum", "myrspi_sum", "other_sum")
+response_vars <- c("point_sum_cerdem", "point_sum_myrspi", "point_sum_others")
 brt_models <- list()
 
 for (resp in response_vars) {
@@ -137,18 +168,18 @@ for (resp in response_vars) {
   
   # Year as numeric predictor:
   formula_all <- as.formula(
-    paste(resp, "~ year + depth_m_ + dfs_m_ + substrate.code")
+    paste(resp, "~ year + depth_m_ + dfs_m_ + substrate.code + june_dew_point + june_temp")
   )
-  
+
   model <- tryCatch({
     gbm(
       formula = formula_all,
       data = eco_jit,  # includes 2008–2020
       distribution = "gaussian",
-      n.trees = 1000,
+      n.trees = 2000,
       interaction.depth = 5,
-      shrinkage = 0.01,
-      bag.fraction = 0.75,
+      shrinkage = 0.1,
+      bag.fraction = 0.9,
       cv.folds = 10
     )
   }, error = function(e) {
@@ -166,6 +197,54 @@ cat("Models that trained successfully:\n")
 print(successful_models)
 
 ```
+Model evaluation
+
+
+```{r}
+evaluate_brt_models <- function(models, dataset) {
+  # Get only the models that successfully trained
+  successful_models <- names(models)[!sapply(models, is.null)]
+  
+  for (resp in successful_models) {
+    model <- models[[resp]]
+    
+    # Determine the optimal number of trees using cross-validation
+    best_iter <- gbm.perf(model, method = "cv", plot.it = FALSE)
+    cat("\n----------------------------\n")
+    cat("Response:", resp, "\n")
+    cat("Optimal number of trees (CV):", best_iter, "\n")
+    
+    # Print variable importance
+    cat("Variable Importance:\n")
+    print(summary(model))
+    
+    # Generate predictions on the dataset (could be training or hold-out)
+    predictions <- predict(model, dataset, n.trees = best_iter)
+    actuals <- dataset[[resp]]
+    
+    # Calculate RMSE
+    rmse <- sqrt(mean((actuals - predictions)^2))
+    cat("RMSE:", rmse, "\n")
+    
+    # Calculate MAE
+    mae <- mean(abs(actuals - predictions))
+    cat("MAE:", mae, "\n")
+  }
+}
+
+evaluate_brt_models(brt_models, eco_jit)
+
+
+```
+
+
+```{r}
+
+
+```
+
+
+
 Synthetic data creation
 
 ```{r}
@@ -174,13 +253,13 @@ Synthetic data creation
 twenty <- eco_base %>%
   filter(year == 2020)
 
-twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code)
+twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point)
 
 twenty_base$year <- 2021 #overide so that year is involved in the calculations
 
 
 # For each response variable, generate predictions for 2021
-responses <- c("cerdem_sum", "myrspi_sum", "other_sum")
+responses <- c("point_sum_cerdem", "point_sum_myrspi", "point_sum_others")
 
 for (resp in responses) {
   # Retrieve the trained model for this response
