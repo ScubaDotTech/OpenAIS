@@ -242,6 +242,8 @@ Synthetic data creation
 twenty <- eco_base %>%
   filter(year == 2020)
 
+twenty <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others)
+
 twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point)
 
 twenty_base$year <- 2021 #overide so that year is involved in the calculations
@@ -269,8 +271,26 @@ for (resp in responses) {
   twenty_base[[pred_colname]] <- preds
 }
 
-# Now 'twenty_base' will have additional columns:
-# pred_cerdem_sum, pred_myrspi_sum, pred_other_sum
+twenty_base$point_sum_cerdem <- twenty_base$pred_point_sum_cerdem #fix variable name for later select function
+twenty_base$point_sum_myrspi <- twenty_base$pred_point_sum_myrspi
+twenty_base$point_sum_others <- twenty_base$pred_point_sum_others
+
+
+
+eco_2021 <- rbind(eco_base, twenty_base) %>%
+  select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others) %>%
+  mutate(point_sum_myrspi = round(point_sum_myrspi), 
+         point_sum_cerdem =  round(point_sum_cerdem), 
+       point_sum_others =  round(point_sum_others)
+  ) # round calculation/fabrication points 
+
+
+
+```
+
+
+Calculations of differences
+```{r}
 
 
 
