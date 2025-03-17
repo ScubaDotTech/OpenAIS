@@ -242,13 +242,20 @@ Synthetic data creation
 twenty <- eco_base %>%
   filter(year == 2020)
 
+
+
 twenty <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others)
 
 twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point)
 
+################################# Begin preparing the dataset for fabrication
 twenty_base$year <- 2021 #overide so that year is involved in the calculations
 twenty_base$june_temp <- 73.29
 twenty_base$june_dew_point <-  64.08 
+
+twenty_base$dfs_m_ <- jitter(twenty_base$dfs_m_, amount = 2) # jitter distance from shore
+twenty_base$depth_m_ <- jitter(twenty_base$dfs_m_, amount = 1) # jitter distance from shore
+
 
 
 # For each response variable, generate predictions for 2021
@@ -298,11 +305,11 @@ mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
 
 
 # > mean(abs(twenty_base$point_sum_myrspi - twenty$point_sum_myrspi))
-# [1] 1.146744
+# [1] 4.380814
 # > mean(abs(twenty_base$point_sum_cerdem - twenty$point_sum_cerdem))
-# [1] 0.6025836
+# [1] 1.060575
 # > mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
-# [1] 1.146327
+# [1] 2.159753
 
 ```
 
