@@ -292,8 +292,17 @@ eco_2021 <- rbind(eco_base, twenty_base) %>%
 Calculations of differences
 ```{r}
 
+mean(abs(twenty_base$point_sum_myrspi - twenty$point_sum_myrspi))
+mean(abs(twenty_base$point_sum_cerdem - twenty$point_sum_cerdem))
+mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
 
 
+# > mean(abs(twenty_base$point_sum_myrspi - twenty$point_sum_myrspi))
+# [1] 1.146744
+# > mean(abs(twenty_base$point_sum_cerdem - twenty$point_sum_cerdem))
+# [1] 0.6025836
+# > mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
+# [1] 1.146327
 
 ```
 
