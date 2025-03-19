@@ -55,9 +55,9 @@ eco_base <- eco_base %>%
   )
          )
 
-eco_data <- st_as_sf(eco_base,coords = c("longitude", "lattitude"), crs = 4326) 
+zeb_msc_2022 <- st_as_sf(eco_base,coords = c("longitude", "lattitude"), crs = 4326) 
 
-nearest_eco_indices <- st_nearest_feature(eco_data, eco_data)
+nearest_zeb_indices <- st_nearest_feature(eco_data, eco_data)
 
 eco_base$substrate.code[is.na(eco_base$substrate.code)] <- eco_base$substrate.code[nearest_eco_indices][is.na(eco_base$substrate.code)]
 
@@ -117,6 +117,8 @@ eco_base <- eco_base %>%
 
 linear <- lm(myrspi ~ june_temp + june_dew_point + precipitation,data = eco_base)
 summary(linear) # WE HAVE SIGNIFICANCE
+
+write_csv(eco_base, file = "eco_base.csv")
 
 ```
 
