@@ -14,6 +14,7 @@ library(dplyr)
 library(tidyverse)
 library(superml)
 library(caret)
+library(sf)
 
 
 species <- read.csv("https://raw.githubusercontent.com/ScubaDotTech/OpenAIS/refs/heads/main/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/species_data.csv")
@@ -29,7 +30,7 @@ Column Substrate Recoding and Cleaning
 
 eco_base <- bind_cols(species, substrate)  # Drop duplicate 'year'
 eco_base <- eco_base %>% 
-  select(-year...56)  %>%
+  dplyr::select(-year...56)  %>%
   rename("year" = "year...5"  )
 
 
@@ -58,7 +59,7 @@ eco_data <- st_as_sf(eco_base,coords = c("longitude", "lattitude"), crs = 4326)
 
 nearest_eco_indices <- st_nearest_feature(eco_data, eco_data)
 
-eco_base$substrate.code[is.na(eco_base$substrate.code)] <- eco_base$substrate.code[nearest_indices][is.na(eco_base$substrate.code)]
+eco_base$substrate.code[is.na(eco_base$substrate.code)] <- eco_base$substrate.code[nearest_eco_indices][is.na(eco_base$substrate.code)]
 
 eco_base <- eco_base %>%
   mutate(
@@ -82,7 +83,7 @@ Cleaning Eco_base to perform species totals at various points
 # you are calculating the sum of species by transect and point. If you wanted to graph the species divide, you should use previous values.This approach is prime for trainign the BRT model
 eco_base <- eco_base %>% 
   group_by(transect, point) %>%
-  select(year, transect, lattitude, longitude, depth_m_, dfs_m_, substrate.code, point, 
+  dplyr::select(year, transect, lattitude, longitude, depth_m_, dfs_m_, substrate.code, point, 
          potfol, elonut, cerdem, najfle, potcri, myrspi, valame, 
          najmin, potgra, potper, zanpal, calsp, nymodo, 
          lemmin, spipol, stupec, elasp, potbic, potpus, 
@@ -122,7 +123,7 @@ summary(linear) # WE HAVE SIGNIFICANCE
 Implement Jitter from Jitter testing stage 
 ```{r}
 # "dfs_m_" "depth_m_" "lattitude"  "longitude"
-eco_jit <- eco_base %>% select(transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, precipitation, point_sum_myrspi, point_sum_cerdem, point_sum_others) 
+eco_jit <- eco_base %>% dplyr::select(transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, precipitation, point_sum_myrspi, point_sum_cerdem, point_sum_others) 
 
 eco_jit <- eco_jit[rep(1:nrow(eco_jit), each = 5), ]  # Triplicate each row
 eco_jit$dfs_m_ <- round(jitter(eco_jit$dfs_m_, amount = 2)) # jitter distance from shore
