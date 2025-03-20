@@ -316,3 +316,130 @@ mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
 # [1] 2.159753
 
 ```
+
+
+
+
+
+cerdem_model - terrible variance but decent accuracy
+```{r}
+for (i in seq_along(years)) { 
+  set.seed(125)
+  
+  index <- createDataPartition(eco_jitDT$point_sum_cerdem, p = 0.8, list = FALSE)
+  train_dataDT <- eco_jitDT[index, ]  # initial data partition
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
+  
+  if (i > 1) {
+    # Combine current train_data with the previous iteration's data (if that’s your goal)
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- eco_jitDT[-index, ] %>% filter(year == 2020)
+  
+  # Fit the random forest model
+  rf_model_cerdem <- randomForest(point_sum_cerdem ~ -1 + depth_m_ + substrate.code + june_temp +
+                            point_sum_myrspi + point_sum_others,
+                           data = train_data_iterativeDT, ntree = 1000, nodesize = 5)
+  
+  rf_predictions_cerdem <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+}
+
+####### evaluation and performance
+predicted <- rf_predictions_cerdem$aggregate
+actual <- test_dataDT$point_sum_cerdem
+
+# Calculate RMSE
+rmse <- sqrt(mean((predicted - actual)^2))
+
+# Calculate MAE
+mae <- mean(abs(predicted - actual))
+
+# Calculate R-squared
+ss_total <- sum((actual - mean(actual))^2)
+ss_residual <- sum((actual - predicted)^2)
+r2 <- 1 - (ss_residual / ss_total)
+
+# Print the performance metrics
+cat("RMSE:", rmse, "\n")
+cat("MAE:", mae, "\n")
+cat("R-squared:", r2, "\n")
+ 
+
+#Others_model
+
+```{r}
+
+for (i in seq_along(years)) { 
+  set.seed(125)
+  
+  index <- createDataPartition(eco_jitDT$point_sum_others, p = 0.8, list = FALSE)
+  train_dataDT <- eco_jitDT[index, ]  # initial data partition
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
+  
+  if (i > 1) {
+    # Combine current train_data with the previous iteration's data (if that’s your goal)
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- eco_jitDT[-index, ] %>% filter(year == 2020)
+  
+  # Fit the random forest model
+  rf_model_others <- randomForest(point_sum_others ~ -1 + depth_m_ + substrate.code + june_temp +
+                            point_sum_myrspi + point_sum_cerdem,
+                           data = train_data_iterativeDT, ntree = 1000, nodesize = 5)
+  
+  rf_predictions_others <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+}
+
+fivenum(eco_jitDT$point_sum_others)
+####### evaluation and performance
+predicted <- rf_predictions_others$aggregate
+actual <- test_dataDT$point_sum_others
+
+# Calculate RMSE
+rmse <- sqrt(mean((predicted - actual)^2))
+
+# Calculate MAE
+mae <- mean(abs(predicted - actual))
+
+# Calculate R-squared
+ss_total <- sum((actual - mean(actual))^2)
+ss_residual <- sum((actual - predicted)^2)
+r2 <- 1 - (ss_residual / ss_total)
+
+# Print the performance metrics
+cat("RMSE:", rmse, "\n")
+cat("MAE:", mae, "\n")
+cat("R-squared:", r2, "\n")
+ 
+
+
+
+
+
+```
+
+```
