@@ -1,6 +1,6 @@
 Geddy Lucier
-Testing out a BRT Model for Candlewood Lake Future Ecological Data 
-3/11/2024
+3/19/2025
+BRT Archive - Decided to go with Random Forest Model
 
 
 Preamble
@@ -77,6 +77,7 @@ eco_base$depth_m_[which(eco_base$depth_m_ > 15)] <- eco_base$depth_m_[which(eco_
 ```
 
 
+
 Cleaning Eco_base to perform species totals at various points 
 ```{r}
 # note to self 
@@ -151,83 +152,167 @@ ggplot() +
 
 ```
 
-Iterative random forest R - Myrspi model 
-Each year, add the following year's train set into the train set. 
-Record model performance at each year and readjust the weights at each year
-How 2008 estimates 2020 -> how 2008-2009 estimates 2020 -> how 2008-2010 estimates 2020
 
-[1] "transect"         "point"            "lattitude"        "longitude"        "year"            
- [6] "depth_m_"         "dfs_m_"           "substrate.code"   "june_temp"        "june_dew_point"  
-[11] "precipitation"    "point_sum_myrspi" "point_sum_cerdem" "point_sum_others"
 
 
 ```{r}
-library(randomForest)
-library(caret)
+response_vars <- c("point_sum_cerdem", "point_sum_myrspi", "point_sum_others")
+brt_models <- list()
 
+for (resp in response_vars) {
+  cat("Training GBM model for", resp, "across all years...\n")
+  
+  # Year as numeric predictor:
+  formula_all <- as.formula(
+    paste(resp, "~ year + depth_m_ + dfs_m_ + substrate.code + june_dew_point + june_temp")
+  )
 
-
-
-
-for (i in seq_along(years)) {
-  set.seed(123)
+  model <- tryCatch({
+    gbm(
+      formula = formula_all,
+      data = eco_jit,  # includes 2008–2020
+      distribution = "gaussian",
+      n.trees = 2000,
+      interaction.depth = 5,
+      shrinkage = 0.1,
+      bag.fraction = 0.9,
+      cv.folds = 10 
+    )
+  }, error = function(e) {
+    cat("Error training model for", resp, ":", e$message, "\n")
+    return(NULL)
+  })
   
-  index <- createDataPartition(eco_jitDT$point_sum_myrspi, p = 0.8, list = FALSE)
-  train_dataDT <- eco_jitDT[index, ]  # initial data partition
-  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
-  
-  if (i > 1) {
-    # Combine current train_data with the previous iteration's data (if that’s your goal)
-    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
-  } else {
-    # For the first iteration, just use the current partition
-    train_data_iterativeDT <- train_dataDT
-  }
-  
-  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
-  
-  # Store the result in a list
-  train_dataDT_list[[i]] <- train_subsetDT
-  
-  # Testing each iteration
-  test_dataDT <- eco_jitDT[-index, ] %>% filter(year == 2020)
-  
-  # Fit the random forest model
-  rf_model <- randomForest(point_sum_myrspi ~ depth_m_ + substrate.code + june_temp +
-                           june_dew_point + point_sum_cerdem + point_sum_others,
-                           data = train_data_iterativeDT, ntree = 2000, nodesize = 5)
-  
-  rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  brt_models[[resp]] <- model
+  cat("Finished training model for", resp, "\n")
 }
 
+# Check success
+successful_models <- names(brt_models)[!sapply(brt_models, is.null)]
+cat("Models that trained successfully:\n")
+print(successful_models)
+
+
+
 ```
 
 
-Evaluation and Performance predictors 
+Model evaluation
+
+
 ```{r}
-####### evaluation and performance
-predicted <- rf_predictions$aggregate
-actual <- test_dataDT$point_sum_myrspi
+evaluate_brt_models <- function(models, dataset) {
+  # Get only the models that successfully trained
+  successful_models <- names(models)[!sapply(models, is.null)]
+  
+  for (resp in successful_models) {
+    model <- models[[resp]]
+    
+    # Determine the optimal number of trees using cross-validation
+    best_iter <- gbm.perf(model, method = "cv", plot.it = FALSE)
+    cat("\n----------------------------\n")
+    cat("Response:", resp, "\n")
+    cat("Optimal number of trees (CV):", best_iter, "\n")
+    
+    # Print variable importance
+    cat("Variable Importance:\n")
+    print(summary(model))
+    
+    # Generate predictions on the dataset (could be training or hold-out)
+    predictions <- predict(model, dataset, n.trees = best_iter)
+    actuals <- dataset[[resp]]
+    
+    # Calculate RMSE
+    rmse <- sqrt(mean((actuals - predictions)^2))
+    cat("RMSE:", rmse, "\n")
+    
+    # Calculate MAE
+    mae <- mean(abs(actuals - predictions))
+    cat("MAE:", mae, "\n")
+  }
+}
 
-# Calculate RMSE
-rmse <- sqrt(mean((predicted - actual)^2))
-
-# Calculate MAE
-mae <- mean(abs(predicted - actual))
-
-# Calculate R-squared
-ss_total <- sum((actual - mean(actual))^2)
-ss_residual <- sum((actual - predicted)^2)
-r2 <- 1 - (ss_residual / ss_total)
-
-# Print the performance metrics
-cat("RMSE:", rmse, "\n")
-cat("MAE:", mae, "\n")
-cat("R-squared:", r2, "\n")
+evaluate_brt_models(brt_models, eco_jit)
 
 
 ```
 
 
+Synthetic data creation
+
+```{r}
 
 
+twenty <- eco_base %>%
+  filter(year == 2020)
+
+
+
+twenty <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others)
+
+twenty_base <- twenty %>% select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point)
+
+################################# Begin preparing the dataset for fabrication
+twenty_base$year <- 2021 #overide so that year is involved in the calculations
+twenty_base$june_temp <- 73.29
+twenty_base$june_dew_point <-  64.08 
+
+twenty_base$dfs_m_ <- jitter(twenty_base$dfs_m_, amount = 2) # jitter distance from shore
+twenty_base$depth_m_ <- jitter(twenty_base$dfs_m_, amount = 1) # jitter distance from shore
+
+
+
+# For each response variable, generate predictions for 2021
+responses <- c("point_sum_cerdem", "point_sum_myrspi", "point_sum_others")
+
+for (resp in responses) {
+  # Retrieve the trained model for this response
+  model <- brt_models[[resp]]
+  
+  # Generate predictions for 2021 using 'twenty_base'
+  # n.trees must match however many trees the model ended with
+  preds <- predict(
+    model,
+    newdata = twenty_base,
+    n.trees = model$n.trees
+  )
+  
+  # Store the predictions in a new column, e.g. "pred_cerdem_sum"
+  pred_colname <- paste0("pred_", resp)
+  twenty_base[[pred_colname]] <- preds
+}
+
+twenty_base$point_sum_cerdem <- twenty_base$pred_point_sum_cerdem #fix variable name for later select function
+twenty_base$point_sum_myrspi <- twenty_base$pred_point_sum_myrspi
+twenty_base$point_sum_others <- twenty_base$pred_point_sum_others
+
+
+
+eco_2021 <- rbind(eco_base, twenty_base) %>%
+  select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others) %>%
+  mutate(point_sum_myrspi = round(point_sum_myrspi), 
+         point_sum_cerdem =  round(point_sum_cerdem), 
+       point_sum_others =  round(point_sum_others)
+  ) # round calculation/fabrication points 
+
+
+
+```
+
+
+Calculations of differences
+```{r}
+
+mean(abs(twenty_base$point_sum_myrspi - twenty$point_sum_myrspi))
+mean(abs(twenty_base$point_sum_cerdem - twenty$point_sum_cerdem))
+mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
+
+
+# > mean(abs(twenty_base$point_sum_myrspi - twenty$point_sum_myrspi))
+# [1] 4.380814
+# > mean(abs(twenty_base$point_sum_cerdem - twenty$point_sum_cerdem))
+# [1] 1.060575
+# > mean(abs(twenty_base$point_sum_others - twenty$point_sum_others))
+# [1] 2.159753
+
+```
