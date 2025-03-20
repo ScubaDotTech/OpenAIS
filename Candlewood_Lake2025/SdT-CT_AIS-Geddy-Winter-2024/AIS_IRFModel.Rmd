@@ -198,8 +198,48 @@ for (i in seq_along(years)) {
                            data = train_data_iterativeDT, ntree = 2000, nodesize = 5)
   
   rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
 }
 
+
+
+```
+
+cerdem_model
+```{r}
+for (i in seq_along(years)) {
+  set.seed(123)
+  
+  index <- createDataPartition(eco_jitDT$point_sum_cerdem, p = 0.8, list = FALSE)
+  train_dataDT <- eco_jitDT[index, ]  # initial data partition
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
+  
+  if (i > 1) {
+    # Combine current train_data with the previous iteration's data (if that’s your goal)
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- eco_jitDT[-index, ] %>% filter(year == 2020)
+  
+  # Fit the random forest model
+  rf_model_cerdem <- randomForest(point_sum_cerdem ~ depth_m_ + substrate.code + june_temp +
+                           june_dew_point + point_sum_myrspi + point_sum_others,
+                           data = train_data_iterativeDT, ntree = 2000, nodesize = 5)
+  
+  rf_predictions_cerdem <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+}
 ```
 
 
@@ -228,6 +268,43 @@ cat("R-squared:", r2, "\n")
 
 ```
 
+Fabrication of Synthetic data 
+```{r}
+
+twenty <- eco_base %>%
+  filter(year == 2020)
+
+
+
+twenty <- twenty %>% dplyr::select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others)
+
+
+twenty$year <- 2021 #overide so that year is involved in the calculations
+twenty$june_temp <- 73.29
+twenty$june_dew_point <-  64.08 
+
+twenty$dfs_m_ <- jitter(twenty$dfs_m_, amount = 2) # jitter distance from shore
+twenty$depth_m_ <- jitter(twenty$dfs_m_, amount = 1) # jitter distance from shore
+
+
+twenty <- na.omit(twenty)
+
+
+resp_1 <- "point_sum_myrspi"
+
+
+
+
+# Generate predictions for the entire dataset at once
+pre <- predict(rf_model, newdata = twenty)  
+
+# Create a new column name and assign the predictions
+pred_colname <- paste0("pred_", resp_1)
+twenty[[pred_colname]] <- round(preds)
+
+
+
+```
 
 
 
