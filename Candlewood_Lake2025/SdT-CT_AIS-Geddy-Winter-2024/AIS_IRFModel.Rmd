@@ -177,7 +177,7 @@ for (i in seq_along(years)) {
   train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
   
   if (i > 1) {
-    # Combine current train_data with the previous iteration's data (if that’s your goal)
+   
     train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
   } else {
     # For the first iteration, just use the current partition
@@ -231,6 +231,99 @@ cat("R-squared:", r2, "\n")
 
 
 ```
+Lasso Regression for Cerdem and Other predictions
+
+```{r}
+library(glmnet) # LASSO and Ridge
+
+set.seed(123)
+x <- model.matrix(point_sum_cerdem ~ ., data = eco_data)[, -1]
+y <- eco_data$point_sum_cerdem
+
+lambda_grid <- 10^seq(10, -2, length = 2000)
+
+# Initialize a vector to store the Mean Squared Errors (MSE)
+mse_values <- numeric(length(lambda_grid))
+
+
+for (i in seq_along(years)) {
+  set.seed(100)
+  
+  index <- createDataPartition(eco_jitDT$point_sum_myrspi, p = 0.8, list = FALSE)
+  train_dataDT <- eco_jitDT[index, ]  # initial data partition
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
+  
+  if (i > 1) {
+    # Combine current train_data with the previous iteration's data (if that’s your goal)
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- eco_jitDT[-index, ] %>% filter(year == 2020)
+  
+  # Fit the random forest model
+  rf_model <- randomForest(point_sum_myrspi ~ depth_m_ + substrate.code + june_temp + dfs_m_ + 
+                           june_dew_point + point_sum_cerdem + point_sum_others,
+                           data = train_data_iterativeDT, ntree = 2000, nodesize = 5)
+  
+  rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+}
+
+
+lasso <- glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 1,family = "gaussian",lambda = 0.2) # alpha = 1 for lasso
+pred.lasso = predict(lasso,as.matrix(test[,1:(p-1)]))
+SSR.lasso = sum((test[,p]-pred.lasso)^2)
+lam.lasso <- cv.glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 1,family = "gaussian")$lambda.min
+lasso <- glmnet(as.matrix(train[,1:(p-1)]),train[,p],alpha = 1,family = "gaussian",lambda = lam.lasso)
+pred.lasso = predict(lasso,as.matrix(test[,1:(p-1)]))
+SSR.lasso = sum((test[,p]-pred.lasso)^2)
+
+
+
+
+
+
+
+####################################################################################
+######################## For Loop (determine direction of refitting) ############################ 
+####################################################################################
+# Prepare data
+x <- model.matrix(FutureClosePrice_Outcome ~ ., data = impp_dataDT)[, -1]  # Remove intercept column
+y <- impp_dataDT$FutureClosePrice_Outcome
+
+# Grid of lambda values for tuning
+lambda_grid <- 10^seq(10, -2, length = 2000)
+
+# Initialize a vector to store the Mean Squared Errors (MSE)
+mse_values <- numeric(length(lambda_grid))
+
+
+# Set up for the for loop to iterate over the lambda values
+for (i in 1:length(lambda_grid)) {
+  # Fit the Lasso model for the current lambda
+  lasso_mod <- cv.glmnet(x, y, alpha = 1, lambda = lambda_grid, nfolds = 10, thresh = lambda_grid[i],)
+  
+  # Make predictions on the test set (assuming you have a train-test split)
+  y_pred <- predict(lasso_mod, s = lambda_grid[i], newx = x[test,])
+  
+  # Compute Mean Squared Error (MSE) for the current model
+  mse_values[i] <- mean((y_pred - y[test])^2)
+}
+
+```
+
+
+
 
 
 Fabrication of Synthetic data 
