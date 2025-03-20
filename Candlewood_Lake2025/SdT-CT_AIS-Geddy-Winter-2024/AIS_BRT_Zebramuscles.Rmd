@@ -50,7 +50,7 @@ zebra_points <- rbind(zebra_points, zebra_lines)
 zebra_base <- cbind(zebra_base, zebra_points)
 
 zebra_base <- zebra_base %>% 
-  select(year, zeb_msc, longitude, latitude)
+  dplyr::select(year, zeb_msc, longitude, latitude)
 
 
 #fix individual cases
@@ -79,8 +79,10 @@ eco_zebra_geodata <- eco_data[nearest_indices, ] %>% dplyr::select(depth_m_,dfs_
 
 
 zebra_base <- cbind(zebra_base, eco_zebra_geodata)
-
+zebra_base <- zebra_base %>% drop_na() 
+zebra_base <- zebra_base %>% dplyr::select(-geometry)
 zebra_base
+
 ```
 
 Second iteration of Zeb_MSC populations from 
@@ -111,7 +113,6 @@ zeb_2022$depth_m_ <- eco_base$depth_m_[nearest_zeb_indices]
 zeb_2022$dfs_m_ <- eco_base$dfs_m_[nearest_zeb_indices]
 
 
-zebra_base <- zebra_base %>% dplyr::select(-geometry)
 zebra_base <- as.data.frame(zebra_base)
 
 zeb_2022 <- zeb_2022 %>% dplyr::select(-Point, -substrate)
@@ -120,6 +121,7 @@ zeb_2022 <- zeb_2022 %>% dplyr::select(-Point, -substrate)
 setdiff(colnames(zeb_2022), colnames(zebra_base)) #troubleshoot 
 zebra_base <- rbind(zebra_base, zeb_2022)
 
+zebra_base
 
 
 ```
