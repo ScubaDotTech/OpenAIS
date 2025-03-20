@@ -160,17 +160,17 @@ How 2008 estimates 2020 -> how 2008-2009 estimates 2020 -> how 2008-2010 estimat
  [6] "depth_m_"         "dfs_m_"           "substrate.code"   "june_temp"        "june_dew_point"  
 [11] "precipitation"    "point_sum_myrspi" "point_sum_cerdem" "point_sum_others"
 
-
+Myrspi model - WARNING: DO NOT SAVE UNLESS MODEL IS SATISFACTORY
 ```{r}
 library(randomForest)
 library(caret)
 
-
-
-
+train_dataDT_list <- list() # general setup for IRF 
+eco_jitDT <- as.data.frame(eco_jit)
+unique_years <- sort(unique(eco_jitDT$year))
 
 for (i in seq_along(years)) {
-  set.seed(123)
+  set.seed(100)
   
   index <- createDataPartition(eco_jitDT$point_sum_myrspi, p = 0.8, list = FALSE)
   train_dataDT <- eco_jitDT[index, ]  # initial data partition
@@ -203,7 +203,11 @@ for (i in seq_along(years)) {
 }
 
 
+# Save using saveRDS (saves a single object)
+#saveRDS(rf_model, file = "myrspi_model.rds")
 
+# Later, you can reload the model with:
+#rf_model_loaded <- readRDS("myrspi_model.rds")
 ```
 
 cerdem_model
