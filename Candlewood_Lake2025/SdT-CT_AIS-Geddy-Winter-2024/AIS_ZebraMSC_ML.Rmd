@@ -78,4 +78,58 @@ workDT <- workDT[order(workDT$year), ]
 
 ?sort
 ```
+Clean and combine zebra muscle data and 
+```{r}
+baseDT <- rename(baseDT, latitude = lattitude)
+
+base_geom <- st_as_sf(baseDT, coords = c("longitude", "latitude"), crs = 4326) %>%
+  filter(year %in% c(2020, 2021, 2022))
+
+zebra_geom <- st_as_sf(zebra, coords = c("longitude", "latitude"), crs = 4326)
+
+nearest_indices <- st_nearest_feature(zebra_geom, base_geom)
+
+rows_used_for_zebra <- base_geom[nearest_indices, ] # find base_geompoints with nearest neighbors lol
+
+# Get zebra's missing environmental data from baseDT
+missing_zeb_data <- rows_used_for_zebra %>%
+  st_drop_geometry() %>%
+  dplyr::select(transect, point, point_sum_myrspi, point_sum_cerdem, 
+                point_sum_others, june_temp, june_dew_point, 
+                depth_m_, dfs_m_, substrate.code)
+
+zebra <- cbind(zebra, missing_zeb_data)
+zebra <- zebra[, -c(16, 17, 18)]  # removing any unwanted duplicated columns
+zebra <- zebra %>%
+  drop_na() %>%
+  dplyr::select(transect, point, point_sum_myrspi, point_sum_cerdem,
+                point_sum_others, june_temp, june_dew_point, year,
+                zeb_msc, longitude, latitude, depth_m_, dfs_m_, substrate.code)
+
+baseDT$zeb_msc <- NA
+
+
+rows_used_for_zebra <- rows_used_for_zebra %>%
+  mutate(
+    longitude = st_coordinates(.)[,1],
+    latitude = st_coordinates(.)[,2]
+  ) %>%
+  st_drop_geometry()
+
+baseDT_filtered <- anti_join(baseDT, 
+                             st_drop_geometry(rows_used_for_zebra), 
+                             by = c("transect", "point", "year", "latitude", "longitude"))
+
+workDT <- rbind(baseDT_filtered, zebra)
+
+# Sort by year
+workDT <- workDT[order(workDT$year), ]
+```
+
+Prediction and estimates 
+```{r}
+
+
+
+```
 
