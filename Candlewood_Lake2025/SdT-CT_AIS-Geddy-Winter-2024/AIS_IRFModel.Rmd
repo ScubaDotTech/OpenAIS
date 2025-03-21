@@ -1,7 +1,8 @@
 Geddy Lucier
-Testing out a BRT Model for Candlewood Lake Future Ecological Data 
+Testing out a Itterative Random Forest and Lasso Model for Candlewood Lake Future Ecological Data 
 3/11/2024
 
+Predicting Myrspi, Cerdem, and Other species total. 
 
 Preamble
 ```{r}
@@ -110,13 +111,13 @@ july_weather <- data.frame(
   june_temp = c(71.71, 74.64, 72.93, 71.33, 73.88, 71.51, 71.19, 75.46, 73.69, 74.23, 74.49, 67.95, 72.29),
   june_dew_point = c(59.78, 64.39, 64.88, 62.99, 62.81, 59.59, 60.68, 66.16, 63.04, 64.54, 63.74, 60.52, 63.6),
   precipitation = c(0.04, 0.04, 0.22, 0.14, 0.13, 0.19, 0.12, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00)
-)
+) # pulled 
 
 eco_base <- eco_base %>% 
   left_join(july_weather, by = "year")
 
 linear <- lm(myrspi ~ june_temp + june_dew_point + precipitation,data = eco_base)
-summary(linear) # WE HAVE SIGNIFICANCE
+summary(linear) # significance testing 
 
 write_csv(eco_base, file = "eco_base.csv")
 
@@ -374,8 +375,7 @@ print(mse_values)
 
 ```
 
-
-
+Other iterative lasso performs worse than cerdem (coontail) model. Likely attributed due to the aggregated and "other" nature of the different species that make up the category. 
 
 Fabrication of Synthetic data 
 ```{r}
@@ -385,12 +385,10 @@ twenty_one <- eco_base %>%
 
 twenty_one <- twenty_one %>% dplyr::select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others)
 
-
+# data preparation 
 twenty_one$year <- 2021 #overide so that year is involved in the calculations
-twenty_one$june_temp <- 73.29
-twenty_one$june_dew_point <-  64.08 
-
-
+twenty_one$june_temp <- 73.29 # temperature 
+twenty_one$june_dew_point <-  64.08  # dewpoint
 twenty_one <- na.omit(twenty_one)
 
 
@@ -406,7 +404,7 @@ predict_cerdem <- predict(lasso_model, newx = newx)
 
 twenty_one$point_sum_cerdem <-round(predict_cerdem)
 
-
+ # generating others using the random forest 
 newx_others <- model.matrix(point_sum_others ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
                      june_dew_point + point_sum_myrspi + point_sum_cerdem, data = twenty_one)[, -1] 
 predict_others <- predict(lasso_model_others, newx = newx)
@@ -437,6 +435,7 @@ predict_cerdem <- predict(lasso_model, newx = newx)
 
 twenty_two$point_sum_cerdem <-round(predict_cerdem)
 
+ # generating others using the random forest 
 
 newx_others <- model.matrix(point_sum_others ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
                      june_dew_point + point_sum_myrspi + point_sum_cerdem, data = twenty_two)[, -1] 
@@ -481,7 +480,7 @@ testing <- eco_final %>%
   ) %>%
   select(year, myrspi_pct, cerdem_pct, other_pct)
 
-testing # proportions stay relatively constant and predictions for 2021 and 2022 are not absurd - cerdem is expected to jump substantially
+testing # proportions stay relatively constant and predictions for 2021 and 2022 are not absurd - cerdem is expected to jump substantially. 
 
 write_csv(eco_final, file = "CL_ecodata_final.csv")
 
