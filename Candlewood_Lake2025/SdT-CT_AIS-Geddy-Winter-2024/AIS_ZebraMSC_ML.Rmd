@@ -1,0 +1,81 @@
+Geddy Lucier
+March 20th, 2025
+Prediction of Zebra Muscle populations across the lake 
+
+```{r}
+
+library(gbm)
+library(dismo)
+library(dplyr)
+library(tidyverse)
+library(superml)
+library(caret)
+library(sf)
+
+
+baseDT <- read_csv("https://raw.githubusercontent.com/ScubaDotTech/OpenAIS/refs/heads/main/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/CL_ecodata_final.csv")
+
+zebra <- read_csv("https://raw.githubusercontent.com/ScubaDotTech/OpenAIS/refs/heads/main/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/zebra_muscle_final.csv")
+
+
+
+```
+Data Preparation
+
+```{r}
+baseDT <- rename(baseDT,latitude = lattitude) # correct an age old error
+#provide zebra with locational estimates of myrspi, cerdem, and others 
+
+#MISSING COLUMNS
+setdiff(colnames(baseDT), colnames(zebra))
+#[1] "transect"         "point"            "point_sum_myrspi" "point_sum_cerdem" "point_sum_others" "june_temp"        "june_dew_point"  
+colnames(zebra)
+#[1] "year"           "zeb_msc"        "longitude"      "latitude"       "depth_m_"       "dfs_m_"         "substrate.code"
+colnames(baseDT)
+# [1] "year"             "transect"         "point"            "latitude"         "longitude"        "point_sum_myrspi" "point_sum_cerdem" "point_sum_others"
+# [9] "depth_m_"         "substrate.code"   "june_temp"        "dfs_m_"           "june_dew_point"  
+
+base_geom <- st_as_sf(baseDT,coords = c("longitude", "latitude"), crs = 4326) %>% filter(year %in% c(2020,2021, 2022))
+zebra_geom <- st_as_sf(zebra,coords = c("longitude", "latitude"), crs = 4326) 
+
+nearest_indices <- st_nearest_feature(zebra_geom, base_geom) # find which rows have the closest points 
+nearest_indeces <- as.data.frame(nearest_indices)
+
+missing_zeb_data <- baseDT[nearest_indices, ] %>%
+  dplyr::select(transect, point, point_sum_myrspi, point_sum_cerdem, 
+                point_sum_others, june_temp, june_dew_point, 
+                depth_m_, dfs_m_, substrate.code)
+
+
+zebra <- cbind(zebra, missing_zeb_data)
+zebra <- zebra[, -c (16, 17, 18)]
+
+
+zebra <- zebra %>% drop_na() %>% 
+  dplyr::select(
+                transect,
+                point,
+                point_sum_myrspi,
+                point_sum_cerdem,
+                point_sum_others,
+                june_temp,
+                june_dew_point,
+                year,
+                zeb_msc,
+                longitude,
+                latitude,
+                depth_m_,
+                dfs_m_,
+                substrate.code)
+
+
+baseDT$zeb_msc <- NA
+workDT <- rbind(baseDT, zebra) # combine the two
+
+workDT <- workDT[order(workDT$year), ]
+
+
+
+?sort
+```
+

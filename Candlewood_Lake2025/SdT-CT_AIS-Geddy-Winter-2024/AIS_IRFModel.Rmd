@@ -460,6 +460,12 @@ unique(eco_final$year)
 
 colnames(eco_final)
 
+eco_final <- as.data.frame(eco_final)
+eco_final$point_sum_cerdem <- as.vector(eco_final$point_sum_myrspi) # transforming from list to vector
+eco_final$point_sum_cerdem <- as.vector(eco_final$point_sum_cerdem)
+eco_final$point_sum_others <- as.vector(eco_final$point_sum_others)
+
+
 testing <- eco_final %>%
   group_by(year) %>%
   summarize(
@@ -477,7 +483,7 @@ testing <- eco_final %>%
 
 testing # proportions stay relatively constant and predictions for 2021 and 2022 are not absurd - cerdem is expected to jump substantially
 
-
+write_csv(eco_final, file = "CL_ecodata_final.csv")
 
 
 
