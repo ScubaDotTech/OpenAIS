@@ -1,0 +1,491 @@
+Geddy Lucier
+Testing out a Itterative Random Forest and Lasso Model for Candlewood Lake Future Ecological Data 
+3/11/2024
+
+Predicting Myrspi, Cerdem, and Other species total. 
+
+Preamble
+```{r}
+#install.packages("gbm")
+#install.packages("dismo")
+#install.packages("superml")
+library(gbm)
+library(dismo)
+library(dplyr)
+library(tidyverse)
+library(superml)
+library(caret)
+library(sf)
+
+
+species <- read.csv("https://raw.githubusercontent.com/ScubaDotTech/OpenAIS/refs/heads/main/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/species_data.csv")
+
+substrate <- read.csv("https://raw.githubusercontent.com/ScubaDotTech/OpenAIS/refs/heads/main/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/geo_data.csv")
+
+
+
+```
+Column Substrate Recoding and Cleaning
+```{r}
+
+
+eco_base <- bind_cols(species, substrate)  # Drop duplicate 'year'
+eco_base <- eco_base %>% 
+  dplyr::select(-year...56)  %>%
+  rename("year" = "year...5"  )
+
+
+eco_base <- eco_base %>%
+  mutate(substrate = str_to_lower(substrate)) %>%  # Convert to lowercase
+  mutate(substrate = str_replace_all(substrate, "sitt|slt|sit|sill|silt", "silt")) %>%  # Standardize "silt"
+  mutate(substrate = str_replace_all(substrate, "sard", "sand")) %>%  # Fix "sard" to "sand"
+  mutate(substrate = str_replace_all(substrate, "muck\\.", "muck")) %>%  # Remove extra dot in "muck."
+  mutate(substrate = str_to_title(substrate))  # Capitalize first letter
+
+
+eco_base <- eco_base %>%
+  mutate(substrate.code = case_when( # give each substrate a numerical code based on hardness and density
+    substrate == "Muck" ~ 1,
+        substrate == "Organic" ~ 2,
+            substrate == "Peat" ~ 3,
+             substrate == "Silt" ~ 4,
+                 substrate == "Sand" ~ 5,
+                     substrate == "Gravel" ~ 6,
+                         substrate == "Rock" ~ 7,
+                           is.na(substrate) ~ NA  
+  )
+         )
+
+zeb_msc_2022 <- st_as_sf(eco_base,coords = c("longitude", "lattitude"), crs = 4326) 
+
+nearest_zeb_indices <- st_nearest_feature(zeb_msc_2022, zeb_msc_2022)
+
+eco_base$substrate.code[is.na(eco_base$substrate.code)] <- eco_base$substrate.code[nearest_zeb_indices][is.na(eco_base$substrate.code)]
+
+eco_base <- eco_base %>%
+  mutate(
+    depth_m_ = as.numeric(as.character(depth_m_)),  # Convert depth to numeric
+    dfs_m_ = as.numeric(as.character(dfs_m_))  # Convert dfs to numeric
+  )
+
+
+### troubleshoot inconsistent depths that may throw off the model
+unique(eco_base$depth_m_)
+
+eco_base$depth_m_[which(eco_base$depth_m_ > 15)] <- eco_base$depth_m_[which(eco_base$depth_m_ > 15)] / 10
+
+
+```
+
+
+Cleaning Eco_base to perform species totals at various points 
+```{r}
+# note to self 
+# you are calculating the sum of species by transect and point. If you wanted to graph the species divide, you should use previous values.This approach is prime for trainign the BRT model
+eco_base <- eco_base %>% 
+  group_by(transect, point) %>%
+  dplyr::select(year, transect, lattitude, longitude, depth_m_, dfs_m_, substrate.code, point, 
+         potfol, elonut, cerdem, najfle, potcri, myrspi, valame, 
+         najmin, potgra, potper, zanpal, calsp, nymodo, 
+         lemmin, spipol, stupec, elasp, potbic, potpus, 
+         unidentif3, elesp, spaspp, typha) %>%
+  mutate(
+    point_sum_myrspi = sum(myrspi, na.rm = TRUE),
+    point_sum_cerdem = sum(cerdem, na.rm = TRUE),
+    point_sum_others = sum(c_across(c(potfol, elonut, najfle, potcri, valame, najmin, 
+                                potgra, potper, zanpal, calsp, nymodo, lemmin, 
+                                spipol, stupec, elasp, potbic, potpus, unidentif3, 
+                                elesp, spaspp, typha)), na.rm = TRUE) 
+    )
+
+
+
+
+```
+incorporate weather data into model
+
+
+```{r}
+july_weather <- data.frame(
+  year = c(2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010, 2009, 2008),
+  june_temp = c(71.71, 74.64, 72.93, 71.33, 73.88, 71.51, 71.19, 75.46, 73.69, 74.23, 74.49, 67.95, 72.29),
+  june_dew_point = c(59.78, 64.39, 64.88, 62.99, 62.81, 59.59, 60.68, 66.16, 63.04, 64.54, 63.74, 60.52, 63.6),
+  precipitation = c(0.04, 0.04, 0.22, 0.14, 0.13, 0.19, 0.12, 0.00, 0.00, 0.00, 0.00, 0.00, 0.00)
+) # pulled 
+
+eco_base <- eco_base %>% 
+  left_join(july_weather, by = "year")
+
+linear <- lm(myrspi ~ june_temp + june_dew_point + precipitation,data = eco_base)
+summary(linear) # significance testing 
+
+write_csv(eco_base, file = "eco_base.csv")
+
+```
+
+Implement Jitter from Jitter testing stage 
+```{r}
+# "dfs_m_" "depth_m_" "lattitude"  "longitude"
+eco_jit <- eco_base %>% dplyr::select(transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, precipitation, point_sum_myrspi, point_sum_cerdem, point_sum_others) 
+
+eco_jit <- eco_jit[rep(1:nrow(eco_jit), each = 5), ]  # Triplicate each row
+eco_jit$dfs_m_ <- round(jitter(eco_jit$dfs_m_, amount = 2)) # jitter distance from shore
+eco_jit$depth_m_ <- round(jitter(eco_jit$depth_m_, amount = 1)) # jitter depth 
+eco_jit$lattitude <- (jitter(eco_jit$lattitude, amount = 0.005)) # jitter latitude
+eco_jit$longitude <- (jitter(eco_jit$longitude, amount = 0.005)) # jitter longitude 
+
+
+eco_jit <- eco_jit %>%  filter(dfs_m_> 0 & depth_m_ > 0) # no values that are less than one < 0 
+eco_jit$point_sum_others <- abs(eco_jit$point_sum_others)
+
+ggplot() +
+  geom_point(data = eco_jit, aes(x = longitude, y = lattitude), color = "blue") +
+  geom_point(data = eco_base, aes(x = longitude, y = lattitude), color = "red") +
+  labs(
+    x = "Longitude",
+    y = "Latitude",
+    title = "Map of Points with Additional Data"
+  ) +
+  theme_minimal() +
+  coord_fixed()
+
+
+```
+
+Iterative random forest R - Myrspi model 
+Each year, add the following year's train set into the train set. 
+Record model performance at each year and readjust the weights at each year
+How 2008 estimates 2020 -> how 2008-2009 estimates 2020 -> how 2008-2010 estimates 2020
+
+[1] "transect"         "point"            "lattitude"        "longitude"        "year"            
+ [6] "depth_m_"         "dfs_m_"           "substrate.code"   "june_temp"        "june_dew_point"  
+[11] "precipitation"    "point_sum_myrspi" "point_sum_cerdem" "point_sum_others"
+
+Myrspi model - WARNING: DO NOT SAVE UNLESS MODEL IS SATISFACTORY
+```{r}
+
+library(randomForest)
+library(caret)
+
+train_dataDT_list <- list() # general setup for IRF 
+eco_jitDT <- as.data.frame(eco_jit)
+unique_years <- sort(unique(eco_jitDT$year))
+
+for (i in seq_along(years)) {
+  set.seed(100)
+  
+  index <- createDataPartition(eco_jitDT$point_sum_myrspi, p = 0.8, list = FALSE)
+  train_dataDT <- eco_jitDT[index, ]  # initial data partition
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i])
+  
+  if (i > 1) {
+   
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- eco_jitDT[-index, ] %>% filter(year == 2020)
+  
+  # Fit the random forest model
+  rf_model <- randomForest(point_sum_myrspi ~ depth_m_ + substrate.code + june_temp + dfs_m_ + 
+                           june_dew_point + point_sum_cerdem + point_sum_others,
+                           data = train_data_iterativeDT, ntree = 2000, nodesize = 5)
+  
+  rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+}
+
+
+# Save using saveRDS (saves a single object)
+#saveRDS(rf_model, file = "myrspi_model.rds")
+
+# Later, you can reload the model with:
+#rf_model_loaded <- readRDS("myrspi_model.rds")
+
+####### evaluation and performance
+predicted <- rf_predictions$aggregate
+actual <- test_dataDT$point_sum_myrspi
+
+# Calculate RMSE
+rmse <- sqrt(mean((predicted - actual)^2))
+
+# Calculate MAE
+mae <- mean(abs(predicted - actual))
+
+# Calculate R-squared
+ss_total <- sum((actual - mean(actual))^2)
+ss_residual <- sum((actual - predicted)^2)
+r2 <- 1 - (ss_residual / ss_total)
+
+# Print the performance metrics
+cat("RMSE:", rmse, "\n")
+cat("MAE:", mae, "\n")
+cat("R-squared:", r2, "\n")
+
+
+```
+Lasso Regression for Cerdem and Other predictions
+
+```{r}
+library(glmnet)
+library(caret)
+library(dplyr)
+
+eco_jitDT <- eco_jitDT[order(eco_jitDT$year), ]
+unique_years <- sort(unique(eco_jitDT$year))
+
+mse_values <- numeric(length(unique_years))
+
+for (i in seq_along(unique_years)) {
+  current_year <- unique_years[i]
+  
+  train_data_iterativeDT <- eco_jitDT %>% filter(year < current_year)
+  test_dataDT <- na.omit(eco_jitDT[-index, ] %>% filter(year == 2020))
+  
+  # Skip iteration if there is insufficient training data.
+  if(nrow(train_data_iterativeDT) < 20) {
+    cat("Skipping year", current_year, "due to insufficient training data.\n")
+    next
+  }
+  
+  # remove missing values for variables used in the model (for training)
+  vars <- c("point_sum_cerdem", "depth_m_", "substrate.code", "june_temp", 
+            "dfs_m_", "june_dew_point", "point_sum_myrspi", "point_sum_others")
+  train_data_model <- na.omit(train_data_iterativeDT[, vars])
+  
+  # create the model matrix for predictors and response vector
+  train_x <- model.matrix(point_sum_cerdem ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                          june_dew_point + point_sum_myrspi + point_sum_others,
+                          data = train_data_model)[, -1]
+  train_y <- train_data_model$point_sum_cerdem
+  
+  # for test set, ensure missing values are dropped for the same variables
+  test_data_model <- na.omit(test_dataDT[, vars])
+  test_x <- model.matrix(point_sum_cerdem ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                         june_dew_point + point_sum_myrspi + point_sum_others,
+                         data = test_data_model)[, -1]
+  test_y <- test_data_model$point_sum_cerdem
+  
+  # check that train_y has variability.
+  if(length(unique(train_y)) == 1) {
+    cat("Skipping year", current_year, "because train_y is constant.\n")
+    next
+  }
+  
+  # perform cross-validation to select the best lambda for lasso.
+  cv_fit <- cv.glmnet(train_x, train_y, alpha = 1, family = "gaussian", nfolds = 10)
+  best_lambda <- cv_fit$lambda.min
+  cat("Year", current_year, "- Best lambda:", best_lambda, "\n")
+  
+  # fit  final lasso model using the best lambda.
+  lasso_model <- glmnet(train_x, train_y, alpha = 1, family = "gaussian", lambda = best_lambda)
+  
+  # Predict on the test data.
+  predictions <- predict(lasso_model, newx = test_x)
+  predictions <- as.vector(predictions)  # convert matrix to vector
+  
+  # Compute MSE for the current year.
+  mse <- mean((test_y - predictions)^2)
+  mse_values[i] <- mse
+  
+  cat("Year", current_year, "MSE:", mse, "\n")
+}
+
+# Optionally, display the MSE values for all iterations.
+print(mse_values)
+
+
+```
+Lasso Regression for Others predictions 
+```{r}
+
+eco_jitDT <- eco_jitDT[order(eco_jitDT$year), ]
+unique_years <- sort(unique(eco_jitDT$year))
+
+mse_values <- numeric(length(unique_years))
+
+
+for (i in seq_along(unique_years)) {
+  current_year <- unique_years[i]
+  
+  train_data_iterativeDT <- eco_jitDT %>% filter(year < current_year)
+  test_dataDT <- na.omit(eco_jitDT[-index, ] %>% filter(year == 2020))
+  
+  # skip iteration if there is insufficient training data. - rec 
+  if(nrow(train_data_iterativeDT) < 20) {
+    cat("Skipping year", current_year, "due to insufficient training data.\n")
+    next
+  }
+  
+  # remove missing values for variables used in the model (for training)
+  vars <- c("point_sum_others", "depth_m_", "substrate.code", "june_temp", 
+            "dfs_m_", "june_dew_point", "point_sum_myrspi", "point_sum_cerdem")
+  train_data_model <- na.omit(train_data_iterativeDT[, vars])
+  
+  # create the model matrix for predictors and response vector
+  train_x <- model.matrix(point_sum_others ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                          june_dew_point + point_sum_myrspi + point_sum_cerdem,
+                          data = train_data_model)[, -1]
+  train_y <- train_data_model$point_sum_others
+  
+  # for test set, ensure missing values are dropped for the same variables
+  test_data_model <- na.omit(test_dataDT[, vars])
+  test_x <- model.matrix(point_sum_others ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                         june_dew_point + point_sum_myrspi + point_sum_cerdem,
+                         data = test_data_model)[, -1]
+  test_y <- test_data_model$point_sum_others
+  
+  # check that train_y has variability.
+  if(length(unique(train_y)) == 1) {
+    cat("Skipping year", current_year, "because train_y is constant.\n")
+    next
+  }
+  
+  # perform cross-validation to select the best lambda for lasso.
+  cv_fit <- cv.glmnet(train_x, train_y, alpha = 1, family = "gaussian", nfolds = 10)
+  best_lambda <- cv_fit$lambda.min
+  cat("Year", current_year, "- Best lambda:", best_lambda, "\n")
+  
+  # fit  final lasso model using the best lambda.
+  lasso_model_others <- glmnet(train_x, train_y, alpha = 1, family = "gaussian", lambda = best_lambda)
+  
+  # Predict on the test data.
+  predictions <- predict(lasso_model, newx = test_x)
+  predictions <- as.vector(predictions)  # convert matrix to vector
+  
+  # Compute MSE for the current year.
+  mse <- mean((test_y - predictions)^2)
+  mse_values[i] <- mse
+  
+  cat("Year", current_year, "MSE:", mse, "\n")
+}
+
+# Optionally, display the MSE values for all iterations.
+print(mse_values)
+
+
+```
+
+Other iterative lasso performs worse than cerdem (coontail) model. Likely attributed due to the aggregated and "other" nature of the different species that make up the category. 
+
+Fabrication of Synthetic data 
+```{r}
+# create a base dataset of which to model points
+twenty_one <- eco_base %>%
+  filter(year == 2020)
+
+twenty_one <- twenty_one %>% dplyr::select(year, transect, point, lattitude, longitude, year, depth_m_, dfs_m_, substrate.code, june_temp, june_dew_point, point_sum_myrspi, point_sum_cerdem, point_sum_others)
+
+# data preparation 
+twenty_one$year <- 2021 #overide so that year is involved in the calculations
+twenty_one$june_temp <- 73.29 # temperature 
+twenty_one$june_dew_point <-  64.08  # dewpoint
+twenty_one <- na.omit(twenty_one)
+
+
+predict_myrspi <- predict(rf_model, newdata = twenty_one)  # generating myrspi data using the random forest 
+
+twenty_one$point_sum_myrspi <- round(predict_myrspi)
+
+ # generating cerdem using lasso regression
+newx <- model.matrix(point_sum_cerdem ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                     june_dew_point + point_sum_myrspi + point_sum_others, data = twenty_one)[, -1] 
+predict_cerdem <- predict(lasso_model, newx = newx)
+
+
+twenty_one$point_sum_cerdem <-round(predict_cerdem)
+
+ # generating others using the random forest 
+newx_others <- model.matrix(point_sum_others ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                     june_dew_point + point_sum_myrspi + point_sum_cerdem, data = twenty_one)[, -1] 
+predict_others <- predict(lasso_model_others, newx = newx)
+
+twenty_one$point_sum_others <- round(predict_others)
+
+#######################################################################
+ 
+twenty_two <- twenty_one
+
+twenty_two$year <- 2022 #overide so that year is involved in the calculations
+twenty_two$june_temp <- 76.66 # fill in temperatures from online
+twenty_two$june_dew_point <-  62.41 
+
+
+twenty_two <- na.omit(twenty_two)
+
+
+predict_myrspi <- predict(rf_model, newdata = twenty_two)  # generating myrspi data using the random forest 
+
+twenty_two$point_sum_myrspi <- round(predict_myrspi)
+
+ # generating cerdem using lasso regression
+newx <- model.matrix(point_sum_cerdem ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                     june_dew_point + point_sum_myrspi + point_sum_others, data = twenty_two)[, -1] 
+predict_cerdem <- predict(lasso_model, newx = newx)
+
+
+twenty_two$point_sum_cerdem <-round(predict_cerdem)
+
+ # generating others using the random forest 
+
+newx_others <- model.matrix(point_sum_others ~ depth_m_ + substrate.code + june_temp + dfs_m_ +
+                     june_dew_point + point_sum_myrspi + point_sum_cerdem, data = twenty_two)[, -1] 
+predict_others <- predict(lasso_model_others, newx = newx)
+
+twenty_two$point_sum_others <- round(predict_others)
+
+aux_years <- rbind(twenty_one, twenty_two)
+eco_final <- eco_base %>%
+   dplyr::select(year, transect, point, lattitude, longitude, point_sum_myrspi, point_sum_cerdem, point_sum_others, depth_m_, substrate.code, june_temp, dfs_m_,
+         june_dew_point)
+
+eco_final <- rbind(eco_final, aux_years) #moment of truth
+
+
+```
+
+Checking eco_final 
+```{r}
+unique(eco_final$year)
+
+colnames(eco_final)
+
+eco_final <- as.data.frame(eco_final)
+eco_final$point_sum_cerdem <- as.vector(eco_final$point_sum_myrspi) # transforming from list to vector
+eco_final$point_sum_cerdem <- as.vector(eco_final$point_sum_cerdem)
+eco_final$point_sum_others <- as.vector(eco_final$point_sum_others)
+
+
+testing <- eco_final %>%
+  group_by(year) %>%
+  summarize(
+    total_species = sum(point_sum_myrspi, na.rm = TRUE) + 
+                    sum(point_sum_cerdem, na.rm = TRUE) + 
+                    sum(point_sum_others, na.rm = TRUE),
+    year_sum_myrspi = sum(point_sum_myrspi, na.rm = TRUE),
+    year_sum_cerdem = sum(point_sum_cerdem, na.rm = TRUE),
+    year_sum_other = sum(point_sum_others, na.rm = TRUE),
+    myrspi_pct = 100 * year_sum_myrspi / total_species,
+    cerdem_pct = 100 * year_sum_cerdem / total_species,
+    other_pct = 100 * year_sum_other / total_species
+  ) %>%
+  select(year, myrspi_pct, cerdem_pct, other_pct)
+
+testing # proportions stay relatively constant and predictions for 2021 and 2022 are not absurd - cerdem is expected to jump substantially. 
+
+write_csv(eco_final, file = "CL_ecodata_final.csv")
+
+
+
+```
+
+
