@@ -125,4 +125,13 @@ zebra_base
 
 
 ```
+SAVE THE ZEBRA MUSCLE DATA 
+
+```{r}
+
+write_csv(zebra_base, file = "zebra_muscle_final.csv")
+
+
+
+```
 

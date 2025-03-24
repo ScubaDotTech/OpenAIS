@@ -11,7 +11,7 @@ library(tidyverse)
 library(superml)
 library(caret)
 library(sf)
-
+library(randomForest)
 
 baseDT <- read_csv("https://raw.githubusercontent.com/ScubaDotTech/OpenAIS/refs/heads/main/Candlewood_Lake2025/SdT-CT_AIS-Geddy-Winter-2024/CL_ecodata_final.csv")
 
@@ -80,8 +80,6 @@ workDT <- workDT[order(workDT$year), ]
 ```
 Clean and combine zebra muscle data and 
 ```{r}
-baseDT <- rename(baseDT, latitude = lattitude)
-
 base_geom <- st_as_sf(baseDT, coords = c("longitude", "latitude"), crs = 4326) %>%
   filter(year %in% c(2020, 2021, 2022))
 
@@ -106,7 +104,7 @@ zebra <- zebra %>%
                 point_sum_others, june_temp, june_dew_point, year,
                 zeb_msc, longitude, latitude, depth_m_, dfs_m_, substrate.code)
 
-baseDT$zeb_msc <- NA
+baseDT$zeb_msc <- NA # give the base an empty column 
 
 
 rows_used_for_zebra <- rows_used_for_zebra %>%
@@ -124,12 +122,161 @@ workDT <- rbind(baseDT_filtered, zebra)
 
 # Sort by year
 workDT <- workDT[order(workDT$year), ]
+
+workDT <- workDT %>% filter(year == 2021 | year == 2022) %>% # filter for year 
+  mutate(zeb_msc = ifelse(is.na(zeb_msc), 0, zeb_msc))
+
+
+
 ```
+
+Testing Distribution Across Zeb_msc values to create binary classification
+```{r}
+?geom_bar
+
+ggplot(workDT, aes(x = zeb_msc)) +
+  geom_histogram(bins = 7, fill = "steelblue", color = "white") +
+  labs(x = "Zebra Mussel Score", y = "Count", title = "Distribution of Zebra Mussel Scores") +
+  theme_minimal()
+
+fivenum(workDT$zeb_msc)
+
+workDT <- workDT %>% 
+  mutate(zeb_msc = as.factor(ifelse(zeb_msc > 1, "Growth", "No Growth")),           # classifier model 
+         change = as.factor(ifelse(zeb_msc[year == 2021] == 0 & zeb_msc[year == 2022] > 1), "change", "nochange"))
+         
+
+```
+
+
+
+KNN
+
+```{r}
+
+myFolds_S <- createFolds(train_dataDT_Scale$TrumpVote, k = 5)
+str(myFolds_S)
+
+myControl_S <- trainControl(
+  summaryFunction = twoClassSummary,
+  classProb = TRUE, 
+  verboseIter = FALSE,
+  savePredictions = FALSE,
+  index = myFolds_S
+)
+
+myControl_S
+
+tune_grid_K <- expand.grid(k = c(5)) 
+
+
+
+knn_model_Scaled <- caret::train(TrumpVote ~ .,
+       train_dataDT_Scale,
+       metric = "ROC",
+       method = "knn", 
+       tuneGrid = tune_grid_K,
+       trControl = myControl_S
+                    
+                                 )
+
+
+```
+
+
+
+
+
+
 
 Prediction and estimates 
 ```{r}
+ 
+workDT <- as.data.frame(workDT)
+train_dataDT_list <- list() # general setup for IRF 
+unique_years <- sort(unique(workDT$year))
 
 
 
+for (i in seq_along(unique_years)) {
+  set.seed(100)
+  
+  index <- createDataPartition(workDT$zeb_msc, p = 0.8, list = FALSE) # train the index
+  
+  
+  train_dataDT <- workDT[index, ]  # initial data partition
+  
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i]) 
+  
+  if (i > 1) {
+   
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- workDT[-index, ] %>% filter(year == 2022)
+  
+  # Fit the random forest model
+  rf_model <- randomForest(zeb_msc ~ point_sum_myrspi + depth_m_ + substrate.code + june_temp + dfs_m_ + 
+                           june_dew_point + point_sum_cerdem + point_sum_others,
+                           data = train_data_iterativeDT, ntree = 500, mtry = 4, nodesize = 5)
+  
+  rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+}
+
+
+
+rf_model
+
+
+```
+
+
+```{r}
+
+
+ set.seed(150)
+  
+index <- createDataPartition(workDT$zeb_msc, p = 0.8, list = FALSE) # train the index
+  
+  
+  train_dataDT <- workDT[index, ]  # initial data partition
+  train_subsetDT <- train_dataDT %>% filter(year == unique_years[i]) 
+  
+  if (i > 1) {
+   
+    train_data_iterativeDT <- rbind(train_dataDT, train_dataDT_list[[i - 1]])
+  } else {
+    # For the first iteration, just use the current partition
+    train_data_iterativeDT <- train_dataDT
+  }
+  
+  train_data_iterativeDT <- na.omit(train_data_iterativeDT)
+  
+  # Store the result in a list
+  train_dataDT_list[[i]] <- train_subsetDT
+  
+  # Testing each iteration
+  test_dataDT <- workDT[-index, ] %>% filter(year == 2021 & year == 2022)
+  
+  # Fit the random forest model
+  rf_model <- randomForest(zeb_msc ~ point_sum_myrspi + depth_m_ + substrate.code + june_temp + dfs_m_ + 
+                           june_dew_point + point_sum_cerdem + point_sum_others,
+                           data = train_data_iterativeDT, ntree = 2000, nodesize = 5)
+  
+  rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
+  
+  
+rf_predictions
 ```
 
