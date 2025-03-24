@@ -25,15 +25,18 @@ Data Preparation
 ```{r}
 baseDT <- rename(baseDT,latitude = lattitude) # correct an age old error
 #provide zebra with locational estimates of myrspi, cerdem, and others 
+baseDT <- rename(baseDT, july_temp = june_temp)
+baseDT <- rename(baseDT, july_dew_point = june_dew_point)
+
 
 #MISSING COLUMNS
 setdiff(colnames(baseDT), colnames(zebra))
-#[1] "transect"         "point"            "point_sum_myrspi" "point_sum_cerdem" "point_sum_others" "june_temp"        "june_dew_point"  
+#[1] "transect"         "point"            "point_sum_myrspi" "point_sum_cerdem" "point_sum_others" "july_temp"        "july_dew_point"  
 colnames(zebra)
 #[1] "year"           "zeb_msc"        "longitude"      "latitude"       "depth_m_"       "dfs_m_"         "substrate.code"
 colnames(baseDT)
 # [1] "year"             "transect"         "point"            "latitude"         "longitude"        "point_sum_myrspi" "point_sum_cerdem" "point_sum_others"
-# [9] "depth_m_"         "substrate.code"   "june_temp"        "dfs_m_"           "june_dew_point"  
+# [9] "depth_m_"         "substrate.code"   "july_temp"        "dfs_m_"           "july_dew_point"  
 
 base_geom <- st_as_sf(baseDT,coords = c("longitude", "latitude"), crs = 4326) %>% filter(year %in% c(2020,2021, 2022))
 zebra_geom <- st_as_sf(zebra,coords = c("longitude", "latitude"), crs = 4326) 
@@ -43,7 +46,7 @@ nearest_indeces <- as.data.frame(nearest_indices)
 
 missing_zeb_data <- baseDT[nearest_indices, ] %>%
   dplyr::select(transect, point, point_sum_myrspi, point_sum_cerdem, 
-                point_sum_others, june_temp, june_dew_point, 
+                point_sum_others, july_temp, july_dew_point, 
                 depth_m_, dfs_m_, substrate.code)
 
 
@@ -58,8 +61,8 @@ zebra <- zebra %>% drop_na() %>%
                 point_sum_myrspi,
                 point_sum_cerdem,
                 point_sum_others,
-                june_temp,
-                june_dew_point,
+                july_temp,
+                july_dew_point,
                 year,
                 zeb_msc,
                 longitude,
@@ -93,7 +96,7 @@ rows_used_for_zebra <- base_geom[nearest_indices, ] # find base_geompoints with 
 missing_zeb_data <- rows_used_for_zebra %>%
   st_drop_geometry() %>%
   dplyr::select(transect, point, point_sum_myrspi, point_sum_cerdem, 
-                point_sum_others, june_temp, june_dew_point, 
+                point_sum_others, july_temp, july_dew_point, 
                 depth_m_, dfs_m_, substrate.code)
 
 zebra <- cbind(zebra, missing_zeb_data)
@@ -101,7 +104,7 @@ zebra <- zebra[, -c(16, 17, 18)]  # removing any unwanted duplicated columns
 zebra <- zebra %>%
   drop_na() %>%
   dplyr::select(transect, point, point_sum_myrspi, point_sum_cerdem,
-                point_sum_others, june_temp, june_dew_point, year,
+                point_sum_others, july_temp, july_dew_point, year,
                 zeb_msc, longitude, latitude, depth_m_, dfs_m_, substrate.code)
 
 baseDT$zeb_msc <- NA # give the base an empty column 
@@ -195,8 +198,8 @@ for (i in seq_along(unique_years)) {
   test_dataDT <- workDT[-index, ] %>% filter(year == 2022)
   
   # Fit the random forest model
-  rf_model <- randomForest(zeb_msc ~ point_sum_myrspi + depth_m_ + substrate.code + june_temp + dfs_m_ + 
-                           june_dew_point + point_sum_cerdem + point_sum_others,
+  rf_model <- randomForest(zeb_msc ~ point_sum_myrspi + depth_m_ + substrate.code + july_temp + dfs_m_ + 
+                           july_dew_point + point_sum_cerdem + point_sum_others,
                            data = train_data_iterativeDT, ntree = 2000, mtry = 4, nodesize = 5)
   
   rf_predictions <- predict(rf_model, newdata = test_dataDT, predict.all = TRUE)
