@@ -158,7 +158,6 @@ growth_2022 <- z2022 %>%
 growth_from_zero <- inner_join(zero_2021, growth_2022, by = "transect")
 
 nrow(growth_from_zero)
-nrow(z_change)
 ```
 
 
@@ -218,9 +217,20 @@ varImpPlot(rf_model)
 rf_model
 
 ```
+
 ```{r}
+partialPlot(rf_model, pred.data = workDT, x.var = "july_temp")
+partialPlot(rf_model, pred.data = workDT, x.var = "point_sum_myrspi")
+partialPlot(rf_model, pred.data = workDT, x.var = "point_sum_cerdem")
+partialPlot(rf_model, pred.data = workDT, x.var = "substrate.code")
+partialPlot(rf_model, pred.data = workDT, x.var = "depth_m_")
+partialPlot(rf_model, pred.data = workDT, x.var = "dfs_m_")
 
 
-summary(lm(zeb_msc ~ , substrate.code, data = ))
+
+
+
+
+
 ```
 
