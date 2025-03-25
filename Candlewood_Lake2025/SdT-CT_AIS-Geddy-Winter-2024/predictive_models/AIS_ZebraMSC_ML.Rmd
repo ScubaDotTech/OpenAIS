@@ -208,13 +208,6 @@ for (i in seq_along(unique_years)) {
 
 rf_model
 
-importance_scores <- importance(rf_model)
-print(importance_scores)
-
-# Visualize variable importance
-varImpPlot(rf_model)
-
-rf_model
 
 ```
 
@@ -233,4 +226,14 @@ partialPlot(rf_model, pred.data = workDT, x.var = "dfs_m_")
 
 
 ```
+
+
+
+
+
+
+
+
+
+
 
