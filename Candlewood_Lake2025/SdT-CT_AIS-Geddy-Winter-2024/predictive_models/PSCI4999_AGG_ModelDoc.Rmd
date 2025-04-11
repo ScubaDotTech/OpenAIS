@@ -742,4 +742,109 @@ mean(predictions_test == VoteTestDT$TrumpVote)
 
 ```
 
+Natural Language Processing
+
+Subfield of linguistics, computer science, and artifical intelligence 
+Focuses on the interaction between
+lm s estimate probability of word sequences
+ngram approximation  
+
+Term frequency - inverse document frequency (tf-idf)
+TF(t,d) = frequency of term t in document d
+DF(t) = number of documents containing term t
+N = total number of documents
+Emphasizes terms frequent in a document but less frequent across all documents
+
+
+
+```{r}
+library(httr)
+library(jsonlite)
+library(data.table)
+library(lubridate)
+library(quantmod)
+library(plotly)
+library(tidytext)
+
+#### Part 1: Fetch TSLA-Related Protest News from GDELT API
+
+# Define API endpoint and date range (last year)
+base_url <- "https://api.gdeltproject.org/api/v2/doc/doc"
+end_date <- Sys.Date()
+start_date <- end_date - 365
+
+# We dont' want all the newspaper articles...we want specific newspaper articles with certain words
+start_datetime <- paste0(format(as.POSIXct(start_date), "%Y%M%d"), "000000")
+end_datetime <- paste0(format(as.POSIXct(end_date), "%Y%M%d"), "235959")
+
+# Define query string: TSLA Articles mentioning protest-related terms
+query_string <- "TSLA AND (protest OR demonstration OR rally)"
+
+# Set up query parameters for the API call
+params <- list(
+  query = query_string,
+  mode = "ArtList", # Receive article metadata
+maxrecords = "250",
+startdatetime = start_datetime,
+enddatetime = end_datetime,
+sort = "DateDesc", # Most recent first
+format = "json"
+)
+
+# make the GET request
+response <- GET(url = base_url, query = params)
+if (http_status(response)$category != "Success") {
+stop("AP Request failed: ", http_status(response)$message)
+}
+
+# Parse the JSON response
+content_json <- content(response, as = "text", encoding = "UTF-8")
+news_data <- fromJSON(content_json, flatten = TRUE)
+
+articles <- news_data$articles
+
+dt <- data.table(
+  title = articles$title,
+  url = articles$url,
+  seendate = articles$seendate,
+  snippet = if("snippet" %in% names(articles)) articles$snippet else NA_character_,
+  source = if("sourcecountry" %in% names(articles)) articles$sourcecountry else NA_character_
+)
+
+
+dt[, seendate := as.character(seendate)]
+dt[, seendate := as.POSIXct(seendate, format = "%Y%m%dT%H%M%SZ", tz = "America/New_York")]
+
+dt[, title_id := .I]
+
+#################################
+#sentiment analysis
+#################################
+
+bing <- as.data.table(get_sentiments("bing"))
+bing[, word:= tolower(word)]
+
+dt[, title_clean := tolower(title)]
+dt[, title_clean := gsub("[[:punct:]]", " ", title_clean)]
+dt[, title_clean := gsub("\\s+", " ", title_clean)]
+dt[, title_clean := trimws(title_clean)]
+
+
+dt[, sentiment_score := sapply(words, function(word_list) {
+  word_list <- word_list[word_list != ""]
+  if (length(word_list) == 0) return(0)
+  score <- 0
+    for (w in word_list) {
+      if (nrow(bing[word == w & sentiment == "positive"]) > 0, score <- score + 1
+      if (nrow(bing[word == w & sentiment == "negative"]) > 0, score <- score + 1
+    }
+  score
+})]
+  
+
+  })]
+
+
+```
+
 
